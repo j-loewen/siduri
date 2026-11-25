@@ -1,0 +1,6 @@
+# Keep LF everywhere (the code is built and run on Linux in Docker).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+*.webp binary

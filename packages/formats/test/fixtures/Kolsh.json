@@ -1,0 +1,299 @@
+{
+  "beerjson": {
+    "version": 3,
+    "recipes": [
+      {
+        "name": "Lloyd&#39;s Krispy Kolsch",
+        "type": "all grain",
+        "author": "BIABrewer.info",
+        "coauthor": "Designed by Lloyd Powell",
+        "created": "2011-05-07T22:00:00.000Z",
+        "batch_size": {
+          "unit": "l",
+          "value": 19.0028767
+        },
+        "boil": {
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 30.3767465
+          },
+          "boil_time": {
+            "unit": "min",
+            "value": 90
+          }
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 70
+          }
+        },
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner (2 Row) Ger",
+              "type": "grain",
+              "color": {
+                "unit": "Lovi",
+                "value": 2
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 3.2412931
+              },
+              "origin": "Germany",
+              "producer": "",
+              "grain_group": "base",
+              "yield": {
+                "potential": {
+                  "unit": "sg",
+                  "value": 1.03726
+                }
+              }
+            },
+            {
+              "name": "Vienna Malt",
+              "type": "grain",
+              "color": {
+                "unit": "Lovi",
+                "value": 3.4974619
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.8640194
+              },
+              "origin": "Germany",
+              "producer": "",
+              "grain_group": "base",
+              "yield": {
+                "potential": {
+                  "unit": "sg",
+                  "value": 1.03588
+                }
+              }
+            },
+            {
+              "name": "Cara-Pils/Dextrine",
+              "type": "grain",
+              "color": {
+                "unit": "Lovi",
+                "value": 2
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.2164116
+              },
+              "origin": "US",
+              "producer": "",
+              "grain_group": "base",
+              "yield": {
+                "potential": {
+                  "unit": "sg",
+                  "value": 1.03312
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Hallertauer",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.8
+              },
+              "origin": "Germany",
+              "form": "pellet",
+              "beta_acid": {
+                "unit": "%",
+                "value": 4
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.0332677
+              },
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "name": "Hallertauer",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.8
+              },
+              "origin": "Germany",
+              "form": "pellet",
+              "beta_acid": {
+                "unit": "%",
+                "value": 4
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.0166339
+              },
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Whirlfloc Tablet",
+              "type": "fining",
+              "amount": {
+                "unit": "l",
+                "value": 0.412685
+              },
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "German Ale",
+              "type": "ale",
+              "form": "liquid",
+              "amount": {
+                "unit": "l",
+                "value": 0.1242095
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 75
+              }
+            }
+          ]
+        },
+        "mash": {
+          "name": "BIAB, Light Body",
+          "grain_temperature": {
+            "unit": "C",
+            "value": 22.2
+          },
+          "notes": "Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No sparging.  This is a light body beer profile.",
+          "mash_steps": [
+            {
+              "name": "Saccharification",
+              "type": "infusion",
+              "description": "Add 33.02 l of water at 69.5 C",
+              "step_temperature": {
+                "unit": "C",
+                "value": 65.5555556
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 90
+              },
+              "ramp_time": {
+                "unit": "min",
+                "value": 10
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 65.5555556
+              },
+              "amount": {
+                "unit": "l",
+                "value": 33.0186377
+              }
+            },
+            {
+              "name": "Mash Out",
+              "type": "temperature",
+              "description": "Heat to 75.6 C over 7 min",
+              "step_temperature": {
+                "unit": "C",
+                "value": 75.5555556
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              },
+              "ramp_time": {
+                "unit": "min",
+                "value": 7
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 75.5555556
+              },
+              "amount": {
+                "unit": "l",
+                "value": 0
+              }
+            }
+          ]
+        },
+        "style": {
+          "name": "K&#246;lsch",
+          "category": "Light Hybrid Beer",
+          "style_guide": "BJCP 2008",
+          "type": "beer",
+          "original_gravity": {
+            "minimum": {
+              "unit": "sg",
+              "value": 1.044
+            },
+            "maximum": {
+              "unit": "sg",
+              "value": 1.05
+            }
+          },
+          "final_gravity": {
+            "minimum": {
+              "unit": "sg",
+              "value": 1.007
+            },
+            "maximum": {
+              "unit": "sg",
+              "value": 1.011
+            }
+          },
+          "international_bitterness_units": {
+            "minimum": {
+              "unit": "IBUs",
+              "value": 20
+            },
+            "maximum": {
+              "unit": "IBUs",
+              "value": 30
+            }
+          },
+          "alcohol_by_volume": {
+            "minimum": {
+              "unit": "%",
+              "value": 4.4
+            },
+            "maximum": {
+              "unit": "%",
+              "value": 5.2
+            }
+          },
+          "color": {
+            "minimum": {
+              "unit": "srm",
+              "value": 3.5
+            },
+            "maximum": {
+              "unit": "srm",
+              "value": 5
+            }
+          }
+        }
+      }
+    ]
+  }
+}

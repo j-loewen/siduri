@@ -1,0 +1,25 @@
+{
+  "name": "brew",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,web -c blue,magenta \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm run dev -w @brew/server",
+    "dev:web": "npm run dev -w @brew/web",
+    "build": "npm run build -w @brew/web && npm run build -w @brew/server",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "seed:build": "npm run build -w @brew/seed-data"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  },
+  "license": "AGPL-3.0-or-later"
+}

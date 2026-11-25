@@ -1,0 +1,14 @@
+services:
+  siduri:
+    build: .
+    image: siduri:latest
+    container_name: siduri
+    restart: unless-stopped
+    ports:
+      - "${SIDURI_PORT:-8087}:3000"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./data:/data
+    # All settings are in .env next to this file (start from .env.example; see docs/configuration.md).
+    env_file:
+      - .env

@@ -1,0 +1,435 @@
+/* App-wide styles on top of Mantine's (colours: see the theme in main.tsx). */
+
+/*
+ * App frame: header, sidebar and bottom bar share the frame colour; the sidebar and the page each
+ * sit in a rounded panel. The page scrolls inside its panel, so the frame stays put.
+ */
+.app-frame {
+  --app-gap: 6px;
+  background-color: var(--app-chrome);
+}
+
+.app-chrome {
+  background-color: var(--app-chrome);
+}
+
+.app-navbar {
+  background-color: var(--app-chrome);
+  padding: 0 0 var(--app-gap) var(--app-gap);
+}
+
+.app-main {
+  display: flex;
+  height: 100dvh;
+  min-height: 0;
+  padding: var(--app-shell-header-offset, 0rem) var(--app-gap) calc(var(--app-shell-footer-offset, 0rem) + var(--app-gap))
+    calc(var(--app-shell-navbar-offset, 0rem) + var(--app-gap));
+}
+
+.app-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  border: 1px solid var(--app-shell-border-color);
+  border-radius: var(--mantine-radius-md);
+  overflow: hidden;
+}
+
+.app-sidebar {
+  padding: var(--mantine-spacing-xs);
+  background-color: var(--app-chrome);
+}
+
+@media (hover: hover) {
+  .app-sidebar .mantine-NavLink-root:not([data-active]):hover {
+    background-color: var(--app-chrome-hover);
+  }
+}
+
+.app-content {
+  display: block;
+  overflow-y: auto;
+  padding: var(--mantine-spacing-md);
+  background-color: var(--mantine-color-body);
+}
+
+@media (min-width: 62em) {
+  .app-content {
+    padding: var(--mantine-spacing-lg) var(--mantine-spacing-xl);
+  }
+}
+
+@media (max-width: 47.99em) {
+  .app-navbar {
+    padding-right: var(--app-gap);
+  }
+  .app-content {
+    padding: var(--mantine-spacing-sm);
+  }
+}
+
+/* ---- Bottom navigation (phones) ---------------------------------------------------------- */
+
+.bottom-nav {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  height: 100%;
+  padding: 0 4px env(safe-area-inset-bottom);
+}
+
+.bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--mantine-color-dimmed);
+  border-radius: var(--mantine-radius-md);
+}
+
+.bottom-nav-item[data-active] {
+  color: var(--mantine-primary-color-filled);
+}
+
+/* ---- Recipe editor -------------------------------------------------------------------------- */
+
+/* Key numbers stay in view while scrolling through a long recipe. */
+.stats-bar {
+  position: sticky;
+  top: calc(-1 * var(--mantine-spacing-md));
+  z-index: 5;
+  margin: 0 calc(-1 * var(--mantine-spacing-xs));
+  padding: var(--mantine-spacing-xs);
+  background-color: var(--mantine-color-body);
+  border-bottom: 1px solid var(--app-shell-border-color);
+}
+
+@media (min-width: 62em) {
+  .stats-bar {
+    top: calc(-1 * var(--mantine-spacing-lg));
+  }
+}
+
+.stat-tile {
+  min-width: 0;
+}
+
+/* Bar showing where a value falls in the style's range. */
+.range-bar {
+  position: relative;
+  height: 6px;
+  margin-top: 6px;
+  border-radius: 3px;
+  background: var(--mantine-color-default-border);
+}
+
+.range-bar-band {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--mantine-color-green-6) 45%, transparent);
+}
+
+.range-bar-marker {
+  position: absolute;
+  top: -3px;
+  width: 4px;
+  height: 12px;
+  margin-left: -2px;
+  border-radius: 2px;
+  background: var(--mantine-color-text);
+}
+
+.range-bar-marker[data-out] {
+  background: var(--mantine-color-red-6);
+}
+
+.color-swatch {
+  display: inline-block;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* The beer colour on the corner of a recipe picture, ringed so it stands out on any picture. */
+.recipe-thumb-color {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 50%;
+  border: 2px solid var(--mantine-color-body);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+/* One line of a list in a section: no frame of its own (the section has one). */
+.ingredient-row {
+  padding: 8px 10px;
+  border-radius: var(--mantine-radius-md);
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .clickable-row:hover {
+    background-color: var(--mantine-color-default-hover);
+  }
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Unit switcher inside number fields (see UnitInput). */
+.unit-picker select {
+  color: var(--mantine-color-dimmed);
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+@media (hover: hover) {
+  .unit-picker select:hover {
+    color: var(--mantine-primary-color-filled);
+  }
+}
+
+/* ---- Brew-day mode (full screen) ------------------------------------------------------------ */
+
+.brewday {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  background-color: var(--mantine-color-body);
+}
+
+.brewday-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-xs);
+  min-height: 60px;
+  padding: 6px var(--mantine-spacing-sm);
+  padding-top: max(6px, env(safe-area-inset-top));
+  background-color: var(--app-chrome);
+  border-bottom: 1px solid var(--app-shell-border-color);
+}
+
+.brewday-body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.brewday-steps {
+  width: 290px;
+  flex: none;
+  padding: var(--mantine-spacing-xs);
+  border-right: 1px solid var(--app-shell-border-color);
+  background-color: var(--app-chrome);
+}
+
+.brewday-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.brewday-footer {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: var(--mantine-spacing-sm);
+  padding: var(--mantine-spacing-sm);
+  padding-bottom: max(var(--mantine-spacing-sm), env(safe-area-inset-bottom));
+  border-top: 1px solid var(--app-shell-border-color);
+  background-color: var(--app-chrome);
+}
+
+.brewday-nav {
+  height: 64px;
+}
+
+/* A checklist line: the whole row is the tap target. */
+.brewday-item {
+  display: block;
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: var(--mantine-radius-lg);
+  border: 2px solid var(--mantine-color-default-border);
+  background-color: var(--app-card);
+}
+
+.brewday-item[data-checked] {
+  opacity: 0.6;
+}
+
+.brewday-item[data-due] {
+  border-color: var(--mantine-color-red-6);
+  background-color: color-mix(in srgb, var(--mantine-color-red-6) 12%, var(--app-card));
+  animation: brewday-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes brewday-pulse {
+  50% {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--mantine-color-red-6) 25%, transparent);
+  }
+}
+
+.timer-over {
+  border-color: var(--mantine-color-red-6);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brewday-item[data-due] {
+    animation: none;
+  }
+}
+
+/* Cards that are links: keep the text colours. */
+.link-reset {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Read-only list lines that open their editor (recipe lists). */
+.line-row {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+
+/* A thin line between rows, centred in the gap between them (the lists use a 6px gap). */
+.line-row + .line-row::before {
+  content: '';
+  position: absolute;
+  top: -3.5px;
+  left: 10px;
+  right: 10px;
+  height: 1px;
+  background: var(--mantine-color-default-border);
+  pointer-events: none;
+}
+
+@media (hover: hover) {
+  .line-row:hover {
+    background-color: var(--mantine-color-default-hover);
+  }
+}
+
+/* A connection (access token) in Settings → Claude & AI assistants, with a line between them. */
+.token-row {
+  padding: 8px 0;
+}
+
+.token-row + .token-row {
+  border-top: 1px solid var(--mantine-color-default-border);
+}
+
+/* The recipe name: no input padding, so its text starts at the top edge of the picture beside it. */
+input.recipe-title[data-variant] {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: clamp(1.4rem, 4vw, 1.9rem);
+  line-height: 1.1;
+}
+
+/* Style and equipment under a recipe's name: quiet until hovered. */
+.meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 100%;
+  padding: 3px 10px;
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 999px;
+  font-size: var(--mantine-font-size-sm);
+  color: var(--mantine-color-text);
+  transition: border-color 120ms ease, background-color 120ms ease;
+}
+
+.meta-chip > svg {
+  flex: none;
+  color: var(--mantine-color-dimmed);
+}
+
+.meta-chip-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.meta-chip[data-muted] {
+  color: var(--mantine-color-dimmed);
+}
+
+.meta-chip[data-warn] {
+  border-color: var(--mantine-color-orange-6);
+}
+
+.meta-chip[data-warn] > svg {
+  color: var(--mantine-color-orange-6);
+}
+
+@media (hover: hover) {
+  .meta-chip:hover {
+    border-color: var(--mantine-primary-color-filled);
+    background-color: var(--mantine-color-default-hover);
+  }
+}
+
+.meta-chip:focus-visible {
+  outline: 2px solid var(--mantine-primary-color-filled);
+  outline-offset: 1px;
+}
+
+/* The ingredient at the top of a line's editor: looks like a field, opens the picker to swap it. */
+.swap-field {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-sm);
+  background-color: var(--mantine-color-default);
+  transition: border-color 120ms ease;
+}
+
+@media (hover: hover) {
+  .swap-field:hover {
+    border-color: var(--mantine-primary-color-filled);
+  }
+}
+
+.swap-field:focus-visible {
+  outline: 2px solid var(--mantine-primary-color-filled);
+  outline-offset: 1px;
+}
+
+.line-row:focus-visible {
+  outline: 2px solid var(--mantine-primary-color-filled);
+  outline-offset: 1px;
+}
+
+/* "Add device": one row per integration. */
+.integration-option {
+  display: block;
+  width: 100%;
+  padding: var(--mantine-spacing-sm);
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-md);
+}
+
+@media (hover: hover) {
+  .integration-option:hover {
+    background-color: var(--mantine-color-default-hover);
+  }
+}

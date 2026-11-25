@@ -1,0 +1,52 @@
+name: Release
+
+# Push a version tag to release:  git tag -a v1.1.0 -m "Siduri 1.1.0" && git push origin v1.1.0
+# Publishes ghcr.io/<owner>/siduri:1.1.0, :1.1 and :latest, then creates the GitHub release.
+# Tags with a suffix (v1.1.0-beta.1) become pre-releases and get only their full version tag.
+
+on:
+  push:
+    tags: ['v*.*.*']
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    uses: ./.github/workflows/checks.yml
+
+  image:
+    name: Image
+    needs: checks
+    permissions:
+      contents: read
+      packages: write
+    uses: ./.github/workflows/image.yml
+    with:
+      tags: |
+        type=semver,pattern={{version}}
+        type=semver,pattern={{major}}.{{minor}}
+
+  release:
+    name: Create GitHub release
+    needs: image
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TAG: ${{ github.ref_name }}
+    steps:
+      - name: Create release with generated notes
+        run: |
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            echo "Release $TAG already exists; leaving it as it is."
+            exit 0
+          fi
+          version="${TAG#v}"
+          image="ghcr.io/${GITHUB_REPOSITORY,,}"
+          prerelease=()
+          [[ "$version" == *-* ]] && prerelease=(--prerelease)
+          notes="Docker image: \`$image:$version\` (linux/amd64, linux/arm64). See the [Changelog](https://github.com/$GITHUB_REPOSITORY/blob/$TAG/CHANGELOG.md) for what changed and what to do when updating, and [Installation](https://github.com/$GITHUB_REPOSITORY/blob/$TAG/docs/installation.md) for how to update."
+          gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --verify-tag --title "Siduri $version" \
+            --notes "$notes" --generate-notes "${prerelease[@]}"

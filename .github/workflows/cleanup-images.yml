@@ -1,0 +1,43 @@
+name: Clean up dev images
+
+# Deletes old dev builds from ghcr.io: keeps the 10 newest sha-* images plus the current `dev`.
+# Release images (latest, 1.2, 1.2.3) are never touched. Runs after each dev build (ci.yml);
+# start it by hand from the Actions tab to see what it would delete (dry run by default).
+#
+# One-time setup: on the package page (Packages -> siduri -> Package settings -> Manage Actions
+# access), give this repository the Admin role. Without it the token may not delete versions.
+
+on:
+  workflow_call:
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: Only list what would be deleted
+        type: boolean
+        default: true
+
+permissions: {}
+
+jobs:
+  cleanup:
+    name: Delete old dev images
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    # The cleanup action must not run twice at once against the same package.
+    concurrency:
+      group: ghcr-cleanup
+    steps:
+      - uses: dataaxiom/ghcr-cleanup-action@v1
+        with:
+          package: siduri
+          # Old dev builds: all but the 10 newest sha-* images.
+          delete-tags: sha-*
+          keep-n-tagged: 10
+          # Never delete releases or the current dev build (whole image, all platforms).
+          exclude-tags: dev,latest,*.*
+          # Leftovers from failed builds. Images younger than an hour are skipped, so the
+          # untagged per-platform images of a build still in progress are left alone.
+          delete-untagged: true
+          older-than: 1 hour
+          dry-run: ${{ inputs.dry-run == true }}

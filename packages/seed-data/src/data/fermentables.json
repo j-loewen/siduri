@@ -1,0 +1,2022 @@
+[
+ {
+  "seedKey": "fermentable:clear-candi-sugar",
+  "data": {
+   "name": "Clear Candi Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 2,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Crystalized candi sugar for use in Tripels, Dubbels, and holiday ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:sucrose",
+  "data": {
+   "name": "Sucrose",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 2,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "A sugar used to increase starting gravity."
+  }
+ },
+ {
+  "seedKey": "fermentable:mild-malt",
+  "data": {
+   "name": "Mild Malt",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 9.2,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.6,
+   "diastaticPower": 53,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Also called 'English Mild' - a light specialty malt used in Brown Ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:pilsner-2-row-belgium",
+  "data": {
+   "name": "Pilsner (2 Row) - Belgium",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.5,
+   "diastaticPower": 105,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Belgian base malt for Continental lagers."
+  }
+ },
+ {
+  "seedKey": "fermentable:wheat-flaked",
+  "data": {
+   "name": "Wheat, Flaked",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 9,
+   "proteinPct": 16,
+   "diastaticPower": 0,
+   "maxInBatchPct": 40,
+   "recommendMash": true,
+   "notes": "Flaked wheat adds to increased body and foam retention. May be used in small amounts to improve head retention and body."
+  }
+ },
+ {
+  "seedKey": "fermentable:biscuit-malt",
+  "data": {
+   "name": "Biscuit Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 59.9,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.5,
+   "diastaticPower": 6,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Use for English ales, brown ales and porters. Adds a biscuit like flavor and aroma. Can be used as a substitute for toasted malt."
+  }
+ },
+ {
+  "seedKey": "fermentable:grits",
+  "data": {
+   "name": "Grits",
+   "type": "adjunct",
+   "grainGroup": "adjunct",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 2,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Imparts a corn and grain taste."
+  }
+ },
+ {
+  "seedKey": "fermentable:carared",
+  "data": {
+   "name": "Carared",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 51.9,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:oats-flaked",
+  "data": {
+   "name": "Oats, Flaked",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1.2,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 9,
+   "proteinPct": 9,
+   "diastaticPower": 0,
+   "maxInBatchPct": 30,
+   "recommendMash": true,
+   "notes": "Adds body, mouth feel and head retention to the beer. Adds substantial protein haze to light beers. Protein rest recommended unless flakes are pre-gelatinized."
+  }
+ },
+ {
+  "seedKey": "fermentable:caraamber",
+  "data": {
+   "name": "Caraamber",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 78.6,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:pale-malt-2-row-belgium",
+  "data": {
+   "name": "Pale Malt (2 Row) - Belgium",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 6.5,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.5,
+   "diastaticPower": 60,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Base malt for all beer styles."
+  }
+ },
+ {
+  "seedKey": "fermentable:cane-sugar",
+  "data": {
+   "name": "Cane Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 7,
+   "recommendMash": false,
+   "notes": "Common, household sugar used to lighten the flavor and body."
+  }
+ },
+ {
+  "seedKey": "fermentable:special-b-malt",
+  "data": {
+   "name": "Special B Malt",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 478.8,
+   "potentialSg": 1.03,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 0,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Extreme caramel aroma and flavored malt. Used in dark Belgian Abbey and Trappist ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:barley-raw",
+  "data": {
+   "name": "Barley, Raw",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.028,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 11.7,
+   "diastaticPower": 0,
+   "maxInBatchPct": 15,
+   "recommendMash": true,
+   "notes": "Raw, unmalted barley can be used to add body to your beer. Use in homebrew requires very fine milling combined with a decoction or multi-stage mash. Performs best when used in small quantities with well modified grains."
+  }
+ },
+ {
+  "seedKey": "fermentable:special-roast",
+  "data": {
+   "name": "Special Roast",
+   "type": "grain",
+   "grainGroup": "roasted",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 131.9,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 2.5,
+   "proteinPct": 10.5,
+   "diastaticPower": 6,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Use for English ales, nut brown ales and porters. Adds a toasted, biscuit like flavor and aroma."
+  }
+ },
+ {
+  "seedKey": "fermentable:lactose",
+  "data": {
+   "name": "Lactose",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.035,
+   "fermentability": 0,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "A partially fermentable sugar that adds lasting sweetness."
+  }
+ },
+ {
+  "seedKey": "fermentable:light-dry-extract",
+  "data": {
+   "name": "Light Dry Extract",
+   "type": "dry_extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 15.8,
+   "potentialSg": 1.044,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "For general-purpose use in light beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:beet-sugar",
+  "data": {
+   "name": "Beet Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 7,
+   "recommendMash": false,
+   "notes": "Common, household sugar used to lighten the flavor and body."
+  }
+ },
+ {
+  "seedKey": "fermentable:wheat-malt-belgium",
+  "data": {
+   "name": "Wheat Malt - Belgium",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 11.5,
+   "diastaticPower": 74,
+   "maxInBatchPct": 60,
+   "recommendMash": true,
+   "notes": "Malted wheat for use in Wheat beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:white-wheat-malt",
+  "data": {
+   "name": "White Wheat Malt",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.04,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 14.5,
+   "diastaticPower": 130,
+   "maxInBatchPct": 60,
+   "recommendMash": true,
+   "notes": "White wheat gives a malty flavor not available from raw wheat."
+  }
+ },
+ {
+  "seedKey": "fermentable:black-barley-stout",
+  "data": {
+   "name": "Black Barley (Stout)",
+   "type": "grain",
+   "grainGroup": "roasted",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1332.8,
+   "potentialSg": 1.025,
+   "fermentability": 1,
+   "moisturePct": 5,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Unmalted barley roasted at high temperature to create a dry, coffee like flavor. Imparts a sharp acrid flavor characteristic of dry stouts. Gives dryness to a stout or porter."
+  }
+ },
+ {
+  "seedKey": "fermentable:victory-malt",
+  "data": {
+   "name": "Victory Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 65.2,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 50,
+   "maxInBatchPct": 15,
+   "recommendMash": true,
+   "notes": "Toasted malt that adds a Biscuit or toasted flavor to English ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:rye-flaked",
+  "data": {
+   "name": "Rye, Flaked",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 0,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Imparts a dry, crisp rye flavor to rye beers. Can be easier to mash than raw rye."
+  }
+ },
+ {
+  "seedKey": "fermentable:chocolate-malt-uk",
+  "data": {
+   "name": "Chocolate Malt (UK)",
+   "type": "grain",
+   "grainGroup": "roasted",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1199.4,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.5,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Dark malt that gives a rich red or brown color and nutty flavor. Maintains some malty flavor, not as dark as roasted malt."
+  }
+ },
+ {
+  "seedKey": "fermentable:black-patent-malt",
+  "data": {
+   "name": "Black (Patent) Malt",
+   "type": "grain",
+   "grainGroup": "roasted",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1332.8,
+   "potentialSg": 1.025,
+   "fermentability": 1,
+   "moisturePct": 6,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Dark color and dry roasted flavor characteristic of Stouts and Porters. Used for: Coloring in small amounts, or flavoring of Stouts and Porters in larger amounts."
+  }
+ },
+ {
+  "seedKey": "fermentable:dark-dry-extract",
+  "data": {
+   "name": "Dark Dry Extract",
+   "type": "dry_extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 35.5,
+   "potentialSg": 1.044,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "For general-purpose use in darker beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:belgian-candi-syrup-45l",
+  "data": {
+   "name": "Belgian Candi Syrup - 45L",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 118.2,
+   "potentialSg": 1.032,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Crystalized candi sugar for use in Tripels, Dubbels, and holiday ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:chocolate-malt",
+  "data": {
+   "name": "Chocolate Malt",
+   "type": "grain",
+   "grainGroup": "roasted",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 932.5,
+   "potentialSg": 1.028,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Dark malt that gives a rich red or brown color and nutty flavor. Maintains some malty flavor, not as dark as roasted malt."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramunich-malt",
+  "data": {
+   "name": "Caramunich Malt",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 147.9,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 0,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Caramel, copper colored malt. Used in Belgian ales and German bocks."
+  }
+ },
+ {
+  "seedKey": "fermentable:munich-malt",
+  "data": {
+   "name": "Munich Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 22.5,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 5,
+   "proteinPct": 11.5,
+   "diastaticPower": 72,
+   "maxInBatchPct": 80,
+   "recommendMash": true,
+   "notes": "Malty-sweet flavor characteristic and adds a reddish amber color to the beer. Does not contribute significantly to body or head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-10l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 10L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 25.2,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:rye-malt",
+  "data": {
+   "name": "Rye Malt",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 11.8,
+   "potentialSg": 1.029,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.3,
+   "diastaticPower": 75,
+   "maxInBatchPct": 15,
+   "recommendMash": true,
+   "notes": "Adds a dry, crisp character to the beer. Yields a deep red color, and a distinctive rye flavor."
+  }
+ },
+ {
+  "seedKey": "fermentable:barley-flaked",
+  "data": {
+   "name": "Barley, Flaked",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.032,
+   "fermentability": 1,
+   "moisturePct": 9,
+   "proteinPct": 13.5,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": true,
+   "notes": "Adds significant body to Porters and Stouts. High haze producing protein prevents use in light beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-120l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 120L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 318.7,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:wheat-roasted",
+  "data": {
+   "name": "Wheat, Roasted",
+   "type": "grain",
+   "grainGroup": "roasted",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1132.6,
+   "potentialSg": 1.025,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Also called Chocolate Wheat Malt. Adds a deep, dark brown color to dunkelweizens and other dark beer styles."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-20l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 20L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 51.9,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:pale-liquid-extract",
+  "data": {
+   "name": "Pale Liquid Extract",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 15.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "For general-purpose use in light and pale beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:wheat-dry-extract",
+  "data": {
+   "name": "Wheat Dry Extract",
+   "type": "dry_extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 15.8,
+   "potentialSg": 1.044,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "Wheat extract for general-purpose use in wheat beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-60l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 60L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 158.6,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-140l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 140L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 372.1,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:aromatic-malt",
+  "data": {
+   "name": "Aromatic Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 67.9,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 11.8,
+   "diastaticPower": 29,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Provides a very strong malt flavor and aroma to your beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:corn-syrup",
+  "data": {
+   "name": "Corn Syrup",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Syrup derived from corn sugar."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-40l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 40L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 105.2,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:roasted-barley",
+  "data": {
+   "name": "Roasted Barley",
+   "type": "grain",
+   "grainGroup": "roasted",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 799.1,
+   "potentialSg": 1.025,
+   "fermentability": 1,
+   "moisturePct": 5,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Roasted at high temperature to create a burnt, grainy, coffee like flavor. Imparts a red to deep brown color to beer, and very strong roasted flavor."
+  }
+ },
+ {
+  "seedKey": "fermentable:dextrose",
+  "data": {
+   "name": "Dextrose",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 5,
+   "recommendMash": false,
+   "notes": "Common bottling sugar."
+  }
+ },
+ {
+  "seedKey": "fermentable:melanoiden-malt",
+  "data": {
+   "name": "Melanoiden Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 51.9,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 3.5,
+   "proteinPct": 11,
+   "diastaticPower": 10,
+   "maxInBatchPct": 15,
+   "recommendMash": true,
+   "notes": "Aromatic malt from Banberg, Germany. Promotes a full flavor and rounds off beer color. Promotes deep red color and malty flavor."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-30l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 30L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 78.6,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:pilsner-liquid-extract",
+  "data": {
+   "name": "Pilsner Liquid Extract",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 7.9,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "For general-purpose use in pale beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:wheat-torrified",
+  "data": {
+   "name": "Wheat, Torrified",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 9,
+   "proteinPct": 16,
+   "diastaticPower": 0,
+   "maxInBatchPct": 40,
+   "recommendMash": true,
+   "notes": "Unmodified wheat that has been popped to open the kernels. Protein rest recommended when mashing."
+  }
+ },
+ {
+  "seedKey": "fermentable:corn-flaked",
+  "data": {
+   "name": "Corn (Flaked)",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 6.5,
+   "potentialSg": 1.03,
+   "fermentability": 1,
+   "moisturePct": 9,
+   "proteinPct": 10,
+   "diastaticPower": 0,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Generally a neutral flavor, used to reduce maltiness of beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:brown-malt",
+  "data": {
+   "name": "Brown Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 172,
+   "potentialSg": 1.032,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 0,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Imparts a dry, biscuit flavor. Used in nut brown ales, porters and some Belgian ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:munich-malt-10l",
+  "data": {
+   "name": "Munich Malt - 10L",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 25.2,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 5,
+   "proteinPct": 13.5,
+   "diastaticPower": 50,
+   "maxInBatchPct": 80,
+   "recommendMash": true,
+   "notes": "Malty-sweet flavor characteristic and adds a slight orange color to the beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:peat-smoked-malt",
+  "data": {
+   "name": "Peat Smoked Malt",
+   "type": "grain",
+   "grainGroup": "smoked",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 6.5,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 0,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": true,
+   "notes": "Robust smoky malt that provides a smoky flavor. Used in scottish ales and wee heavy ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:pale-malt-6-row-usa",
+  "data": {
+   "name": "Pale Malt (6 Row) - USA",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13,
+   "diastaticPower": 150,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Base malt for all beer styles."
+  }
+ },
+ {
+  "seedKey": "fermentable:pilsner-2-row-germany",
+  "data": {
+   "name": "Pilsner (2 Row) - Germany",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 11,
+   "diastaticPower": 110,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "German base for Pilsners and Bohemian Lagers."
+  }
+ },
+ {
+  "seedKey": "fermentable:pilsner-2-row-uk",
+  "data": {
+   "name": "Pilsner (2 Row) - UK",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1.2,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10,
+   "diastaticPower": 60,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Pilsner base malt."
+  }
+ },
+ {
+  "seedKey": "fermentable:table-sugar",
+  "data": {
+   "name": "Table Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 2,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "A sugar used to increase starting gravity."
+  }
+ },
+ {
+  "seedKey": "fermentable:munich-malt-20l",
+  "data": {
+   "name": "Munich Malt - 20L",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 51.9,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 5,
+   "proteinPct": 13.5,
+   "diastaticPower": 25,
+   "maxInBatchPct": 80,
+   "recommendMash": true,
+   "notes": "Malty-sweet flavor characteristic and adds a orange to deep orange color to the beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:oats-malted",
+  "data": {
+   "name": "Oats, Malted",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1.2,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 9,
+   "proteinPct": 9,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Malted oats. Adds body, mouth feel and head retention to the beer. Creates chill haze in lighter beers, so is primarily used in dark ones."
+  }
+ },
+ {
+  "seedKey": "fermentable:amber-malt",
+  "data": {
+   "name": "Amber Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 57.2,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": 2.8,
+   "proteinPct": 10,
+   "diastaticPower": 20,
+   "maxInBatchPct": 20,
+   "recommendMash": true,
+   "notes": "Roasted specialty malt used in some English browns, milds and old ales to add color and a biscuit taste. Intense flavor - so limit use. Low diastatic power so must be mashed with well modified malts."
+  }
+ },
+ {
+  "seedKey": "fermentable:pale-malt-2-row-usa",
+  "data": {
+   "name": "Pale Malt (2 Row) - USA",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 12.3,
+   "diastaticPower": 140,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Base malt for all beer styles."
+  }
+ },
+ {
+  "seedKey": "fermentable:sorghum-syrup",
+  "data": {
+   "name": "Sorghum Syrup",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 13.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "A gluten-free extract based on sorghum grain. Can be used as a substitute for Light Malt Extract."
+  }
+ },
+ {
+  "seedKey": "fermentable:pale-malt-2-row-uk",
+  "data": {
+   "name": "Pale Malt (2 Row) - UK",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 6.5,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.1,
+   "diastaticPower": 45,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Base malt for all English beer styles."
+  }
+ },
+ {
+  "seedKey": "fermentable:wheat-liquid-extract",
+  "data": {
+   "name": "Wheat Liquid Extract",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 15.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "Wheat/barley extract for general-purpose use in wheat beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:smoked-malt",
+  "data": {
+   "name": "Smoked Malt",
+   "type": "grain",
+   "grainGroup": "smoked",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 22.5,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 11.5,
+   "diastaticPower": 0,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "Malt that has been smoked over an open fire. Creates a distinctive smoke flavor and aroma."
+  }
+ },
+ {
+  "seedKey": "fermentable:rice-hulls",
+  "data": {
+   "name": "Rice Hulls",
+   "type": "adjunct",
+   "grainGroup": "adjunct",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 5,
+   "recommendMash": false,
+   "notes": "Neutral hulls used to improve lautering."
+  }
+ },
+ {
+  "seedKey": "fermentable:molasses",
+  "data": {
+   "name": "Molasses",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 157.6,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 5,
+   "recommendMash": false,
+   "notes": "A strong, dark, and sweet sugar."
+  }
+ },
+ {
+  "seedKey": "fermentable:barley-hulls",
+  "data": {
+   "name": "Barley Hulls",
+   "type": "adjunct",
+   "grainGroup": "adjunct",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 5,
+   "recommendMash": false,
+   "notes": "Neutral hulls used to improve lautering."
+  }
+ },
+ {
+  "seedKey": "fermentable:cara-pils-dextrine",
+  "data": {
+   "name": "Cara-Pils/Dextrine",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Significantly increases foam/head retention and body of the beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:rice-extract-syrup",
+  "data": {
+   "name": "Rice Extract Syrup",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 13.8,
+   "potentialSg": 1.032,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 15,
+   "recommendMash": false,
+   "notes": "Used like other rice adjuncts in American and Japanese lagers."
+  }
+ },
+ {
+  "seedKey": "fermentable:amber-dry-extract",
+  "data": {
+   "name": "Amber Dry Extract",
+   "type": "dry_extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 25.6,
+   "potentialSg": 1.044,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "Amber colored dry malt extract for general purpose use."
+  }
+ },
+ {
+  "seedKey": "fermentable:rye-liquid-extract",
+  "data": {
+   "name": "Rye Liquid Extract",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 13.8,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "Mixed rye/barley extract for general-purpose brewing."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-160l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 160L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 425.5,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 10.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:brumalt",
+  "data": {
+   "name": "Brumalt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 59.9,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 7,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Dark German malt developed to add malt flavor of Alt, Marzen and Oktoberfest beers. Helps create authentic maltiness without having to do a decoction mash."
+  }
+ },
+ {
+  "seedKey": "fermentable:honey",
+  "data": {
+   "name": "Honey",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 2,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 30,
+   "recommendMash": false,
+   "notes": "Used for light flavor and body. Can be added to primary fermentation, but must be pasteurized."
+  }
+ },
+ {
+  "seedKey": "fermentable:wheat-malt-germany",
+  "data": {
+   "name": "Wheat Malt - Germany",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.039,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 12.5,
+   "diastaticPower": 95,
+   "maxInBatchPct": 60,
+   "recommendMash": true,
+   "notes": "Malted wheat base for use in all wheat styles."
+  }
+ },
+ {
+  "seedKey": "fermentable:belgian-candi-syrup-180l",
+  "data": {
+   "name": "Belgian Candi Syrup - 180L",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 478.7,
+   "potentialSg": 1.032,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Crystalized candi sugar for use in Tripels, Dubbels, and holiday ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:dark-liquid-extract",
+  "data": {
+   "name": "Dark Liquid Extract",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 35.5,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "For general-purpose use in darker beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:milk-sugar",
+  "data": {
+   "name": "Milk Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.035,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "A partially fermentable sugar that adds lasting sweetness."
+  }
+ },
+ {
+  "seedKey": "fermentable:caravienne-malt",
+  "data": {
+   "name": "Caravienne Malt",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 57.2,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 0,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Light Belgian crystal malt. Used in light Trappist and Abbey style Belgian ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:amber-liquid-extract",
+  "data": {
+   "name": "Amber Liquid Extract",
+   "type": "extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 25.6,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "Amber colored liquid malt extract for general purpose use."
+  }
+ },
+ {
+  "seedKey": "fermentable:carafoam",
+  "data": {
+   "name": "CaraFoam",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Significantly increases foam/head retention and body of the beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:demerara-sugar",
+  "data": {
+   "name": "Demerara Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.9,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "A dark, unrefined sugar that contains molasses."
+  }
+ },
+ {
+  "seedKey": "fermentable:dextrine",
+  "data": {
+   "name": "Dextrine",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Significantly increases foam/head retention and body of the beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:vienna-malt",
+  "data": {
+   "name": "Vienna Malt",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 9.2,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 11,
+   "diastaticPower": 50,
+   "maxInBatchPct": 90,
+   "recommendMash": true,
+   "notes": "Kiln dried malt darker than Pale Malt, but not as dark as Munich Malt. Imparts a golden to orange color to the beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-80l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 80L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 212,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:turbinado",
+  "data": {
+   "name": "Turbinado",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 19.7,
+   "potentialSg": 1.044,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "A light, raw brown sugar used to increase starting gravity."
+  }
+ },
+ {
+  "seedKey": "fermentable:corn-sugar",
+  "data": {
+   "name": "Corn Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 5,
+   "recommendMash": false,
+   "notes": "Common bottling sugar."
+  }
+ },
+ {
+  "seedKey": "fermentable:invert-sugar",
+  "data": {
+   "name": "Invert Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 0,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "A sugar used to increase starting gravity."
+  }
+ },
+ {
+  "seedKey": "fermentable:toasted-malt",
+  "data": {
+   "name": "Toasted Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 70.6,
+   "potentialSg": 1.033,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 11.7,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Similar to Biscuit or Victory malt, this malt adds reddish/orange color and improved body without sweetness along with a toasted flavor."
+  }
+ },
+ {
+  "seedKey": "fermentable:dark-brown-sugar",
+  "data": {
+   "name": "Dark Brown Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 98.5,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Imparts a sweet, rich flavor."
+  }
+ },
+ {
+  "seedKey": "fermentable:belgian-candi-syrup-90l",
+  "data": {
+   "name": "Belgian Candi Syrup - 90L",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 238.4,
+   "potentialSg": 1.032,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Crystalized candi sugar for use in Tripels, Dubbels, and holiday ales."
+  }
+ },
+ {
+  "seedKey": "fermentable:light-brown-sugar",
+  "data": {
+   "name": "Light Brown Sugar",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 15.8,
+   "potentialSg": 1.046,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "Imparts a sweet, rich flavor."
+  }
+ },
+ {
+  "seedKey": "fermentable:rice-flaked",
+  "data": {
+   "name": "Rice, Flaked",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1.2,
+   "potentialSg": 1.032,
+   "fermentability": 1,
+   "moisturePct": 9,
+   "proteinPct": 10,
+   "diastaticPower": 0,
+   "maxInBatchPct": 25,
+   "recommendMash": true,
+   "notes": "Used to add fermentable sugar without increasing body. Produces a milder, less grainy tasting beer."
+  }
+ },
+ {
+  "seedKey": "fermentable:caramel-crystal-malt-90l",
+  "data": {
+   "name": "Caramel/Crystal Malt - 90L",
+   "type": "grain",
+   "grainGroup": "caramel",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 238.7,
+   "potentialSg": 1.034,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 13.2,
+   "diastaticPower": 0,
+   "maxInBatchPct": 20,
+   "recommendMash": false,
+   "notes": "Adds body, color and improves head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:barley-torrefied",
+  "data": {
+   "name": "Barley, Torrefied",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 3.8,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 16,
+   "diastaticPower": 0,
+   "maxInBatchPct": 40,
+   "recommendMash": true,
+   "notes": "Raw barley that has been popped to open the kernels. Used in place of raw barley for faster conversion and higher yields. High in haze producing protein."
+  }
+ },
+ {
+  "seedKey": "fermentable:maple-syrup",
+  "data": {
+   "name": "Maple Syrup",
+   "type": "sugar",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 69,
+   "potentialSg": 1.03,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 10,
+   "recommendMash": false,
+   "notes": "If added during the boil it will add a dry, woodsy flavor. If added at bottling, the smooth maple flavor comes through."
+  }
+ },
+ {
+  "seedKey": "fermentable:acid-malt",
+  "data": {
+   "name": "Acid Malt",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 6.5,
+   "potentialSg": 1.027,
+   "fermentability": 1,
+   "moisturePct": 4,
+   "proteinPct": 6,
+   "diastaticPower": 0,
+   "maxInBatchPct": 10,
+   "recommendMash": true,
+   "notes": "Acid malt contains acids from natural lactic acids. Used by German brewers to adjust malt PH without chemicals to adhere to German purity laws. Also enhances the head retention."
+  }
+ },
+ {
+  "seedKey": "fermentable:maris-otter-pale-malt",
+  "data": {
+   "name": "Maris Otter Pale Malt",
+   "type": "grain",
+   "grainGroup": "base",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 1.2,
+   "potentialSg": 1.037,
+   "fermentability": 1,
+   "moisturePct": 3.5,
+   "proteinPct": 10,
+   "diastaticPower": 10,
+   "maxInBatchPct": 100,
+   "recommendMash": true,
+   "notes": "A base malt from the UK."
+  }
+ },
+ {
+  "seedKey": "fermentable:extra-light-dry-extract",
+  "data": {
+   "name": "Extra Light Dry Extract",
+   "type": "dry_extract",
+   "grainGroup": null,
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 5.9,
+   "potentialSg": 1.036,
+   "fermentability": 1,
+   "moisturePct": null,
+   "proteinPct": null,
+   "diastaticPower": null,
+   "maxInBatchPct": 100,
+   "recommendMash": false,
+   "notes": "For general-purpose use in light and very light beers."
+  }
+ },
+ {
+  "seedKey": "fermentable:dark-wheat-malt",
+  "data": {
+   "name": "Dark Wheat Malt",
+   "type": "grain",
+   "grainGroup": "specialty",
+   "producer": "",
+   "origin": "",
+   "productId": "",
+   "colorEbc": 22.5,
+   "potentialSg": 1.039,
+   "fermentability": 1,
+   "moisturePct": 3.5,
+   "proteinPct": 11.5,
+   "diastaticPower": 10,
+   "maxInBatchPct": 20,
+   "recommendMash": true,
+   "notes": "Dark malted wheat base for use in dark wheat styles such as Dunkleweizen."
+  }
+ }
+]

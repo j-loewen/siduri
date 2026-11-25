@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    uses: ./.github/workflows/checks.yml
+
+  # Pull requests: make sure the image still builds (not pushed).
+  docker:
+    name: Docker image builds
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: docker/setup-buildx-action@v4
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          push: false
+          cache-from: type=gha,scope=image-amd64
+
+  # main: publish ghcr.io/<owner>/siduri:dev and :sha-<commit>.
+  dev-image:
+    name: Dev image
+    needs: checks
+    if: github.event_name == 'push'
+    permissions:
+      contents: read
+      packages: write
+    # One dev build at a time, in order; a newer push waiting in line replaces an older one.
+    concurrency:
+      group: dev-image
+      cancel-in-progress: false
+    uses: ./.github/workflows/image.yml
+    with:
+      tags: |
+        type=raw,value=dev
+        type=sha
+      flavor: latest=false
+
+  cleanup:
+    name: Clean up
+    needs: dev-image
+    permissions:
+      packages: write
+    uses: ./.github/workflows/cleanup-images.yml

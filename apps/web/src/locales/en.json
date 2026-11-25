@@ -1,0 +1,1291 @@
+{
+  "common": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "remove": "Remove",
+    "details": "Details",
+    "more": "More",
+    "soon": "Soon",
+    "tryAgain": "Try again",
+    "days": "d",
+    "min": "min",
+    "max": "max"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "recipes": "Recipes",
+    "batches": "Batches",
+    "inventory": "Inventory",
+    "equipment": "Equipment",
+    "water": "Water",
+    "library": "Library",
+    "settings": "Settings"
+  },
+  "layout": {
+    "toggleMenu": "Toggle menu",
+    "userMenu": "User menu",
+    "signOut": "Sign out",
+    "install": "Install app",
+    "installIosTitle": "Install Siduri",
+    "installIosText": "In Safari, tap the Share button, then “Add to Home Screen”.",
+    "themeTooltip": "{{theme}} (click to change)",
+    "offlineTitle": "Can't reach the server",
+    "offlineText": "Check your connection. Your brewery data lives on your server, so the app needs it.",
+    "livePaused": "Live updates are paused (reconnecting). Changes made elsewhere show up after a reload.",
+    "tagline": "Brew day, sorted."
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "username": "Username",
+    "usernameHint": "Letters, digits, dot, dash and underscore",
+    "password": "Password",
+    "passwordHint": "At least 8 characters",
+    "displayName": "Display name",
+    "noAccount": "No account yet?",
+    "createOne": "Create one",
+    "createAccount": "Create account",
+    "haveAccount": "Already have an account? Sign in",
+    "welcome": "Welcome to Siduri",
+    "setupHint": "Create the first account. It manages this brewery; others can join later if you allow it.",
+    "startBrewing": "Start brewing"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "bad_request": "That didn't work: some input is invalid.",
+    "unauthorized": "Please sign in again.",
+    "forbidden": "That isn't allowed.",
+    "not_found": "Not found. It may have been deleted.",
+    "conflict": "Someone changed this in the meantime. Reload to see the latest version.",
+    "internal": "The server ran into a problem. Please try again.",
+    "backup_invalid": "This backup file can't be read: it is not a Siduri backup, or it is damaged.",
+    "backup_too_new": "This backup was made by a newer version of Siduri. Update this server first.",
+    "network": "Can't reach the server. Check your connection.",
+    "unknown": "Something went wrong.",
+    "pageTitle": "This page ran into a problem",
+    "pageText": "Your data is safe on the server. Reloading usually helps; if not, please report the message below.",
+    "reload": "Reload"
+  },
+  "dashboard": {
+    "title": "Your brewery",
+    "greeting": "Hello {{name}}, what are we brewing next?",
+    "recentRecipes": "Recent recipes",
+    "allRecipes": "All recipes →",
+    "setupEquipment": "Set up your brewhouse",
+    "setupEquipmentText": "Volumes, losses and efficiency make the water amounts and gravity estimates fit your system.",
+    "setupEquipmentButton": "Add equipment",
+    "allBatches": "All batches →",
+    "noActive": "Nothing planned or in progress. Open a recipe and tap “Brew this”.",
+    "inDays_one": "Tomorrow",
+    "inDays_other": "In {{count}} days",
+    "now": "Now",
+    "lowStock": "Running low",
+    "toInventory": "Inventory →",
+    "currentBatches": "Batches",
+    "brewOn": "Brew day {{date}}",
+    "noBrewDate": "No brew date yet",
+    "brewingNow": "Brew day in progress",
+    "stockOk": "Nothing is running low."
+  },
+  "recipes": {
+    "title": "Recipes",
+    "new": "New recipe",
+    "untitled": "New recipe",
+    "search": "Search recipes or styles",
+    "empty": "No recipes yet. Create one or import a BeerXML / BeerJSON file.",
+    "noMatches": "No recipes match.",
+    "noStyle": "No style"
+  },
+  "stats": {
+    "og": "OG",
+    "fg": "FG",
+    "abv": "ABV",
+    "ibu": "IBU",
+    "color": "Color",
+    "buGu": "BU:GU"
+  },
+  "recipe": {
+    "notFound": "This recipe doesn't exist (anymore).",
+    "use": "Use",
+    "amount": "Amount",
+    "amountKind": "Measured by",
+    "notes": "Notes",
+    "duplicate": "Duplicate",
+    "export": "Export",
+    "snapshotHint": "These values, producer and origin included, belong to this recipe. Changing them doesn't change the library: new ingredients are added in the Library.",
+    "save": {
+      "saved": "Saved",
+      "pending": "Unsaved changes",
+      "saving": "Saving…",
+      "conflict": "Not saved",
+      "error": "Not saved"
+    },
+    "conflict": {
+      "title": "Changed elsewhere",
+      "text": "This recipe was saved on another device or tab. Reload to continue with the latest version.",
+      "reload": "Reload"
+    },
+    "delete": {
+      "title": "Delete recipe?",
+      "text": "“{{name}}” will be deleted for good."
+    },
+    "scale": {
+      "menu": "Scale…",
+      "title": "Scale recipe",
+      "text": "Change the batch size or efficiency. Ingredient amounts are recalculated so gravity, bitterness and color stay the same.",
+      "apply": "Scale"
+    },
+    "fermentables": {
+      "title": "Fermentables",
+      "total": "{{amount}} in total",
+      "points": "{{points}} pts",
+      "empty": "No fermentables yet. Add malt, sugar or extract."
+    },
+    "hops": {
+      "title": "Hops",
+      "total": "{{amount}} · {{ibu}} IBU",
+      "ibu": "{{ibu}} IBU",
+      "day": "Day",
+      "empty": "No hops yet.",
+      "when": {
+        "boil": "{{min}} min",
+        "whirlpool": "Whirlpool {{min}} min {{temp}}",
+        "dryHopDay": "Dry hop, day {{day}}"
+      },
+      "boilTime": "Minutes before the end of the boil",
+      "boilTimeHint": "60 = at the start of a 60 minute boil",
+      "standTime": "Steeping time",
+      "dayHint": "Day of fermentation it goes in",
+      "duration": "Stays in for"
+    },
+    "cultures": {
+      "title": "Yeast",
+      "attenuation": "{{pct}}% attenuation used for the FG",
+      "empty": "No yeast yet. Without one, 75% attenuation is assumed.",
+      "att": "{{pct}}% attenuation",
+      "attHint": "Used for the FG estimate"
+    },
+    "miscs": {
+      "title": "Other ingredients",
+      "empty": "Finings, salts, spices, nutrients…",
+      "whenDay": "Day {{day}}"
+    },
+    "mash": {
+      "title": "Mash",
+      "strike": "Strike water {{volume}} at {{temp}}",
+      "addStep": "Add step",
+      "defaultStep": "Saccharification",
+      "mashOut": "Mash out",
+      "spargeTemp": "Sparge water temperature",
+      "empty": "No mash steps.",
+      "ramp": "Time to reach it",
+      "infuse": "Water added",
+      "sparge": "Sparge",
+      "spargeWater": "{{volume}} of water",
+      "default": "default",
+      "spargeHint": "{{volume}} of sparge water, from the batch size, the grain and the equipment.",
+      "noSpargeHint": "This equipment does not sparge (e.g. brew in a bag); the temperature is only used if you sparge anyway."
+    },
+    "fermentation": {
+      "title": "Fermentation",
+      "total": "{{days}} days in total",
+      "primary": "Primary",
+      "coldCrash": "Cold crash",
+      "empty": "No fermentation steps.",
+      "days_one": "{{count}} day",
+      "days_other": "{{count}} days",
+      "ramp": "Time to reach it"
+    },
+    "setup": {
+      "title": "Recipe",
+      "style": "Style",
+      "stylePlaceholder": "Pick a style",
+      "equipment": "Equipment",
+      "noEquipment": "Default losses",
+      "equipmentProfile": "Equipment profile",
+      "noEquipmentHint": "Without a profile, typical losses are used. Pick yours, or enter your values below.",
+      "customEquipment": "Own values",
+      "adjustHint": "These values belong to this recipe. Changing them doesn't change the equipment profile.",
+      "adjusted": "Adjusted for this recipe (differs from {{name}}).",
+      "resetEquipment": "Use the profile's values",
+      "equipmentHint": "Batch size, boil time and efficiency were taken from it; you can still change them.",
+      "batchSize": "Batch size (into fermenter)",
+      "batchSizeShort": "Batch size",
+      "efficiency": "Brewhouse efficiency",
+      "boilTime": "Boil time",
+      "type": "Type",
+      "author": "Author",
+      "carbonation": "Carbonation",
+      "ownStyle": "{{name}} (not in library)",
+      "ownStyleHint": "This style is not in your library, so it may have no ranges to compare against. Pick it from the list to use the library's ranges."
+    },
+    "volumes": {
+      "title": "Water & volumes",
+      "defaultLosses": "Default losses (pick equipment for yours)",
+      "strike": "Strike water",
+      "sparge": "Sparge water",
+      "totalWater": "Total water",
+      "preBoil": "Pre-boil",
+      "postBoil": "End of boil (hot)",
+      "fermenter": "Into fermenter",
+      "packaged": "Packaged"
+    },
+    "fit": {
+      "mashTun": "The mash ({{need}} of grain and strike water) doesn't fit in the mash tun ({{capacity}}). Use less grain, a lower water-to-grain ratio or bigger equipment.",
+      "mashInKettle": "The mash ({{need}} of grain and water) doesn't fit in the kettle ({{capacity}}). Use less grain, a smaller batch or bigger equipment.",
+      "kettle": "The wort before the boil ({{need}}) doesn't fit in the kettle ({{capacity}}). Use a smaller batch, less boil-off or bigger equipment.",
+      "fermenter": "The batch ({{need}}) doesn't fit in the fermenter ({{capacity}}). Use a smaller batch or a bigger fermenter.",
+      "vessel": "The batch ({{need}}) doesn't fit in {{name}} ({{capacity}}). Use a smaller batch or a bigger fermenter.",
+      "headspace": "The batch ({{need}}) leaves only {{free}} ({{pct}}%) free in the fermenter ({{capacity}}). The krausen needs room: keep at least {{min}}% free, or use a blow-off tube.",
+      "headspaceVessel": "The batch ({{need}}) leaves only {{free}} ({{pct}}%) free in {{name}} ({{capacity}}). The krausen needs room: keep at least {{min}}% free, or use a blow-off tube."
+    },
+    "image": {
+      "add": "Picture",
+      "change": "Change picture",
+      "remove": "Remove picture",
+      "hint": "Add a picture or logo: click or drop an image here",
+      "notImage": "That file is not a picture."
+    },
+    "line": {
+      "details": "Details",
+      "done": "Done",
+      "ingredient": "Ingredient",
+      "swap": "Swap"
+    }
+  },
+  "picker": {
+    "title": "Add {{kind}}",
+    "search": "Search the library",
+    "nothing": "Nothing found.",
+    "hint": "Values are copied into the recipe.",
+    "addCustom": "Add without library",
+    "addNamed": "Add “{{name}}”",
+    "swapTitle": "Swap {{name}} for …",
+    "useNamed": "Use “{{name}}”",
+    "ppg": "{{ppg}} PPG",
+    "newName": {
+      "fermentable": "New fermentable",
+      "hop": "New hop",
+      "culture": "New yeast",
+      "misc": "New ingredient"
+    },
+    "inStock": "{{amount}} in stock"
+  },
+  "import": {
+    "button": "Import",
+    "title": "Import BeerXML or BeerJSON",
+    "drop": "Drop a file here",
+    "formats": "BeerXML (.xml, e.g. from BeerSmith or Brewfather) or BeerJSON (.json)",
+    "choose": "Choose file",
+    "found": "Read as {{format}}. Pick what to keep:",
+    "recipes": "Recipes",
+    "library": "Library",
+    "skipExisting": "Items with a name already in your library are skipped.",
+    "equipment": "Equipment profile: {{names}}",
+    "warnings": "Notes about this file",
+    "otherFile": "Choose another file",
+    "save": "Import selected",
+    "done": "Imported {{recipes}} recipe(s) and {{library}} library item(s); {{skipped}} already existed."
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Ingredients, styles and water profiles. Edit values to match what you buy: every malt lot is different.",
+    "search": "Search",
+    "new": "New {{kind}}",
+    "newName": "New item",
+    "saved": "Saved to the library",
+    "saveAsNew": "Save as new",
+    "savedAsNew": "Added to the library: {{name}}",
+    "reset": "Reset to library value",
+    "ppg": "PPG",
+    "kinds": {
+      "fermentable": "Fermentables",
+      "hop": "Hops",
+      "culture": "Yeast",
+      "misc": "Other",
+      "water": "Water profiles",
+      "style": "Styles"
+    },
+    "kind": {
+      "fermentable": "fermentable",
+      "hop": "hop",
+      "culture": "yeast",
+      "misc": "ingredient",
+      "water": "water profile",
+      "style": "style"
+    },
+    "source": {
+      "seed": "Built-in",
+      "user": "Yours",
+      "import": "Imported"
+    },
+    "ions": {
+      "calcium": "Ca",
+      "magnesium": "Mg",
+      "sodium": "Na",
+      "sulfate": "SO₄",
+      "chloride": "Cl",
+      "bicarbonate": "HCO₃"
+    },
+    "delete": {
+      "title": "Delete from library?",
+      "text": "“{{name}}” will be removed from the library. Recipes using it keep their copy of the values."
+    }
+  },
+  "fields": {
+    "name": "Name",
+    "type": "Type",
+    "grainGroup": "Group",
+    "producer": "Producer",
+    "producerPlaceholder": "Pick or type a producer",
+    "origin": "Origin",
+    "originPlaceholder": "Pick or type a country",
+    "productId": "Product ID",
+    "color": "Color",
+    "colorEbc": "Color",
+    "potentialSg": "Potential (SG)",
+    "ppg": "{{ppg}} PPG",
+    "fermentability": "Fermentability",
+    "fermentabilityHint": "100% = like malt sugar, 0% = unfermentable (lactose)",
+    "moisturePct": "Moisture",
+    "proteinPct": "Protein",
+    "diastaticPower": "Diastatic power",
+    "maxInBatchPct": "Max. in grist",
+    "recommendMash": "Needs mashing",
+    "notes": "Notes",
+    "form": "Form",
+    "purpose": "Purpose",
+    "alpha": "Alpha acid",
+    "alphaPct": "Alpha acid",
+    "betaPct": "Beta acid",
+    "cohumulonePct": "Cohumulone",
+    "totalOil": "Total oil",
+    "hsi": "Storage loss (HSI)",
+    "substitutes": "Substitutes",
+    "attenuation": "Attenuation",
+    "attenuationMinPct": "Attenuation min.",
+    "attenuationMaxPct": "Attenuation max.",
+    "tempMinC": "Temperature min.",
+    "tempMaxC": "Temperature max.",
+    "flocculation": "Flocculation",
+    "alcoholTolerancePct": "Alcohol tolerance",
+    "bestFor": "Best for",
+    "amountKind": "Measured by",
+    "useFor": "Used for",
+    "role": "Use as",
+    "calcium": "Calcium (Ca)",
+    "magnesium": "Magnesium (Mg)",
+    "sodium": "Sodium (Na)",
+    "sulfate": "Sulfate (SO₄)",
+    "chloride": "Chloride (Cl)",
+    "bicarbonate": "Bicarbonate (HCO₃)",
+    "ph": "pH",
+    "guide": "Guideline",
+    "category": "Category",
+    "categoryNumber": "Category no.",
+    "styleLetter": "Sub-style letter",
+    "code": "Code",
+    "og": "Original gravity",
+    "fg": "Final gravity",
+    "ibu": "Bitterness (IBU)",
+    "abvPct": "Alcohol (ABV)",
+    "carbVols": "Carbonation",
+    "profile": "Profile",
+    "ingredients": "Ingredients",
+    "examples": "Examples",
+    "time": "Time",
+    "temperature": "Temperature",
+    "days": "Days"
+  },
+  "enums": {
+    "fermentableType": {
+      "grain": "Grain",
+      "sugar": "Sugar",
+      "extract": "Liquid extract",
+      "dry_extract": "Dry extract",
+      "adjunct": "Adjunct",
+      "fruit": "Fruit",
+      "juice": "Juice",
+      "honey": "Honey",
+      "other": "Other"
+    },
+    "grainGroup": {
+      "base": "Base malt",
+      "caramel": "Caramel / crystal",
+      "roasted": "Roasted",
+      "smoked": "Smoked",
+      "specialty": "Specialty",
+      "adjunct": "Adjunct",
+      "other": "Other"
+    },
+    "fermentableUse": {
+      "mash": "Mash",
+      "steep": "Steep",
+      "boil": "Boil",
+      "fermentation": "Fermenter"
+    },
+    "hopForm": {
+      "pellet": "Pellet",
+      "leaf": "Leaf",
+      "plug": "Plug",
+      "cryo": "Cryo / powder",
+      "extract": "Extract"
+    },
+    "hopPurpose": {
+      "bittering": "Bittering",
+      "aroma": "Aroma",
+      "dual": "Dual purpose"
+    },
+    "hopUse": {
+      "mash": "Mash",
+      "first_wort": "First wort",
+      "boil": "Boil",
+      "whirlpool": "Whirlpool",
+      "dry_hop": "Dry hop"
+    },
+    "cultureType": {
+      "ale": "Ale",
+      "lager": "Lager",
+      "wheat": "Wheat",
+      "wine": "Wine",
+      "champagne": "Champagne",
+      "kveik": "Kveik",
+      "brett": "Brettanomyces",
+      "lacto": "Lactobacillus",
+      "pedio": "Pediococcus",
+      "mixed": "Mixed culture",
+      "other": "Other"
+    },
+    "cultureForm": {
+      "dry": "Dry",
+      "liquid": "Liquid",
+      "slant": "Slant",
+      "culture": "Culture",
+      "dregs": "Dregs"
+    },
+    "flocculation": {
+      "very_low": "Very low",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "very_high": "Very high"
+    },
+    "miscType": {
+      "spice": "Spice",
+      "fining": "Fining",
+      "water_agent": "Water agent",
+      "herb": "Herb",
+      "flavor": "Flavor",
+      "wood": "Wood",
+      "nutrient": "Yeast nutrient",
+      "enzyme": "Enzyme",
+      "other": "Other"
+    },
+    "miscUse": {
+      "mash": "Mash",
+      "sparge": "Sparge",
+      "boil": "Boil",
+      "whirlpool": "Whirlpool",
+      "fermentation": "Fermenter",
+      "packaging": "Packaging"
+    },
+    "amountKind": {
+      "mass": "Weight",
+      "volume": "Volume",
+      "count": "Count"
+    },
+    "waterRole": {
+      "source": "My water",
+      "target": "Target profile"
+    },
+    "mashStepType": {
+      "infusion": "Infusion",
+      "temperature": "Heating",
+      "decoction": "Decoction"
+    },
+    "carbonationMethod": {
+      "bottle": "Bottles",
+      "keg_sugar": "Keg, sugar",
+      "keg_force": "Keg, CO₂"
+    },
+    "recipeType": {
+      "all_grain": "All grain",
+      "partial_mash": "Partial mash",
+      "extract": "Extract",
+      "other": "Other"
+    },
+    "brewMethod": {
+      "mash_sparge": "Mash & sparge",
+      "biab": "Brew in a bag (full volume)",
+      "no_sparge": "No sparge (full volume)",
+      "extract": "Extract"
+    }
+  },
+  "equipment": {
+    "title": "Equipment",
+    "subtitle": "Your brewhouse: volumes, losses and efficiency used by recipes and brew day.",
+    "new": "New profile",
+    "newName": "My brewhouse",
+    "empty": "No equipment yet. Add your brewhouse so water amounts and gravity estimates match your system.",
+    "default": "Default",
+    "makeDefault": "Use for new recipes",
+    "saved": "Equipment saved",
+    "method": "Method",
+    "efficiencyBadge": "{{pct}}% efficiency",
+    "boilOffBadge": "{{rate}} boil-off",
+    "sections": {
+      "mash": "Mash",
+      "boil": "Boil",
+      "fermenter": "Fermenter"
+    },
+    "fields": {
+      "batchVolume": "Batch size (into fermenter)",
+      "boilTime": "Boil time",
+      "brewhouseEfficiency": "Brewhouse efficiency",
+      "brewhouseEfficiencyHint": "Share of the malt's potential that reaches the fermenter",
+      "mashEfficiency": "Mash efficiency",
+      "mashTunVolume": "Mash tun volume",
+      "mashTunDeadspace": "Mash tun dead space",
+      "mashTunDeadspaceHint": "Water below the false bottom or malt pipe. It goes on to the boil: added to the mash water, not to the total",
+      "mashTunLoss": "Mash tun loss",
+      "mashTunLossHint": "Wort that stays in the mash tun and never reaches the kettle",
+      "mashThickness": "Water-to-grain ratio",
+      "mashThicknessHint": "Mash water per amount of grain",
+      "grainAbsorption": "Grain absorption",
+      "grainTemp": "Grain temperature",
+      "kettleVolume": "Kettle volume",
+      "boilOff": "Boil-off rate",
+      "kettleLoss": "Kettle & chiller loss",
+      "shrinkage": "Cooling shrinkage",
+      "hopUtilization": "Hop utilization",
+      "hopUtilizationHint": "Correction for your system (100% = calculated IBU)",
+      "topUp": "Top-up water",
+      "fermenterVolume": "Fermenter volume",
+      "fermenterLoss": "Fermenter loss (trub, yeast)"
+    },
+    "preview": {
+      "title": "Example brew day",
+      "text": "With {{grain}} of grain for {{batch}}:"
+    },
+    "delete": {
+      "title": "Delete equipment profile?",
+      "text": "“{{name}}” will be deleted. Recipes keep their copy of its values."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "language": "Language",
+    "languageAuto": "Same as the browser",
+    "theme": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "units": {
+      "title": "Units",
+      "description": "How values are shown. Every input field also lets you switch its unit, or type one (\"5 lb\", \"12 °P\").",
+      "metric": "Metric",
+      "us": "US",
+      "custom": "Custom",
+      "measures": {
+        "massLarge": "Grain & large amounts",
+        "massSmall": "Hops & small amounts",
+        "volume": "Volumes",
+        "volumeSmall": "Small volumes",
+        "temperature": "Temperature",
+        "gravity": "Gravity",
+        "color": "Color",
+        "pressure": "Pressure",
+        "carbonation": "Carbonation",
+        "specificVolume": "Water-to-grain ratio",
+        "rate": "Boil-off",
+        "diastaticPower": "Diastatic power"
+      }
+    },
+    "brewery": {
+      "title": "Brewery",
+      "name": "Brewery name",
+      "namePlaceholder": "e.g. Garage Brewing Co.",
+      "defaultEquipment": "Equipment for new recipes",
+      "logoHint": "Your brewery logo: shown in the header with the brewery name and on the dashboard. Click or drop a picture; square ones look best."
+    },
+    "backup": {
+      "title": "Backup",
+      "description": "Download your brewery's data as one file, to keep a copy or to move it to another server, and import such files again. Passwords, users, access tokens and smart devices are never included.",
+      "exportTitle": "What to include",
+      "sections": {
+        "recipes": "Recipes",
+        "batches": "Batches",
+        "inventory": "Inventory",
+        "equipment": "Equipment",
+        "water": "Water profiles",
+        "library": "Library",
+        "settings": "Settings"
+      },
+      "hints": {
+        "recipes": "With their pictures",
+        "batches": "With readings, notes and the log",
+        "inventory": "Stock and its history",
+        "equipment": "Equipment profiles, fermenters and kegs (no smart devices)",
+        "water": "Your own profiles, not the built-in ones",
+        "library": "Ingredients and styles you added, not the built-in ones",
+        "settings": "Brewery name, logo and defaults, and your preferences (no passwords)"
+      },
+      "download": "Download backup",
+      "importTitle": "Import a backup",
+      "importHint": "Choose a backup file, then what to take from it. Things that are already here (same item, or same name) are skipped, so importing a file twice adds nothing.",
+      "choose": "Choose backup file…",
+      "notBackup": "This is not a Siduri backup file. Recipes from other brewing software (BeerXML, BeerJSON) are imported on the Recipes page.",
+      "fileFrom": "{{name}} · made {{date}}",
+      "settingsReplace": "Replaces the current brewery settings and your preferences",
+      "import": "Import",
+      "imported": "Backup imported.",
+      "addedSkipped": "{{added}} added, {{skipped}} already here"
+    },
+    "mcp": {
+      "title": "Claude & AI assistants",
+      "description": "Let Claude (Claude Code or Claude Desktop) look up and work with your recipes, inventory, batches and library. Each connection gets its own access token; choose what it may do.",
+      "levels": {
+        "read": "Read",
+        "write": "Read & write",
+        "full": "Everything"
+      },
+      "levelHints": {
+        "read": "look up recipes, batches, inventory and the library; nothing is changed",
+        "write": "also create and change recipes, batches, stock and library items; nothing is deleted",
+        "full": "also delete, run brew-day actions and take ingredients from the inventory"
+      },
+      "none": "No connections yet.",
+      "new": "New connection",
+      "name": "Name",
+      "nameHint": "Where the token is used, e.g. \"Claude Code\" or \"Claude Desktop (laptop)\". Shown in batch logs for changes made through it.",
+      "level": "Allowed to",
+      "create": "Create token",
+      "created": "Created {{date}}",
+      "lastUsed": "last used {{date}}",
+      "neverUsed": "not used yet",
+      "token": "Access token",
+      "copyNow": "Copy the token now: it is not stored and cannot be shown again. Anyone with it can use Siduri with the rights you chose.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "codeHint": "Run this in a terminal on the computer with Claude Code:",
+      "desktopHint": "Add this to Claude Desktop’s configuration (Settings → Developer → Edit config), then restart Claude Desktop. Needs Node.js on that computer.",
+      "urlHint": "Claude connects to {{url}}. Use an address of this server that the computer running Claude can reach.",
+      "revoke": {
+        "title": "Revoke access?",
+        "text": "“{{name}}” will no longer be able to use Siduri.",
+        "confirm": "Revoke"
+      }
+    },
+    "account": {
+      "title": "Account",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "changePassword": "Change password",
+      "passwordChanged": "Password changed. Other devices are signed out."
+    },
+    "about": {
+      "title": "About",
+      "text": "Siduri is a self-hosted brewing app: recipes, batches, inventory, equipment and water, on your own server. Named after Siduri, the alewife of the Epic of Gilgamesh.",
+      "license": "Free software under the GNU AGPL v3.0.",
+      "source": "Source code on GitHub",
+      "data": "Built-in ingredient data:"
+    }
+  },
+  "batches": {
+    "title": "Batches",
+    "subtitle": "Each batch is a copy of a recipe you brew. Change it freely; the recipe stays as it is.",
+    "new": "New batch",
+    "create": "Create batch",
+    "brewThis": "Brew this",
+    "notFound": "This batch doesn't exist (anymore).",
+    "empty": "No batches here.",
+    "emptyActive": "Nothing in progress. Start a batch from a recipe.",
+    "noDate": "No brew date",
+    "noReadings": "No readings yet",
+    "keepRecipeSize": "As in the recipe",
+    "sizeHint": "{{size}} at {{eff}}% efficiency, as in the recipe.",
+    "scaleHint": "The recipe is scaled from {{from}} to {{to}} at {{eff}}% efficiency.",
+    "openRecipe": "Open recipe",
+    "recipeHint": "This is the batch's own copy of the recipe. Changes here don't touch the original recipe.",
+    "day": "Day {{day}}",
+    "dayLabel": "Day",
+    "dayOf": "Today is day {{day}}",
+    "schedule": "Fermentation plan",
+    "scheduleNotStarted": "Starts when the brew day is finished",
+    "plannedVsActual": "Planned and actual",
+    "planned": "Planned",
+    "actual": "Actual",
+    "currentGravity": "Current gravity",
+    "attenuation": "Attenuation",
+    "intoFermenter": "Into fermenter",
+    "efficiency": "Brewhouse efficiency",
+    "expected": "expected {{value}}",
+    "measuredTitle": "Measured values",
+    "carbonation": {
+      "title": "Carbonation",
+      "forMeasured": "For {{volume}} of packaged beer",
+      "forPlanned": "For {{volume}} of packaged beer (planned)",
+      "target": "Target",
+      "beerTemp": "Warmest beer temperature",
+      "kegTemp": "Keg temperature",
+      "tableSugar": "table sugar",
+      "alternatives": "or {{corn}} corn sugar, or {{dme}} dry malt extract",
+      "residual": "The beer still holds {{residual}} of CO₂ from fermentation at {{temp}}; the sugar adds the rest to reach {{vols}}.",
+      "kegSugarHint": "A keg needs about half the sugar of bottles. The beer holds {{residual}} at {{temp}}; this reaches {{vols}}.",
+      "noSugar": "No sugar needed: at {{temp}} the beer still holds {{residual}} of CO₂.",
+      "atTemp": "at {{temp}}",
+      "forDays": "for about {{from}}–{{to}} days to reach {{vols}}",
+      "forceHint": "Set this pressure on the regulator and keep the keg cold. A smaller keg or shaking gets there sooner."
+    },
+    "notes": "Batch notes",
+    "notesPlaceholder": "Anything special about this brew…",
+    "chart": "Gravity and temperature",
+    "chartEmpty": "Add at least two readings to see the curve.",
+    "addReading": "Add a reading",
+    "gravity": "Gravity",
+    "when": "When",
+    "device": "Device",
+    "filters": {
+      "active": "In progress",
+      "planned": "Planned",
+      "done": "Done",
+      "all": "All"
+    },
+    "status": {
+      "planned": "Planned",
+      "brewing": "Brewing",
+      "fermenting": "Fermenting",
+      "conditioning": "Conditioning",
+      "packaged": "Packaged",
+      "completed": "Completed"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "recipe": "Recipe",
+      "fermentation": "Fermentation",
+      "log": "Log"
+    },
+    "fields": {
+      "recipe": "Recipe",
+      "equipment": "Brew on",
+      "name": "Name",
+      "brewDate": "Brew date",
+      "status": "Status",
+      "vessel": "Fermenter / keg"
+    },
+    "measured": {
+      "mashPh": "Mash pH",
+      "preBoilGravity": "Pre-boil gravity",
+      "preBoilVolumeL": "Pre-boil volume (hot)",
+      "postBoilVolumeL": "Volume at end of boil (hot)",
+      "og": "Original gravity",
+      "fermenterVolumeL": "Volume into fermenter",
+      "fg": "Final gravity",
+      "packagedVolumeL": "Packaged volume"
+    },
+    "events": {
+      "step": "{{name}} {{temp}}",
+      "dryHop": "Dry hop: {{name}}{{amount}}",
+      "dryHopOut": "Remove dry hops: {{name}}",
+      "addition": "Add {{name}}{{amount}}"
+    },
+    "diff": {
+      "title": "Changes from the recipe",
+      "none": "Same as the recipe.",
+      "noRecipe": "The recipe this batch came from was deleted.",
+      "added": "Added {{name}}",
+      "removed": "Removed {{name}}",
+      "changed": "{{name}}: {{field}} {{from}} → {{to}}",
+      "setting": "{{field}}: {{from}} → {{to}}",
+      "notes": "Notes changed",
+      "saveToRecipe": "Save changes to recipe",
+      "saveAsNew": "Save as new recipe",
+      "confirmUpdate": "The recipe “{{name}}” will be replaced with this batch's version. Other batches keep their own copies.",
+      "savedToRecipe": "Recipe updated",
+      "savedAsNew": "Saved as a new recipe",
+      "fields": {
+        "batchSizeL": "Batch size",
+        "efficiencyPct": "Efficiency",
+        "boilTimeMin": "Boil time",
+        "style": "Style",
+        "equipment": "Equipment",
+        "carbonationVols": "Carbonation",
+        "name": "name",
+        "amountKg": "amount",
+        "amount": "amount",
+        "use": "use",
+        "colorEbc": "color",
+        "potentialSg": "potential",
+        "alphaPct": "alpha acid",
+        "timeMin": "time",
+        "day": "day",
+        "attenuationPct": "attenuation",
+        "tempC": "temperature",
+        "days": "days"
+      }
+    },
+    "log": {
+      "placeholder": "Write a note (smell, krausen, tasting, …)",
+      "add": "Add note",
+      "created": "Batch created",
+      "brewdayStarted": "Brew day started",
+      "brewdayFinished": "Brew day finished",
+      "status": "Status: {{status}}",
+      "inventoryDeducted": "Ingredients taken from the inventory",
+      "inventoryRestored": "Ingredients put back into the inventory",
+      "mcp": {
+        "recipe": "Recipe changed via {{name}}",
+        "details": "Batch changed via {{name}}",
+        "brewday": "Brew-day step via {{name}}"
+      }
+    },
+    "delete": {
+      "title": "Delete batch?",
+      "text": "“{{name}}” with its readings and log will be deleted for good."
+    }
+  },
+  "brewday": {
+    "start": "Start brew day",
+    "continue": "Continue brew day",
+    "open": "Brew day",
+    "back": "Back to batch",
+    "stepOf": "Step {{n}} of {{total}}",
+    "allSteps": "All steps",
+    "prev": "Back",
+    "next": "Next",
+    "finish": "Finish brew day",
+    "finishHint": "Pitched? Finish the brew day: the batch moves to fermenting and day 0 starts now.",
+    "screenOn": "The screen stays on",
+    "screenOff": "The screen may turn off (not supported here)",
+    "alertsOn": "Sound alerts on",
+    "alertsOff": "Tap to turn on sound and notifications",
+    "enableAlerts": "Turn on alerts",
+    "alertsHint": "Alerts sound when an addition is due or a timer runs out, while this page is open. Timers keep running on the server, so locking the phone or reloading doesn't lose them.",
+    "introTitle": "Ready to brew?",
+    "introText": "The brew day takes you step by step from weighing out to pitching. Every device opening this batch sees the same progress and timers.",
+    "strikeTemp": "Strike water temperature",
+    "doneTitle": "Brew day done!",
+    "doneText": "The batch is now fermenting. Add gravity readings on the batch page to follow it.",
+    "toBatch": "Open batch",
+    "reopen": "Reopen brew day",
+    "water": "Water",
+    "waterItem": "Water",
+    "measure": "Measure",
+    "target": "Target {{value}}",
+    "efficiency": "Efficiency {{actual}}% (planned {{planned}}%)",
+    "count": "{{n}} ×",
+    "added": "Added",
+    "addNow": "Add now!",
+    "atMin": "at {{min}} min",
+    "inTime": "in {{time}}",
+    "kinds": {
+      "fermentable": "Fermentable",
+      "hop": "Hops",
+      "culture": "Yeast",
+      "misc": "Other",
+      "water": "Water"
+    },
+    "timer": {
+      "start": "Start",
+      "resume": "Resume",
+      "pause": "Pause",
+      "reset": "Reset timer",
+      "minus": "One minute less",
+      "plus": "One minute more",
+      "running": "of {{min}} min, running",
+      "paused": "of {{min}} min, paused",
+      "done": "Time is up"
+    },
+    "alert": {
+      "add": "Add {{name}} now",
+      "timerDone": "{{step}}: time is up"
+    },
+    "correction": {
+      "ok": "Right on target.",
+      "highTitle": "Gravity is higher than planned",
+      "lowTitle": "Gravity is lower than planned",
+      "dilute": {
+        "preBoil": "Add {{water}} of water to the kettle to reach the planned gravity (you'll get a bit more beer), or leave it for a stronger beer.",
+        "fermenter": "Add {{water}} of boiled, cooled water to the fermenter to reach the planned OG."
+      },
+      "boilLonger": "Boil about {{min}} minutes longer (start the hop schedule later).",
+      "extract": {
+        "preBoil": "Or add {{amount}} of dry malt extract to the boil.",
+        "fermenter": "Add {{amount}} of dry malt extract, dissolved in a little boiled water."
+      },
+      "acceptLow": "Or accept it: the beer will be a bit lighter."
+    },
+    "steps": {
+      "gather": {
+        "title": "Weigh out ingredients",
+        "text": "Get everything ready and tick it off."
+      },
+      "heatStrike": {
+        "title": "Heat the strike water",
+        "text": "Heat {{volume}} of water to {{temp}}."
+      },
+      "mashIn": {
+        "title": "Mash in",
+        "text": "Stir in the grain and check the mash settles at {{temp}}."
+      },
+      "mashStep": {
+        "title": "Mash rest",
+        "text": "Hold {{temp}} for {{time}} minutes."
+      },
+      "sparge": {
+        "title": "Lauter and sparge",
+        "text": "Recirculate until clear, run off and sparge with {{volume}} at {{temp}}."
+      },
+      "lauter": {
+        "title": "Lauter",
+        "text": "Lift the grain or run off the wort into the kettle."
+      },
+      "steep": {
+        "title": "Steep the grains",
+        "text": "Steep in {{volume}} at {{temp}} for {{time}} minutes, then remove."
+      },
+      "preBoil": {
+        "title": "Before the boil",
+        "text": "Measure gravity and volume now: there's still time to correct."
+      },
+      "boil": {
+        "title": "Boil",
+        "text": "Start the timer when the wort boils. Additions count down to the end of the boil."
+      },
+      "whirlpool": {
+        "title": "Whirlpool / hop stand",
+        "text": "Let the wort cool to {{temp}}, add the hops and wait."
+      },
+      "chill": {
+        "title": "Chill",
+        "text": "Chill the wort to {{temp}} and transfer it to the fermenter."
+      },
+      "measureOg": {
+        "title": "Measure OG",
+        "text": "Measure the original gravity and the volume in the fermenter."
+      },
+      "pitch": {
+        "title": "Pitch the yeast",
+        "text": "Pitch at {{temp}}."
+      }
+    }
+  },
+  "amount": {
+    "count": "{{n}} ×",
+    "pcs": "pcs",
+    "perUnit": "per {{unit}}",
+    "perPiece": "per piece",
+    "priceUnit": "Price per"
+  },
+  "inventory": {
+    "title": "Inventory",
+    "subtitle": "What you have in stock. Brew days take from it; the ingredient picker shows it.",
+    "add": "Add to inventory",
+    "addButton": "Add",
+    "added": "{{name}} added",
+    "saved": "Saved",
+    "all": "All",
+    "search": "Search name, lot or location",
+    "empty": "Nothing in stock yet.",
+    "amount": "Amount",
+    "minAmount": "Warn below",
+    "lot": "Lot",
+    "lotShort": "Lot {{lot}}",
+    "bestBefore": "Best before",
+    "location": "Location",
+    "fromLibrary": "From library",
+    "linked": "Linked to the library item: recipes using it find this stock.",
+    "inStock": "In stock",
+    "low": "Low",
+    "lowCount_one": "{{count}} running low",
+    "lowCount_other": "{{count}} running low",
+    "expiredCount_one": "{{count}} past best before",
+    "expiredCount_other": "{{count}} past best before",
+    "lowHint": "At or below {{min}}",
+    "change": "Change by",
+    "note": "Note",
+    "addStock": "Add (bought)",
+    "removeStock": "Remove (used, spilled…)",
+    "details": "Details",
+    "history": "History",
+    "reasons": {
+      "purchase": "Added",
+      "adjust": "Corrected",
+      "brewday": "Brew day #{{number}}",
+      "undo": "Put back from #{{number}}"
+    },
+    "delete": {
+      "title": "Remove from inventory?",
+      "text": "“{{name}}” and its history will be deleted."
+    },
+    "price": "Price"
+  },
+  "batchInventory": {
+    "title": "From the inventory",
+    "nothing": "This batch has no ingredients yet.",
+    "allInStock": "Everything is in stock.",
+    "someShort_one": "{{count}} of {{total}} ingredients is missing or short.",
+    "someShort_other": "{{count}} of {{total}} ingredients are missing or short.",
+    "deduct": "Take from inventory",
+    "deductTitle": "Take the ingredients from the inventory?",
+    "deductText": "All ingredients of this batch are taken from stock (oldest best-before first). You can undo this.",
+    "deductShort_one": "{{count}} ingredient isn't fully in stock: what is there is taken, the rest stays on the shopping list. You can undo this.",
+    "deductShort_other": "{{count}} ingredients aren't fully in stock: what is there is taken, the rest stays on the shopping list. You can undo this.",
+    "deducted": "Taken from the inventory on {{date}}.",
+    "undo": "Undo",
+    "ingredient": "Ingredient",
+    "needed": "Needed",
+    "inStock": "In stock",
+    "short": "{{amount}} short",
+    "shoppingList": "Shopping list",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "vessels": {
+    "title": "Fermenters and kegs",
+    "subtitle": "Assign batches to them to see what's free.",
+    "new": "Add vessel",
+    "namePlaceholder": "e.g. FV1, Keg 3",
+    "empty": "No vessels yet.",
+    "capacity": "Capacity",
+    "busy": "In use",
+    "free": "Free",
+    "optionBusy": "{{name}} (#{{number}} in it)",
+    "optionTooSmall": "too small ({{capacity}})",
+    "kinds": {
+      "fermenter": "Fermenter",
+      "keg": "Keg",
+      "bottles": "Bottles",
+      "other": "Other"
+    }
+  },
+  "water": {
+    "title": "Water",
+    "description": "Your water, the profile to aim for, and the salts to get there.",
+    "source": "Your water",
+    "pickSource": "Pick a water report",
+    "mine": "My water",
+    "profiles": "Profiles",
+    "useMine": "Use {{name}}",
+    "dilution": "Distilled / RO share",
+    "dilutionHint": "Part of the water replaced by distilled or reverse-osmosis water",
+    "target": "Target profile",
+    "pickTarget": "Pick a target",
+    "suggestedTarget": "Suits this beer:",
+    "phTarget": "Mash pH target",
+    "ppm": "ppm",
+    "rows": {
+      "source": "Your water",
+      "target": "Target",
+      "mash": "Mash water",
+      "result": "All water"
+    },
+    "so4cl": "SO₄:Cl",
+    "balance": {
+      "bitter": "bitter / dry",
+      "balanced": "balanced",
+      "malty": "malty / round"
+    },
+    "ra": "Residual alkalinity",
+    "mashPh": "Mash pH",
+    "phEstimate": "estimate ±0.1–0.2",
+    "acidTip": "Add {{amount}} of lactic acid 80 % to the mash to reach pH {{ph}}.",
+    "addAcid": "Add",
+    "additions": "Salts and acids",
+    "agent": "Salt or acid",
+    "adds": "Adds {{ions}}",
+    "lowersAlkalinity": "Lowers alkalinity and mash pH",
+    "mash": "Mash",
+    "sparge": "Sparge",
+    "kettle": "Kettle",
+    "suggest": "Suggest",
+    "onlyInStock": "Only what I have",
+    "onlyInStockHint": "Suggest only salts that are in your inventory",
+    "inStock": "in stock",
+    "noAdditions": "No additions. Pick a target profile to get suggestions.",
+    "noAdditionsTarget": "No additions yet: tap Suggest.",
+    "fromIngredients": "{{agent}} {{amount}} ({{where}}) from the ingredients is counted too.",
+    "agents": {
+      "gypsum": "Gypsum (CaSO₄)",
+      "calcium_chloride": "Calcium chloride (CaCl₂)",
+      "epsom": "Epsom salt (MgSO₄)",
+      "magnesium_chloride": "Magnesium chloride (MgCl₂)",
+      "table_salt": "Table salt (NaCl)",
+      "baking_soda": "Baking soda (NaHCO₃)",
+      "chalk": "Chalk (CaCO₃)",
+      "lactic_acid": "Lactic acid 80 %",
+      "phosphoric_acid": "Phosphoric acid 10 %"
+    },
+    "warnings": {
+      "noSource": "Without your water report, distilled water is assumed.",
+      "chalk": "Chalk hardly dissolves in water: it raises alkalinity much less than calculated. Baking soda is more reliable.",
+      "sodium": "Over 150 ppm sodium can taste salty or harsh.",
+      "sulfate": "Over 500 ppm sulfate gets harsh and minerally.",
+      "calciumLow": "Under 40 ppm calcium in the mash: consider some gypsum or calcium chloride for enzymes, clarity and yeast."
+    },
+    "where": "Add to"
+  },
+  "waterPage": {
+    "title": "Water",
+    "subtitle": "Your water reports and the profiles you brew towards. Recipes choose them in their Water section.",
+    "mine": "My water",
+    "newSource": "Add water report",
+    "newSourceName": "My tap water",
+    "howToGet": "Ask your water supplier for an analysis (often on their website: calcium, magnesium, sodium, sulfate, chloride and hydrogen carbonate in mg/L = ppm), or use a test kit. Add it here and mark it as your default.",
+    "makeDefault": "Use as default",
+    "isDefault": "Default",
+    "targets": "Target profiles",
+    "targetsHint": "Classic profiles to aim for. Add your own or change these.",
+    "newTarget": "Add target",
+    "newTargetName": "My target"
+  },
+  "devices": {
+    "title": "Smart devices",
+    "subtitle": "RAPT Pill, RAPT controllers and chambers, iSpindel, Tilt and others. Readings go to the batch in the device's fermenter.",
+    "new": "Add device",
+    "empty": "No devices yet. Click “Add device” to connect one.",
+    "add": {
+      "title": "Add device",
+      "choose": "How does the device send its readings?",
+      "back": "Back",
+      "done": "Done",
+      "create": "Create",
+      "integrations": {
+        "rapt_stream": {
+          "title": "RAPT Brew",
+          "text": "RAPT Pill, temperature controller or fermentation chamber: the RAPT cloud sends the readings here. Your server must be reachable from the internet."
+        },
+        "ispindel": {
+          "title": "iSpindel",
+          "text": "The iSpindel sends its readings over HTTP."
+        },
+        "tilt": {
+          "title": "Tilt",
+          "text": "Tilt or Tilt Pro: the Tilt app on your phone or a TiltPi sends the readings here."
+        },
+        "http": {
+          "title": "Other device or script",
+          "text": "Anything that can send JSON or form data to a URL."
+        }
+      },
+      "created": "{{name}} added.",
+      "nameStep": "Name the device",
+      "afterStep1": "contains the device’s own key: appears when you click “Create” in step 1",
+      "checkTitle": "Check that it arrives",
+      "ispindel": {
+        "intro": "The iSpindel sends its readings over Wi-Fi to this app. It must be able to reach this address from its Wi-Fi network.",
+        "configTitle": "Open the iSpindel's configuration",
+        "configText": "Press the reset button twice quickly (or switch it off and on). Its LED blinks and it opens a Wi-Fi network named “iSpindel_…”. Connect to it with your phone; the configuration page opens by itself (otherwise open http://192.168.4.1). Choose “Configuration”.",
+        "enterTitle": "Enter these values, then click “Save”",
+        "serviceType": "Service Type",
+        "serverAddress": "Server Address",
+        "serverPort": "Server Port",
+        "path": "Path / URI",
+        "token": "Token/ API key: leave it empty. The path already identifies the device.",
+        "polynomial": "Polynominal: your calibration formula. Without it the iSpindel sends no gravity, only its angle and temperature.",
+        "interval": "Update Interval (s): how often it measures, for example 900 (15 minutes). Shorter intervals drain the battery faster.",
+        "httpsNote": "With “HTTPS Post”, the Server Address starts with https:// and there is no port. If your firmware has no “HTTPS Post”, update it, or use the service “HTTP” with an address on your home network.",
+        "checkText": "The iSpindel restarts and sends its first reading after the update interval. It appears on the device's card under Smart devices; open the card to see the last messages that arrived. Temperature in °C, °F or K and gravity in SG or °Plato are understood. Then link it to a batch on the batch's Fermentation tab."
+      },
+      "http": {
+        "intro": "Any device, service or script that can send JSON or form data to a URL.",
+        "sendTitle": "Send the readings to this address",
+        "url": "URL",
+        "method": "Method",
+        "contentType": "Content type",
+        "example": "For example:",
+        "fields": "Field names are matched loosely (gravity, sg, plato, temperature, temp, temp_units, battery, rssi, timestamp …). Gravity can be SG (1.048), SG × 1000 (1048) or °Plato. Form data, and GET with query parameters, work as well.",
+        "testText": "To try it, send a test reading from a terminal:",
+        "checkText": "The reading appears on the device's card under Smart devices; open the card to see the last messages that arrived and whether they were understood. Then link it to a batch on the batch's Fermentation tab."
+      },
+      "tilt": {
+        "intro": "The Tilt sends its readings over Bluetooth to the Tilt app on a phone or tablet, or to a TiltPi. They forward them to this app, by default every 15 minutes. One URL works for all your Tilts; each colour becomes its own device.",
+        "urlTitle": "Copy the cloud URL",
+        "cloudUrl": "Cloud URL",
+        "appTitle": "In the Tilt app (phone or tablet)",
+        "appText": "Open the settings (gear icon), turn on “Use Custom Cloud URL” and paste the URL into the custom cloud URL field, not the default Cloud URL. Then, for each Tilt, tap its colour, enter the beer name and tap “Start New Log”. The labels differ slightly between app versions.",
+        "piTitle": "Or on a TiltPi",
+        "piText": "In the logging settings of the Tilt’s colour, paste the URL as Cloud URL, keep the interval at 15 minutes or more, turn off “Use Default Cloud URL for All”, and start logging to the cloud.",
+        "checkText": "After each send the Tilt app shows “success”. With its first reading, a Tilt appears under Smart devices as “Tilt” and its colour; open the card to see the last messages. Then link it to a batch on the batch's Fermentation tab. The phone or TiltPi has to stay near the Tilt and keep running. The Tilt sends °F; the app converts it.",
+        "local": "A phone only reaches {{url}} while it is on your home network. To keep logging when it is away, make the app reachable over HTTPS (reverse proxy or tunnel) and set BASE_URL to that address.",
+        "newKey": "Create a new URL",
+        "newKeyTitle": "Create a new cloud URL?",
+        "newKeyText": "The current URL stops working. You’ll have to change it in the Tilt app or TiltPi.",
+        "newKeyDone": "New cloud URL created: change it in the Tilt app or TiltPi."
+      }
+    },
+    "saved": "Device saved",
+    "types": {
+      "rapt_pill": "RAPT Pill",
+      "rapt_controller": "RAPT temperature controller",
+      "rapt_chamber": "RAPT fermentation chamber",
+      "ispindel": "iSpindel",
+      "tilt": "Tilt",
+      "other": "Other hydrometer"
+    },
+    "noData": "No data yet",
+    "target": "target {{temp}}",
+    "lastSeen": "Last reading {{date}}",
+    "neverSeen": "No reading yet",
+    "measuring": "Measures #{{number}} {{name}}",
+    "noBatch": "Not measuring a batch",
+    "vessel": "In fermenter",
+    "externalId": "RAPT device id",
+    "controllerHint": "Controllers report their temperature and target. Set the target in the RAPT app.",
+    "deleteTitle": "Remove device?",
+    "deleteText": "“{{name}}” will be removed. Readings it already sent stay with their batches.",
+    "push": {
+      "title": "Push URL",
+      "rapt": "For RAPT devices, the data stream (Add device → RAPT Brew) uses one URL and key for all of them. This device's own URL works as well, without a header.",
+      "ispindel": "In the iSpindel's configuration choose the service “HTTPS Post” (Server Address: this server's https:// address) or “HTTP” (address and port), and as Path / URI the part of this URL from /api/integrations/telemetry/….",
+      "other": "The device (or its service) should POST JSON like {\"gravity\": 1.048, \"temperature\": 19.5} to this URL.",
+      "publicHint": "The RAPT cloud can only send to an address reachable from the internet (HTTPS through a reverse proxy or a tunnel).",
+      "newUrl": "New push URL created: update it in the device or service.",
+      "regenerate": "Create a new URL (the old one stops working)",
+      "tilt": "Tilts send to the cloud URL (Add device → Tilt), one URL for all of them. This device’s own URL works as well."
+    },
+    "recent": "Last messages",
+    "nothingYet": "Nothing received yet.",
+    "understood": "Read",
+    "notUnderstood": "Not understood",
+    "forBatch": "Devices",
+    "noneForBatch": "No device measures this batch yet.",
+    "measures": "Measures",
+    "linkHint": "Devices are linked to a batch on the batch's Fermentation tab.",
+    "unlink": "Remove from batch and fermenter",
+    "unlinked": "{{name}} no longer measures a batch.",
+    "addToBatch": "Add device",
+    "noDevicesYet": "Set up devices on the Equipment page first.",
+    "linksVia": "Devices are put in fermenter {{vessel}}, so they also measure the next batch in it.",
+    "linksDirect": "This batch has no fermenter, so devices are linked to this batch only.",
+    "linkedDirect": "linked to this batch",
+    "linkedVia": "in {{vessel}}",
+    "removeFromBatch": "Remove from this batch",
+    "startsWhenBrewing": "Readings go to this batch once it is brewing.",
+    "tiltColor": "Tilt colour"
+  },
+  "rapt": {
+    "stream": {
+      "intro": "RAPT sends your Pills' and chambers' readings to this app. One URL and one key work for all your RAPT devices.",
+      "where": "In the RAPT portal, open My Integrations → RAPT Brew Data Stream → Create Stream → Custom, and enter:",
+      "name": "Name",
+      "url": "URL",
+      "method": "Method",
+      "addHeader": "Under “Headers”, click “Add header” and enter:",
+      "headerName": "Header name",
+      "headerValue": "Header value",
+      "secret": "After saving, RAPT shows a secret once. This app doesn't need it.",
+      "perDevice": "Create one stream for each device, all with this URL and header (the free plan allows one stream per device).",
+      "appears": "RAPT sends at most every 15 minutes. With its first reading, a device appears under Smart devices. Then link it to a batch on the batch's Fermentation tab.",
+      "notPublic": "RAPT sends from the internet, so it can't reach {{url}}. Make the app reachable over HTTPS (reverse proxy or tunnel) and set BASE_URL to that address.",
+      "newKey": "Create a new key",
+      "newKeyTitle": "Create a new key?",
+      "newKeyText": "The current key stops working. You'll have to change the header in every RAPT stream.",
+      "newKeyDone": "New key created: change the header in your RAPT streams."
+    }
+  }
+}

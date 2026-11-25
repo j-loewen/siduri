@@ -1,0 +1,208 @@
+{
+  "beerjson": {
+    "version": 3,
+    "recipes": [
+      {
+        "name": "London pride",
+        "type": "all grain",
+        "author": "RR",
+        "batch_size": {
+          "unit": "l",
+          "value": 40
+        },
+        "boil": {
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 47
+          },
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 65
+          }
+        },
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale 2-Row",
+              "type": "grain",
+              "color": {
+                "unit": "Lovi",
+                "value": 2.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 9
+              },
+              "origin": "United Kingdom",
+              "grain_group": "base",
+              "yield": {
+                "potential": {
+                  "unit": "sg",
+                  "value": 1.0380006
+                }
+              }
+            },
+            {
+              "name": "Cara Plus 200",
+              "type": "grain",
+              "color": {
+                "unit": "Lovi",
+                "value": 76
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.6
+              },
+              "origin": "Finland",
+              "grain_group": "base",
+              "yield": {
+                "potential": {
+                  "unit": "sg",
+                  "value": 1.0350014
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Target",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.5
+              },
+              "form": "pellet",
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "name": "Target",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.5
+              },
+              "form": "pellet",
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "English Ale Yeast WLP002",
+              "type": "ale",
+              "form": "liquid",
+              "amount": {
+                "unit": "l",
+                "value": 0.1
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 66.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "name": "Mash Steps",
+          "grain_temperature": {
+            "unit": "C",
+            "value": 20
+          },
+          "mash_steps": [
+            {
+              "name": "",
+              "type": "temperature",
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            }
+          ]
+        },
+        "style": {
+          "name": "Best Bitter",
+          "category": "British Bitter",
+          "style_guide": "BJCP",
+          "type": "beer",
+          "original_gravity": {
+            "minimum": {
+              "unit": "sg",
+              "value": 1.04
+            },
+            "maximum": {
+              "unit": "sg",
+              "value": 1.048
+            }
+          },
+          "final_gravity": {
+            "minimum": {
+              "unit": "sg",
+              "value": 1.008
+            },
+            "maximum": {
+              "unit": "sg",
+              "value": 1.012
+            }
+          },
+          "international_bitterness_units": {
+            "minimum": {
+              "unit": "IBUs",
+              "value": 25
+            },
+            "maximum": {
+              "unit": "IBUs",
+              "value": 40
+            }
+          },
+          "alcohol_by_volume": {
+            "minimum": {
+              "unit": "%",
+              "value": 3.8
+            },
+            "maximum": {
+              "unit": "%",
+              "value": 4.6
+            }
+          },
+          "color": {
+            "minimum": {
+              "unit": "srm",
+              "value": 8
+            },
+            "maximum": {
+              "unit": "srm",
+              "value": 16
+            }
+          }
+        }
+      }
+    ]
+  }
+}

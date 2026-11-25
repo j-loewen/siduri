@@ -1,0 +1,920 @@
+[
+ {
+  "seedKey": "hop:summit",
+  "data": {
+   "name": "Summit",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 18,
+   "betaPct": 6,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.85,
+   "substitutes": "Columbus, Simcoe, Apollo",
+   "notes": "Summit boasts citric aromas of tangerine, grapefruit and orange along with an impressive alpha content giving it a wide spectrum of potential use."
+  }
+ },
+ {
+  "seedKey": "hop:columbus",
+  "data": {
+   "name": "Columbus",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 16,
+   "betaPct": 5.3,
+   "cohumulonePct": 32,
+   "totalOil": null,
+   "hsi": 0.55,
+   "substitutes": "Chinook, Northern Brewer, Nugget",
+   "notes": "It features a punchy hoppiness and deep, pensive aroma with understated citrus notes—perfect as a dual use hop."
+  }
+ },
+ {
+  "seedKey": "hop:el-dorado",
+  "data": {
+   "name": "El Dorado",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 16,
+   "betaPct": 8,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Galena, Simcoe",
+   "notes": "Flavors of tropical fruit, pineapple, mango. Aromas of pear, watermelon, stone fruit and candy."
+  }
+ },
+ {
+  "seedKey": "hop:celeia",
+  "data": {
+   "name": "Celeia",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 5.5,
+   "betaPct": 3.5,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.56,
+   "substitutes": "Saaz US",
+   "notes": "Floral and citrus aroma."
+  }
+ },
+ {
+  "seedKey": "hop:crystal",
+  "data": {
+   "name": "Crystal",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.5,
+   "betaPct": 6.5,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.65,
+   "substitutes": "Liberty, Mt Hood, Hallertau",
+   "notes": "Woody, floral, and fruity with spice notes of cinnamon, nutmeg, and black pepper."
+  }
+ },
+ {
+  "seedKey": "hop:chelan",
+  "data": {
+   "name": "Chelan",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 15,
+   "betaPct": 9.8,
+   "cohumulonePct": 34,
+   "totalOil": null,
+   "hsi": 0.8,
+   "substitutes": "Galena, Nugget",
+   "notes": "Despite being comparable in style, Chelan enjoys higher yields and a higher alpha percentage than its parent Galena."
+  }
+ },
+ {
+  "seedKey": "hop:liberty",
+  "data": {
+   "name": "Liberty",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5,
+   "betaPct": 4,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.45,
+   "substitutes": "Mt Hood, Hallertau",
+   "notes": "Notes of lemon and spice."
+  }
+ },
+ {
+  "seedKey": "hop:cluster",
+  "data": {
+   "name": "Cluster",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 8.5,
+   "betaPct": 5.5,
+   "cohumulonePct": 39,
+   "totalOil": null,
+   "hsi": 0.83,
+   "substitutes": "Galena, Eroica",
+   "notes": "Clean, neutral, and slightly floral in taste."
+  }
+ },
+ {
+  "seedKey": "hop:perle-us",
+  "data": {
+   "name": "Perle US",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 9.5,
+   "betaPct": 5,
+   "cohumulonePct": 28,
+   "totalOil": null,
+   "hsi": 0.7,
+   "substitutes": "Northern Brewer",
+   "notes": "Faint spicy aroma."
+  }
+ },
+ {
+  "seedKey": "hop:tillicum",
+  "data": {
+   "name": "Tillicum",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 15,
+   "betaPct": 11,
+   "cohumulonePct": 34,
+   "totalOil": null,
+   "hsi": 0.8,
+   "substitutes": "Galena, Chelan",
+   "notes": "Elements of citrus and peach."
+  }
+ },
+ {
+  "seedKey": "hop:glacier",
+  "data": {
+   "name": "Glacier",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.5,
+   "betaPct": 8.2,
+   "cohumulonePct": 13,
+   "totalOil": null,
+   "hsi": 0.7,
+   "substitutes": "Willamette",
+   "notes": "Herby, woody, and citrusy notes."
+  }
+ },
+ {
+  "seedKey": "hop:mt-hood",
+  "data": {
+   "name": "Mt. Hood",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 7,
+   "betaPct": 8,
+   "cohumulonePct": 22,
+   "totalOil": null,
+   "hsi": 0.55,
+   "substitutes": "Crystal",
+   "notes": "Hallertau derivant. Mild spicy flavor."
+  }
+ },
+ {
+  "seedKey": "hop:simcoe",
+  "data": {
+   "name": "Simcoe",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 14,
+   "betaPct": 5,
+   "cohumulonePct": 17,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Summit",
+   "notes": "Bright citrus flavors with earthy undertones. Aromas of grapefruit, pine, and herbs."
+  }
+ },
+ {
+  "seedKey": "hop:cascade",
+  "data": {
+   "name": "Cascade",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 7,
+   "betaPct": 7,
+   "cohumulonePct": 35,
+   "totalOil": null,
+   "hsi": 0.5,
+   "substitutes": "Centennial, Amarillo, Columbus",
+   "notes": "Floral, with elements of citrus."
+  }
+ },
+ {
+  "seedKey": "hop:willamette",
+  "data": {
+   "name": "Willamette",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 6,
+   "betaPct": 4.5,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.6,
+   "substitutes": "Fuggle, Glacier",
+   "notes": "Herbal spiciness with floral notes."
+  }
+ },
+ {
+  "seedKey": "hop:spalt",
+  "data": {
+   "name": "Spalt",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 4.1,
+   "betaPct": 4,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.55,
+   "substitutes": "Saaz, Hallertau, Sterling",
+   "notes": "Earthen and spice notes."
+  }
+ },
+ {
+  "seedKey": "hop:sterling",
+  "data": {
+   "name": "Sterling",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5,
+   "betaPct": 6,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.65,
+   "substitutes": "Saaz",
+   "notes": "Derivant of Saaz. Similar earthen and spice notes."
+  }
+ },
+ {
+  "seedKey": "hop:eroica",
+  "data": {
+   "name": "Eroica",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 12,
+   "betaPct": 4.5,
+   "cohumulonePct": 40,
+   "totalOil": null,
+   "hsi": 0.8,
+   "substitutes": "Galena, Cluster, Brewer's Gold",
+   "notes": "Possesses a sharp fruity essence."
+  }
+ },
+ {
+  "seedKey": "hop:northdown",
+  "data": {
+   "name": "Northdown",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 8.5,
+   "betaPct": 4.8,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.65,
+   "substitutes": "Challenger",
+   "notes": "Fresh, flowery, piney, berry and spice."
+  }
+ },
+ {
+  "seedKey": "hop:strisselspalt",
+  "data": {
+   "name": "Strisselspalt",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 4.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.65,
+   "substitutes": "Hallertau, Mt Hood",
+   "notes": "Pleasant mixture of herbal, floral, and citrus notes."
+  }
+ },
+ {
+  "seedKey": "hop:brewer-s-gold-us",
+  "data": {
+   "name": "Brewer's Gold US",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 10,
+   "betaPct": 4.5,
+   "cohumulonePct": 40,
+   "totalOil": null,
+   "hsi": 0.1,
+   "substitutes": "Cascade, Galena",
+   "notes": "An incredibly sharp bittering flavor."
+  }
+ },
+ {
+  "seedKey": "hop:nugget",
+  "data": {
+   "name": "Nugget",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 14,
+   "betaPct": 6,
+   "cohumulonePct": 26,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Galena",
+   "notes": "Solid bittering, light flavor, herbal aroma."
+  }
+ },
+ {
+  "seedKey": "hop:horizon",
+  "data": {
+   "name": "Horizon",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 10,
+   "betaPct": 5,
+   "cohumulonePct": 20,
+   "totalOil": null,
+   "hsi": 0.85,
+   "substitutes": "Magnum",
+   "notes": "Floral, citrusy flavors and aromas."
+  }
+ },
+ {
+  "seedKey": "hop:ultra",
+  "data": {
+   "name": "Ultra",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 3.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.65,
+   "substitutes": "Hallertau, Saaz",
+   "notes": "Mild spice aroma and flavor."
+  }
+ },
+ {
+  "seedKey": "hop:ahtanum",
+  "data": {
+   "name": "Ahtanum",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.7,
+   "betaPct": 5,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.5,
+   "substitutes": "Willamette, Centennial, Cascade",
+   "notes": "Distinct grapefruit scent and flavor."
+  }
+ },
+ {
+  "seedKey": "hop:mosaic",
+  "data": {
+   "name": "Mosaic",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 13.5,
+   "betaPct": 4,
+   "cohumulonePct": 22,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Citra",
+   "notes": "Complex flavor reminiscent of stone fruit."
+  }
+ },
+ {
+  "seedKey": "hop:bravo",
+  "data": {
+   "name": "Bravo",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 18,
+   "betaPct": 5,
+   "cohumulonePct": 32,
+   "totalOil": null,
+   "hsi": 0.7,
+   "substitutes": "Columbus, CTZ, Nugget",
+   "notes": "Spicy, earthy, and lightly floral aroma."
+  }
+ },
+ {
+  "seedKey": "hop:challenger",
+  "data": {
+   "name": "Challenger",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 2.1,
+   "betaPct": 3.7,
+   "cohumulonePct": 20,
+   "totalOil": null,
+   "hsi": 0.8,
+   "substitutes": "Admiral, Perle",
+   "notes": "Challenger features decent bitterness and a floral aroma."
+  }
+ },
+ {
+  "seedKey": "hop:golding-us",
+  "data": {
+   "name": "Golding US",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 6,
+   "betaPct": 3,
+   "cohumulonePct": 20,
+   "totalOil": null,
+   "hsi": 0.65,
+   "substitutes": "Fuggle, East Kent Golding",
+   "notes": "Direct descendants of East Kent Golding. Delicate fruit and herbal aromas."
+  }
+ },
+ {
+  "seedKey": "hop:magnum-us",
+  "data": {
+   "name": "Magnum US",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 14,
+   "betaPct": 6,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.85,
+   "substitutes": "Hallertau, Columbus, Nugget",
+   "notes": "Excellent bittering profile and a nice, hoppy, floral aroma and subtle characters of citrus. Genetically indistinguishable from the German variety."
+  }
+ },
+ {
+  "seedKey": "hop:galaxy",
+  "data": {
+   "name": "Galaxy",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 13,
+   "betaPct": 5.5,
+   "cohumulonePct": 36,
+   "totalOil": null,
+   "hsi": 0.55,
+   "substitutes": "Topaz, Citra, Cascade",
+   "notes": "Stone fruit aroma with citrus notes."
+  }
+ },
+ {
+  "seedKey": "hop:apollo",
+  "data": {
+   "name": "Apollo",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 20,
+   "betaPct": 8,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.85,
+   "substitutes": "Nugget, Columbus, CTZ",
+   "notes": "Sharp, clean bittering with grapefruit notes."
+  }
+ },
+ {
+  "seedKey": "hop:ctz",
+  "data": {
+   "name": "CTZ",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 17,
+   "betaPct": 5,
+   "cohumulonePct": 35,
+   "totalOil": null,
+   "hsi": 0.8,
+   "substitutes": "Columbus, Apollo",
+   "notes": "Also known as Zeus. Sweet citrus notes with an herbal aroma."
+  }
+ },
+ {
+  "seedKey": "hop:fuggle-us",
+  "data": {
+   "name": "Fuggle US",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.5,
+   "betaPct": 2,
+   "cohumulonePct": 27,
+   "totalOil": null,
+   "hsi": 0.5,
+   "substitutes": "Willamette, Newport",
+   "notes": "A slight, fruity flavor."
+  }
+ },
+ {
+  "seedKey": "hop:santiam",
+  "data": {
+   "name": "Santiam",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 7,
+   "betaPct": 8,
+   "cohumulonePct": 20,
+   "totalOil": null,
+   "hsi": 0.45,
+   "substitutes": "Spalt, Hallertau, Liberty",
+   "notes": "Soft, herbal, floral, fruity aromas with hints of pepper and spice."
+  }
+ },
+ {
+  "seedKey": "hop:delta",
+  "data": {
+   "name": "Delta",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 7,
+   "betaPct": 7,
+   "cohumulonePct": 23,
+   "totalOil": null,
+   "hsi": 0.85,
+   "substitutes": "Fuggle, Willamette",
+   "notes": "Spicy citrus and summer melon notes."
+  }
+ },
+ {
+  "seedKey": "hop:super-galena",
+  "data": {
+   "name": "Super Galena",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 16,
+   "betaPct": 10,
+   "cohumulonePct": 40,
+   "totalOil": null,
+   "hsi": 0.7,
+   "substitutes": "Galena, Columbus, CTZ, Eroica",
+   "notes": "A far more potent variety of Galena with great bittering potential and citrus notes."
+  }
+ },
+ {
+  "seedKey": "hop:bullion",
+  "data": {
+   "name": "Bullion",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 8,
+   "betaPct": 6,
+   "cohumulonePct": 40,
+   "totalOil": null,
+   "hsi": 0.45,
+   "substitutes": "Columbus, Chinook, Galena",
+   "notes": "Scents of dark fruit and spice."
+  }
+ },
+ {
+  "seedKey": "hop:tettnanger",
+  "data": {
+   "name": "Tettnanger",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 5,
+   "betaPct": 4,
+   "cohumulonePct": 20,
+   "totalOil": null,
+   "hsi": 0.55,
+   "substitutes": "Spalt, Saaz",
+   "notes": "Floral and herbal notes with a mild spiciness."
+  }
+ },
+ {
+  "seedKey": "hop:citra",
+  "data": {
+   "name": "Citra",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 13,
+   "betaPct": 4.5,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Cascade, Simcoe",
+   "notes": "HBC# 394cv. Strong notes of tropical fruits with a harsh bitterness."
+  }
+ },
+ {
+  "seedKey": "hop:saaz-us",
+  "data": {
+   "name": "Saaz US",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 4.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.5,
+   "substitutes": "Centennial, Amarillo",
+   "notes": "Also called Saazer. Strong herbal character."
+  }
+ },
+ {
+  "seedKey": "hop:east-kent-golding",
+  "data": {
+   "name": "East Kent Golding",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 6,
+   "betaPct": 3,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Fuggle, Golding",
+   "notes": "Delicate fruit and herbal aromas."
+  }
+ },
+ {
+  "seedKey": "hop:warrior",
+  "data": {
+   "name": "Warrior",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 18,
+   "betaPct": 5.5,
+   "cohumulonePct": 26,
+   "totalOil": null,
+   "hsi": 0.76,
+   "substitutes": "Nugget, Columbus",
+   "notes": "Strong aroma of spice and citrus."
+  }
+ },
+ {
+  "seedKey": "hop:millennium",
+  "data": {
+   "name": "Millennium",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 16.5,
+   "betaPct": 5.3,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "CTZ, Nugget",
+   "notes": "Mild herbal notes with elements of resin."
+  }
+ },
+ {
+  "seedKey": "hop:chinook",
+  "data": {
+   "name": "Chinook",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 14,
+   "betaPct": 4,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.7,
+   "substitutes": "Galena, Eroica, Nugget",
+   "notes": "Powerful notes of pine and spice."
+  }
+ },
+ {
+  "seedKey": "hop:newport",
+  "data": {
+   "name": "Newport",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 17,
+   "betaPct": 9,
+   "cohumulonePct": 37,
+   "totalOil": null,
+   "hsi": 0.6,
+   "substitutes": "Galena, Nugget",
+   "notes": "Derived from the Magnum genus. Provides clean bitterness."
+  }
+ },
+ {
+  "seedKey": "hop:palisade",
+  "data": {
+   "name": "Palisade",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 9.5,
+   "betaPct": 8,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.65,
+   "substitutes": "Golding, Chinook",
+   "notes": "Flavors of nectar fruits and citrus. Aromas that are floral, herbaceous, and grassy."
+  }
+ },
+ {
+  "seedKey": "hop:centennial",
+  "data": {
+   "name": "Centennial",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 11.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": 0.6,
+   "substitutes": "Chinook, Galena, CTZ",
+   "notes": "Also sold as Super Cascade. Earthy and floral flavor with faint citrus notes."
+  }
+ },
+ {
+  "seedKey": "hop:hallertau-us",
+  "data": {
+   "name": "Hallertau US",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.5,
+   "betaPct": 5.5,
+   "cohumulonePct": 23,
+   "totalOil": null,
+   "hsi": 0.55,
+   "substitutes": "Liberty",
+   "notes": "Sometimes sold as Mittelfrüher. Light aroma of spice and floral notes."
+  }
+ },
+ {
+  "seedKey": "hop:northern-brewer",
+  "data": {
+   "name": "Northern Brewer",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 9.5,
+   "betaPct": 4,
+   "cohumulonePct": 25,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Perle US, Columbus",
+   "notes": "Minty and resinous."
+  }
+ },
+ {
+  "seedKey": "hop:amarillo",
+  "data": {
+   "name": "Amarillo",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 11,
+   "betaPct": 7,
+   "cohumulonePct": 20,
+   "totalOil": null,
+   "hsi": 0.95,
+   "substitutes": "Cascade, Chinook",
+   "notes": "Known as VGXP01. Strong orange flavor."
+  }
+ },
+ {
+  "seedKey": "hop:topaz",
+  "data": {
+   "name": "Topaz",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "dual",
+   "alphaPct": 15,
+   "betaPct": 7,
+   "cohumulonePct": 50,
+   "totalOil": null,
+   "hsi": 0.55,
+   "substitutes": "Galaxy, Citra, Amarillo",
+   "notes": "Stone fruit aroma with citrus notes."
+  }
+ },
+ {
+  "seedKey": "hop:vanguard",
+  "data": {
+   "name": "Vanguard",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 6,
+   "betaPct": 7,
+   "cohumulonePct": 15,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Hallertau, Saaz, Mt Hood",
+   "notes": "Floral and spice notes."
+  }
+ },
+ {
+  "seedKey": "hop:galena",
+  "data": {
+   "name": "Galena",
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 13.5,
+   "betaPct": 9,
+   "cohumulonePct": 40,
+   "totalOil": null,
+   "hsi": 0.75,
+   "substitutes": "Galena, Columbus, CTZ, Eroica",
+   "notes": "One of the most commonly used bittering hops with a pleasant fruity aroma."
+  }
+ }
+]

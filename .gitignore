@@ -1,0 +1,9 @@
+node_modules/
+dist/
+# The database: the Docker data folder and the one `npm run dev` uses (not packages/seed-data/src/data).
+/data/
+apps/server/data/
+*.db
+*.db-*
+.env
+coverage/
