@@ -83,7 +83,7 @@ function StyleModal({ opened, onClose, doc, update }: { opened: boolean; onClose
           nothingFoundMessage={t('picker.nothing')}
           data={[
             ...(ownStyle ? [{ value: OWN_STYLE, label: t('recipe.setup.ownStyle', { name: doc.style!.name }) }] : []),
-            ...(styles.data ?? []).map((s) => ({ value: s.id, label: `${s.data.categoryNumber}${s.data.styleLetter} ${s.name}`.trim() })),
+            ...(styles.data ?? []).map((s) => ({ value: s.id, label: [`${s.data.categoryNumber}${s.data.styleLetter} ${s.name}`.trim(), s.data.guide].filter(Boolean).join(' · ') })),
           ]}
           value={ownStyle ? OWN_STYLE : (doc.style?.libraryRef ?? null)}
           onChange={(id) => {

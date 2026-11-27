@@ -8,9 +8,10 @@ import { inventoryTools } from './tools/inventory';
 import { libraryTools } from './tools/library';
 import { overviewTools } from './tools/overview';
 import { recipeTools } from './tools/recipes';
+import { trashTools } from './tools/trash';
 
 /** Every tool, each with the least token level that may use it. */
-export const ALL_TOOLS: ToolDef[] = [...overviewTools, ...libraryTools, ...equipmentTools, ...recipeTools, ...batchTools, ...inventoryTools];
+export const ALL_TOOLS: ToolDef[] = [...overviewTools, ...libraryTools, ...equipmentTools, ...recipeTools, ...batchTools, ...inventoryTools, ...trashTools];
 
 const INSTRUCTIONS = `${APP_NAME} is a self-hosted brewing app: recipes, batches (brews of a recipe), ingredient inventory, an ingredient library, equipment and water profiles. All its data is shared by the brewery.
 - Start with get_overview: it tells the brewery name, the user's preferred display units and what is going on (active batches, low stock).

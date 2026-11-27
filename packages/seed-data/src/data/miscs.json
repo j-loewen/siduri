@@ -1,0 +1,15 @@
+[
+ {
+  "seedKey": "miscs/weyermann/sour-wort",
+  "data": {
+   "name": "Sour Wort",
+   "aliases": [],
+   "type": "other",
+   "producer": "Weyermann",
+   "productId": "",
+   "amountKind": "mass",
+   "useFor": "Biological acidification of mash and wort",
+   "notes": ""
+  }
+ }
+]

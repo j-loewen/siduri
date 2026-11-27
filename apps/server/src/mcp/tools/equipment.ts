@@ -70,7 +70,7 @@ export const equipmentTools = [
     name: 'delete_equipment_profile',
     level: 'full',
     title: 'Delete an equipment profile',
-    description: 'Delete an equipment profile. Recipes that used it keep their copy of its values.',
+    description: 'Delete an equipment profile. Recipes that used it keep their copy of its values. It goes to the trash (restore_from_trash) until its time there is up (list_trash shows it).',
     input: { id: z.string() },
     run: ({ id }, ctx) => {
       deleteEquipment(ctx.db, id);
@@ -109,7 +109,7 @@ export const equipmentTools = [
     name: 'delete_vessel',
     level: 'full',
     title: 'Delete a fermenter or keg',
-    description: 'Delete a vessel. Batches that were in it keep their history; their vessel is cleared.',
+    description: 'Delete a vessel. Batches that were in it keep their history; their vessel is cleared (and set again if it is restored). It goes to the trash (restore_from_trash) until its time there is up (list_trash shows it).',
     input: { id: z.string() },
     run: ({ id }, ctx) => {
       deleteVessel(ctx.db, id);
@@ -138,7 +138,7 @@ export const equipmentTools = [
     name: 'delete_device',
     level: 'full',
     title: 'Delete a smart device',
-    description: 'Delete a smart device. Readings it already added to batches stay.',
+    description: 'Delete a smart device; its push URL stops working. Readings it already added to batches stay. It goes to the trash (restore_from_trash) until its time there is up (list_trash shows it).',
     input: { id: z.string() },
     run: ({ id }, ctx) => {
       deleteDevice(ctx.db, id);

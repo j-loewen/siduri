@@ -174,7 +174,7 @@ function fermentableData(f: J): FermentableData {
     producer: str(f.producer, 120),
     origin: str(f.origin, 120),
     productId: str(f.product_id, 120),
-    colorEbc: clamp(bj(f.color, 'color') ?? 0, 0, 5000),
+    colorEbc: clamp(bj(f.color, 'color') ?? 0, 0, 10000),
     potentialSg: clamp(potential ?? 1.037, 1, 1.05),
     fermentability: num(f.fermentability?.value) !== null ? clamp(num(f.fermentability.value)! / 100, 0, 1.2) : 1,
     moisturePct: bj(f.moisture, 'percent'),

@@ -110,6 +110,7 @@ describe('backup', () => {
       breweryLogo: made.image.id,
       defaultEquipmentId: made.equipment.id,
       defaultSourceWaterId: made.water.id,
+      trashDays: 30,
     });
     const me = (await b.get('/api/me')).json<UserDto>();
     expect(me).toMatchObject({ username: 'other', prefs: { theme: 'dark', units: { temperature: 'F' } } });
@@ -118,6 +119,21 @@ describe('backup', () => {
     const again = (await importFile(b, text)).json<BackupImportResult>();
     expect(again.added).toMatchObject({ recipes: 0, batches: 0, inventory: 0, equipment: 0, water: 0, library: 0 });
     expect(again.skipped).toMatchObject({ recipes: 1, batches: 1, inventory: 1, equipment: 2, water: 1, library: 1 });
+  });
+
+  it('links built-in items of backups made before open-brewing-data', async () => {
+    const a = await server();
+    const made = await fill(a);
+    const { file } = await exportFile(a);
+    // Older backups name built-in items by the keys of the library before.
+    file.seedRefs = { [made.seedHop.id]: 'hop:citra' };
+
+    const b = await server('other');
+    expect((await importFile(b, JSON.stringify(file))).statusCode).toBe(200);
+    const localCitra = (await b.get('/api/library?kind=hop&q=Citra')).json<LibraryItemDto[]>()[0]!;
+    expect(localCitra.seedKey).toBe('hops/varieties/citra');
+    const recipe = (await b.get(`/api/recipes/${made.recipe.id}`)).json<RecipeDto>();
+    expect(recipe.doc.hops[0]!.libraryRef).toBe(localCitra.id);
   });
 
   it('exports and imports only the chosen sections', async () => {

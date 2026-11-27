@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { cultureAttenuation, LIBRARY_KINDS, type LibraryDataMap, type LibraryItemDto } from '@brew/shared';
-import { createLibraryItem, deleteLibraryItem, getLibraryItem, listLibrary, updateLibraryItem } from '../../services/library';
+import { createLibraryItem, deleteLibraryItem, getLibraryItem, librarySubstitutes, listLibrary, updateLibraryItem } from '../../services/library';
 import { changed, tool } from '../tool';
 
 const kind = z.enum(LIBRARY_KINDS).describe('fermentable (malt, sugar, extract …), hop, culture (yeast, bacteria), misc (other ingredients incl. water salts), water (water profiles), style (beer styles)');
@@ -8,7 +8,7 @@ const data = z.record(z.string(), z.unknown());
 
 /** The values that matter when choosing an item; the full item comes from get_library_item. */
 function brief(item: LibraryItemDto) {
-  const base = { id: item.id, name: item.name, source: item.source };
+  const base = { id: item.id, name: item.name, source: item.source, builtIn: item.readOnly };
   switch (item.kind) {
     case 'fermentable': {
       const d = item.data as LibraryDataMap['fermentable'];
@@ -43,7 +43,7 @@ export const libraryTools = [
     level: 'read',
     title: 'Search the ingredient library',
     description:
-      'Find ingredients, water profiles or beer styles in the library by name or producer. Returns the key values of each; get_library_item has all of them. Without a query, lists the kind alphabetically.',
+      'Find ingredients, water profiles or beer styles in the library by name, other spelling (alias) or producer. Returns the key values of each; get_library_item has all of them. Without a query, lists the kind alphabetically.',
     input: { kind, query: z.string().max(100).optional(), limit: z.number().int().min(1).max(500).default(50) },
     run: ({ kind, query, limit }, { db }) => listLibrary(db, { kind, q: query?.trim() || undefined, limit }).map(brief),
   }),
@@ -54,6 +54,15 @@ export const libraryTools = [
     description: 'All values of one library item (ingredient, water profile or style).',
     input: { id: z.string() },
     run: ({ id }, { db }) => getLibraryItem(db, id),
+  }),
+  tool({
+    name: 'find_substitutes',
+    level: 'read',
+    title: 'Substitutes for a library item',
+    description:
+      'Built-in items that can replace a built-in malt or hop: the same kind of malt from other maltsters (and the generic one), or the substitutes listed for a hop variety. Empty for own items.',
+    input: { id: z.string() },
+    run: ({ id }, { db }) => librarySubstitutes(db, id).map(brief),
   }),
   tool({
     name: 'create_library_item',
@@ -72,7 +81,8 @@ export const libraryTools = [
     name: 'update_library_item',
     level: 'write',
     title: 'Change a library item',
-    description: 'Change values of a library item; `data` holds only the fields to change. Recipes keep their own copies of library values and are not changed.',
+    description:
+      'Change values of one of the brewery’s own library items; `data` holds only the fields to change. Built-in items (builtIn: true, from open-brewing-data) can’t be changed: create_library_item with their values makes an own copy. Recipes keep their own copies of library values and are not changed.',
     input: { id: z.string(), data },
     run: ({ id, data }, ctx) => {
       const existing = getLibraryItem(ctx.db, id);
@@ -85,7 +95,7 @@ export const libraryTools = [
     name: 'delete_library_item',
     level: 'full',
     title: 'Delete a library item',
-    description: 'Delete an item from the library. Recipes that used it keep their copy of its values.',
+    description: 'Delete one of the brewery’s own library items (built-in items can’t be deleted). Recipes that used it keep their copy of its values. It goes to the trash (restore_from_trash) until its time there is up (list_trash shows it).',
     input: { id: z.string() },
     run: ({ id }, ctx) => {
       deleteLibraryItem(ctx.db, id);

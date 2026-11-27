@@ -1,7 +1,7 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from 'react';
 import { Anchor, Button, Group, NativeSelect, Paper, PasswordInput, SegmentedControl, SimpleGrid, Stack, Text, TextInput, Title } from '@mantine/core';
 import { useTranslation } from 'react-i18next';
-import { MEASURES, METRIC_UNITS, SOURCE_URL, UNITS, US_UNITS, type Measure, type Theme, type UnitPrefs } from '@brew/shared';
+import { LIBRARY_DATA_LICENSE_URL, LIBRARY_DATA_URL, MEASURES, METRIC_UNITS, SOURCE_URL, UNITS, US_UNITS, type Measure, type Theme, type UnitPrefs } from '@brew/shared';
 import { api } from '../api';
 import { meKey, useMe, useUpdatePrefs } from '../auth';
 import { useEquipment, useSettings, useUpdateSettings } from '../data';
@@ -9,6 +9,7 @@ import { LANGUAGE_NAMES } from '../i18n';
 import { BackupSection } from '../components/BackupSection';
 import { McpConnections } from '../components/McpConnections';
 import { RecipeImagePicker } from '../components/RecipeImage';
+import { TrashKeepFor } from '../components/trash-ui';
 import { notifyError, notifyOk } from '../lib/notify';
 import { useQueryClient } from '@tanstack/react-query';
 import type { UserDto } from '@brew/shared';
@@ -90,6 +91,9 @@ export function SettingsPage() {
       </Section>
 
       <BrewerySection />
+      <Section title={t('settings.trash.title')} description={t('settings.trash.description')}>
+        <TrashKeepFor />
+      </Section>
       <Section title={t('settings.backup.title')} description={t('settings.backup.description')}>
         <BackupSection />
       </Section>
@@ -108,8 +112,12 @@ export function SettingsPage() {
         </Text>
         <Text size="sm" c="dimmed">
           {t('settings.about.data')}{' '}
-          <Anchor href="https://github.com/Wall-Brew-Co/common-beer-data" target="_blank" rel="noopener noreferrer">
-            common-beer-data
+          <Anchor href={LIBRARY_DATA_URL} target="_blank" rel="noopener noreferrer">
+            open-brewing-data
+          </Anchor>
+          ,{' '}
+          <Anchor href={LIBRARY_DATA_LICENSE_URL} target="_blank" rel="noopener noreferrer">
+            {t('settings.about.dataLicense')}
           </Anchor>{' '}
           ·{' '}
           <Anchor href="https://github.com/beerjson/beerjson" target="_blank" rel="noopener noreferrer">

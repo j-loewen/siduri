@@ -12,6 +12,7 @@ import {
 import type { Db } from '../db';
 import { batches, batchReadings, devices, vessels, type DeviceRow } from '../db/schema';
 import { notFound, parse } from '../lib/errors';
+import { keepInTrash } from './trash';
 
 const RECENT = 10;
 const newToken = () => randomBytes(24).toString('base64url');
@@ -97,8 +98,13 @@ export function regenerateToken(db: Db, id: string): DeviceDto {
   return toDeviceDto(db, db.update(devices).set({ token: newToken(), updatedAt: new Date() }).where(eq(devices.id, id)).returning().get());
 }
 
+/** Moves it to the trash; its push URL stops working until it is restored. */
 export function deleteDevice(db: Db, id: string) {
-  if (db.delete(devices).where(eq(devices.id, id)).run().changes === 0) throw notFound('Device not found');
+  db.transaction((tx) => {
+    const t = tx as unknown as Db;
+    keepInTrash(t, 'device', id);
+    if (t.delete(devices).where(eq(devices.id, id)).run().changes === 0) throw notFound('Device not found');
+  });
 }
 
 /**

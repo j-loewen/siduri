@@ -68,5 +68,12 @@ describe('pictures', () => {
     // Still used by the batch after the recipe drops it.
     await c.put(`/api/recipes/${recipe.id}`, { doc: { ...recipe.doc, image: null }, version: recipe.version });
     expect(pruneImages(db, -1)).toBe(0);
+
+    // Kept while the batch is in the trash; gone once the trash is emptied.
+    await c.delete(`/api/batches/${batch.id}`);
+    expect(pruneImages(db, -1)).toBe(0);
+    await c.delete('/api/trash');
+    expect(pruneImages(db, -1)).toBe(1);
+    expect((await c.get(`/api/images/${used.id}`)).statusCode).toBe(404);
   });
 });

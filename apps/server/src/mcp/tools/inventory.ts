@@ -120,7 +120,7 @@ export const inventoryTools = [
     name: 'delete_inventory_item',
     level: 'full',
     title: 'Delete a stock item',
-    description: 'Delete a stock item with its history.',
+    description: 'Delete a stock item with its history. It goes to the trash (restore_from_trash) until its time there is up (list_trash shows it).',
     input: { id: z.string() },
     run: ({ id }, ctx) => {
       deleteItem(ctx.db, id);

@@ -1,0 +1,1890 @@
+{
+ "fields": {
+  "fermentable": [
+   "colorEbc",
+   "diastaticPower",
+   "fermentability",
+   "grainGroup",
+   "maxInBatchPct",
+   "moisturePct",
+   "name",
+   "notes",
+   "origin",
+   "potentialSg",
+   "producer",
+   "productId",
+   "proteinPct",
+   "recommendMash",
+   "type"
+  ],
+  "hop": [
+   "alphaPct",
+   "betaPct",
+   "cohumulonePct",
+   "form",
+   "hsi",
+   "name",
+   "notes",
+   "origin",
+   "producer",
+   "purpose",
+   "substitutes",
+   "totalOil"
+  ],
+  "culture": [
+   "alcoholTolerancePct",
+   "attenuationMaxPct",
+   "attenuationMinPct",
+   "bestFor",
+   "flocculation",
+   "form",
+   "name",
+   "notes",
+   "producer",
+   "productId",
+   "tempMaxC",
+   "tempMinC",
+   "type"
+  ],
+  "style": [
+   "abvPct",
+   "carbVols",
+   "category",
+   "categoryNumber",
+   "colorEbc",
+   "examples",
+   "fg",
+   "guide",
+   "ibu",
+   "ingredients",
+   "name",
+   "notes",
+   "og",
+   "profile",
+   "styleLetter",
+   "type"
+  ]
+ },
+ "keys": {
+  "fermentable:clear-candi-sugar": {
+   "key": "fermentables/generic/clear-candi-sugar",
+   "hash": "91c710be0c22c3b5"
+  },
+  "fermentable:sucrose": {
+   "key": "fermentables/generic/sucrose",
+   "hash": "e44538ce88a254d9"
+  },
+  "fermentable:mild-malt": {
+   "key": "fermentables/generic/mild-malt",
+   "hash": "92c4df362a80da16"
+  },
+  "fermentable:pilsner-2-row-belgium": {
+   "key": "fermentables/generic/pilsner-2-row-belgium",
+   "hash": "c7d261dcb1786d7a"
+  },
+  "fermentable:wheat-flaked": {
+   "key": "fermentables/generic/wheat-flaked",
+   "hash": "e30971ab3d03b39f"
+  },
+  "fermentable:biscuit-malt": {
+   "key": "fermentables/generic/biscuit-malt",
+   "hash": "466c1820c78dea16"
+  },
+  "fermentable:grits": {
+   "key": "fermentables/generic/grits",
+   "hash": "fc6b39ed9e3a07cb"
+  },
+  "fermentable:carared": {
+   "key": "fermentables/generic/carared",
+   "hash": "444f9472cf6cf910"
+  },
+  "fermentable:oats-flaked": {
+   "key": "fermentables/generic/oats-flaked",
+   "hash": "d9c9e5e3e1733e4c"
+  },
+  "fermentable:caraamber": {
+   "key": "fermentables/generic/caraamber",
+   "hash": "0592276b2be178ff"
+  },
+  "fermentable:pale-malt-2-row-belgium": {
+   "key": "fermentables/generic/pale-malt-2-row-belgium",
+   "hash": "3a0583ec340903c3"
+  },
+  "fermentable:cane-sugar": {
+   "key": "fermentables/generic/cane-sugar",
+   "hash": "1b1648323a0afb61"
+  },
+  "fermentable:special-b-malt": {
+   "key": "fermentables/generic/special-b-malt",
+   "hash": "284618c727cf166e"
+  },
+  "fermentable:barley-raw": {
+   "key": "fermentables/generic/barley-raw",
+   "hash": "da200115fbf72092"
+  },
+  "fermentable:special-roast": {
+   "key": "fermentables/generic/special-roast",
+   "hash": "bf30d1edda67d9ef"
+  },
+  "fermentable:lactose": {
+   "key": "fermentables/generic/lactose",
+   "hash": "32e2a0304ca012d4"
+  },
+  "fermentable:light-dry-extract": {
+   "key": "fermentables/generic/light-dry-extract",
+   "hash": "07933f3a25a85e03"
+  },
+  "fermentable:beet-sugar": {
+   "key": "fermentables/generic/beet-sugar",
+   "hash": "26d71586e91bbe9a"
+  },
+  "fermentable:wheat-malt-belgium": {
+   "key": "fermentables/generic/wheat-malt-belgium",
+   "hash": "69c23e790b365086"
+  },
+  "fermentable:white-wheat-malt": {
+   "key": "fermentables/generic/white-wheat-malt",
+   "hash": "f21c1163fd445373"
+  },
+  "fermentable:black-barley-stout": {
+   "key": "fermentables/generic/black-barley-stout",
+   "hash": "2bba5d29ddf6c3c9"
+  },
+  "fermentable:victory-malt": {
+   "key": "fermentables/generic/victory-malt",
+   "hash": "efb4954598567778"
+  },
+  "fermentable:rye-flaked": {
+   "key": "fermentables/generic/rye-flaked",
+   "hash": "d897d9916c873b4a"
+  },
+  "fermentable:chocolate-malt-uk": {
+   "key": "fermentables/generic/chocolate-malt-uk",
+   "hash": "aab63dc09bca811b"
+  },
+  "fermentable:black-patent-malt": {
+   "key": "fermentables/generic/black-patent-malt",
+   "hash": "70cde3bbb52daf01"
+  },
+  "fermentable:dark-dry-extract": {
+   "key": "fermentables/generic/dark-dry-extract",
+   "hash": "a2223e49d108fa81"
+  },
+  "fermentable:belgian-candi-syrup-45l": {
+   "key": "fermentables/generic/belgian-candi-syrup-45l",
+   "hash": "ca1f5da831a9c256"
+  },
+  "fermentable:chocolate-malt": {
+   "key": "fermentables/generic/chocolate-malt",
+   "hash": "ac507f2ac49732ec"
+  },
+  "fermentable:caramunich-malt": {
+   "key": "fermentables/generic/caramunich-malt",
+   "hash": "9eaf38cffb9011e6"
+  },
+  "fermentable:munich-malt": {
+   "key": "fermentables/generic/munich-malt",
+   "hash": "077777e2f74a803c"
+  },
+  "fermentable:caramel-crystal-malt-10l": {
+   "key": "fermentables/generic/caramel-crystal-malt-10l",
+   "hash": "6e365b59faded13a"
+  },
+  "fermentable:rye-malt": {
+   "key": "fermentables/generic/rye-malt",
+   "hash": "3e67a04841d74c51"
+  },
+  "fermentable:barley-flaked": {
+   "key": "fermentables/generic/barley-flaked",
+   "hash": "da69d6b6dd74e758"
+  },
+  "fermentable:caramel-crystal-malt-120l": {
+   "key": "fermentables/generic/caramel-crystal-malt-120l",
+   "hash": "d2db79bfd4b5a8a0"
+  },
+  "fermentable:wheat-roasted": {
+   "key": "fermentables/generic/wheat-roasted",
+   "hash": "f21d07c699eb6502"
+  },
+  "fermentable:caramel-crystal-malt-20l": {
+   "key": "fermentables/generic/caramel-crystal-malt-20l",
+   "hash": "4c9149f2e81471bb"
+  },
+  "fermentable:pale-liquid-extract": {
+   "key": "fermentables/generic/pale-liquid-extract",
+   "hash": "61de28945ebe390b"
+  },
+  "fermentable:wheat-dry-extract": {
+   "key": "fermentables/generic/wheat-dry-extract",
+   "hash": "91e2fb5f46390da8"
+  },
+  "fermentable:caramel-crystal-malt-60l": {
+   "key": "fermentables/generic/caramel-crystal-malt-60l",
+   "hash": "e764bacd925562b8"
+  },
+  "fermentable:caramel-crystal-malt-140l": {
+   "key": "fermentables/generic/caramel-crystal-malt-140l",
+   "hash": "e88995a3bd5c4294"
+  },
+  "fermentable:aromatic-malt": {
+   "key": "fermentables/generic/aromatic-malt",
+   "hash": "87609bb620cdb882"
+  },
+  "fermentable:corn-syrup": {
+   "key": "fermentables/generic/corn-syrup",
+   "hash": "eccbd565a3581381"
+  },
+  "fermentable:caramel-crystal-malt-40l": {
+   "key": "fermentables/generic/caramel-crystal-malt-40l",
+   "hash": "37127bea190a9db2"
+  },
+  "fermentable:roasted-barley": {
+   "key": "fermentables/generic/roasted-barley",
+   "hash": "ff5bcf95c5c07070"
+  },
+  "fermentable:dextrose": {
+   "key": "fermentables/generic/dextrose",
+   "hash": "cc1ede171d6eaf03"
+  },
+  "fermentable:melanoiden-malt": {
+   "key": "fermentables/generic/melanoiden-malt",
+   "hash": "614f461262b7beaa"
+  },
+  "fermentable:caramel-crystal-malt-30l": {
+   "key": "fermentables/generic/caramel-crystal-malt-30l",
+   "hash": "d56c3bd767405967"
+  },
+  "fermentable:pilsner-liquid-extract": {
+   "key": "fermentables/generic/pilsner-liquid-extract",
+   "hash": "7474a58dfab843c2"
+  },
+  "fermentable:wheat-torrified": {
+   "key": "fermentables/generic/wheat-torrified",
+   "hash": "cf0cd2e4bac0b653"
+  },
+  "fermentable:corn-flaked": {
+   "key": "fermentables/generic/corn-flaked",
+   "hash": "f4c71add9bb0b8df"
+  },
+  "fermentable:brown-malt": {
+   "key": "fermentables/generic/brown-malt",
+   "hash": "6b771dbc73f23a30"
+  },
+  "fermentable:munich-malt-10l": {
+   "key": "fermentables/generic/munich-malt-10l",
+   "hash": "beb0f53c0a25421f"
+  },
+  "fermentable:peat-smoked-malt": {
+   "key": "fermentables/generic/peat-smoked-malt",
+   "hash": "8dd86b1e9b464667"
+  },
+  "fermentable:pale-malt-6-row-usa": {
+   "key": "fermentables/generic/pale-malt-6-row-usa",
+   "hash": "774f93ef971e1230"
+  },
+  "fermentable:pilsner-2-row-germany": {
+   "key": "fermentables/generic/pilsner-2-row-germany",
+   "hash": "f86c67e92cef103a"
+  },
+  "fermentable:pilsner-2-row-uk": {
+   "key": "fermentables/generic/pilsner-2-row-uk",
+   "hash": "9cfb913bb7018ff0"
+  },
+  "fermentable:table-sugar": {
+   "key": "fermentables/generic/table-sugar",
+   "hash": "3ae0964373a06b2a"
+  },
+  "fermentable:munich-malt-20l": {
+   "key": "fermentables/generic/munich-malt-20l",
+   "hash": "443aa077cd8851aa"
+  },
+  "fermentable:oats-malted": {
+   "key": "fermentables/generic/oats-malted",
+   "hash": "57ddbfe7b7fab42d"
+  },
+  "fermentable:amber-malt": {
+   "key": "fermentables/generic/amber-malt",
+   "hash": "a2b32496c2afd462"
+  },
+  "fermentable:pale-malt-2-row-usa": {
+   "key": "fermentables/generic/pale-malt-2-row-usa",
+   "hash": "8a9d246e25bfff04"
+  },
+  "fermentable:sorghum-syrup": {
+   "key": "fermentables/generic/sorghum-syrup",
+   "hash": "772abcb490a42398"
+  },
+  "fermentable:pale-malt-2-row-uk": {
+   "key": "fermentables/generic/pale-malt-2-row-uk",
+   "hash": "1b5359fbd072965c"
+  },
+  "fermentable:wheat-liquid-extract": {
+   "key": "fermentables/generic/wheat-liquid-extract",
+   "hash": "1be2891e9629ca42"
+  },
+  "fermentable:smoked-malt": {
+   "key": "fermentables/generic/smoked-malt",
+   "hash": "3291b9e67df75037"
+  },
+  "fermentable:rice-hulls": {
+   "key": "fermentables/generic/rice-hulls",
+   "hash": "e135af8601a4b1f8"
+  },
+  "fermentable:molasses": {
+   "key": "fermentables/generic/molasses",
+   "hash": "9f50dc7394e1d0fa"
+  },
+  "fermentable:barley-hulls": {
+   "key": "fermentables/generic/barley-hulls",
+   "hash": "f58dcc985a365fb5"
+  },
+  "fermentable:cara-pils-dextrine": {
+   "key": "fermentables/generic/cara-pils-dextrine",
+   "hash": "75bcdd8eb4ad4fe1"
+  },
+  "fermentable:rice-extract-syrup": {
+   "key": "fermentables/generic/rice-extract-syrup",
+   "hash": "5b6ed3a3e664d72a"
+  },
+  "fermentable:amber-dry-extract": {
+   "key": "fermentables/generic/amber-dry-extract",
+   "hash": "5502b259b7ba387b"
+  },
+  "fermentable:rye-liquid-extract": {
+   "key": "fermentables/generic/rye-liquid-extract",
+   "hash": "28bcb4a834fdcfcf"
+  },
+  "fermentable:caramel-crystal-malt-160l": {
+   "key": "fermentables/generic/caramel-crystal-malt-160l",
+   "hash": "e21421a8ff442aa9"
+  },
+  "fermentable:brumalt": {
+   "key": "fermentables/generic/brumalt",
+   "hash": "c93e97be1f4b24bd"
+  },
+  "fermentable:honey": {
+   "key": "fermentables/generic/honey",
+   "hash": "86c982885afb8e79"
+  },
+  "fermentable:wheat-malt-germany": {
+   "key": "fermentables/generic/wheat-malt-germany",
+   "hash": "7c0f2fbd3b6654ac"
+  },
+  "fermentable:belgian-candi-syrup-180l": {
+   "key": "fermentables/generic/belgian-candi-syrup-180l",
+   "hash": "73d00975a6a7fba2"
+  },
+  "fermentable:dark-liquid-extract": {
+   "key": "fermentables/generic/dark-liquid-extract",
+   "hash": "1716589f517c46da"
+  },
+  "fermentable:milk-sugar": {
+   "key": "fermentables/generic/milk-sugar",
+   "hash": "204eb2fcf934fc7b"
+  },
+  "fermentable:caravienne-malt": {
+   "key": "fermentables/generic/caravienne-malt",
+   "hash": "fa2ae6898b12e1ef"
+  },
+  "fermentable:amber-liquid-extract": {
+   "key": "fermentables/generic/amber-liquid-extract",
+   "hash": "6dc5c371d7a60419"
+  },
+  "fermentable:carafoam": {
+   "key": "fermentables/generic/carafoam",
+   "hash": "6677581a4cde5a9d"
+  },
+  "fermentable:demerara-sugar": {
+   "key": "fermentables/generic/demerara-sugar",
+   "hash": "4aed170bb842a2e9"
+  },
+  "fermentable:dextrine": {
+   "key": "fermentables/generic/dextrine",
+   "hash": "b30054355b1bd01f"
+  },
+  "fermentable:vienna-malt": {
+   "key": "fermentables/generic/vienna-malt",
+   "hash": "0b63c8da5a3d4c85"
+  },
+  "fermentable:caramel-crystal-malt-80l": {
+   "key": "fermentables/generic/caramel-crystal-malt-80l",
+   "hash": "13b9a3b075596281"
+  },
+  "fermentable:turbinado": {
+   "key": "fermentables/generic/turbinado",
+   "hash": "b4c156420c53eeaa"
+  },
+  "fermentable:corn-sugar": {
+   "key": "fermentables/generic/corn-sugar",
+   "hash": "8380c4a91f387bda"
+  },
+  "fermentable:invert-sugar": {
+   "key": "fermentables/generic/invert-sugar",
+   "hash": "2da24699ed51e1b0"
+  },
+  "fermentable:toasted-malt": {
+   "key": "fermentables/generic/toasted-malt",
+   "hash": "b19fe9741bffdcfc"
+  },
+  "fermentable:dark-brown-sugar": {
+   "key": "fermentables/generic/dark-brown-sugar",
+   "hash": "b2ada5bcf96a27d9"
+  },
+  "fermentable:belgian-candi-syrup-90l": {
+   "key": "fermentables/generic/belgian-candi-syrup-90l",
+   "hash": "33b3f10f6d909439"
+  },
+  "fermentable:light-brown-sugar": {
+   "key": "fermentables/generic/light-brown-sugar",
+   "hash": "d4a75f5edbc0cf58"
+  },
+  "fermentable:rice-flaked": {
+   "key": "fermentables/generic/rice-flaked",
+   "hash": "423c5a899f915a0d"
+  },
+  "fermentable:caramel-crystal-malt-90l": {
+   "key": "fermentables/generic/caramel-crystal-malt-90l",
+   "hash": "fcb12a7496ccf0cc"
+  },
+  "fermentable:barley-torrefied": {
+   "key": "fermentables/generic/barley-torrefied",
+   "hash": "c34097d0a6458e19"
+  },
+  "fermentable:maple-syrup": {
+   "key": "fermentables/generic/maple-syrup",
+   "hash": "52af71eae9bd2975"
+  },
+  "fermentable:acid-malt": {
+   "key": "fermentables/generic/acid-malt",
+   "hash": "2d1688f21d6fe61b"
+  },
+  "fermentable:maris-otter-pale-malt": {
+   "key": "fermentables/generic/maris-otter-pale-malt",
+   "hash": "4a49139522179e8a"
+  },
+  "fermentable:extra-light-dry-extract": {
+   "key": "fermentables/generic/extra-light-dry-extract",
+   "hash": "b180c7f10a6750b1"
+  },
+  "fermentable:dark-wheat-malt": {
+   "key": "fermentables/generic/dark-wheat-malt",
+   "hash": "757fc97fcc0b0d88"
+  },
+  "hop:summit": {
+   "key": "hops/varieties/summit",
+   "hash": "0c1ee649a95d250b"
+  },
+  "hop:columbus": {
+   "key": "hops/varieties/columbus",
+   "hash": "bba68593a2f8d15f"
+  },
+  "hop:el-dorado": {
+   "key": "hops/varieties/el-dorado",
+   "hash": "d8376d67b01e0c11"
+  },
+  "hop:celeia": {
+   "key": "hops/varieties/celeia",
+   "hash": "c8a5fd9e076cdecb"
+  },
+  "hop:crystal": {
+   "key": "hops/varieties/crystal",
+   "hash": "17d3386c33113239"
+  },
+  "hop:chelan": {
+   "key": "hops/varieties/chelan",
+   "hash": "5217f7acee1598e0"
+  },
+  "hop:liberty": {
+   "key": "hops/varieties/liberty",
+   "hash": "9a0813ab553bf4a3"
+  },
+  "hop:cluster": {
+   "key": "hops/varieties/cluster",
+   "hash": "37fe4e0a3306cf30"
+  },
+  "hop:perle-us": {
+   "key": "hops/varieties/perle-us",
+   "hash": "222fc3d1aa88342a"
+  },
+  "hop:tillicum": {
+   "key": "hops/varieties/tillicum",
+   "hash": "a4be549eb1469bf2"
+  },
+  "hop:glacier": {
+   "key": "hops/varieties/glacier",
+   "hash": "880c421136d4c4fc"
+  },
+  "hop:mt-hood": {
+   "key": "hops/varieties/mt-hood",
+   "hash": "6a5c1f28b43db7dc"
+  },
+  "hop:simcoe": {
+   "key": "hops/varieties/simcoe",
+   "hash": "d54d30eabe1fbad7"
+  },
+  "hop:cascade": {
+   "key": "hops/varieties/cascade",
+   "hash": "a7a7e2c9c96bc479"
+  },
+  "hop:willamette": {
+   "key": "hops/varieties/willamette",
+   "hash": "188d69473505a6d1"
+  },
+  "hop:spalt": {
+   "key": "hops/varieties/spalter",
+   "hash": "d7dc8b16bba97bd1"
+  },
+  "hop:sterling": {
+   "key": "hops/varieties/sterling",
+   "hash": "0567327121d788f1"
+  },
+  "hop:eroica": {
+   "key": "hops/varieties/eroica",
+   "hash": "c579172da7d91919"
+  },
+  "hop:northdown": {
+   "key": "hops/varieties/northdown",
+   "hash": "f3c7d5c243a99163"
+  },
+  "hop:strisselspalt": {
+   "key": "hops/varieties/strisselspalt",
+   "hash": "d1603a68b3741829"
+  },
+  "hop:brewer-s-gold-us": {
+   "key": "hops/varieties/brewers-gold-us",
+   "hash": "e8ad401a2ef012f9"
+  },
+  "hop:nugget": {
+   "key": "hops/varieties/nugget",
+   "hash": "18e71950c5b8dad6"
+  },
+  "hop:horizon": {
+   "key": "hops/varieties/horizon",
+   "hash": "3562cc16bc5e7e01"
+  },
+  "hop:ultra": {
+   "key": "hops/varieties/ultra",
+   "hash": "681f092677e48038"
+  },
+  "hop:ahtanum": {
+   "key": "hops/varieties/ahtanum",
+   "hash": "92f3fa3e5d127de4"
+  },
+  "hop:mosaic": {
+   "key": "hops/varieties/mosaic",
+   "hash": "cc4e4b8c770d96f3"
+  },
+  "hop:bravo": {
+   "key": "hops/varieties/bravo",
+   "hash": "b984fece5b787614"
+  },
+  "hop:challenger": {
+   "key": "hops/varieties/wye-challenger",
+   "hash": "f63da3806fe8e540"
+  },
+  "hop:golding-us": {
+   "key": "hops/varieties/golding-us",
+   "hash": "7f83e5f04ff0382a"
+  },
+  "hop:magnum-us": {
+   "key": "hops/varieties/magnum-us",
+   "hash": "b5bd7a005e442e43"
+  },
+  "hop:galaxy": {
+   "key": "hops/varieties/galaxy",
+   "hash": "ba5a65824c2f2bd3"
+  },
+  "hop:apollo": {
+   "key": "hops/varieties/apollo",
+   "hash": "f695e5f008ce8f76"
+  },
+  "hop:ctz": {
+   "key": "hops/varieties/ctz",
+   "hash": "4511e5b95469b324"
+  },
+  "hop:fuggle-us": {
+   "key": "hops/varieties/fuggle-us",
+   "hash": "bd71d69bf129bdaa"
+  },
+  "hop:santiam": {
+   "key": "hops/varieties/santiam",
+   "hash": "ddd77114e838f78b"
+  },
+  "hop:delta": {
+   "key": "hops/varieties/delta",
+   "hash": "5c5a4dc7bb772e27"
+  },
+  "hop:super-galena": {
+   "key": "hops/varieties/super-galena",
+   "hash": "07370d60f097e35a"
+  },
+  "hop:bullion": {
+   "key": "hops/varieties/bullion",
+   "hash": "e1b6d99722477efc"
+  },
+  "hop:tettnanger": {
+   "key": "hops/varieties/tettnanger",
+   "hash": "88892391eb461b61"
+  },
+  "hop:citra": {
+   "key": "hops/varieties/citra",
+   "hash": "86a3a2626a9810a2"
+  },
+  "hop:saaz-us": {
+   "key": "hops/varieties/saaz-us",
+   "hash": "77857a7906512afd"
+  },
+  "hop:east-kent-golding": {
+   "key": "hops/varieties/east-kent-golding",
+   "hash": "f10b575766d9af16"
+  },
+  "hop:warrior": {
+   "key": "hops/varieties/warrior",
+   "hash": "25a333d5ff67e65c"
+  },
+  "hop:millennium": {
+   "key": "hops/varieties/millennium",
+   "hash": "4b7770d57dbd706f"
+  },
+  "hop:chinook": {
+   "key": "hops/varieties/chinook",
+   "hash": "47f7a1451349bc99"
+  },
+  "hop:newport": {
+   "key": "hops/varieties/newport",
+   "hash": "b3c929a3f86542ee"
+  },
+  "hop:palisade": {
+   "key": "hops/varieties/palisade",
+   "hash": "14e81a4be48a9454"
+  },
+  "hop:centennial": {
+   "key": "hops/varieties/centennial",
+   "hash": "2c9f49f9989ed49d"
+  },
+  "hop:hallertau-us": {
+   "key": "hops/varieties/hallertau-us",
+   "hash": "d561c3e348bf7112"
+  },
+  "hop:northern-brewer": {
+   "key": "hops/varieties/northern-brewer",
+   "hash": "5d230848f5630ce5"
+  },
+  "hop:amarillo": {
+   "key": "hops/varieties/amarillo",
+   "hash": "796bc6d668d162df"
+  },
+  "hop:topaz": {
+   "key": "hops/varieties/topaz",
+   "hash": "468efe1937aba409"
+  },
+  "hop:vanguard": {
+   "key": "hops/varieties/vanguard",
+   "hash": "a8817ca138e0675e"
+  },
+  "hop:galena": {
+   "key": "hops/varieties/galena",
+   "hash": "8af21d8e95496a34"
+  },
+  "culture:cl-0670-swiss-lager": {
+   "key": "cultures/brewtek/cl-0670-swiss-lager",
+   "hash": "1332389ab2486f2f"
+  },
+  "culture:2042-danish-lager": {
+   "key": "cultures/wyeast/2042-danish-lager",
+   "hash": "db4fc198a0d0cca9"
+  },
+  "culture:wlp749-assmanshausen-wine-yeast": {
+   "key": "cultures/white-labs/wlp749-assmanshausen-wine-yeast",
+   "hash": "0808a906cd8d7357"
+  },
+  "culture:wlp013-london-ale": {
+   "key": "cultures/white-labs/wlp013-london-ale-yeast",
+   "hash": "182897a77e5624ae"
+  },
+  "culture:wlp650-brettanomyces-bruxellensis": {
+   "key": "cultures/white-labs/wlp650-brettanomyces-bruxellensis",
+   "hash": "517bb50f0cd99e90"
+  },
+  "culture:2272-north-american-lager": {
+   "key": "cultures/wyeast/2272-north-american-lager",
+   "hash": "d2e0d77aac5f0d82"
+  },
+  "culture:1056-american-ale": {
+   "key": "cultures/wyeast/1056-american-ale",
+   "hash": "69e5ce529fe8f5fb"
+  },
+  "culture:1026-british-cask-ale": {
+   "key": "cultures/wyeast/1026-british-cask-ale",
+   "hash": "255379fc0b1eec4c"
+  },
+  "culture:k-97-safale-german-ale": {
+   "key": "cultures/fermentis/safale-k-97",
+   "hash": "a002dff41c201363"
+  },
+  "culture:cl-0650-old-bavarian-lager": {
+   "key": "cultures/brewtek/cl-0650-old-bavarian-lager",
+   "hash": "9036412b57b90ab5"
+  },
+  "culture:wlp001-california-ale": {
+   "key": "cultures/white-labs/wlp001-california-ale-yeast",
+   "hash": "8ce189fb1089c839"
+  },
+  "culture:wlp920-old-bavarian-lager": {
+   "key": "cultures/white-labs/wlp920-old-bavarian-lager-yeast",
+   "hash": "7b0571461f98edf3"
+  },
+  "culture:1098-british-ale-yeast": {
+   "key": "cultures/wyeast/1098-british-ale",
+   "hash": "49fb7cbf3f9bb9bb"
+  },
+  "culture:wlp002-english-ale": {
+   "key": "cultures/white-labs/wlp002-english-ale-yeast",
+   "hash": "f68747fefefebe90"
+  },
+  "culture:wlp051-california-ale-v": {
+   "key": "cultures/white-labs/wlp051-california-v-ale-yeast",
+   "hash": "10d90c1722a0a734"
+  },
+  "culture:wlp033-klassic-ale-yeast": {
+   "key": "cultures/white-labs/wlp033-klassic-ale-yeast",
+   "hash": "bd58d1b6fe979f89"
+  },
+  "culture:1087-wyeast-ale-blend": {
+   "key": "cultures/wyeast/1087-wyeast-bohemian-ale-blend",
+   "hash": "79953dc7f797f087"
+  },
+  "culture:cl-0320-belgian-ale-2": {
+   "key": "cultures/brewtek/cl-0320-belgian-ale-2",
+   "hash": "62a393dd22e7402e"
+  },
+  "culture:3711-french-saison": {
+   "key": "cultures/wyeast/3711-french-saison",
+   "hash": "c222d31badf2f6a0"
+  },
+  "culture:2124-bohemian-lager": {
+   "key": "cultures/wyeast/2124-bohemian-lager",
+   "hash": "811c232cdd2c7c2c"
+  },
+  "culture:wlp885-zurich-lager": {
+   "key": "cultures/white-labs/wlp885-zurich-lager-yeast",
+   "hash": "936a823d27b483c6"
+  },
+  "culture:wlp023-burton-ale": {
+   "key": "cultures/white-labs/wlp023-burton-ale-yeast",
+   "hash": "86edde63eefe300a"
+  },
+  "culture:wlp568-belgian-style-saison-ale-yeast-blend": {
+   "key": "cultures/white-labs/wlp568-belgian-style-saison-ale-yeast-blend",
+   "hash": "7174708b45f499d5"
+  },
+  "culture:wlp060-american-ale-yeast-blend": {
+   "key": "cultures/white-labs/wlp060-american-ale-yeast-blend",
+   "hash": "435a9d42bcb59f0c"
+  },
+  "culture:2001-urquell-lager": {
+   "key": "cultures/wyeast/2001-pilsner-urquell-h-strain",
+   "hash": "4e289f5734eafc5e"
+  },
+  "culture:wlp570-belgian-golden-ale": {
+   "key": "cultures/white-labs/wlp570-belgian-golden-ale-yeast",
+   "hash": "51ad9f39d1796898"
+  },
+  "culture:wlp007-dry-english-ale": {
+   "key": "cultures/white-labs/wlp007-crisp-english-ale-yeast",
+   "hash": "01b28ef5fb6711b9"
+  },
+  "culture:cl-5200-brettanomyces-lambicus": {
+   "key": "cultures/brewtek/cl-5200-brettanomyces-lambicus",
+   "hash": "b69cae7107165c34"
+  },
+  "culture:wlp775-english-cider-yeast": {
+   "key": "cultures/white-labs/wlp775-english-cider-yeast",
+   "hash": "794d7893b3eb779d"
+  },
+  "culture:2278-czech-pilsner-lager": {
+   "key": "cultures/wyeast/2278-czech-pils",
+   "hash": "496cfcb7cd0344d9"
+  },
+  "culture:1332-northwest-ale": {
+   "key": "cultures/wyeast/1332-northwest-ale",
+   "hash": "23d0edf01461a43b"
+  },
+  "culture:cl-0920-german-wheat-bt": {
+   "key": "cultures/brewtek/cl-0920-german-wheat-bt",
+   "hash": "a3bc465177de07ff"
+  },
+  "culture:wlp550-belgian-ale": {
+   "key": "cultures/white-labs/wlp550-belgian-ale-yeast",
+   "hash": "90f4f751f1b87794"
+  },
+  "culture:cl-0260-canadian-ale": {
+   "key": "cultures/brewtek/cl-0260-canadian-ale",
+   "hash": "df370dc37692df7b"
+  },
+  "culture:cl-0050-california-pub-ale": {
+   "key": "cultures/brewtek/cl-0050-california-pub-ale",
+   "hash": "dda694fe619b1b45"
+  },
+  "culture:wlp566-belgian-saison-ii-yeast": {
+   "key": "cultures/white-labs/wlp566-belgian-saison-ii-ale-yeast",
+   "hash": "4b5eba06821cb130"
+  },
+  "culture:1187-ringwood-ale": {
+   "key": "cultures/wyeast/1187-ringwood-ale",
+   "hash": "ca4c40434c7a012a"
+  },
+  "culture:1275-thames-valley-ale": {
+   "key": "cultures/wyeast/1275-thames-valley-ale",
+   "hash": "192d8e3a7a8e3abb"
+  },
+  "culture:3522-belgian-ardennes": {
+   "key": "cultures/wyeast/3522-belgian-ardennes",
+   "hash": "e5787232c3ebb928"
+  },
+  "culture:cl-0170-classic-british-ale": {
+   "key": "cultures/brewtek/cl-0170-classic-british-ale",
+   "hash": "62192af90cf1ad01"
+  },
+  "culture:wlp041-pacific-ale": {
+   "key": "cultures/white-labs/wlp041-pacific-ale-yeast",
+   "hash": "ce37f91c7edde237"
+  },
+  "culture:wlp670-american-farmhouse-blend": {
+   "key": "cultures/white-labs/wlp670-american-farmhouse-blend",
+   "hash": "4c17d2ebd0ac73f5"
+  },
+  "culture:w-34-70-saflager-lager": {
+   "key": "cultures/fermentis/saflager-w-34-70",
+   "hash": "7a65dcd4b552637d"
+  },
+  "culture:wlp037-yorkshire-square-ale-yeast": {
+   "key": "cultures/white-labs/wlp037-yorkshire-square-ale-yeast",
+   "hash": "1fe537b584bedd51"
+  },
+  "culture:wlp802-czech-budejovice-lager": {
+   "key": "cultures/white-labs/wlp802-czech-budejovice-lager-yeast",
+   "hash": "6c79d66cd6d8b3e9"
+  },
+  "culture:wlp540-abbey-iv-ale-yeast": {
+   "key": "cultures/white-labs/wlp540-abbey-iv-ale-yeast",
+   "hash": "eae655a13de30e0f"
+  },
+  "culture:cl-0010-american-microbrewery-ale-1": {
+   "key": "cultures/brewtek/cl-0010-american-microbrewery-ale-1",
+   "hash": "9ec0f1ae1ae2b376"
+  },
+  "culture:cl-0240-irish-dry-stout": {
+   "key": "cultures/brewtek/cl-0240-irish-dry-stout",
+   "hash": "6e6024f2431daf8c"
+  },
+  "culture:wlp351-bavarian-weizen-yeast": {
+   "key": "cultures/white-labs/wlp351-bavarian-weizen-ale-yeast",
+   "hash": "8aa7ff571230aa07"
+  },
+  "culture:cl-0900-belgian-wheat": {
+   "key": "cultures/brewtek/cl-0900-belgian-wheat",
+   "hash": "602ff00133782d65"
+  },
+  "culture:3056-bavarian-wheat-yeast": {
+   "key": "cultures/wyeast/3056-bavarian-wheat-blend",
+   "hash": "0bbf8a1883ee65e5"
+  },
+  "culture:cl-0660-northern-german-lager": {
+   "key": "cultures/brewtek/cl-0660-northern-german-lager",
+   "hash": "ba08f03efaa6ec72"
+  },
+  "culture:wlp815-belgian-lager-yeast": {
+   "key": "cultures/white-labs/wlp815-belgian-lager-yeast",
+   "hash": "1e7bdf1259db252c"
+  },
+  "culture:wlp630-berliner-weisse-blend": {
+   "key": "cultures/white-labs/wlp630-berliner-weisse-blend",
+   "hash": "83097b1bf953dbc3"
+  },
+  "culture:cl-0630-american-microbrewery-lager": {
+   "key": "cultures/brewtek/cl-0630-american-microbrewery-lager",
+   "hash": "6188b3f01b490cb1"
+  },
+  "culture:cl-0200-scottish-ale": {
+   "key": "cultures/brewtek/cl-0200-scottish-ale",
+   "hash": "fb1740cf0d3b24cd"
+  },
+  "culture:cl-0620-american-megabrewery": {
+   "key": "cultures/brewtek/cl-0620-american-megabrewery",
+   "hash": "6e5e1f8db49c9560"
+  },
+  "culture:s-189-saflager-german-lager": {
+   "key": "cultures/fermentis/saflager-s-189",
+   "hash": "7073c6fc7057f17a"
+  },
+  "culture:wlp090-san-diego-super-yeast": {
+   "key": "cultures/white-labs/wlp090-san-diego-super-ale-yeast",
+   "hash": "d82e420900569e2b"
+  },
+  "culture:4335-lactobacillus-delbrueckii": {
+   "key": "cultures/wyeast/4335-lactobacillus-delbrueckii",
+   "hash": "300f5799c8c334a8"
+  },
+  "culture:1450-denny-s-favorite-50": {
+   "key": "cultures/wyeast/1450-dennys-favorite-50",
+   "hash": "32530352074cd880"
+  },
+  "culture:cl-0020-american-microbrewery-ale-2": {
+   "key": "cultures/brewtek/cl-0020-american-microbrewery-ale-2",
+   "hash": "7ec64a51492447fc"
+  },
+  "culture:1388-belgian-strong-ale": {
+   "key": "cultures/wyeast/1388-belgian-strong-ale",
+   "hash": "24b24e791fb5b467"
+  },
+  "culture:wlp700-flor-sherry-yeast": {
+   "key": "cultures/white-labs/wlp700-flor-sherry-yeast",
+   "hash": "71cc319832da5002"
+  },
+  "culture:3068-weihenstephan-weizen": {
+   "key": "cultures/wyeast/3068-weihenstephan-weizen",
+   "hash": "3fc0bb109112f019"
+  },
+  "culture:wlp760-cabernet-red-wine-yeast": {
+   "key": "cultures/white-labs/wlp760-cabernet-red-wine-yeast",
+   "hash": "ef31453a33999452"
+  },
+  "culture:3638-bavarian-wheat": {
+   "key": "cultures/wyeast/3638-bavarian-wheat",
+   "hash": "790af703f6349c26"
+  },
+  "culture:wlp006-bedford-british-ale": {
+   "key": "cultures/white-labs/wlp006-bedford-british-ale-yeast",
+   "hash": "e9f05eb13f3ce1a3"
+  },
+  "culture:1762-belgian-abbey-ii": {
+   "key": "cultures/wyeast/1762-belgian-abbey-style-ale-ii",
+   "hash": "7eadc7e4cad160dd"
+  },
+  "culture:wlp515-antwerp-ale-yeast": {
+   "key": "cultures/white-labs/wlp515-antwerp-ale-yeast",
+   "hash": "1fa50d0bedc607e3"
+  },
+  "culture:wlp740-merlot-red-wine-yeast": {
+   "key": "cultures/white-labs/wlp740-merlot-red-wine-yeast",
+   "hash": "3b6012176ee48a29"
+  },
+  "culture:s-04-safale-english-ale": {
+   "key": "cultures/fermentis/safale-s-04",
+   "hash": "0acf3dcda2cb2e2b"
+  },
+  "culture:wlp677-lactobacillus-bacteria": {
+   "key": "cultures/white-labs/wlp677-lactobacillus-delbrueckii",
+   "hash": "dca0d234ac03649f"
+  },
+  "culture:cl-0690-california-esteem-gold": {
+   "key": "cultures/brewtek/cl-0690-california-esteem-gold",
+   "hash": "83e30536bef7ae2d"
+  },
+  "culture:wlp565-belgian-saison-i-ale": {
+   "key": "cultures/white-labs/wlp565-belgian-saison-i-ale-yeast",
+   "hash": "183a023646bac2fc"
+  },
+  "culture:wlp022-essex-ale-yeast": {
+   "key": "cultures/white-labs/wlp022-essex-ale-yeast",
+   "hash": "07ccba8916dae9fc"
+  },
+  "culture:1338-european-ale-yeast": {
+   "key": "cultures/wyeast/1338-european-ale-yeast",
+   "hash": "76dcd9a877aa03ba"
+  },
+  "culture:71b-1122-lalvin": {
+   "key": "cultures/lallemand/lalvin-71b",
+   "hash": "b2ad1fe171a76769"
+  },
+  "culture:cl-0980-american-white-ale": {
+   "key": "cultures/brewtek/cl-0980-american-white-ale",
+   "hash": "5ab81b68d34fe51b"
+  },
+  "culture:wlp715-champagne-yeast": {
+   "key": "cultures/white-labs/wlp715-champagne-yeast",
+   "hash": "b5fffe7cf2e0581c"
+  },
+  "culture:wlp320-american-hefeweizen-ale": {
+   "key": "cultures/white-labs/wlp320-american-hefeweizen-ale-yeast",
+   "hash": "17b78237d83882fc"
+  },
+  "culture:3278-belgian-lambic-blend": {
+   "key": "cultures/wyeast/3278-belgian-lambic-blend",
+   "hash": "fafee93007a5f96f"
+  },
+  "culture:rc-212-lalvin": {
+   "key": "cultures/lallemand/lalvin-bourgovin-rc212",
+   "hash": "6b06ef3e137fd8f0"
+  },
+  "culture:wlp800-pilsner-lager": {
+   "key": "cultures/white-labs/wlp800-pilsner-lager-yeast",
+   "hash": "d1840ac5180e8b22"
+  },
+  "culture:1007-german-ale": {
+   "key": "cultures/wyeast/1007-german-ale",
+   "hash": "9976db41231f6712"
+  },
+  "culture:wb-06-safbrew-wheat": {
+   "key": "cultures/fermentis/safale-wb-06",
+   "hash": "3f3b417b1c425dc1"
+  },
+  "culture:2178-wyeast-lager-blend": {
+   "key": "cultures/wyeast/2178-wyeast-lager-blend",
+   "hash": "408747392b3af60a"
+  },
+  "culture:wlp705-sake-yeast": {
+   "key": "cultures/white-labs/wlp705-sake-yeast-7",
+   "hash": "c9bc0ad8ca6bd0be"
+  },
+  "culture:wlp750-french-red-wine-yeast": {
+   "key": "cultures/white-labs/wlp750-french-red-wine-yeast",
+   "hash": "4285779b895ae7df"
+  },
+  "culture:cl-0120-british-pale-ale-1": {
+   "key": "cultures/brewtek/cl-0120-british-pale-ale-1",
+   "hash": "672f2d033fb8ac14"
+  },
+  "culture:wlp840-american-lager-yeast": {
+   "key": "cultures/white-labs/wlp840-american-lager-yeast",
+   "hash": "9d07e6d48eb123d5"
+  },
+  "culture:wlp675-malolactic-bacteria": {
+   "key": "cultures/white-labs/wlp675-malolactic-cultures",
+   "hash": "a09077f63bc73e5d"
+  },
+  "culture:wlp028-edinburgh-ale": {
+   "key": "cultures/white-labs/wlp028-edinburgh-scottish-ale-yeast",
+   "hash": "b4d530c6c3521bd3"
+  },
+  "culture:wlp003-german-ale-ii": {
+   "key": "cultures/white-labs/wlp003-german-ale-ii-yeast",
+   "hash": "aa05fc4ed2902ec9"
+  },
+  "culture:t-58-safbrew-specialty-ale": {
+   "key": "cultures/fermentis/safale-t-58",
+   "hash": "8e8e506f1521f708"
+  },
+  "culture:wlp039-nottingham-ale-yeast": {
+   "key": "cultures/white-labs/wlp039-east-midlands-ale-yeast",
+   "hash": "3719b8e8267266ef"
+  },
+  "culture:d-47-lalvin": {
+   "key": "cultures/lallemand/lalvin-icv-d47",
+   "hash": "232344ed1c1c0318"
+  },
+  "culture:wlp830-german-lager": {
+   "key": "cultures/white-labs/wlp830-german-lager-yeast",
+   "hash": "045483b8c82d74bf"
+  },
+  "culture:wlp005-british-ale": {
+   "key": "cultures/white-labs/wlp005-british-ale-yeast",
+   "hash": "3e0c706276d0a6fa"
+  },
+  "culture:1968-london-esb-ale": {
+   "key": "cultures/wyeast/1968-london-esb-ale",
+   "hash": "3dd03a0b6077af49"
+  },
+  "culture:1099-whitbread-ale": {
+   "key": "cultures/wyeast/1099-whitbread-ale",
+   "hash": "e9cfde896290ddbe"
+  },
+  "culture:cl-0160-british-draft-ale": {
+   "key": "cultures/brewtek/cl-0160-british-draft-ale",
+   "hash": "34052d438f300dec"
+  },
+  "culture:cl-0930-german-weiss": {
+   "key": "cultures/brewtek/cl-0930-german-weiss",
+   "hash": "2c51d038652d7cf4"
+  },
+  "culture:wlp655-belgian-sour-mix-1": {
+   "key": "cultures/white-labs/wlp655-belgian-sour-mix-1",
+   "hash": "f6dc08e4559b196f"
+  },
+  "culture:cl-0400-old-german-ale": {
+   "key": "cultures/brewtek/cl-0400-old-german-ale",
+   "hash": "c62ea64ef88fe757"
+  },
+  "culture:wlp080-cream-ale-yeast-blend": {
+   "key": "cultures/white-labs/wlp080-cream-ale-yeast-blend",
+   "hash": "844ec34be18d6126"
+  },
+  "culture:wlp645-brettanomyces-claussenii": {
+   "key": "cultures/white-labs/wlp645-brettanomyces-claussenii",
+   "hash": "d4f4b5baaee9e115"
+  },
+  "culture:wlp026-premium-bitter-ale": {
+   "key": "cultures/white-labs/wlp026-premium-bitter-ale-yeast",
+   "hash": "fc9d3ee9f296f580"
+  },
+  "culture:2565-kolsch-yeast": {
+   "key": "cultures/wyeast/2565-kolsch",
+   "hash": "a770f00691ad4f39"
+  },
+  "culture:5733-pediococcus": {
+   "key": "cultures/wyeast/5733-pediococcus-damnosus",
+   "hash": "b55b6746f8b6a91b"
+  },
+  "culture:3463-forbidden-fruit": {
+   "key": "cultures/wyeast/3463-forbidden-fruit",
+   "hash": "d3267ed03a193c81"
+  },
+  "culture:us-05-safale-american": {
+   "key": "cultures/fermentis/safale-us-05",
+   "hash": "f7e3a00bfd527b84"
+  },
+  "culture:wlp820-octoberfest-marzen-lager": {
+   "key": "cultures/white-labs/wlp820-oktoberfest-marzen-lager-yeast",
+   "hash": "c50d6fd40fcab402"
+  },
+  "culture:wlp500-trappist-ale": {
+   "key": "cultures/white-labs/wlp500-monastery-ale-yeast",
+   "hash": "dc057b5cdddd5daf"
+  },
+  "culture:2035-american-lager": {
+   "key": "cultures/wyeast/2035-american-lager",
+   "hash": "e5e8e615723c28ad"
+  },
+  "culture:wlp718-avize-wine-yeast": {
+   "key": "cultures/white-labs/wlp718-avize-wine-yeast",
+   "hash": "2943d92d25d98c4b"
+  },
+  "culture:1010-american-wheat-ale": {
+   "key": "cultures/wyeast/1010-american-wheat",
+   "hash": "99a1a73ba7042ad5"
+  },
+  "culture:wlp029-german-ale-kolsch": {
+   "key": "cultures/white-labs/wlp029-kolsch-ale-yeast",
+   "hash": "de7bfadf261adbe6"
+  },
+  "culture:wlp833-german-bock-lager": {
+   "key": "cultures/white-labs/wlp833-german-bock-lager-yeast",
+   "hash": "0a9bf0e4bfb08852"
+  },
+  "culture:wlp545-belgian-strong-ale-yeast": {
+   "key": "cultures/white-labs/wlp545-belgian-strong-ale-yeast",
+   "hash": "e8527a50f5e71ee8"
+  },
+  "culture:2112-california-lager": {
+   "key": "cultures/wyeast/2112-california-lager",
+   "hash": "86a9d72661ec186d"
+  },
+  "culture:3112-brettanomyces-bruxellensis": {
+   "key": "cultures/wyeast/3112-brettanomyces-bruxellensis",
+   "hash": "59386ca3d9b7a56a"
+  },
+  "culture:wlp380-hefeweizen-iv-ale": {
+   "key": "cultures/white-labs/wlp380-hefeweizen-iv-ale-yeast",
+   "hash": "bb4f77efdfc34420"
+  },
+  "culture:wlp770-suremain-burgundy-wine-yeast": {
+   "key": "cultures/white-labs/wlp770-suremain-burgundy-wine-yeast",
+   "hash": "ff776500e30d666a"
+  },
+  "culture:3944-belgian-witbier": {
+   "key": "cultures/wyeast/3944-belgian-witbier",
+   "hash": "e2aa366ca0fb9bbd"
+  },
+  "culture:cl-5600-pediococcus-damnosus": {
+   "key": "cultures/brewtek/cl-5600-pediococcus-damnosus",
+   "hash": "20094f04c391566d"
+  },
+  "culture:k1v-1116-lalvin": {
+   "key": "cultures/lallemand/lalvin-icv-k1-v1116",
+   "hash": "c62d3bdd45f30165"
+  },
+  "culture:wlp510-bastogne-belgian-ale": {
+   "key": "cultures/white-labs/wlp510-bastogne-belgian-ale-yeast",
+   "hash": "9e3c9f4ee27731c9"
+  },
+  "culture:1272-gf-all-american-ale": {
+   "key": "cultures/wyeast/1272-gf-all-american-ale",
+   "hash": "dac4ba9ec2562705"
+  },
+  "culture:cl-0130-british-pale-ale-2": {
+   "key": "cultures/brewtek/cl-0130-british-pale-ale-2",
+   "hash": "f88e2e18259310e9"
+  },
+  "culture:wlp400-belgian-wit-ale": {
+   "key": "cultures/white-labs/wlp400-belgian-wit-ale-yeast",
+   "hash": "8d123448a8e27d84"
+  },
+  "culture:wlp727-steinberg-geisenheim-wine": {
+   "key": "cultures/white-labs/wlp727-steinberg-geisenheim-wine-yeast",
+   "hash": "15c7d0add7f297b8"
+  },
+  "culture:1728-scottish-ale": {
+   "key": "cultures/wyeast/1728-scottish-ale",
+   "hash": "0f7b1768c0387637"
+  },
+  "culture:cl-0680-east-european-lager": {
+   "key": "cultures/brewtek/cl-0680-east-european-lager",
+   "hash": "a4525a889216863f"
+  },
+  "culture:wlp025-southwold-ale": {
+   "key": "cultures/white-labs/wlp025-southwold-ale-yeast",
+   "hash": "dc27a3fc254e5ef7"
+  },
+  "culture:wlp838-southern-german-lager": {
+   "key": "cultures/white-labs/wlp838-southern-german-lager-yeast",
+   "hash": "09e514012cfe9ba1"
+  },
+  "culture:wlp653-brettanomyces-lambicus": {
+   "key": "cultures/white-labs/wlp653-brettanomyces-lambicus",
+   "hash": "74aebf3f7484144e"
+  },
+  "culture:1272-american-ale-ii": {
+   "key": "cultures/wyeast/1272-american-ale-ii",
+   "hash": "8bc449ce388abdad"
+  },
+  "culture:cl-0450-kolsch": {
+   "key": "cultures/brewtek/cl-0450-kolsch",
+   "hash": "84f48d3751e17e20"
+  },
+  "culture:wlp410-belgian-wit-ii": {
+   "key": "cultures/white-labs/wlp410-belgian-wit-ii-ale-yeast",
+   "hash": "4c56e70e94f83d9f"
+  },
+  "culture:wlp940-mexican-lager": {
+   "key": "cultures/white-labs/wlp940-mexican-lager-yeast",
+   "hash": "e9c76687af5c3a61"
+  },
+  "culture:s-23-saflager-west-european-lager": {
+   "key": "cultures/fermentis/saflager-s-23",
+   "hash": "27d46e65fb95704a"
+  },
+  "culture:1028-london-ale-yeast": {
+   "key": "cultures/wyeast/1028-london-ale",
+   "hash": "8e616c9934ba54dd"
+  },
+  "culture:wlp735-french-white-wine-yeast": {
+   "key": "cultures/white-labs/wlp735-french-white-wine-yeast",
+   "hash": "c4200fc8cc3abf74"
+  },
+  "culture:1318-london-ale-iii": {
+   "key": "cultures/wyeast/1318-london-ale-iii",
+   "hash": "64fce9e37fb20357"
+  },
+  "culture:wlp730-chardonnay-white-wine-yeast": {
+   "key": "cultures/white-labs/wlp730-chardonnay-white-wine-yeast",
+   "hash": "ccf43d1ab6743ec9"
+  },
+  "culture:cl-0150-british-real-ale": {
+   "key": "cultures/brewtek/cl-0150-british-real-ale",
+   "hash": "2b1af79b6e03ec9c"
+  },
+  "culture:wlp300-hefeweizen-ale": {
+   "key": "cultures/white-labs/wlp300-hefeweizen-ale-yeast",
+   "hash": "12c97c5cba66de98"
+  },
+  "culture:wlp008-east-coast-ale": {
+   "key": "cultures/white-labs/wlp008-east-coast-ale-yeast",
+   "hash": "82bdacee92a7a7d6"
+  },
+  "culture:3942-belgian-wheat-yeast": {
+   "key": "cultures/wyeast/3942-belgian-wheat",
+   "hash": "b7ce77c534d16fd3"
+  },
+  "culture:cl-0270-australian-ale": {
+   "key": "cultures/brewtek/cl-0270-australian-ale",
+   "hash": "a52f9067fef90990"
+  },
+  "culture:3333-german-wheat": {
+   "key": "cultures/wyeast/3333-german-wheat",
+   "hash": "c191041bce85192c"
+  },
+  "culture:s-33-safbrew-ale": {
+   "key": "cultures/fermentis/safale-s-33",
+   "hash": "3c82de31b9fc6a68"
+  },
+  "culture:cl-0600-original-pilsner": {
+   "key": "cultures/brewtek/cl-0600-original-pilsner",
+   "hash": "fa096fab464df000"
+  },
+  "culture:wlp810-san-francisco-lager": {
+   "key": "cultures/white-labs/wlp810-san-francisco-lager-yeast",
+   "hash": "685fd1db57740d1b"
+  },
+  "culture:wlp575-belgian-style-ale-yeast-blend": {
+   "key": "cultures/white-labs/wlp575-belgian-style-ale-yeast-blend",
+   "hash": "39b16f75e53f4972"
+  },
+  "culture:wlp860-munich-helles": {
+   "key": "cultures/white-labs/wlp860-munich-lager-yeast",
+   "hash": "e9cdf0f34b92ff3c"
+  },
+  "culture:wlp038-manchester-ale-yeast": {
+   "key": "cultures/white-labs/wlp038-manchester-ale-yeast",
+   "hash": "c9defa5ed0224fc3"
+  },
+  "culture:cl-0380-saison": {
+   "key": "cultures/brewtek/cl-0380-saison",
+   "hash": "d8a17a56359b9e24"
+  },
+  "culture:5526-brettanomyces-lambucus": {
+   "key": "cultures/wyeast/5526-brettanomyces-lambicus",
+   "hash": "52459039f2735b07"
+  },
+  "culture:wlp011-european-ale": {
+   "key": "cultures/white-labs/wlp011-european-ale-yeast",
+   "hash": "ad4e71afe67611ba"
+  },
+  "culture:wlp099-super-high-gravity-ale": {
+   "key": "cultures/white-labs/wlp099-super-high-gravity-ale-yeast",
+   "hash": "d5bc70342f41e4aa"
+  },
+  "culture:1335-british-ale-ii": {
+   "key": "cultures/wyeast/1335-british-ale-ii",
+   "hash": "c53a76212599556f"
+  },
+  "culture:2308-munich-lager": {
+   "key": "cultures/wyeast/2308-munich-lager",
+   "hash": "2826ddcdd57f3df7"
+  },
+  "culture:cl-0300-belgian-ale-1": {
+   "key": "cultures/brewtek/cl-0300-belgian-ale-1",
+   "hash": "9c92cf647a14da3b"
+  },
+  "culture:2206-bavarian-lager": {
+   "key": "cultures/wyeast/2206-bavarian-lager",
+   "hash": "6360ad779e5ee002"
+  },
+  "culture:wlp036-dusseldorf-alt-yeast": {
+   "key": "cultures/white-labs/wlp036-dusseldorf-alt-ale-yeast",
+   "hash": "b0ba116e74edf83b"
+  },
+  "culture:2007-pilsen-lager": {
+   "key": "cultures/wyeast/2007-pilsen-lager",
+   "hash": "60002fc2cccafcff"
+  },
+  "culture:ec-1118-lalvin": {
+   "key": "cultures/lallemand/lalvin-ec-1118",
+   "hash": "167a6d5cd757add9"
+  },
+  "culture:4733-pediococcus-cerevisiae": {
+   "key": "cultures/wyeast/4733-pediococcus-cerevisiae",
+   "hash": "8fd67190a19474df"
+  },
+  "culture:1214-belgian-ale-yeast": {
+   "key": "cultures/wyeast/1214-belgian-abbey-style-ale",
+   "hash": "b95d9b8c090b86c2"
+  },
+  "culture:cl-0110-british-microbrewery-ale": {
+   "key": "cultures/brewtek/cl-0110-british-microbrewery-ale",
+   "hash": "03e0d854d334a5e4"
+  },
+  "culture:3787-trappist-high-gravity": {
+   "key": "cultures/wyeast/3787-belgian-high-gravity",
+   "hash": "d6a5f5915b23bbf2"
+  },
+  "culture:3763-roselare-belgian-blend": {
+   "key": "cultures/wyeast/3763-roeselare-ale-blend",
+   "hash": "1bdcc600204b9bdc"
+  },
+  "culture:cl-0340-belgian-ale-3": {
+   "key": "cultures/brewtek/cl-0340-belgian-ale-3",
+   "hash": "e46cc42ed1e42b3f"
+  },
+  "culture:wlp009-australian-ale-yeast": {
+   "key": "cultures/white-labs/wlp009-australian-ale-yeast",
+   "hash": "bbf112936ce8479f"
+  },
+  "culture:wlp862-cry-havoc": {
+   "key": "cultures/white-labs/wlp862-cry-havoc",
+   "hash": "c051b46b84db683a"
+  },
+  "culture:1084-irish-ale": {
+   "key": "cultures/wyeast/1084-irish-ale",
+   "hash": "2e27ce6fd0ffc0d5"
+  },
+  "culture:wlp004-irish-ale-yeast": {
+   "key": "cultures/white-labs/wlp004-irish-ale-yeast",
+   "hash": "151dbf17ca84bff1"
+  },
+  "culture:2633-octoberfest-lager-blend": {
+   "key": "cultures/wyeast/2633-octoberfest-lager-blend",
+   "hash": "cd30d6fb999e1602"
+  },
+  "culture:5335-lactobacillus": {
+   "key": "cultures/wyeast/5335-lactobacillus-buchneri",
+   "hash": "5023bcfbb2ec2010"
+  },
+  "culture:3724-belgian-saison": {
+   "key": "cultures/wyeast/3724-belgian-saison",
+   "hash": "4b8193cfe39d3d9c"
+  },
+  "culture:5112-brettanomyces-bruxellensis": {
+   "key": "cultures/wyeast/5112-brettanomyces-bruxellensis",
+   "hash": "be622b2f5478bed2"
+  },
+  "culture:wlp530-abbey-ale": {
+   "key": "cultures/white-labs/wlp530-abbey-ale-yeast",
+   "hash": "738ab2145b6ad6b8"
+  },
+  "culture:cl-0060-north-eastern-micro-ale": {
+   "key": "cultures/brewtek/cl-0060-north-eastern-micro-ale",
+   "hash": "c1a0ea8fcfe36fd3"
+  },
+  "culture:wlp720-sweet-mead-wine": {
+   "key": "cultures/white-labs/wlp720-sweet-mead-wine-yeast",
+   "hash": "fe42bfa47f0e89b2"
+  },
+  "culture:2247-european-lager-ii": {
+   "key": "cultures/wyeast/2247-european-lager",
+   "hash": "7df05adc2ab5de0c"
+  },
+  "culture:2000-budvar-lager": {
+   "key": "cultures/wyeast/2000-budvar-lager",
+   "hash": "2e7a847f5d2a5c5f"
+  },
+  "style:american-light-lager": {
+   "key": "styles/bjcp-2015/01a-american-light-lager",
+   "hash": "0965e25de5fc42d3"
+  },
+  "style:california-common": {
+   "key": "styles/bjcp-2015/19b-california-common",
+   "hash": "16bc267301321e55"
+  },
+  "style:scottish-light": {
+   "key": "styles/bjcp-2015/14a-scottish-light",
+   "hash": "bebd0b5f25c8ae3d"
+  },
+  "style:belgian-pale-ale": {
+   "key": "styles/bjcp-2015/24b-belgian-pale-ale",
+   "hash": "ec7b72602f14c1ff"
+  },
+  "style:munich-dunkel": {
+   "key": "styles/bjcp-2015/08a-munich-dunkel",
+   "hash": "fcdb6e6648ca7d3c"
+  },
+  "style:kellerbier": {
+   "key": "styles/bjcp-2015/07c-kellerbier",
+   "hash": "3cd62c0167987792"
+  },
+  "style:irish-stout": {
+   "key": "styles/bjcp-2015/15b-irish-stout",
+   "hash": "a539c46c673a2948"
+  },
+  "style:spice-herb-or-vegetable-beer": {
+   "key": "styles/bjcp-2015/30a-spice-herb-or-vegetable-beer",
+   "hash": "929efc79fe07e204"
+  },
+  "style:vienna-lager": {
+   "key": "styles/bjcp-2015/07a-vienna-lager",
+   "hash": "602a26cad7348025"
+  },
+  "style:czech-dark-lager": {
+   "key": "styles/bjcp-2015/03d-czech-dark-lager",
+   "hash": "16173bdc57e3bb01"
+  },
+  "style:american-porter": {
+   "key": "styles/bjcp-2015/20a-american-porter",
+   "hash": "a3812578fcc6f2d0"
+  },
+  "style:saison": {
+   "key": "styles/bjcp-2015/25b-saison",
+   "hash": "6c826c4b00c6decb"
+  },
+  "style:american-pale-ale": {
+   "key": "styles/bjcp-2015/18b-american-pale-ale",
+   "hash": "1fa9ff8eff1d1dea"
+  },
+  "style:blonde-ale": {
+   "key": "styles/bjcp-2015/18a-blonde-ale",
+   "hash": "eb47f2f0bbfd776a"
+  },
+  "style:belgian-golden-strong-ale": {
+   "key": "styles/bjcp-2015/25c-belgian-golden-strong-ale",
+   "hash": "eb9df460a130c0e4"
+  },
+  "style:doppelbock": {
+   "key": "styles/bjcp-2015/09a-doppelbock",
+   "hash": "85c8a5c30f982152"
+  },
+  "style:london-brown-ale": {
+   "key": "styles/bjcp-2015/27d-london-brown-ale",
+   "hash": "e6c0b03653f37c06"
+  },
+  "style:specialty-smoked-beer": {
+   "key": "styles/bjcp-2015/32b-specialty-smoked-beer",
+   "hash": "d95e9d72fa920097"
+  },
+  "style:gueuze": {
+   "key": "styles/bjcp-2015/23e-gueuze",
+   "hash": "95c202bfc6d1b797"
+  },
+  "style:best-bitter": {
+   "key": "styles/bjcp-2015/11b-best-bitter",
+   "hash": "67ada4cc85b57ed5"
+  },
+  "style:clone-beer": {
+   "key": "styles/bjcp-2015/34a-clone-beer",
+   "hash": "d086dc9c0f5db6e6"
+  },
+  "style:lambic": {
+   "key": "styles/bjcp-2015/23d-lambic",
+   "hash": "e15843fe9a6ec2c4"
+  },
+  "style:schwarzbier": {
+   "key": "styles/bjcp-2015/08b-schwarzbier",
+   "hash": "9c9f27c84f8d3587"
+  },
+  "style:alternative-sugar-beer": {
+   "key": "styles/bjcp-2015/31b-alternative-sugar-beer",
+   "hash": "eed171052fb9077d"
+  },
+  "style:british-golden-ale": {
+   "key": "styles/bjcp-2015/12a-british-golden-ale",
+   "hash": "0b0c950017e317a6"
+  },
+  "style:british-strong-ale": {
+   "key": "styles/bjcp-2015/17a-british-strong-ale",
+   "hash": "94a289af12428044"
+  },
+  "style:american-stout": {
+   "key": "styles/bjcp-2015/20b-american-stout",
+   "hash": "12b727c30e37caf3"
+  },
+  "style:oud-bruin": {
+   "key": "styles/bjcp-2015/23c-oud-bruin",
+   "hash": "27a249e22ec270dc"
+  },
+  "style:british-brown-ale": {
+   "key": "styles/bjcp-2015/13b-british-brown-ale",
+   "hash": "8a05029266e6e94d"
+  },
+  "style:trappist-single": {
+   "key": "styles/bjcp-2015/26a-trappist-single",
+   "hash": "6131456dd9fdedf7"
+  },
+  "style:specialty-ipa": {
+   "key": "styles/bjcp-2015/21b-specialty-ipa",
+   "hash": "b3e06b8f0de9f9a1"
+  },
+  "style:american-brown-ale": {
+   "key": "styles/bjcp-2015/19c-american-brown-ale",
+   "hash": "1c26213605ad7d97"
+  },
+  "style:german-helles-exportbier": {
+   "key": "styles/bjcp-2015/05c-german-helles-exportbier",
+   "hash": "b7126d5ac9f140a6"
+  },
+  "style:rauchbier": {
+   "key": "styles/bjcp-2015/06b-rauchbier",
+   "hash": "ba5d70cf2c763128"
+  },
+  "style:experimental-beer": {
+   "key": "styles/bjcp-2015/34c-experimental-beer",
+   "hash": "8ccfc2939084d41f"
+  },
+  "style:old-ale": {
+   "key": "styles/bjcp-2015/17b-old-ale",
+   "hash": "d86d84f02e3fd008"
+  },
+  "style:festbier": {
+   "key": "styles/bjcp-2015/04b-festbier",
+   "hash": "6636ad8b2df280ab"
+  },
+  "style:oatmeal-stout": {
+   "key": "styles/bjcp-2015/16b-oatmeal-stout",
+   "hash": "ea9bdf84160f9ef9"
+  },
+  "style:winter-seasonal-beer": {
+   "key": "styles/bjcp-2015/30c-winter-seasonal-beer",
+   "hash": "ec9eba9154f16506"
+  },
+  "style:dunkles-weissbier": {
+   "key": "styles/bjcp-2015/10b-dunkles-weissbier",
+   "hash": "60e884c6f040bd5d"
+  },
+  "style:dark-mild": {
+   "key": "styles/bjcp-2015/13a-dark-mild",
+   "hash": "8803d5034dcc346e"
+  },
+  "style:irish-red-ale": {
+   "key": "styles/bjcp-2015/15a-irish-red-ale",
+   "hash": "9e4cc746268f56a7"
+  },
+  "style:helles-bock": {
+   "key": "styles/bjcp-2015/04c-helles-bock",
+   "hash": "7261c61d5e629899"
+  },
+  "style:flanders-red-ale": {
+   "key": "styles/bjcp-2015/23b-flanders-red-ale",
+   "hash": "28fc10fb4a3eba1b"
+  },
+  "style:american-strong-ale": {
+   "key": "styles/bjcp-2015/22b-american-strong-ale",
+   "hash": "c189edcaa6760f5d"
+  },
+  "style:imperial-stout": {
+   "key": "styles/bjcp-2015/20c-imperial-stout",
+   "hash": "45130b9e17b9a1ec"
+  },
+  "style:fruit-beer": {
+   "key": "styles/bjcp-2015/29a-fruit-beer",
+   "hash": "89072bfd48a1600e"
+  },
+  "style:piwo-grodziskie": {
+   "key": "styles/bjcp-2015/27e-piwo-grodziskie",
+   "hash": "00e65bdcf0172a10"
+  },
+  "style:american-amber-ale": {
+   "key": "styles/bjcp-2015/19a-american-amber-ale",
+   "hash": "fe2e68d9c37b1256"
+  },
+  "style:mixed-fermentation-sour-beer": {
+   "key": "styles/bjcp-2015/28b-mixed-fermentation-sour-beer",
+   "hash": "0e3a76a89561330a"
+  },
+  "style:alternative-grain-beer": {
+   "key": "styles/bjcp-2015/31a-alternative-grain-beer",
+   "hash": "cf4ca4d704399ff0"
+  },
+  "style:german-pils": {
+   "key": "styles/bjcp-2015/05d-german-pils",
+   "hash": "da7d03ffcb911378"
+  },
+  "style:english-barleywine": {
+   "key": "styles/bjcp-2015/17d-english-barleywine",
+   "hash": "f00224b7493b9cc0"
+  },
+  "style:international-amber-lager": {
+   "key": "styles/bjcp-2015/02b-international-amber-lager",
+   "hash": "c8a20ec6db6a1ba7"
+  },
+  "style:scottish-export": {
+   "key": "styles/bjcp-2015/14c-scottish-export",
+   "hash": "43037d32b78f9888"
+  },
+  "style:dunkles-bock": {
+   "key": "styles/bjcp-2015/06c-dunkles-bock",
+   "hash": "0d9af58d8ea91384"
+  },
+  "style:brett-beer": {
+   "key": "styles/bjcp-2015/28a-brett-beer",
+   "hash": "16975ede1e0a2207"
+  },
+  "style:classic-style-smoked-beer": {
+   "key": "styles/bjcp-2015/32a-classic-style-smoked-beer",
+   "hash": "758b59cb36838c16"
+  },
+  "style:fruit-lambic": {
+   "key": "styles/bjcp-2015/23f-fruit-lambic",
+   "hash": "99f463b99dc958ca"
+  },
+  "style:sahti": {
+   "key": "styles/bjcp-2015/27i-sahti",
+   "hash": "1c1f284c4a28361e"
+  },
+  "style:specialty-wood-aged-beer": {
+   "key": "styles/bjcp-2015/33b-specialty-wood-aged-beer",
+   "hash": "44679199d0109ebb"
+  },
+  "style:mixed-style-beer": {
+   "key": "styles/bjcp-2015/34b-mixed-style-beer",
+   "hash": "14a929d481242773"
+  },
+  "style:ma-rzen": {
+   "key": "styles/bjcp-2015/06a-marzen",
+   "hash": "7aeb17fba21914dc"
+  },
+  "style:wild-specialty-beer": {
+   "key": "styles/bjcp-2015/28c-wild-specialty-beer",
+   "hash": "6802a5877eacfd5d"
+  },
+  "style:english-ipa": {
+   "key": "styles/bjcp-2015/12c-english-ipa",
+   "hash": "07bce2ecd830d74c"
+  },
+  "style:foreign-extra-stout": {
+   "key": "styles/bjcp-2015/16d-foreign-extra-stout",
+   "hash": "28ce6b9b5c82feb2"
+  },
+  "style:australian-sparkling-ale": {
+   "key": "styles/bjcp-2015/12b-australian-sparkling-ale",
+   "hash": "54a0dac54bdbe90b"
+  },
+  "style:fruit-and-spice-beer": {
+   "key": "styles/bjcp-2015/29b-fruit-and-spice-beer",
+   "hash": "3ee28fc784daaeb5"
+  },
+  "style:american-lager": {
+   "key": "styles/bjcp-2015/01b-american-lager",
+   "hash": "af9f4389ee90d768"
+  },
+  "style:baltic-porter": {
+   "key": "styles/bjcp-2015/09c-baltic-porter",
+   "hash": "211006c695262e47"
+  },
+  "style:czech-pale-lager": {
+   "key": "styles/bjcp-2015/03a-czech-pale-lager",
+   "hash": "286d934c158a554a"
+  },
+  "style:belgian-blond-ale": {
+   "key": "styles/bjcp-2015/25a-belgian-blond-ale",
+   "hash": "3772739d6dbb7d00"
+  },
+  "style:belgian-tripel": {
+   "key": "styles/bjcp-2015/26c-belgian-tripel",
+   "hash": "97f6dd2ef231868e"
+  },
+  "style:ko-lsch": {
+   "key": "styles/bjcp-2015/05b-kolsch",
+   "hash": "bce0cf249db02114"
+  },
+  "style:altbier": {
+   "key": "styles/bjcp-2015/07b-altbier",
+   "hash": "37fd8270bfbf3b13"
+  },
+  "style:specialty-fruit-beer": {
+   "key": "styles/bjcp-2015/29c-specialty-fruit-beer",
+   "hash": "f64541ae74608298"
+  },
+  "style:weizenbock": {
+   "key": "styles/bjcp-2015/10c-weizenbock",
+   "hash": "b7c7290012333abb"
+  },
+  "style:scottish-heavy": {
+   "key": "styles/bjcp-2015/14b-scottish-heavy",
+   "hash": "5b573ecb719a74fa"
+  },
+  "style:lichtenhainer": {
+   "key": "styles/bjcp-2015/27c-lichtenhainer",
+   "hash": "7ca6fd0c86194180"
+  },
+  "style:wee-heavy": {
+   "key": "styles/bjcp-2015/17c-wee-heavy",
+   "hash": "3cf768034439fdc7"
+  },
+  "style:gose": {
+   "key": "styles/bjcp-2015/27a-gose",
+   "hash": "23b9cc26b7a91bd6"
+  },
+  "style:international-pale-lager": {
+   "key": "styles/bjcp-2015/02a-international-pale-lager",
+   "hash": "b625d9e1d1fad201"
+  },
+  "style:kentucky-common": {
+   "key": "styles/bjcp-2015/27b-kentucky-common",
+   "hash": "d15c61cdac37984d"
+  },
+  "style:tropical-stout": {
+   "key": "styles/bjcp-2015/16c-tropical-stout",
+   "hash": "b929f5b7f69b79b9"
+  },
+  "style:belgian-dubbel": {
+   "key": "styles/bjcp-2015/26b-belgian-dubbel",
+   "hash": "ca9282154f335de7"
+  },
+  "style:bie-re-de-garde": {
+   "key": "styles/bjcp-2015/24c-biere-de-garde",
+   "hash": "afa1061f24fb2ff8"
+  },
+  "style:autumn-seasonal-beer": {
+   "key": "styles/bjcp-2015/30b-autumn-seasonal-beer",
+   "hash": "538b7b34e19417d2"
+  },
+  "style:ordinary-bitter": {
+   "key": "styles/bjcp-2015/11a-ordinary-bitter",
+   "hash": "8cb8cbe88204ad2f"
+  },
+  "style:eisbock": {
+   "key": "styles/bjcp-2015/09b-eisbock",
+   "hash": "fca173cbc10dcc30"
+  },
+  "style:sweet-stout": {
+   "key": "styles/bjcp-2015/16a-sweet-stout",
+   "hash": "c63a962f98c42921"
+  },
+  "style:pre-prohibition-porter": {
+   "key": "styles/bjcp-2015/27g-pre-prohibition-porter",
+   "hash": "a9a4ad5b84ee40db"
+  },
+  "style:double-ipa": {
+   "key": "styles/bjcp-2015/22a-double-ipa",
+   "hash": "26fa28f6685d8d43"
+  },
+  "style:czech-premium-pale-lager": {
+   "key": "styles/bjcp-2015/03b-czech-premium-pale-lager",
+   "hash": "43cb15a3bd30daf6"
+  },
+  "style:czech-amber-lager": {
+   "key": "styles/bjcp-2015/03c-czech-amber-lager",
+   "hash": "43d6a07f929b3e0c"
+  },
+  "style:wheatwine": {
+   "key": "styles/bjcp-2015/22d-wheatwine",
+   "hash": "a5841e90c21ec38f"
+  },
+  "style:pre-prohibition-lager": {
+   "key": "styles/bjcp-2015/27f-pre-prohibition-lager",
+   "hash": "9fbf74c5fc2773d8"
+  },
+  "style:witbier": {
+   "key": "styles/bjcp-2015/24a-witbier",
+   "hash": "6a9922bd6b59bb3e"
+  },
+  "style:english-porter": {
+   "key": "styles/bjcp-2015/13c-english-porter",
+   "hash": "d8d4cfe28d10d99a"
+  },
+  "style:strong-bitter": {
+   "key": "styles/bjcp-2015/11c-strong-bitter",
+   "hash": "022d5758e358fbeb"
+  },
+  "style:american-barleywine": {
+   "key": "styles/bjcp-2015/22c-american-barleywine",
+   "hash": "5b0d03996989fb7d"
+  },
+  "style:american-wheat-beer": {
+   "key": "styles/bjcp-2015/01d-american-wheat-beer",
+   "hash": "caf85f2259feaa38"
+  },
+  "style:irish-extra-stout": {
+   "key": "styles/bjcp-2015/15c-irish-extra-stout",
+   "hash": "7b4bf9ac28810906"
+  },
+  "style:wood-aged-beer": {
+   "key": "styles/bjcp-2015/33a-wood-aged-beer",
+   "hash": "aa6e28788a27f6f8"
+  },
+  "style:german-leichtbier": {
+   "key": "styles/bjcp-2015/05a-german-leichtbier",
+   "hash": "721c3095f12bb98d"
+  },
+  "style:belgian-dark-strong-ale": {
+   "key": "styles/bjcp-2015/26d-belgian-dark-strong-ale",
+   "hash": "0e881bf63c06135d"
+  },
+  "style:american-ipa": {
+   "key": "styles/bjcp-2015/21a-american-ipa",
+   "hash": "f86f73bc76e300a3"
+  },
+  "style:international-dark-lager": {
+   "key": "styles/bjcp-2015/02c-international-dark-lager",
+   "hash": "948e4f7deb3ddbbd"
+  },
+  "style:weissbier": {
+   "key": "styles/bjcp-2015/10a-weissbier",
+   "hash": "5c7d60dbc7d5b400"
+  },
+  "style:munich-helles": {
+   "key": "styles/bjcp-2015/04a-munich-helles",
+   "hash": "84d95942eab12434"
+  },
+  "style:roggenbier": {
+   "key": "styles/bjcp-2015/27h-roggenbier",
+   "hash": "d5d2615e1ca76b1c"
+  },
+  "style:cream-ale": {
+   "key": "styles/bjcp-2015/01c-cream-ale",
+   "hash": "c19788e89990bcb6"
+  },
+  "style:berliner-weisse": {
+   "key": "styles/bjcp-2015/23a-berliner-weisse",
+   "hash": "af17c14d33028893"
+  }
+ }
+}

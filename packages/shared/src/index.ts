@@ -18,3 +18,4 @@ export * from './origin';
 export * from './tokens';
 export * from './app';
 export * from './backup';
+export * from './trash';

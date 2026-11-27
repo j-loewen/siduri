@@ -2,6 +2,43 @@
 
 What's in each version of Siduri. The Docker image of each version is `ghcr.io/j-loewen/siduri:<version>`; see [Installation](docs/installation.md) for updating.
 
+## 1.1.0 (2026-11-27)
+
+### Updating
+
+Nothing to do: pull the new image and restart. On the first start Siduri updates its database and the built-in library by itself.
+
+- Built-in library items you never changed switch to the new data and stay linked to your recipes.
+- Built-in items you **had edited** become your own items, with your values, and the new built-in item appears next to them.
+- Built-in items you had deleted stay deleted.
+- Recipes and batches keep the values they copied, as always.
+
+### Library: open-brewing-data
+
+- The built-in library now comes from [open-brewing-data](https://github.com/j-loewen/open-brewing-data), open data with cited sources (ODbL): about 560 fermentables, including the products of Weyermann, BESTMALZ, Briess, Château, Thomas Fawcett and other maltsters with their spec-sheet values, 180 hop varieties, 560 yeasts and bacteria, and the BJCP 2015 and 2021 styles. Generic malts show "Generic" as their producer.
+- **Built-in items are read-only** and can't be deleted; they are updated with each Siduri release. **Copy and edit** turns one into your own item, e.g. with your malt lot's values. **Built-in / Yours** filters the list.
+- Built-in items open as a clear list of their values in your units, not as a form.
+- **Search** also finds other spellings: *CARAFA III* finds *CARAFA Type 3*.
+- **Substitutes**: a built-in malt lists the same malt from other maltsters, and a hop its substitutes. In a recipe, **Swap** shows them first.
+- The yeast list shows the lab under the name and a **Form** column (dry, liquid, …). Styles show their guide (BJCP 2015 or 2021) under the name.
+- For MCP: `find_substitutes`, and `builtIn` on library items.
+
+### Trash
+
+- Deleted recipes, batches, stock items, library items, equipment profiles, fermenters and devices go to the **Trash** first and are deleted for good after 30 days (Settings → Trash: 1 day to a year, or off).
+- **Undo** right after deleting, and **Restore** from the trash with all links (a batch with its recipe, fermenter, readings and log).
+- For MCP: `list_trash` and `restore_from_trash`.
+
+### Batches
+
+- The batch page has a tab for each phase (Planning, Brewing, Fermentation, Conditioning) and opens on the one for the batch's status; Overview is read-only.
+
+### Fixes
+
+- A gravity reading above the original gravity no longer shows negative attenuation and ABV; the tile says to check the reading or the OG.
+- The Styles tab of the library could show an error page when opened for the first time.
+- On phones, the subtitle under a page title is no longer squeezed into a narrow column next to the buttons.
+
 ## 1.0.0 (2026-11-25)
 
 First release: a self-hosted brewing app in one Docker container with a SQLite database.

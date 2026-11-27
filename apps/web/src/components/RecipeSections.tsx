@@ -338,6 +338,7 @@ export function FermentablesSection({ doc, calc, update }: { doc: RecipeDoc; cal
         opened={swapping && Boolean(line)}
         onClose={() => setSwapping(false)}
         replacing={line?.name}
+        replacingRef={line?.libraryRef}
         onPick={swap}
         onCustom={(name) => line && set(line.id, { name, libraryRef: null })}
       />
@@ -487,6 +488,7 @@ export function HopsSection({ doc, calc, update }: { doc: RecipeDoc; calc: Recip
         opened={swapping && Boolean(line)}
         onClose={() => setSwapping(false)}
         replacing={line?.name}
+        replacingRef={line?.libraryRef}
         onPick={swap}
         onCustom={(name) => line && set(line.id, { name, libraryRef: null })}
       />
@@ -629,6 +631,7 @@ export function CulturesSection({ doc, calc, update }: { doc: RecipeDoc; calc: R
         opened={swapping && Boolean(line)}
         onClose={() => setSwapping(false)}
         replacing={line?.name}
+        replacingRef={line?.libraryRef}
         onPick={swap}
         onCustom={(name) => line && set(line.id, { name, libraryRef: null })}
       />
@@ -749,6 +752,7 @@ export function MiscsSection({ doc, update }: { doc: RecipeDoc; update: Update }
         opened={swapping && Boolean(line)}
         onClose={() => setSwapping(false)}
         replacing={line?.name}
+        replacingRef={line?.libraryRef}
         onPick={swap}
         onCustom={(name) => line && set(line.id, { name, libraryRef: null })}
       />

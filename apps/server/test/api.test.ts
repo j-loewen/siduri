@@ -57,18 +57,16 @@ describe('library', () => {
     expect(styles.length).toBeGreaterThan(100);
   });
 
-  it('edits, resets and deletes items', async () => {
+  it('edits own items and deletes items', async () => {
     const c = await signedIn();
     const [malt] = (await c.get('/api/library?kind=fermentable&q=pilsner')).json<LibraryItemDto<'fermentable'>[]>();
-    const original = malt!.data.colorEbc;
-    const edited = (await c.put(`/api/library/${malt!.id}`, { data: { ...malt!.data, colorEbc: 4.2 } })).json<LibraryItemDto<'fermentable'>>();
-    expect(edited.data.colorEbc).toBe(4.2);
-    const reset = (await c.post(`/api/library/${malt!.id}/reset`)).json<LibraryItemDto<'fermentable'>>();
-    expect(reset.data.colorEbc).toBe(original);
+    // Built-in items can't be edited.
+    expect((await c.put(`/api/library/${malt!.id}`, { data: { ...malt!.data, colorEbc: 4.2 } })).statusCode).toBe(403);
 
-    const created = (await c.post('/api/library', { kind: 'fermentable', data: { name: 'Weyermann Pilsner', colorEbc: 3.5, potentialSg: 1.0375 } })).json<LibraryItemDto>();
+    const created = (await c.post('/api/library', { kind: 'fermentable', data: { name: 'House Pilsner', colorEbc: 3.5, potentialSg: 1.0375 } })).json<LibraryItemDto<'fermentable'>>();
     expect(created.source).toBe('user');
-    expect((await c.post(`/api/library/${created.id}/reset`)).statusCode).toBe(400);
+    const edited = (await c.put(`/api/library/${created.id}`, { data: { ...created.data, colorEbc: 4.2 } })).json<LibraryItemDto<'fermentable'>>();
+    expect(edited.data.colorEbc).toBe(4.2);
     expect((await c.delete(`/api/library/${created.id}`)).statusCode).toBe(204);
     expect((await c.get(`/api/library/${created.id}`)).statusCode).toBe(404);
   });

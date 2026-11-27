@@ -45,7 +45,7 @@ export const fermentableLineSchema = z.object({
   grainGroup: z.enum(GRAIN_GROUPS).nullable().default(null),
   producer,
   origin,
-  colorEbc: z.number().min(0).max(5000).default(0),
+  colorEbc: z.number().min(0).max(10000).default(0),
   potentialSg: z.number().min(1).max(1.05).default(1.037),
   fermentability: z.number().min(0).max(1.2).default(1),
   amountKg: z.number().min(0).max(100000).default(0),

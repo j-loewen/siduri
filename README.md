@@ -119,7 +119,7 @@ npm install && npm run dev    # API on :3000, web app on :5173
 
 See [Development](docs/development.md).
 
-Ingredient and style data from [common-beer-data](https://github.com/Wall-Brew-Co/common-beer-data) by Wall Brew Co, BeerJSON schemas from [beerjson](https://github.com/beerjson/beerjson) (both MIT).
+Contains data from [open-brewing-data](https://github.com/j-loewen/open-brewing-data), available under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/) (see `packages/seed-data/src/data/`). BeerJSON schemas from [beerjson](https://github.com/beerjson/beerjson) (MIT).
 
 ## License
 

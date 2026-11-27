@@ -54,15 +54,19 @@ Amounts show in the unit that reads best: `3 oz` instead of `0.19 lb`, `11 lb 6 
 
 ## Ingredient library
 
-**Library** has fermentables, hops, yeast, other ingredients, water profiles and beer styles. It comes with about 100 malts and sugars, 54 hops, 188 yeasts, the BJCP styles and 16 water profiles.
+**Library** has fermentables, hops, yeast, other ingredients, water profiles and beer styles.
 
-- **Search** by name or producer. Producer and origin show under each name.
+The **built-in** entries come from [open-brewing-data](https://github.com/j-loewen/open-brewing-data), open data with cited sources: about 560 fermentables (with the products of Weyermann, BESTMALZ, Briess, Château, Thomas Fawcett and other maltsters), 180 hop varieties, 560 yeasts and bacteria and the BJCP 2015 and 2021 styles. Siduri adds the common water salts, finings and 16 water profiles. Built-in entries can't be changed or deleted: they are updated with the app when the data improves. Some values are still missing in the data, for example the attenuation of some yeasts and the description texts of the styles.
+
+- **Search** by name, other names (e.g. *CARAFA III* finds *CARAFA Type 3*) or producer. Producer and origin show under each name. **Built-in / Yours** shows only one or the other.
 - **New** (top right) adds an ingredient, water profile or style of the kind shown.
-- Click an entry to **edit** it, for example with the numbers from your maltster's analysis sheet. Built-in entries can be **reset** to their original values.
-- **Save as new** (when editing an entry) adds a copy with your changes and leaves the entry as it was: the quick way to add the same malt from another maltster, or a hop from another harvest.
+- Click an entry to see it. Your own entries can be **edited**, for example with the numbers from your maltster's analysis sheet. A built-in entry has **Copy and edit**: it becomes your own entry with the values you change (e.g. your malt lot), next to the built-in one.
+- A built-in malt lists what it **can be replaced by**: the same kind of malt from other maltsters. Hops list their substitutes. In a recipe, **Swap** shows these first.
+- **Save as new** (when editing your own entry) adds a copy with your changes and leaves the entry as it was: the quick way to add a hop from another harvest.
 - **Import** adds the ingredients, styles and water profiles of a BeerXML or BeerJSON catalog.
+- Only your own entries can be deleted.
 
-Recipes keep their own copy of the values, so editing the library never changes a recipe.
+Recipes keep their own copy of the values, so changes in the library never change a recipe.
 
 ## Batches
 
@@ -71,16 +75,17 @@ A batch is one brew of a recipe. **Brew this** on a recipe creates one:
 - **Brew on**: choose the equipment. The recipe is scaled to its batch size and efficiency.
 - **Fermenter / keg**: where the batch goes. Fermenters that are too small for the batch are marked.
 
-The batch gets **its own copy of the recipe**: change it freely without touching the recipe. On its page:
+The batch gets **its own copy of the recipe**: change it freely without touching the recipe. Its page has a tab for each phase, and **opens on the tab for the batch's status**: a planned batch on Planning, a fermenting one on Fermentation, a packaged one on Conditioning, a completed one on Overview. Changing the status in the header switches to its tab. Each value is entered in the tab of its phase; the Overview only shows them.
 
 | Tab | What's there |
 |---|---|
-| **Overview** | Status, dates and fermenter; planned against measured values; **carbonation** (priming sugar for bottles or a keg, or the pressure and time for force carbonation); the fermentation plan with dates; what is in stock for this batch and what's missing; how the batch differs from its recipe, with **Save changes to recipe** or **Save as new recipe**. |
+| **Overview** | Read only: status, brew date, where the batch is, whether its ingredients were taken from stock; planned against actual values; everything measured; the fermentation plan with dates; the batch notes. |
 | **Recipe** | The batch's own copy of the recipe, in the same editor. |
-| **Fermentation** | Readings, chart and devices (see [Fermentation](#fermentation)). |
-| **Log** | Your notes, and events such as the status changes. |
-
-**Start brew day** opens the full-screen brew-day mode: see [Brew day](brew-day.md).
+| **Planning** | The brew date; what is in stock for this batch and what's missing; how the batch differs from its recipe, with **Save changes to recipe** or **Save as new recipe**. |
+| **Brewing** | **Start brew day** (the full-screen brew-day mode, see [Brew day](brew-day.md)); the values measured on brew day (mash pH, gravities, volumes) with the brewhouse efficiency; taking the ingredients from stock. |
+| **Fermentation** | The **fermenter**, the final gravity, and readings, chart and devices (see [Fermentation](#fermentation)). |
+| **Conditioning** | The **keg or bottles** (moving the batch there frees its fermenter), the packaged volume, and **carbonation** (priming sugar for bottles or a keg, or the pressure and time for force carbonation). |
+| **Log** | The batch notes, your log notes, and events such as the status changes. |
 
 The status goes from *Planned* through *Brewing*, *Fermenting*, *Conditioning* and *Packaged* to *Completed*.
 
@@ -133,6 +138,17 @@ Salts that come with imported recipes (e.g. from Brewfather) count too, and brew
 - **Export** (in a recipe's **⋯** menu) downloads the recipe as BeerXML or BeerJSON.
 - **Settings → Backup** downloads your recipes, batches, inventory, equipment, own water profiles, own library items and settings (you choose which) as one Siduri file, and imports such files again. See [Backup files](backups.md#backup-files-from-the-settings).
 
+## Trash
+
+Deleted recipes, batches, stock items, library items (including water profiles), equipment profiles, fermenters and devices go to the **Trash** (at the bottom of the menu) first, and are deleted for good after **30 days**. Single readings and log notes are deleted right away.
+
+- **Undo**: right after deleting, the notification at the bottom has an **Undo** button (for a few seconds). A recipe or batch opens again.
+- **Restore** puts it back as it was: a batch with its number, readings and log, a stock item with its history. Links come back too: batches to their recipe and fermenter, devices to their batch, even when both were deleted and you restore them in any order.
+- **Delete for good** (the red bin on a line) or **Empty trash** when you don't want to wait.
+- **Settings → Trash → Keep deleted things for** sets the time for the whole brewery: from 1 day to a year, or **Off** to delete right away. A shorter time deletes what is older at once (you are asked first).
+
+The trash is not in [backup files](backups.md#backup-files-from-the-settings); a copy of the `data` folder contains it.
+
 ## Units
 
 - **Settings → Units**: metric or US, or a unit for each kind of value (weights, volumes, temperature, gravity, colour, …).
@@ -161,6 +177,7 @@ This needs HTTPS (except on `localhost`): see [Reverse proxy and HTTPS](reverse-
 | **Appearance** | Light, dark or system theme, and the language. |
 | **Units** | See [Units](#units). |
 | **Brewery** | The brewery's name and logo (shown in the header and on the dashboard), and the equipment for new recipes. |
+| **Trash** | How long deleted things stay in the trash: see [Trash](#trash). |
 | **Backup** | Download the brewery's data as one file (you choose what goes in) and import such files: see [Backup files](backups.md#backup-files-from-the-settings). |
 | **Claude & AI assistants** | Connections for Claude Code or Claude Desktop: see [Claude and AI assistants](mcp.md). |
 | **Account** | Your display name and password. |

@@ -1,6 +1,7 @@
 import { createRootRoute, createRoute, createRouter, lazyRouteComponent, Outlet } from '@tanstack/react-router';
 import { LIBRARY_KINDS, type LibraryKind } from '@brew/shared';
 import { AppLayout } from './components/AppLayout';
+import { BATCH_TABS, type BatchTab } from './components/batch-ui';
 import { ErrorPage } from './components/ErrorPage';
 import { LoginPage, RegisterPage } from './pages/AuthPages';
 import { DashboardPage } from './pages/DashboardPage';
@@ -44,6 +45,8 @@ const batchesRoute = createRoute({ getParentRoute: () => appRoute, path: '/batch
 export const batchRoute = createRoute({
   getParentRoute: () => appRoute,
   path: '/batches/$batchId',
+  // Without a tab, the page opens the one for the batch's status.
+  validateSearch: (s: Record<string, unknown>): { tab?: BatchTab } => (BATCH_TABS.includes(s.tab as BatchTab) ? { tab: s.tab as BatchTab } : {}),
   component: lazyRouteComponent(() => import('./pages/BatchPage'), 'BatchPage'),
 });
 
@@ -78,6 +81,12 @@ const waterRoute = createRoute({
   component: lazyRouteComponent(() => import('./pages/WaterPage'), 'WaterPage'),
 });
 
+const trashRoute = createRoute({
+  getParentRoute: () => appRoute,
+  path: '/trash',
+  component: lazyRouteComponent(() => import('./pages/TrashPage'), 'TrashPage'),
+});
+
 const routeTree = rootRoute.addChildren([
   loginRoute,
   registerRoute,
@@ -93,6 +102,7 @@ const routeTree = rootRoute.addChildren([
     settingsRoute,
     inventoryRoute,
     waterRoute,
+    trashRoute,
   ]),
 ]);
 

@@ -6,6 +6,7 @@ import { IconAlertTriangle, IconBattery2, IconCheck, IconClipboard, IconPlus, Ic
 import { useTranslation } from 'react-i18next';
 import { CONTROLLER_TYPES, RAPT_TYPES, type DeviceDto } from '@brew/shared';
 import { useDeleteDevice, useDevices, useRegenerateDeviceToken, useUpdateDevice, useVessels } from '../data';
+import { useNotifyDeleted, useTrashNote } from './trash-ui';
 import { notifyError, notifyOk } from '../lib/notify';
 import { useDateFormat } from './batch-ui';
 import { AddDeviceModal, type IntegrationId } from './DeviceIntegrations';
@@ -99,6 +100,8 @@ function InfoRow({ label, children }: { label: string; children: ReactNode }) {
  */
 function DeviceDrawer({ device, onClose }: { device: DeviceDto | null; onClose: () => void }) {
   const { t } = useTranslation();
+  const trashNote = useTrashNote();
+  const notifyDeleted = useNotifyDeleted();
   const update = useUpdateDevice();
   const remove = useDeleteDevice();
   const regenerate = useRegenerateDeviceToken();
@@ -237,10 +240,17 @@ function DeviceDrawer({ device, onClose }: { device: DeviceDto | null; onClose: 
               onClick={() =>
                 modals.openConfirmModal({
                   title: t('devices.deleteTitle'),
-                  children: <Text size="sm">{t('devices.deleteText', { name: device.name })}</Text>,
+                  children: <Text size="sm">{t('devices.deleteText', { name: device.name })}{' '}{trashNote}</Text>,
                   labels: { confirm: t('common.delete'), cancel: t('common.cancel') },
                   confirmProps: { color: 'red' },
-                  onConfirm: () => remove.mutate(device.id, { onSuccess: onClose, onError: notifyError }),
+                  onConfirm: () =>
+                    remove.mutate(device.id, {
+                      onSuccess: () => {
+                        notifyDeleted('device', device.id, device.name);
+                        onClose();
+                      },
+                      onError: notifyError,
+                    }),
                 })
               }
             >

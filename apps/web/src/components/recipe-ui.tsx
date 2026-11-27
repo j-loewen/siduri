@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { Group, Paper, SimpleGrid, Stack, Text, Title, Tooltip } from '@mantine/core';
+import { Box, Group, Paper, SimpleGrid, Stack, Text, Title, Tooltip } from '@mantine/core';
 import { useTranslation } from 'react-i18next';
 import { beerColorHex, type RecipeCalc } from '@brew/brewcalc';
 import type { Measure, Range, RecipeStyle } from '@brew/shared';
@@ -87,17 +87,22 @@ function RangeTip({ canonical, range, measure }: { canonical: number; range: Ran
 /** Page title with actions on the right; wraps on phones. */
 export function PageHeader({ title, subtitle, actions }: { title: ReactNode; subtitle?: ReactNode; actions?: ReactNode }) {
   return (
-    <Group justify="space-between" align="flex-start" mb="md" gap="sm">
-      <Stack gap={2} style={{ minWidth: 0, flex: 1 }}>
-        <Title order={2}>{title}</Title>
-        {subtitle && (
-          <Text c="dimmed" size="sm">
-            {subtitle}
-          </Text>
-        )}
-      </Stack>
-      {actions && <Group gap="xs">{actions}</Group>}
-    </Group>
+    // The subtitle takes the full width under the title and buttons (styles.css).
+    <Box className="page-header" mb="md">
+      <Title order={2} className="page-header-title">
+        {title}
+      </Title>
+      {subtitle && (
+        <Text c="dimmed" size="sm" className="page-header-subtitle">
+          {subtitle}
+        </Text>
+      )}
+      {actions && (
+        <Group gap="xs" justify="flex-end" className="page-header-actions">
+          {actions}
+        </Group>
+      )}
+    </Box>
   );
 }
 

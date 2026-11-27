@@ -67,7 +67,7 @@ function fermentableData(f: J): FermentableData {
     type,
     producer: str(f.SUPPLIER, 120),
     origin: str(f.ORIGIN, 120),
-    colorEbc: clamp(round(colorEbc, 2), 0, 5000),
+    colorEbc: clamp(round(colorEbc, 2), 0, 10000),
     potentialSg: clamp(potential, 1, 1.05),
     fermentability: /lactose|maltodextrin/i.test(name) ? 0 : 1,
     moisturePct: num(f.MOISTURE),

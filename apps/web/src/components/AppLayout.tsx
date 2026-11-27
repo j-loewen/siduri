@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, Navigate, Outlet, useNavigate, useRouterState } from '@tanstack/react-router';
-import { ActionIcon, AppShell, Avatar, Badge, Burger, Button, Center, Group, Loader, Menu, NavLink, ScrollArea, Stack, Text, Title, Tooltip, UnstyledButton } from '@mantine/core';
+import { ActionIcon, AppShell, Avatar, Badge, Burger, Button, Center, Divider, Group, Loader, Menu, NavLink, ScrollArea, Stack, Text, Title, Tooltip, UnstyledButton } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import {
   IconBooks,
@@ -15,6 +15,7 @@ import {
   IconPackage,
   IconSettings,
   IconTool,
+  IconTrash,
   type Icon,
 } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
@@ -30,6 +31,8 @@ interface NavItem {
   icon: Icon;
   /** Shown in the phone's bottom bar. */
   bottom?: boolean;
+  /** At the foot of the sidebar, below a line. */
+  foot?: boolean;
   soon?: boolean;
 }
 
@@ -43,7 +46,8 @@ export function useNavItems(): NavItem[] {
     { to: '/equipment', label: t('nav.equipment'), icon: IconTool },
     { to: '/water', label: t('nav.water'), icon: IconDroplet },
     { to: '/library', label: t('nav.library'), icon: IconBooks },
-    { to: '/settings', label: t('nav.settings'), icon: IconSettings },
+    // Settings are in the user menu.
+    { to: '/trash', label: t('nav.trash'), icon: IconTrash, foot: true },
   ];
 }
 
@@ -60,7 +64,10 @@ export function AppLayout() {
   const items = useNavItems();
   const phone = useMediaQuery('(max-width: 47.99em)') ?? false;
   const content = useRef<HTMLDivElement>(null);
-  useEffect(() => content.current?.scrollTo(0, 0), [pathname]);
+  // Braces matter: newer browsers return a Promise from scrollTo, which React would call as the clean-up.
+  useEffect(() => {
+    content.current?.scrollTo(0, 0);
+  }, [pathname]);
 
   if (isPending) {
     return (
@@ -142,19 +149,19 @@ export function AppLayout() {
       <AppShell.Navbar>
         <div className="app-panel app-sidebar">
           <AppShell.Section grow component={ScrollArea}>
-            {items.map((item) => (
-              <NavLink
-                key={item.to}
-                label={item.label}
-                leftSection={<item.icon size={20} stroke={1.6} />}
-                rightSection={item.soon ? <Badge size="xs" variant="light" color="gray">{t('common.soon')}</Badge> : undefined}
-                component={Link}
-                to={item.to}
-                onClick={close}
-                active={isActive(pathname, item.to)}
-                py={10}
-              />
-            ))}
+            {items
+              .filter((item) => !item.foot)
+              .map((item) => (
+                <SidebarLink key={item.to} item={item} active={isActive(pathname, item.to)} onClick={close} />
+              ))}
+          </AppShell.Section>
+          <AppShell.Section>
+            <Divider mx="xs" mb={4} />
+            {items
+              .filter((item) => item.foot)
+              .map((item) => (
+                <SidebarLink key={item.to} item={item} active={isActive(pathname, item.to)} onClick={close} />
+              ))}
           </AppShell.Section>
           <AppShell.Section>
             <Group gap={6} px="sm" py={6} c="dimmed">
@@ -185,6 +192,22 @@ export function AppLayout() {
         </nav>
       </AppShell.Footer>
     </AppShell>
+  );
+}
+
+function SidebarLink({ item, active, onClick }: { item: NavItem; active: boolean; onClick: () => void }) {
+  const { t } = useTranslation();
+  return (
+    <NavLink
+      label={item.label}
+      leftSection={<item.icon size={20} stroke={1.6} />}
+      rightSection={item.soon ? <Badge size="xs" variant="light" color="gray">{t('common.soon')}</Badge> : undefined}
+      component={Link}
+      to={item.to}
+      onClick={onClick}
+      active={active}
+      py={10}
+    />
   );
 }
 

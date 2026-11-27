@@ -3,6 +3,7 @@ import { lovibondToSrm, newRecipeDoc, srmToEbc, sgToPlato, DEFAULT_EQUIPMENT, ty
 import {
   abvAdvanced,
   abvSimple,
+  apparentAttenuation,
   beerColorHex,
   brewVolumes,
   calculateRecipe,
@@ -13,6 +14,7 @@ import {
   hydrometerCorrection,
   moreyEbc,
   pointsPerKgPerL,
+  realAttenuation,
   refractometerToSg,
   scaleRecipe,
   strikeTemperature,
@@ -30,6 +32,15 @@ describe('gravity', () => {
   it('ABV formulas', () => {
     expect(abvSimple(1.05, 1.01)).toBeCloseTo(5.25, 2);
     expect(abvAdvanced(1.05, 1.01)).toBeCloseTo(5.31, 1);
+  });
+
+  it('gives no negative alcohol or attenuation for a gravity above the OG', () => {
+    expect(abvSimple(1.05, 1.112)).toBe(0);
+    expect(abvAdvanced(1.05, 1.112)).toBe(0);
+    expect(apparentAttenuation(1.05, 1.112)).toBe(0);
+    expect(realAttenuation(1.05, 1.112)).toBe(0);
+    // Below 1.000 is real: apparent attenuation over 100 %.
+    expect(apparentAttenuation(1.05, 0.998)).toBeCloseTo(104, 0);
   });
 
   it('Plato conversion', () => {

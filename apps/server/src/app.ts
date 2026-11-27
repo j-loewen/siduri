@@ -24,10 +24,12 @@ import { recipeRoutes } from './routes/recipes';
 import { settingsRoutes } from './routes/settings';
 import { transferRoutes } from './routes/transfer';
 import { backupRoutes } from './routes/backup';
-import { seedLibrary } from './services/library';
+import { syncLibrary } from './services/library';
 import { refreshRecipeStats } from './services/recipes';
 import { pruneImages } from './services/images';
 import { imageRoutes } from './routes/images';
+import { trashRoutes } from './routes/trash';
+import { purgeTrash } from './services/trash';
 import { mcpRoutes } from './routes/mcp';
 import { tokenRoutes } from './routes/tokens';
 import { linkUnlinkedStyles } from './services/style-match';
@@ -86,8 +88,8 @@ export async function buildApp(config: AppConfig, db: Db) {
   app.decorate('live', live);
   app.addHook('preClose', async () => live.closeAll());
 
-  const seeded = seedLibrary(db);
-  if (seeded) app.log.info(`Added ${seeded} items to the ingredient library`);
+  const synced = syncLibrary(db);
+  if (synced.added || synced.updated || synced.renamed || synced.detached) app.log.info(synced, 'Updated the built-in ingredient library');
   const linked = linkUnlinkedStyles(db);
   if (linked) app.log.info(`Linked the style of ${linked} recipe(s) and batch(es) to the library`);
   const refreshed = refreshRecipeStats(db);
@@ -116,6 +118,7 @@ export async function buildApp(config: AppConfig, db: Db) {
   await app.register(transferRoutes, { db });
   await app.register(backupRoutes, { db });
   await app.register(imageRoutes, { db });
+  await app.register(trashRoutes, { db });
   await app.register(liveRoutes, { db, config });
   // Claude and other AI assistants (MCP), with access tokens managed in the settings.
   await app.register(tokenRoutes, { db });
@@ -143,6 +146,8 @@ export async function buildApp(config: AppConfig, db: Db) {
 
   const housekeeping = () => {
     purgeExpiredSessions(db);
+    // Deleted things that have been in the trash long enough go for good (before the pictures: theirs go with them).
+    purgeTrash(db);
     // Pictures no recipe or batch uses (replaced or removed) go after a day.
     pruneImages(db, 24 * 3600_000);
   };

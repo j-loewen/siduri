@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { brewVolumes } from '@brew/brewcalc';
 import { DEFAULT_EQUIPMENT, VESSEL_KINDS, type CreateVesselInput, type EquipmentData, type EquipmentDto, type VesselKind } from '@brew/shared';
 import { useDeleteEquipment, useDeleteVessel, useEquipment, useSaveEquipment, useSaveVessel, useSetDefaultEquipment, useVessels } from '../data';
+import { useNotifyDeleted, useTrashNote } from '../components/trash-ui';
 import { DevicesSection } from '../components/DevicesSection';
 import { EquipmentFields } from '../components/EquipmentFields';
 import { PageHeader } from '../components/recipe-ui';
@@ -90,6 +91,8 @@ function ProfileCard({ profile, onOpen }: { profile: EquipmentDto; onOpen: () =>
 
 function EquipmentDrawer({ editing, onClose }: { editing: Editing | null; onClose: () => void }) {
   const { t } = useTranslation();
+  const trashNote = useTrashNote();
+  const notifyDeleted = useNotifyDeleted();
   const fmt = useFormat();
   const save = useSaveEquipment();
   const remove = useDeleteEquipment();
@@ -176,10 +179,17 @@ function EquipmentDrawer({ editing, onClose }: { editing: Editing | null; onClos
                   onClick={() =>
                     modals.openConfirmModal({
                       title: t('equipment.delete.title'),
-                      children: <Text size="sm">{t('equipment.delete.text', { name: d.name })}</Text>,
+                      children: <Text size="sm">{t('equipment.delete.text', { name: d.name })}{' '}{trashNote}</Text>,
                       labels: { confirm: t('common.delete'), cancel: t('common.cancel') },
                       confirmProps: { color: 'red' },
-                      onConfirm: () => remove.mutate(current.id!, { onSuccess: onClose, onError: notifyError }),
+                      onConfirm: () =>
+                        remove.mutate(current.id!, {
+                          onSuccess: () => {
+                            notifyDeleted('equipment', current.id!, d.name);
+                            onClose();
+                          },
+                          onError: notifyError,
+                        }),
                     })
                   }
                 >
@@ -266,6 +276,7 @@ function VesselModal({ editing, onClose }: { editing: VesselEditing | null; onCl
   const { t } = useTranslation();
   const save = useSaveVessel();
   const remove = useDeleteVessel();
+  const notifyDeleted = useNotifyDeleted();
   const [data, setData] = useState<CreateVesselInput | null>(null);
   const [shownFor, setShownFor] = useState<VesselEditing | null>(null);
   if (editing !== shownFor) {
@@ -287,7 +298,16 @@ function VesselModal({ editing, onClose }: { editing: VesselEditing | null; onCl
           <Textarea label={t('fields.notes')} value={data.notes ?? ''} autosize minRows={2} onChange={(e) => setData({ ...data, notes: e.currentTarget.value })} />
           <Group justify="space-between">
             {editing?.id ? (
-              <Button variant="subtle" color="red" leftSection={<IconTrash size={16} />} onClick={() => remove.mutate(editing.id!, { onSuccess: onClose, onError: notifyError })}>
+              <Button variant="subtle" color="red" leftSection={<IconTrash size={16} />} onClick={() =>
+                  remove.mutate(editing.id!, {
+                    onSuccess: () => {
+                      notifyDeleted('vessel', editing.id!, editing.data.name);
+                      onClose();
+                    },
+                    onError: notifyError,
+                  })
+                }
+              >
                 {t('common.delete')}
               </Button>
             ) : (

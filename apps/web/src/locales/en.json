@@ -2,6 +2,9 @@
   "common": {
     "add": "Add",
     "cancel": "Cancel",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
     "save": "Save",
     "delete": "Delete",
     "remove": "Remove",
@@ -21,6 +24,7 @@
     "equipment": "Equipment",
     "water": "Water",
     "library": "Library",
+    "trash": "Trash",
     "settings": "Settings"
   },
   "layout": {
@@ -58,6 +62,7 @@
     "forbidden": "That isn't allowed.",
     "not_found": "Not found. It may have been deleted.",
     "conflict": "Someone changed this in the meantime. Reload to see the latest version.",
+    "library_read_only": "Built-in library items can’t be changed or deleted. Copy the item to use your own values.",
     "internal": "The server ran into a problem. Please try again.",
     "backup_invalid": "This backup file can't be read: it is not a Siduri backup, or it is damaged.",
     "backup_too_new": "This backup was made by a newer version of Siduri. Update this server first.",
@@ -128,7 +133,7 @@
     },
     "delete": {
       "title": "Delete recipe?",
-      "text": "“{{name}}” will be deleted for good."
+      "text": "“{{name}}” will be deleted. Batches brewed from it keep their own copy."
     },
     "scale": {
       "menu": "Scale…",
@@ -262,6 +267,8 @@
     "addCustom": "Add without library",
     "addNamed": "Add “{{name}}”",
     "swapTitle": "Swap {{name}} for …",
+    "substitutes": "Substitutes",
+    "allItems": "Library",
     "useNamed": "Use “{{name}}”",
     "ppg": "{{ppg}} PPG",
     "newName": {
@@ -290,14 +297,15 @@
   },
   "library": {
     "title": "Library",
-    "subtitle": "Ingredients, styles and water profiles. Edit values to match what you buy: every malt lot is different.",
+    "subtitle": "Ingredients, styles and water profiles. The built-in items come from open-brewing-data; copy one to enter the values of what you buy.",
     "search": "Search",
     "new": "New {{kind}}",
     "newName": "New item",
     "saved": "Saved to the library",
     "saveAsNew": "Save as new",
     "savedAsNew": "Added to the library: {{name}}",
-    "reset": "Reset to library value",
+    "aliasesHint": "Other names to find it by, e.g. CARAFA III for CARAFA Type 3",
+    "substitutes": "Can be replaced by",
     "ppg": "PPG",
     "kinds": {
       "fermentable": "Fermentables",
@@ -320,6 +328,16 @@
       "user": "Yours",
       "import": "Imported"
     },
+    "origin": {
+      "label": "Show",
+      "all": "All",
+      "builtIn": "Built-in",
+      "own": "Yours"
+    },
+    "builtIn": {
+      "text": "Built-in item: it follows the open data the app ships with and is updated with the app, so it can’t be changed or deleted. To use your own values, copy it. Source:",
+      "copy": "Copy and edit"
+    },
     "ions": {
       "calcium": "Ca",
       "magnesium": "Mg",
@@ -335,6 +353,7 @@
   },
   "fields": {
     "name": "Name",
+    "aliases": "Other names",
     "type": "Type",
     "grainGroup": "Group",
     "producer": "Producer",
@@ -416,6 +435,7 @@
       "roasted": "Roasted",
       "smoked": "Smoked",
       "specialty": "Specialty",
+      "flaked": "Flaked / unmalted",
       "adjunct": "Adjunct",
       "other": "Other"
     },
@@ -612,6 +632,10 @@
       "defaultEquipment": "Equipment for new recipes",
       "logoHint": "Your brewery logo: shown in the header with the brewery name and on the dashboard. Click or drop a picture; square ones look best."
     },
+    "trash": {
+      "title": "Trash",
+      "description": "How long deleted things can be restored from the trash, for everyone in the brewery. Off deletes right away."
+    },
     "backup": {
       "title": "Backup",
       "description": "Download your brewery's data as one file, to keep a copy or to move it to another server, and import such files again. Passwords, users, access tokens and smart devices are never included.",
@@ -692,7 +716,8 @@
       "text": "Siduri is a self-hosted brewing app: recipes, batches, inventory, equipment and water, on your own server. Named after Siduri, the alewife of the Epic of Gilgamesh.",
       "license": "Free software under the GNU AGPL v3.0.",
       "source": "Source code on GitHub",
-      "data": "Built-in ingredient data:"
+      "data": "Contains data from",
+      "dataLicense": "available under the Open Database License (ODbL)."
     }
   },
   "batches": {
@@ -719,11 +744,13 @@
     "plannedVsActual": "Planned and actual",
     "planned": "Planned",
     "actual": "Actual",
+    "plannedValue": "Planned: {{value}}",
     "currentGravity": "Current gravity",
     "attenuation": "Attenuation",
     "intoFermenter": "Into fermenter",
     "efficiency": "Brewhouse efficiency",
     "expected": "expected {{value}}",
+    "aboveOg": "Reading above the OG ({{og}}): check the reading or the OG",
     "measuredTitle": "Measured values",
     "carbonation": {
       "title": "Carbonation",
@@ -766,8 +793,36 @@
     "tabs": {
       "overview": "Overview",
       "recipe": "Recipe",
+      "planning": "Planning",
+      "brewing": "Brewing",
       "fermentation": "Fermentation",
+      "conditioning": "Conditioning",
       "log": "Log"
+    },
+    "overview": {
+      "facts": "Batch",
+      "stock": "Ingredients from stock",
+      "stockNotTaken": "Not taken yet"
+    },
+    "planning": {
+      "when": "Brew day"
+    },
+    "brewing": {
+      "title": "Brew day",
+      "notStarted": "Not started yet.",
+      "inProgress": "In progress since {{date}}.",
+      "finished": "Finished {{date}}.",
+      "measured": "Measured on brew day",
+      "measuredHint": "The brew-day screen asks for these at the right step; correct them here."
+    },
+    "fermentation": {
+      "title": "Fermenter and final gravity",
+      "vessel": "Fermenter"
+    },
+    "conditioning": {
+      "title": "Packaging",
+      "vessel": "Keg or bottles",
+      "vesselHint": "Moving the batch into a keg or bottles frees its fermenter."
     },
     "fields": {
       "recipe": "Recipe",
@@ -845,7 +900,7 @@
     },
     "delete": {
       "title": "Delete batch?",
-      "text": "“{{name}}” with its readings and log will be deleted for good."
+      "text": "“{{name}}” will be deleted with its readings and log."
     }
   },
   "brewday": {
@@ -1286,6 +1341,60 @@
       "newKeyTitle": "Create a new key?",
       "newKeyText": "The current key stops working. You'll have to change the header in every RAPT stream.",
       "newKeyDone": "New key created: change the header in your RAPT streams."
+    }
+  },
+  "trash": {
+    "title": "Trash",
+    "subtitle_one": "Deleted things stay here for a day, then they are deleted for good.",
+    "subtitle_other": "Deleted things stay here for {{count}} days, then they are deleted for good.",
+    "subtitleOff": "The trash is off: deleted things are gone right away.",
+    "change": "Change",
+    "nothing": "The trash is empty.",
+    "filter": "Show",
+    "all_one": "Everything ({{count}})",
+    "all_other": "Everything ({{count}})",
+    "keepFor": "Keep deleted things for",
+    "keepSaved": "Saved",
+    "off": "Off (delete right away)",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "shorter": {
+      "title": "Keep deleted things for less time?",
+      "text_one": "Everything deleted more than a day ago is deleted for good now.",
+      "text_other": "Everything deleted more than {{count}} days ago is deleted for good now.",
+      "off": "Everything in the trash is deleted for good now, and deleting will no longer go through the trash."
+    },
+    "deletedAt": "Deleted {{date}}",
+    "goneIn_one": "gone tomorrow",
+    "goneIn_other": "gone in {{count}} days",
+    "goneSoon": "gone soon",
+    "restore": "Restore",
+    "restored": "“{{name}}” is back.",
+    "moved": "“{{name}}” was moved to the trash.",
+    "undo": "Undo",
+    "deleteForGood": {
+      "title": "Delete for good?",
+      "text": "“{{name}}” will be deleted for good. This can’t be undone.",
+      "confirm": "Delete for good"
+    },
+    "empty": {
+      "button": "Empty trash",
+      "title": "Empty the trash?",
+      "text_one": "The {{count}} thing in the trash will be deleted for good. This can’t be undone.",
+      "text_other": "All {{count}} things in the trash will be deleted for good. This can’t be undone.",
+      "confirm": "Empty trash"
+    },
+    "note_one": "You can restore it from the trash for a day.",
+    "note_other": "You can restore it from the trash for {{count}} days.",
+    "noteOff": "This can’t be undone.",
+    "kinds": {
+      "recipe": "Recipe",
+      "batch": "Batch",
+      "inventory": "Stock item",
+      "library": "Library item",
+      "equipment": "Equipment profile",
+      "vessel": "Vessel",
+      "device": "Device"
     }
   }
 }

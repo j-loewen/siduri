@@ -2,6 +2,7 @@ import type { MiscData } from '@brew/shared';
 
 const m = (name: string, type: MiscData['type'], amountKind: MiscData['amountKind'], useFor: string, notes = ''): MiscData => ({
   name,
+  aliases: [],
   type,
   producer: '',
   productId: '',

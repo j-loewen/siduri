@@ -1,297 +1,983 @@
 [
  {
-  "seedKey": "hop:summit",
+  "seedKey": "hops/varieties/admiral",
   "data": {
-   "name": "Summit",
+   "name": "Admiral",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United Kingdom",
    "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 18,
-   "betaPct": 6,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.85,
-   "substitutes": "Columbus, Simcoe, Apollo",
-   "notes": "Summit boasts citric aromas of tangerine, grapefruit and orange along with an impressive alpha content giving it a wide spectrum of potential use."
+   "purpose": null,
+   "alphaPct": 14.5,
+   "betaPct": 5,
+   "cohumulonePct": null,
+   "totalOil": 1.35,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety bred from Challenger and Northdown."
   }
  },
  {
-  "seedKey": "hop:columbus",
+  "seedKey": "hops/varieties/agnus",
   "data": {
-   "name": "Columbus",
+   "name": "Agnus",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "Czechia",
    "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 16,
-   "betaPct": 5.3,
-   "cohumulonePct": 32,
-   "totalOil": null,
-   "hsi": 0.55,
-   "substitutes": "Chinook, Northern Brewer, Nugget",
-   "notes": "It features a punchy hoppiness and deep, pensive aroma with understated citrus notes—perfect as a dual use hop."
-  }
- },
- {
-  "seedKey": "hop:el-dorado",
-  "data": {
-   "name": "El Dorado",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 16,
-   "betaPct": 8,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Galena, Simcoe",
-   "notes": "Flavors of tropical fruit, pineapple, mango. Aromas of pear, watermelon, stone fruit and candy."
-  }
- },
- {
-  "seedKey": "hop:celeia",
-  "data": {
-   "name": "Celeia",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 5.5,
-   "betaPct": 3.5,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.56,
-   "substitutes": "Saaz US",
-   "notes": "Floral and citrus aroma."
-  }
- },
- {
-  "seedKey": "hop:crystal",
-  "data": {
-   "name": "Crystal",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 5.5,
-   "betaPct": 6.5,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.65,
-   "substitutes": "Liberty, Mt Hood, Hallertau",
-   "notes": "Woody, floral, and fruity with spice notes of cinnamon, nutmeg, and black pepper."
-  }
- },
- {
-  "seedKey": "hop:chelan",
-  "data": {
-   "name": "Chelan",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 15,
-   "betaPct": 9.8,
-   "cohumulonePct": 34,
-   "totalOil": null,
-   "hsi": 0.8,
-   "substitutes": "Galena, Nugget",
-   "notes": "Despite being comparable in style, Chelan enjoys higher yields and a higher alpha percentage than its parent Galena."
-  }
- },
- {
-  "seedKey": "hop:liberty",
-  "data": {
-   "name": "Liberty",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 5,
-   "betaPct": 4,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.45,
-   "substitutes": "Mt Hood, Hallertau",
-   "notes": "Notes of lemon and spice."
-  }
- },
- {
-  "seedKey": "hop:cluster",
-  "data": {
-   "name": "Cluster",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 8.5,
+   "purpose": null,
+   "alphaPct": 11.25,
    "betaPct": 5.5,
-   "cohumulonePct": 39,
-   "totalOil": null,
-   "hsi": 0.83,
-   "substitutes": "Galena, Eroica",
-   "notes": "Clean, neutral, and slightly floral in taste."
+   "cohumulonePct": null,
+   "totalOil": 3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Czech variety with Bor, Sládek, Saaz, Northern Brewer and Fuggle in its ancestry."
   }
  },
  {
-  "seedKey": "hop:perle-us",
+  "seedKey": "hops/varieties/ahtanum",
   "data": {
-   "name": "Perle US",
+   "name": "Ahtanum",
+   "aliases": [
+    "YCR 1"
+   ],
    "producer": "",
-   "origin": "",
+   "origin": "United States",
    "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 9.5,
-   "betaPct": 5,
-   "cohumulonePct": 28,
-   "totalOil": null,
-   "hsi": 0.7,
-   "substitutes": "Northern Brewer",
-   "notes": "Faint spicy aroma."
+   "purpose": null,
+   "alphaPct": 5,
+   "betaPct": 5.75,
+   "cohumulonePct": 32.5,
+   "totalOil": 1.25,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:tillicum",
+  "seedKey": "hops/varieties/amarillo",
   "data": {
-   "name": "Tillicum",
+   "name": "Amarillo",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8.85,
+   "betaPct": 6.05,
+   "cohumulonePct": null,
+   "totalOil": 1.9,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety that arose from open pollination."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/apollo",
+  "data": {
+   "name": "Apollo",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 17.5,
+   "betaPct": 6.75,
+   "cohumulonePct": 26,
+   "totalOil": 1.65,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "High-alpha US variety from the Hopsteiner breeding programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/aramis",
+  "data": {
+   "name": "Aramis",
+   "aliases": [],
+   "producer": "",
+   "origin": "France",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.5,
+   "betaPct": 4.5,
+   "cohumulonePct": null,
+   "totalOil": 1.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "French variety, a daughter of Strisselspalt."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/archer",
+  "data": {
+   "name": "Archer",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5,
+   "betaPct": 2.5,
+   "cohumulonePct": 35,
+   "totalOil": 0.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British low-trellis aroma variety from the Charles Faram hop development programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/ariana",
+  "data": {
+   "name": "Ariana",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 9.7,
+   "betaPct": 4.9,
+   "cohumulonePct": 41,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2016. Pedigree: Herkules x 3W 42-30-38. Grown in Germany in Hallertau, Tettnang and Spalt."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/aurora",
+  "data": {
+   "name": "Aurora",
+   "aliases": [],
+   "producer": "",
+   "origin": "Slovenia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 10.05,
+   "betaPct": 5.5,
+   "cohumulonePct": null,
+   "totalOil": 2.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Slovenian variety, a daughter of Northern Brewer."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/aurum",
+  "data": {
+   "name": "Aurum",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 4.7,
+   "betaPct": 5.6,
+   "cohumulonePct": 20,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 1995; Hüll classes it as a land variety. Pedigree: Tettnanger x 91/036/004."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/azacca",
+  "data": {
+   "name": "Azacca",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.5,
+   "betaPct": 4.7,
+   "cohumulonePct": null,
+   "totalOil": 2.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety developed by the American Dwarf Hop Association."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/beata",
+  "data": {
+   "name": "Beata",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.5,
+   "betaPct": 10,
+   "cohumulonePct": 30,
+   "totalOil": 1.25,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British hedgerow aroma variety bred at Wye College in 1995 for its high beta acid content."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/boadicea",
+  "data": {
+   "name": "Boadicea",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8.5,
+   "betaPct": 3.5,
+   "cohumulonePct": null,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from open pollination of a female descended from a wild Japanese hop."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/bobek",
+  "data": {
+   "name": "Bobek",
+   "aliases": [],
+   "producer": "",
+   "origin": "Slovenia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.6,
+   "betaPct": 5.05,
+   "cohumulonePct": null,
+   "totalOil": 2.35,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Slovenian variety, a daughter of Savinjski Golding."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/bramling-cross",
+  "data": {
+   "name": "Bramling Cross",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7,
+   "betaPct": 2.85,
+   "cohumulonePct": null,
+   "totalOil": 1.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from Bramling crossed with a seedling of a wild Manitoba hop."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/bravo",
+  "data": {
+   "name": "Bravo",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 16.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 31.5,
+   "totalOil": 2.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/brewers-gold",
+  "data": {
+   "name": "Brewers Gold",
+   "aliases": [
+    "Brewer's Gold"
+   ],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.5,
+   "betaPct": null,
+   "cohumulonePct": null,
+   "totalOil": 1.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from the wild Manitoba hop BB1, open pollinated."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/brewers-gold-us",
+  "data": {
+   "name": "Brewer's Gold US",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
    "purpose": "bittering",
-   "alphaPct": 15,
-   "betaPct": 11,
-   "cohumulonePct": 34,
+   "alphaPct": 10,
+   "betaPct": 4.5,
+   "cohumulonePct": 40,
    "totalOil": null,
-   "hsi": 0.8,
-   "substitutes": "Galena, Chelan",
-   "notes": "Elements of citrus and peach."
+   "hsi": null,
+   "substitutes": "Cascade, Galena",
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:glacier",
+  "seedKey": "hops/varieties/bru-1",
   "data": {
-   "name": "Glacier",
+   "name": "Bru-1",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14.2,
+   "betaPct": 9.35,
+   "cohumulonePct": null,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety from open pollination at Brulotte Farms in Toppenish, Washington."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/bullion",
+  "data": {
+   "name": "Bullion",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.4,
+   "betaPct": 4.9,
+   "cohumulonePct": 48.5,
+   "totalOil": 1.45,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety bred by Prof. Ernest Salmon at Wye College from an open-pollinated wild Manitoba hop (BB1), released in 1938; out of UK production from 1986."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/callista",
+  "data": {
+   "name": "Callista",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
    "form": "pellet",
    "purpose": "aroma",
-   "alphaPct": 5.5,
-   "betaPct": 8.2,
-   "cohumulonePct": 13,
-   "totalOil": null,
-   "hsi": 0.7,
-   "substitutes": "Willamette",
-   "notes": "Herby, woody, and citrusy notes."
+   "alphaPct": 3.4,
+   "betaPct": 6.8,
+   "cohumulonePct": 19,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2016. Pedigree: Hallertauer Tradition x 2007/017/501. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
   }
  },
  {
-  "seedKey": "hop:mt-hood",
-  "data": {
-   "name": "Mt. Hood",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 7,
-   "betaPct": 8,
-   "cohumulonePct": 22,
-   "totalOil": null,
-   "hsi": 0.55,
-   "substitutes": "Crystal",
-   "notes": "Hallertau derivant. Mild spicy flavor."
-  }
- },
- {
-  "seedKey": "hop:simcoe",
-  "data": {
-   "name": "Simcoe",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 14,
-   "betaPct": 5,
-   "cohumulonePct": 17,
-   "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Summit",
-   "notes": "Bright citrus flavors with earthy undertones. Aromas of grapefruit, pine, and herbs."
-  }
- },
- {
-  "seedKey": "hop:cascade",
+  "seedKey": "hops/varieties/cascade",
   "data": {
    "name": "Cascade",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.2,
+   "betaPct": 6,
+   "cohumulonePct": null,
+   "totalOil": 1.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "American hop variety from a breeding programme in Oregon, released in 1972. A cross of English Fuggle with a male plant descended from the Russian variety Serebrianka."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/cascade-au",
+  "data": {
+   "name": "Cascade AU",
+   "aliases": [],
+   "producer": "",
+   "origin": "Australia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.8,
+   "betaPct": 5.1,
+   "cohumulonePct": 35.5,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Cascade (USDA) grown in Australia by Hop Products Australia. Ancestry given by HPA: Fuggle, Serebrianka, Native American."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/cascade-de",
+  "data": {
+   "name": "Cascade DE",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.5,
+   "betaPct": 6.1,
+   "cohumulonePct": 33,
+   "totalOil": 1.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the USDA, released 1972. Pedigree: USDA 19124 x o.p. Grown in Germany in Hallertau, Tettnang, Spalt, Elbe-Saale and Baden-Bitburg."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/cascade-nz",
+  "data": {
+   "name": "Cascade NZ",
+   "aliases": [
+    "Taiheke"
+   ],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7,
+   "betaPct": 5.5,
+   "cohumulonePct": null,
+   "totalOil": 1.05,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Cascade (USDA, 1972) grown in New Zealand and sold by NZ Hops as Taiheke."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/cascade-uk",
+  "data": {
+   "name": "Cascade UK",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.05,
+   "betaPct": 4.75,
+   "cohumulonePct": 38.5,
+   "totalOil": 0.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Cascade (USDA) grown in Britain, in production since 2002 from virus-free stock developed through Wye College."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/cashmere",
+  "data": {
+   "name": "Cashmere",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8.5,
+   "betaPct": 6,
+   "cohumulonePct": 22,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety released by Washington State University in 2013, a daughter of Cascade."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/celeia",
+  "data": {
+   "name": "Celeia",
+   "aliases": [],
+   "producer": "",
+   "origin": "Slovenia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.2,
+   "betaPct": 3,
+   "cohumulonePct": null,
+   "totalOil": 2.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Slovenian variety, a daughter of Savinjski Golding."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/centennial",
+  "data": {
+   "name": "Centennial",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 9.65,
+   "betaPct": 3.9,
+   "cohumulonePct": null,
+   "totalOil": 2.05,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety; about three quarters of its ancestry is Brewers Gold, with smaller shares of Fuggle, East Kent Golding and a Bavarian hop."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/chelan",
+  "data": {
+   "name": "Chelan",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.25,
+   "betaPct": 9.15,
+   "cohumulonePct": null,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Galena."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/chinook",
+  "data": {
+   "name": "Chinook",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.85,
+   "betaPct": 3.7,
+   "cohumulonePct": null,
+   "totalOil": 2.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety from a cross of Petham Golding with a high-alpha USDA male."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/chinook-nz",
+  "data": {
+   "name": "Chinook NZ",
+   "aliases": [
+    "NZ Chinook"
+   ],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.25,
+   "betaPct": 5.05,
+   "cohumulonePct": 33.5,
+   "totalOil": 1.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety (USDA, released 1985; Petham Golding x USDA male), here grown in New Zealand."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/citra",
+  "data": {
+   "name": "Citra",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.65,
+   "betaPct": 3.6,
+   "cohumulonePct": null,
+   "totalOil": 2.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety whose ancestry is half Hallertau and a quarter US Tettnang."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/cluster",
+  "data": {
+   "name": "Cluster",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8.1,
+   "betaPct": 5.3,
+   "cohumulonePct": null,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Old US variety of uncertain parentage, possibly an English variety crossed with an American male."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/columbus",
+  "data": {
+   "name": "Columbus",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 15.7,
+   "betaPct": 5.15,
+   "cohumulonePct": null,
+   "totalOil": 4.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Nugget."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/comet",
+  "data": {
+   "name": "Comet",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 9.25,
+   "betaPct": 4.75,
+   "cohumulonePct": 34,
+   "totalOil": 1.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/comet-de",
+  "data": {
+   "name": "Comet DE",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 10.9,
+   "betaPct": 4.55,
+   "cohumulonePct": null,
+   "totalOil": 3.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Variety from open pollination."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/crystal",
+  "data": {
+   "name": "Crystal",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.05,
+   "betaPct": 6.75,
+   "cohumulonePct": null,
+   "totalOil": 2.1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a half-sister of Mt. Hood and Liberty."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/ctz",
+  "data": {
+   "name": "CTZ",
+   "aliases": [
+    "Columbus/Tomahawk/Zeus"
+   ],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 16.5,
+   "betaPct": 5.25,
+   "cohumulonePct": 28,
+   "totalOil": 3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/delta",
+  "data": {
+   "name": "Delta",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.25,
+   "betaPct": 6.25,
+   "cohumulonePct": 23,
+   "totalOil": 0.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US aroma variety from the Hopsteiner breeding programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/deutscher-saazer",
+  "data": {
+   "name": "Deutscher Saazer",
+   "aliases": [
+    "German Saaz"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 3.2,
+   "betaPct": 4.2,
+   "cohumulonePct": 24,
+   "totalOil": 0.45,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "German land variety (landrace). Grown in Germany in Hallertau and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/diamant",
+  "data": {
+   "name": "Diamant",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
    "form": "pellet",
    "purpose": "aroma",
    "alphaPct": 7,
-   "betaPct": 7,
-   "cohumulonePct": 35,
-   "totalOil": null,
-   "hsi": 0.5,
-   "substitutes": "Centennial, Amarillo, Columbus",
-   "notes": "Floral, with elements of citrus."
+   "betaPct": 6.3,
+   "cohumulonePct": 18,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2020. Pedigree: Spalter x 80/018/062. Grown in Germany in Hallertau."
   }
  },
  {
-  "seedKey": "hop:willamette",
+  "seedKey": "hops/varieties/dr-rudi",
   "data": {
-   "name": "Willamette",
+   "name": "Dr. Rudi",
+   "aliases": [
+    "Dr Rudi",
+    "Super Alpha"
+   ],
    "producer": "",
-   "origin": "",
+   "origin": "New Zealand",
    "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 6,
-   "betaPct": 4.5,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.6,
-   "substitutes": "Fuggle, Glacier",
-   "notes": "Herbal spiciness with floral notes."
-  }
- },
- {
-  "seedKey": "hop:spalt",
-  "data": {
-   "name": "Spalt",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 4.1,
-   "betaPct": 4,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.55,
-   "substitutes": "Saaz, Hallertau, Sterling",
-   "notes": "Earthen and spice notes."
-  }
- },
- {
-  "seedKey": "hop:sterling",
-  "data": {
-   "name": "Sterling",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 5,
+   "purpose": null,
+   "alphaPct": 12,
    "betaPct": 6,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.65,
-   "substitutes": "Saaz",
-   "notes": "Derivant of Saaz. Similar earthen and spice notes."
+   "cohumulonePct": null,
+   "totalOil": 1.63,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Triploid variety bred from the New Zealand variety Smoothcone at Plant & Food Research; released in 1976 as Super Alpha and renamed Dr. Rudi in 2012."
   }
  },
  {
-  "seedKey": "hop:eroica",
+  "seedKey": "hops/varieties/east-kent-golding",
+  "data": {
+   "name": "East Kent Golding",
+   "aliases": [
+    "EKG"
+   ],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.25,
+   "betaPct": 2.45,
+   "cohumulonePct": null,
+   "totalOil": 0.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "English variety selected from the wild Canterbury Whitebine."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/eclipse",
+  "data": {
+   "name": "Eclipse",
+   "aliases": [],
+   "producer": "",
+   "origin": "Australia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 18.05,
+   "betaPct": 7.4,
+   "cohumulonePct": 35,
+   "totalOil": 2.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Australian variety bred by Hop Products Australia. Ancestry given by HPA: Fuggle, Brewer's Gold, Comet, Pride of Ringwood."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/ekuanot",
+  "data": {
+   "name": "Ekuanot",
+   "aliases": [
+    "Equinox",
+    "HBC 366"
+   ],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14.3,
+   "betaPct": 4.7,
+   "cohumulonePct": null,
+   "totalOil": 4.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety from the Hop Breeding Company, released in 2014 as Equinox (HBC 366) and later renamed."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/el-dorado",
+  "data": {
+   "name": "El Dorado",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.2,
+   "betaPct": 5.5,
+   "cohumulonePct": null,
+   "totalOil": 2.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/elani",
+  "data": {
+   "name": "Elani",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.5,
+   "betaPct": 7,
+   "cohumulonePct": 27.5,
+   "totalOil": 2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/ella",
+  "data": {
+   "name": "Ella",
+   "aliases": [],
+   "producer": "",
+   "origin": "Australia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 16.95,
+   "betaPct": 6.45,
+   "cohumulonePct": 38.5,
+   "totalOil": 2.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Australian variety bred by Hop Products Australia. Ancestry given by HPA: High Alpha Australian, Spalt."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/endeavour",
+  "data": {
+   "name": "Endeavour",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 9.05,
+   "betaPct": 4.55,
+   "cohumulonePct": null,
+   "totalOil": 1.45,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety, a seedling of Cascade and a granddaughter of Target."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/enigma",
+  "data": {
+   "name": "Enigma",
+   "aliases": [],
+   "producer": "",
+   "origin": "Australia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 17.75,
+   "betaPct": 7.15,
+   "cohumulonePct": 40,
+   "totalOil": 3.05,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Australian variety bred by Hop Products Australia. Ancestry given by HPA: Swiss Tettnang, North American."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/epic",
+  "data": {
+   "name": "Epic",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4,
+   "betaPct": 2.1,
+   "cohumulonePct": 31.5,
+   "totalOil": 0.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety found in 1987 as a chance seedling in Kent, probably a seedling of Alliance."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/ernest",
+  "data": {
+   "name": "Ernest",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.8,
+   "betaPct": 4.75,
+   "cohumulonePct": 52.5,
+   "totalOil": 0.9,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Historical British variety bred by Prof. Ernest Salmon, on farm trials in 1957-58 but not adopted."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/eroica",
   "data": {
    "name": "Eroica",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
@@ -300,270 +986,93 @@
    "betaPct": 4.5,
    "cohumulonePct": 40,
    "totalOil": null,
-   "hsi": 0.8,
-   "substitutes": "Galena, Cluster, Brewer's Gold",
-   "notes": "Possesses a sharp fruity essence."
+   "hsi": null,
+   "substitutes": "Galena, Cluster, Brewer's Gold US",
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:northdown",
+  "seedKey": "hops/varieties/extra-styrian-dana",
   "data": {
-   "name": "Northdown",
+   "name": "Extra Styrian Dana",
+   "aliases": [
+    "Styrian Dana",
+    "Dana"
+   ],
    "producer": "",
-   "origin": "",
+   "origin": "Slovenia",
    "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 8.5,
-   "betaPct": 4.8,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.65,
-   "substitutes": "Challenger",
-   "notes": "Fresh, flowery, piney, berry and spice."
+   "purpose": null,
+   "alphaPct": 15.65,
+   "betaPct": 5.1,
+   "cohumulonePct": null,
+   "totalOil": 2.85,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Slovenian variety, a daughter of Hallertauer Magnum."
   }
  },
  {
-  "seedKey": "hop:strisselspalt",
+  "seedKey": "hops/varieties/first-gold",
   "data": {
-   "name": "Strisselspalt",
+   "name": "First Gold",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United Kingdom",
    "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 4.5,
-   "betaPct": 4.5,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.65,
-   "substitutes": "Hallertau, Mt Hood",
-   "notes": "Pleasant mixture of herbal, floral, and citrus notes."
+   "purpose": null,
+   "alphaPct": 7.8,
+   "betaPct": 3.4,
+   "cohumulonePct": null,
+   "totalOil": 1.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British dwarf variety, a daughter of Whitbread Golding and a dwarf male."
   }
  },
  {
-  "seedKey": "hop:brewer-s-gold-us",
+  "seedKey": "hops/varieties/flyer",
   "data": {
-   "name": "Brewer's Gold US",
+   "name": "Flyer",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United Kingdom",
    "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 10,
-   "betaPct": 4.5,
-   "cohumulonePct": 40,
-   "totalOil": null,
-   "hsi": 0.1,
-   "substitutes": "Cascade, Galena",
-   "notes": "An incredibly sharp bittering flavor."
+   "purpose": null,
+   "alphaPct": 11.4,
+   "betaPct": 5.05,
+   "cohumulonePct": 30.5,
+   "totalOil": 0.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British low-trellis variety from a 2002 cross of a high-alpha female line and a dwarf male; still on trial according to the British Hop Association."
   }
  },
  {
-  "seedKey": "hop:nugget",
+  "seedKey": "hops/varieties/fuggle-nz",
   "data": {
-   "name": "Nugget",
+   "name": "Fuggle NZ",
+   "aliases": [
+    "NZ Fuggle"
+   ],
    "producer": "",
-   "origin": "",
+   "origin": "New Zealand",
    "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 14,
-   "betaPct": 6,
-   "cohumulonePct": 26,
-   "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Galena",
-   "notes": "Solid bittering, light flavor, herbal aroma."
+   "purpose": null,
+   "alphaPct": 5.5,
+   "betaPct": 3.25,
+   "cohumulonePct": null,
+   "totalOil": 0.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Fuggle grown in New Zealand."
   }
  },
  {
-  "seedKey": "hop:horizon",
-  "data": {
-   "name": "Horizon",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 10,
-   "betaPct": 5,
-   "cohumulonePct": 20,
-   "totalOil": null,
-   "hsi": 0.85,
-   "substitutes": "Magnum",
-   "notes": "Floral, citrusy flavors and aromas."
-  }
- },
- {
-  "seedKey": "hop:ultra",
-  "data": {
-   "name": "Ultra",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 3.5,
-   "betaPct": 4.5,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.65,
-   "substitutes": "Hallertau, Saaz",
-   "notes": "Mild spice aroma and flavor."
-  }
- },
- {
-  "seedKey": "hop:ahtanum",
-  "data": {
-   "name": "Ahtanum",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 5.7,
-   "betaPct": 5,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.5,
-   "substitutes": "Willamette, Centennial, Cascade",
-   "notes": "Distinct grapefruit scent and flavor."
-  }
- },
- {
-  "seedKey": "hop:mosaic",
-  "data": {
-   "name": "Mosaic",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 13.5,
-   "betaPct": 4,
-   "cohumulonePct": 22,
-   "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Citra",
-   "notes": "Complex flavor reminiscent of stone fruit."
-  }
- },
- {
-  "seedKey": "hop:bravo",
-  "data": {
-   "name": "Bravo",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 18,
-   "betaPct": 5,
-   "cohumulonePct": 32,
-   "totalOil": null,
-   "hsi": 0.7,
-   "substitutes": "Columbus, CTZ, Nugget",
-   "notes": "Spicy, earthy, and lightly floral aroma."
-  }
- },
- {
-  "seedKey": "hop:challenger",
-  "data": {
-   "name": "Challenger",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 2.1,
-   "betaPct": 3.7,
-   "cohumulonePct": 20,
-   "totalOil": null,
-   "hsi": 0.8,
-   "substitutes": "Admiral, Perle",
-   "notes": "Challenger features decent bitterness and a floral aroma."
-  }
- },
- {
-  "seedKey": "hop:golding-us",
-  "data": {
-   "name": "Golding US",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 6,
-   "betaPct": 3,
-   "cohumulonePct": 20,
-   "totalOil": null,
-   "hsi": 0.65,
-   "substitutes": "Fuggle, East Kent Golding",
-   "notes": "Direct descendants of East Kent Golding. Delicate fruit and herbal aromas."
-  }
- },
- {
-  "seedKey": "hop:magnum-us",
-  "data": {
-   "name": "Magnum US",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 14,
-   "betaPct": 6,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.85,
-   "substitutes": "Hallertau, Columbus, Nugget",
-   "notes": "Excellent bittering profile and a nice, hoppy, floral aroma and subtle characters of citrus. Genetically indistinguishable from the German variety."
-  }
- },
- {
-  "seedKey": "hop:galaxy",
-  "data": {
-   "name": "Galaxy",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 13,
-   "betaPct": 5.5,
-   "cohumulonePct": 36,
-   "totalOil": null,
-   "hsi": 0.55,
-   "substitutes": "Topaz, Citra, Cascade",
-   "notes": "Stone fruit aroma with citrus notes."
-  }
- },
- {
-  "seedKey": "hop:apollo",
-  "data": {
-   "name": "Apollo",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 20,
-   "betaPct": 8,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.85,
-   "substitutes": "Nugget, Columbus, CTZ",
-   "notes": "Sharp, clean bittering with grapefruit notes."
-  }
- },
- {
-  "seedKey": "hop:ctz",
-  "data": {
-   "name": "CTZ",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 17,
-   "betaPct": 5,
-   "cohumulonePct": 35,
-   "totalOil": null,
-   "hsi": 0.8,
-   "substitutes": "Columbus, Apollo",
-   "notes": "Also known as Zeus. Sweet citrus notes with an herbal aroma."
-  }
- },
- {
-  "seedKey": "hop:fuggle-us",
+  "seedKey": "hops/varieties/fuggle-us",
   "data": {
    "name": "Fuggle US",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
@@ -572,253 +1081,182 @@
    "betaPct": 2,
    "cohumulonePct": 27,
    "totalOil": null,
-   "hsi": 0.5,
+   "hsi": null,
    "substitutes": "Willamette, Newport",
-   "notes": "A slight, fruity flavor."
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:santiam",
+  "seedKey": "hops/varieties/fuggles",
   "data": {
-   "name": "Santiam",
+   "name": "Fuggles",
+   "aliases": [
+    "Fuggle"
+   ],
    "producer": "",
-   "origin": "",
+   "origin": "United Kingdom",
    "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 7,
-   "betaPct": 8,
-   "cohumulonePct": 20,
-   "totalOil": null,
-   "hsi": 0.45,
-   "substitutes": "Spalt, Hallertau, Liberty",
-   "notes": "Soft, herbal, floral, fruity aromas with hints of pepper and spice."
+   "purpose": null,
+   "alphaPct": 4.75,
+   "betaPct": 3,
+   "cohumulonePct": null,
+   "totalOil": 1.05,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "English land variety."
   }
  },
  {
-  "seedKey": "hop:delta",
+  "seedKey": "hops/varieties/galaxy",
   "data": {
-   "name": "Delta",
+   "name": "Galaxy",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "Australia",
    "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 7,
-   "betaPct": 7,
-   "cohumulonePct": 23,
-   "totalOil": null,
-   "hsi": 0.85,
-   "substitutes": "Fuggle, Willamette",
-   "notes": "Spicy citrus and summer melon notes."
+   "purpose": null,
+   "alphaPct": 17.75,
+   "betaPct": 8.85,
+   "cohumulonePct": 37.5,
+   "totalOil": 2.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Australian variety bred by Hop Products Australia. Ancestry given by HPA: High Alpha Australia, Perle."
   }
  },
  {
-  "seedKey": "hop:super-galena",
+  "seedKey": "hops/varieties/galena",
   "data": {
-   "name": "Super Galena",
+   "name": "Galena",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United States",
    "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 16,
-   "betaPct": 10,
-   "cohumulonePct": 40,
-   "totalOil": null,
-   "hsi": 0.7,
-   "substitutes": "Galena, Columbus, CTZ, Eroica",
-   "notes": "A far more potent variety of Galena with great bittering potential and citrus notes."
+   "purpose": null,
+   "alphaPct": 12.9,
+   "betaPct": 7.8,
+   "cohumulonePct": null,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Brewers Gold."
   }
  },
  {
-  "seedKey": "hop:bullion",
+  "seedKey": "hops/varieties/glacier",
   "data": {
-   "name": "Bullion",
+   "name": "Glacier",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United States",
    "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 8,
-   "betaPct": 6,
-   "cohumulonePct": 40,
-   "totalOil": null,
-   "hsi": 0.45,
-   "substitutes": "Columbus, Chinook, Galena",
-   "notes": "Scents of dark fruit and spice."
+   "purpose": null,
+   "alphaPct": 5.75,
+   "betaPct": 7.45,
+   "cohumulonePct": null,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Strisselspalt."
   }
  },
  {
-  "seedKey": "hop:tettnanger",
+  "seedKey": "hops/varieties/godiva",
   "data": {
-   "name": "Tettnanger",
+   "name": "Godiva",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "United Kingdom",
    "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 5,
-   "betaPct": 4,
-   "cohumulonePct": 20,
-   "totalOil": null,
-   "hsi": 0.55,
-   "substitutes": "Spalt, Saaz",
-   "notes": "Floral and herbal notes with a mild spiciness."
+   "purpose": null,
+   "alphaPct": 7.5,
+   "betaPct": 2.45,
+   "cohumulonePct": 27,
+   "totalOil": 0.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from the Charles Faram hop development programme, a daughter of Jester."
   }
  },
  {
-  "seedKey": "hop:citra",
+  "seedKey": "hops/varieties/golding-us",
   "data": {
-   "name": "Citra",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "dual",
-   "alphaPct": 13,
-   "betaPct": 4.5,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Cascade, Simcoe",
-   "notes": "HBC# 394cv. Strong notes of tropical fruits with a harsh bitterness."
-  }
- },
- {
-  "seedKey": "hop:saaz-us",
-  "data": {
-   "name": "Saaz US",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 4.5,
-   "betaPct": 4.5,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.5,
-   "substitutes": "Centennial, Amarillo",
-   "notes": "Also called Saazer. Strong herbal character."
-  }
- },
- {
-  "seedKey": "hop:east-kent-golding",
-  "data": {
-   "name": "East Kent Golding",
+   "name": "Golding US",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
    "purpose": "aroma",
    "alphaPct": 6,
    "betaPct": 3,
-   "cohumulonePct": 30,
+   "cohumulonePct": 20,
    "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Fuggle, Golding",
-   "notes": "Delicate fruit and herbal aromas."
+   "hsi": null,
+   "substitutes": "Fuggle US, East Kent Golding",
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:warrior",
+  "seedKey": "hops/varieties/goldings",
   "data": {
-   "name": "Warrior",
+   "name": "Goldings",
+   "aliases": [
+    "Golding"
+   ],
    "producer": "",
-   "origin": "",
+   "origin": "United Kingdom",
    "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 18,
+   "purpose": null,
+   "alphaPct": 6.75,
+   "betaPct": 2.45,
+   "cohumulonePct": 27.5,
+   "totalOil": 0.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Old English variety group from Kent, including clones such as Cobbs, Eastwell, Mathon and East Kent."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/green-bullet",
+  "data": {
+   "name": "Green Bullet",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13,
+   "betaPct": 6,
+   "cohumulonePct": null,
+   "totalOil": 1.63,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid alpha variety from open pollination of Smoothcone, released in 1972."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hallertau-blanc",
+  "data": {
+   "name": "Hallertau Blanc",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 9.1,
    "betaPct": 5.5,
-   "cohumulonePct": 26,
-   "totalOil": null,
-   "hsi": 0.76,
-   "substitutes": "Nugget, Columbus",
-   "notes": "Strong aroma of spice and citrus."
+   "cohumulonePct": 24,
+   "totalOil": 1.1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2012. Pedigree: Cascade x 2004/028/076. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
   }
  },
  {
-  "seedKey": "hop:millennium",
-  "data": {
-   "name": "Millennium",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 16.5,
-   "betaPct": 5.3,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "CTZ, Nugget",
-   "notes": "Mild herbal notes with elements of resin."
-  }
- },
- {
-  "seedKey": "hop:chinook",
-  "data": {
-   "name": "Chinook",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 14,
-   "betaPct": 4,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.7,
-   "substitutes": "Galena, Eroica, Nugget",
-   "notes": "Powerful notes of pine and spice."
-  }
- },
- {
-  "seedKey": "hop:newport",
-  "data": {
-   "name": "Newport",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "bittering",
-   "alphaPct": 17,
-   "betaPct": 9,
-   "cohumulonePct": 37,
-   "totalOil": null,
-   "hsi": 0.6,
-   "substitutes": "Galena, Nugget",
-   "notes": "Derived from the Magnum genus. Provides clean bitterness."
-  }
- },
- {
-  "seedKey": "hop:palisade",
-  "data": {
-   "name": "Palisade",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 9.5,
-   "betaPct": 8,
-   "cohumulonePct": 25,
-   "totalOil": null,
-   "hsi": 0.65,
-   "substitutes": "Golding, Chinook",
-   "notes": "Flavors of nectar fruits and citrus. Aromas that are floral, herbaceous, and grassy."
-  }
- },
- {
-  "seedKey": "hop:centennial",
-  "data": {
-   "name": "Centennial",
-   "producer": "",
-   "origin": "",
-   "form": "pellet",
-   "purpose": "aroma",
-   "alphaPct": 11.5,
-   "betaPct": 4.5,
-   "cohumulonePct": 30,
-   "totalOil": null,
-   "hsi": 0.6,
-   "substitutes": "Chinook, Galena, CTZ",
-   "notes": "Also sold as Super Cascade. Earthy and floral flavor with faint citrus notes."
-  }
- },
- {
-  "seedKey": "hop:hallertau-us",
+  "seedKey": "hops/varieties/hallertau-us",
   "data": {
    "name": "Hallertau US",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
@@ -827,15 +1265,783 @@
    "betaPct": 5.5,
    "cohumulonePct": 23,
    "totalOil": null,
-   "hsi": 0.55,
+   "hsi": null,
    "substitutes": "Liberty",
-   "notes": "Sometimes sold as Mittelfrüher. Light aroma of spice and floral notes."
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:northern-brewer",
+  "seedKey": "hops/varieties/hallertauer-magnum",
+  "data": {
+   "name": "Hallertauer Magnum",
+   "aliases": [
+    "Magnum"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 13.1,
+   "betaPct": 6.6,
+   "cohumulonePct": 26,
+   "totalOil": 2.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Bittering variety bred by the Hop Research Center Hüll, released 1992. Pedigree: Galena x 75/005/003. Grown in Germany in Hallertau, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hallertauer-mittelfruh",
+  "data": {
+   "name": "Hallertauer Mittelfrüh",
+   "aliases": [
+    "Hallertau Mittelfrüh",
+    "Hallertauer Mittelfrueh",
+    "Mittelfrüh"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 3.8,
+   "betaPct": 4.2,
+   "cohumulonePct": 22,
+   "totalOil": 0.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "German land variety (landrace). Grown in Germany in Hallertau, Tettnang, Spalt and Baden-Bitburg."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hallertauer-taurus",
+  "data": {
+   "name": "Hallertauer Taurus",
+   "aliases": [
+    "Taurus"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 15.5,
+   "betaPct": 4.6,
+   "cohumulonePct": 22,
+   "totalOil": 2.1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Bittering variety bred by the Hop Research Center Hüll, released 1996. Pedigree: 82/39/37 x 85/054/015. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hallertauer-tradition",
+  "data": {
+   "name": "Hallertauer Tradition",
+   "aliases": [
+    "Tradition",
+    "Hallertau Tradition"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.6,
+   "betaPct": 3.9,
+   "cohumulonePct": 27,
+   "totalOil": 0.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 1992. Pedigree: Hallertauer Gold x 76/015/106. Grown in Germany in Hallertau, Tettnang, Spalt, Elbe-Saale and Baden-Bitburg."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/harlequin",
+  "data": {
+   "name": "Harlequin",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 10.75,
+   "betaPct": 8,
+   "cohumulonePct": 29,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British dual-purpose variety from the Charles Faram hop development programme, a daughter of Godiva."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hbc-472",
+  "data": {
+   "name": "HBC 472",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 10.5,
+   "betaPct": 8.5,
+   "cohumulonePct": 43,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Experimental variety from the Hop Breeding Company."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hbc-630",
+  "data": {
+   "name": "HBC 630",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14,
+   "betaPct": 6,
+   "cohumulonePct": 23,
+   "totalOil": 2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Experimental variety from the Hop Breeding Company."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hbc-638",
+  "data": {
+   "name": "HBC 638",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14.5,
+   "betaPct": 5,
+   "cohumulonePct": 28,
+   "totalOil": 3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Experimental variety from the Hop Breeding Company."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/herkules",
+  "data": {
+   "name": "Herkules",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 16.1,
+   "betaPct": 4.8,
+   "cohumulonePct": 34,
+   "totalOil": 1.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Bittering variety bred by the Hop Research Center Hüll, released 2006. Pedigree: Hallertauer Taurus x 93/9/41. Grown in Germany in Hallertau, Tettnang, Spalt, Elbe-Saale and Baden-Bitburg."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/hersbrucker-spat",
+  "data": {
+   "name": "Hersbrucker Spät",
+   "aliases": [
+    "Hersbrucker",
+    "Hersbrucker Spaet"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 2.7,
+   "betaPct": 6.2,
+   "cohumulonePct": 20,
+   "totalOil": 0.85,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "German land variety (landrace). Grown in Germany in Hallertau and Spalt."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/horizon",
+  "data": {
+   "name": "Horizon",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12,
+   "betaPct": 7.25,
+   "cohumulonePct": 19,
+   "totalOil": 2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety released in 1998 from a USDA cross of a high-alpha type with an aroma male."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/huell-classic",
+  "data": {
+   "name": "Huell Classic",
+   "aliases": [
+    "Hüll Classic"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.25,
+   "betaPct": 4,
+   "cohumulonePct": null,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/huell-melon",
+  "data": {
+   "name": "Huell Melon",
+   "aliases": [
+    "Hüll Melon"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 6.5,
+   "betaPct": 9.1,
+   "cohumulonePct": 29,
+   "totalOil": 1.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2012. Pedigree: Cascade x 2004/026/007. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/idaho-7",
+  "data": {
+   "name": "Idaho 7",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 37.5,
+   "totalOil": 2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/idaho-gem",
+  "data": {
+   "name": "Idaho Gem",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.5,
+   "betaPct": 5.5,
+   "cohumulonePct": 39,
+   "totalOil": 2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/jarrylo",
+  "data": {
+   "name": "Jarrylo",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13,
+   "betaPct": 7.25,
+   "cohumulonePct": 35.5,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/jester",
+  "data": {
+   "name": "Jester",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8,
+   "betaPct": 5,
+   "cohumulonePct": 25.5,
+   "totalOil": 0.9,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from the Charles Faram hop development programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/keyworths-early",
+  "data": {
+   "name": "Keyworth's Early",
+   "aliases": [
+    "Keyworths Early"
+   ],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.95,
+   "betaPct": 3.25,
+   "cohumulonePct": 35,
+   "totalOil": 1.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Historical British variety bred by Prof. Ernest Salmon at Wye College from a granddaughter of a wild Neomexicanus hop, selected in 1943 for wilt resistance."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/keyworths-midseason",
+  "data": {
+   "name": "Keyworth's Midseason",
+   "aliases": [
+    "Keyworths Midseason"
+   ],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.5,
+   "betaPct": 2.75,
+   "cohumulonePct": 45,
+   "totalOil": 0.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Historical British variety bred by Prof. Ernest Salmon at Wye College from a daughter of a wild Neomexicanus hop, selected in 1943 for wilt resistance."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/kohatu",
+  "data": {
+   "name": "Kohatu",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.5,
+   "betaPct": 4.5,
+   "cohumulonePct": null,
+   "totalOil": 0.98,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid aroma variety from Hallertauer Mittelfrüh and a New Zealand male, released by Plant & Food Research in 2011."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/krush",
+  "data": {
+   "name": "Krush",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.1,
+   "betaPct": 7.85,
+   "cohumulonePct": null,
+   "totalOil": 2.25,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/liberty",
+  "data": {
+   "name": "Liberty",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5,
+   "betaPct": 4,
+   "cohumulonePct": 23.5,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/loral",
+  "data": {
+   "name": "Loral",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.35,
+   "betaPct": 5.25,
+   "cohumulonePct": null,
+   "totalOil": 3.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety with Glacier and Nugget in its parentage."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/lublin",
+  "data": {
+   "name": "Lublin",
+   "aliases": [
+    "Lubelski",
+    "Lublin Lubelski"
+   ],
+   "producer": "",
+   "origin": "Poland",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.15,
+   "betaPct": 4.05,
+   "cohumulonePct": null,
+   "totalOil": 1.1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Polish variety bred from Saaz."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/luna",
+  "data": {
+   "name": "Luna",
+   "aliases": [],
+   "producer": "",
+   "origin": "Australia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14.9,
+   "betaPct": 7.25,
+   "cohumulonePct": 37,
+   "totalOil": 2.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Australian variety bred by Hop Products Australia. Ancestry given by HPA: High Alpha Australia, Liberty."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/magnat",
+  "data": {
+   "name": "Magnat",
+   "aliases": [],
+   "producer": "",
+   "origin": "Poland",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.6,
+   "betaPct": 5,
+   "cohumulonePct": null,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Polish variety, a daughter of Magnum."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/magnum-us",
+  "data": {
+   "name": "Magnum US",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.5,
+   "betaPct": 7,
+   "cohumulonePct": 25,
+   "totalOil": 1.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/mandarina-bavaria",
+  "data": {
+   "name": "Mandarina Bavaria",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 8.1,
+   "betaPct": 6.5,
+   "cohumulonePct": 32,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2012. Pedigree: Cascade x 2004/026/134. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/marynka",
+  "data": {
+   "name": "Marynka",
+   "aliases": [],
+   "producer": "",
+   "origin": "Poland",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.35,
+   "betaPct": 2.35,
+   "cohumulonePct": null,
+   "totalOil": 1.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Polish variety, a daughter of Brewers Gold."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/millennium",
+  "data": {
+   "name": "Millennium",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 17,
+   "betaPct": 5.4,
+   "cohumulonePct": null,
+   "totalOil": 3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Nugget."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/minstrel",
+  "data": {
+   "name": "Minstrel",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6,
+   "betaPct": 3.25,
+   "cohumulonePct": 24,
+   "totalOil": 0.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British low-trellis, wilt-resistant variety from the Charles Faram hop development programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/monroe",
+  "data": {
+   "name": "Monroe",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.75,
+   "betaPct": 7.35,
+   "cohumulonePct": null,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Variety derived from a wild American hop."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/mosaic",
+  "data": {
+   "name": "Mosaic",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.2,
+   "betaPct": 3.4,
+   "cohumulonePct": null,
+   "totalOil": 3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Simcoe and a Nugget-derived male."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/motueka",
+  "data": {
+   "name": "Motueka",
+   "aliases": [
+    "B-Saaz"
+   ],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.75,
+   "betaPct": 5.5,
+   "cohumulonePct": 29.5,
+   "totalOil": 1.1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Seedless triploid aroma variety from Plant & Food Research with Saaz and North American ancestry; crossed 1987, released 1996 as B-Saaz, renamed Motueka in 2007."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/moutere",
+  "data": {
+   "name": "Moutere",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 18.5,
+   "betaPct": 9,
+   "cohumulonePct": null,
+   "totalOil": 1.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand high-alpha triploid variety from Plant & Food Research, bred from Southern Cross and a New Zealand male, released in 2015."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/mt-hood",
+  "data": {
+   "name": "Mt. Hood",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.2,
+   "betaPct": 6.5,
+   "cohumulonePct": null,
+   "totalOil": 2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety bred from Hallertauer Mittelfrüh and Liberty."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/mystic",
+  "data": {
+   "name": "Mystic",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.25,
+   "betaPct": 3.5,
+   "cohumulonePct": 36.5,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from the Charles Faram hop development programme, a daughter of Jester."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/nectaron",
+  "data": {
+   "name": "Nectaron",
+   "aliases": [
+    "HORT4337"
+   ],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12,
+   "betaPct": 4.6,
+   "cohumulonePct": 26.5,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Triploid aroma variety (HORT4337) developed with Plant & Food Research, a full sister of Waimea, with North American and Saaz ancestry; crossed 2004, released 2020."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/nelson-sauvin",
+  "data": {
+   "name": "Nelson Sauvin",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 11.5,
+   "betaPct": 5.75,
+   "cohumulonePct": 24.5,
+   "totalOil": 1.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Triploid variety (85-03-06) bred from the New Zealand variety Smoothcone and a New Zealand male at Plant & Food Research; crossed 1985, released 2000."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/newport",
+  "data": {
+   "name": "Newport",
+   "aliases": [],
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 17,
+   "betaPct": 9,
+   "cohumulonePct": 37,
+   "totalOil": null,
+   "hsi": null,
+   "substitutes": "Galena, Nugget",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/northdown",
+  "data": {
+   "name": "Northdown",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8,
+   "betaPct": 5.5,
+   "cohumulonePct": 31,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety bred at Wye College from Northern Brewer and a downy-mildew-resistant line, released in the early 1970s."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/northern-brewer",
   "data": {
    "name": "Northern Brewer",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
@@ -844,77 +2050,1286 @@
    "betaPct": 4,
    "cohumulonePct": 25,
    "totalOil": null,
-   "hsi": 0.75,
+   "hsi": null,
    "substitutes": "Perle US, Columbus",
-   "notes": "Minty and resinous."
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:amarillo",
+  "seedKey": "hops/varieties/northern-brewer-de",
   "data": {
-   "name": "Amarillo",
+   "name": "Northern Brewer DE",
+   "aliases": [],
    "producer": "",
-   "origin": "",
+   "origin": "Germany",
    "form": "pellet",
    "purpose": "aroma",
-   "alphaPct": 11,
-   "betaPct": 7,
-   "cohumulonePct": 20,
-   "totalOil": null,
-   "hsi": 0.95,
-   "substitutes": "Cascade, Chinook",
-   "notes": "Known as VGXP01. Strong orange flavor."
+   "alphaPct": 8.2,
+   "betaPct": 4.1,
+   "cohumulonePct": 28,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred in England. Pedigree: Canterbury Golding x OB 21. Grown in Germany in Hallertau and Elbe-Saale."
   }
  },
  {
-  "seedKey": "hop:topaz",
+  "seedKey": "hops/varieties/nugget",
   "data": {
-   "name": "Topaz",
+   "name": "Nugget",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.5,
+   "betaPct": 4.5,
+   "cohumulonePct": null,
+   "totalOil": 1.35,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Brewers Gold."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/nugget-de",
+  "data": {
+   "name": "Nugget DE",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 10.8,
+   "betaPct": 4.3,
+   "cohumulonePct": 28,
+   "totalOil": 1.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Bittering variety bred by the USDA, released 1978. Pedigree: USDA 65009 x 63015M. Grown in Germany in Hallertau and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/olicana",
+  "data": {
+   "name": "Olicana",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.5,
+   "betaPct": 5,
+   "cohumulonePct": 30,
+   "totalOil": 0.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from the Charles Faram hop development programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/opal",
+  "data": {
+   "name": "Opal",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 7.2,
+   "betaPct": 5,
+   "cohumulonePct": 15,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2004. Pedigree: Hallertauer Gold x Ku II/18. Grown in Germany in Hallertau, Tettnang and Spalt."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/pacific-gem",
+  "data": {
+   "name": "Pacific Gem",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14.5,
+   "betaPct": 8,
+   "cohumulonePct": null,
+   "totalOil": 1.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Triploid alpha variety bred from the New Zealand variety Smoothcone at Plant & Food Research; released in 1987."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/pacific-jade",
+  "data": {
+   "name": "Pacific Jade",
+   "aliases": [
+    "NZ Pacific Jade"
+   ],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.5,
+   "betaPct": 7,
+   "cohumulonePct": null,
+   "totalOil": 1.88,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid alpha variety from First Choice and an old-line Saazer male, released in 2004."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/pacifica",
+  "data": {
+   "name": "Pacifica",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.5,
+   "betaPct": 6,
+   "cohumulonePct": null,
+   "totalOil": 1.15,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid aroma variety from Hallertauer Mittelfrüh and a New Zealand male, released in 1994."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/palisade",
+  "data": {
+   "name": "Palisade",
+   "aliases": [
+    "YCR 4"
+   ],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8,
+   "betaPct": 7,
+   "cohumulonePct": 28,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/perle",
+  "data": {
+   "name": "Perle",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 6.7,
+   "betaPct": 4,
+   "cohumulonePct": 32,
+   "totalOil": 1.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 1978. Pedigree: Northern Brewer x 63/005/027. Grown in Germany in Hallertau, Tettnang, Spalt, Elbe-Saale and Baden-Bitburg."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/perle-us",
+  "data": {
+   "name": "Perle US",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
    "purpose": "dual",
-   "alphaPct": 15,
-   "betaPct": 7,
-   "cohumulonePct": 50,
+   "alphaPct": 9.5,
+   "betaPct": 5,
+   "cohumulonePct": 28,
    "totalOil": null,
-   "hsi": 0.55,
-   "substitutes": "Galaxy, Citra, Amarillo",
-   "notes": "Stone fruit aroma with citrus notes."
+   "hsi": null,
+   "substitutes": "Northern Brewer",
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:vanguard",
+  "seedKey": "hops/varieties/phoenix",
   "data": {
-   "name": "Vanguard",
+   "name": "Phoenix",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 10,
+   "betaPct": 4.6,
+   "cohumulonePct": 30,
+   "totalOil": 1.85,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety, a seedling of Yeoman bred at Wye College and released in 1996."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/pilgrim",
+  "data": {
+   "name": "Pilgrim",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 11,
+   "betaPct": 4.75,
+   "cohumulonePct": null,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety, a half-sister of First Gold, with Challenger and Target in its mother's line."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/pilot",
+  "data": {
+   "name": "Pilot",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 9.5,
+   "betaPct": 4.15,
+   "cohumulonePct": 35,
+   "totalOil": 1.15,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British hedgerow variety bred at Wye College and released in 2001."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/pioneer",
+  "data": {
+   "name": "Pioneer",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 9.25,
+   "betaPct": 4,
+   "cohumulonePct": 36,
+   "totalOil": 1.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British high-alpha hedgerow variety bred at Wye College and released in 1996."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/polaris",
+  "data": {
+   "name": "Polaris",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 19.5,
+   "betaPct": 3.9,
+   "cohumulonePct": 25,
+   "totalOil": 3.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Bittering variety bred by the Hop Research Center Hüll, released 2012. Pedigree: 94/075/758 x 97/067/720. Grown in Germany in Hallertau, Tettnang and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/premiant",
+  "data": {
+   "name": "Premiant",
+   "aliases": [],
+   "producer": "",
+   "origin": "Czechia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 8.5,
+   "betaPct": 4,
+   "cohumulonePct": null,
+   "totalOil": 0.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Czech variety bred from Saaz."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/progress",
+  "data": {
+   "name": "Progress",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.8,
+   "betaPct": 2.65,
+   "cohumulonePct": null,
+   "totalOil": 0.9,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety, a daughter of Whitbread Golding."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/rakau",
+  "data": {
+   "name": "Rakau",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 10.5,
+   "betaPct": 4.5,
+   "cohumulonePct": null,
+   "totalOil": 1.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid dual-purpose variety from Plant & Food Research, re-released in 2007."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/relax",
+  "data": {
+   "name": "Relax",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 1,
+   "betaPct": 12.5,
+   "cohumulonePct": null,
+   "totalOil": 1.3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Variety from the Hüll breeding programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/riwaka",
+  "data": {
+   "name": "Riwaka",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.5,
+   "betaPct": 4.5,
+   "cohumulonePct": null,
+   "totalOil": 1.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid aroma variety from Plant & Food Research, first released in 1997."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/saaz-late",
+  "data": {
+   "name": "Saaz Late",
+   "aliases": [],
+   "producer": "",
+   "origin": "Czechia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 3.5,
+   "betaPct": 5,
+   "cohumulonePct": null,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Czech variety from Saaz semi-early red-bine material, open pollinated."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/saaz-us",
+  "data": {
+   "name": "Saaz US",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
    "purpose": "aroma",
-   "alphaPct": 6,
-   "betaPct": 7,
-   "cohumulonePct": 15,
+   "alphaPct": 4.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 25,
    "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Hallertau, Saaz, Mt Hood",
-   "notes": "Floral and spice notes."
+   "hsi": null,
+   "substitutes": "Centennial, Amarillo",
+   "notes": ""
   }
  },
  {
-  "seedKey": "hop:galena",
+  "seedKey": "hops/varieties/saazer",
   "data": {
-   "name": "Galena",
+   "name": "Saazer",
+   "aliases": [
+    "Saaz",
+    "Žatec"
+   ],
+   "producer": "",
+   "origin": "Czechia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.45,
+   "betaPct": 4.1,
+   "cohumulonePct": null,
+   "totalOil": 0.6,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Czech land variety."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sabro",
+  "data": {
+   "name": "Sabro",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14.3,
+   "betaPct": 5.25,
+   "cohumulonePct": null,
+   "totalOil": 3.4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/santiam",
+  "data": {
+   "name": "Santiam",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.25,
+   "betaPct": 7.75,
+   "cohumulonePct": 21,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US aroma variety, one third German Tettnanger and one third Hallertauer Mittelfrüh."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/saphir",
+  "data": {
+   "name": "Saphir",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 3.4,
+   "betaPct": 5.8,
+   "cohumulonePct": 15,
+   "totalOil": 1.1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2001. Pedigree: 83/017/020 x 80/056/006. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/simcoe",
+  "data": {
+   "name": "Simcoe",
+   "aliases": [
+    "YCR 14"
+   ],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13,
+   "betaPct": 4.5,
+   "cohumulonePct": 19,
+   "totalOil": 1.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sladek",
+  "data": {
+   "name": "Sladek",
+   "aliases": [
+    "Sládek"
+   ],
+   "producer": "",
+   "origin": "Czechia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.75,
+   "betaPct": 4.75,
+   "cohumulonePct": null,
+   "totalOil": 1.45,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Czech variety with Northern Brewer and Saaz in its ancestry."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/smaragd",
+  "data": {
+   "name": "Smaragd",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 5.2,
+   "betaPct": 4.7,
+   "cohumulonePct": 15,
+   "totalOil": 0.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2005. Pedigree: Hallertauer Gold x Ku II/18. Grown in Germany in Hallertau, Tettnang and Spalt."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sorachi-ace",
+  "data": {
+   "name": "Sorachi Ace",
+   "aliases": [],
+   "producer": "",
+   "origin": "Japan",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13,
+   "betaPct": 6.75,
+   "cohumulonePct": null,
+   "totalOil": 4,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Japanese-bred variety with Saaz in its ancestry."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sorachi-ace-us",
+  "data": {
+   "name": "Sorachi Ace US",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.5,
+   "betaPct": 10,
+   "cohumulonePct": 26,
+   "totalOil": 3.25,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/southern-cross",
+  "data": {
+   "name": "Southern Cross",
+   "aliases": [
+    "NZ Southern Cross"
+   ],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.5,
+   "betaPct": 5.5,
+   "cohumulonePct": null,
+   "totalOil": 1.88,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid variety from Smoothcone and a Californian x Fuggle research variety, released in 1994."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sovereign",
+  "data": {
+   "name": "Sovereign",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.5,
+   "betaPct": 2.6,
+   "cohumulonePct": null,
+   "totalOil": 0.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety from open pollination of a Pioneer seedling."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/spalter",
+  "data": {
+   "name": "Spalter",
+   "aliases": [
+    "Spalt"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 3.6,
+   "betaPct": 4.7,
+   "cohumulonePct": 24,
+   "totalOil": 0.65,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "German land variety (landrace). Grown in Germany in Spalt."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/spalter-select",
+  "data": {
+   "name": "Spalter Select",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 4.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 23,
+   "totalOil": 0.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 1992. Pedigree: 76/018/080 x 71/016/007. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sterling",
+  "data": {
+   "name": "Sterling",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5,
+   "betaPct": 5.5,
+   "cohumulonePct": 22,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US aroma variety bred from Czech Saaz, released in 1998."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/strisselspalt",
+  "data": {
+   "name": "Strisselspalt",
+   "aliases": [],
+   "producer": "",
+   "origin": "France",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 2.15,
+   "betaPct": 5,
+   "cohumulonePct": null,
+   "totalOil": 0.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "French land variety."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/styrian-savinjski-golding",
+  "data": {
+   "name": "Styrian Savinjski Golding",
+   "aliases": [
+    "Savinjski Golding",
+    "Styrian Golding"
+   ],
+   "producer": "",
+   "origin": "Slovenia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 4.05,
+   "betaPct": 2.95,
+   "cohumulonePct": null,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Slovenian variety, a daughter of Fuggle."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/summit",
+  "data": {
+   "name": "Summit",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 15.25,
+   "betaPct": 5.6,
+   "cohumulonePct": null,
+   "totalOil": 3,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety bred from Nugget."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/super-galena",
+  "data": {
+   "name": "Super Galena",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 14.5,
+   "betaPct": null,
+   "cohumulonePct": 37.5,
+   "totalOil": 1.65,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "High-alpha US variety from the Hopsteiner breeding programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/superdelic",
+  "data": {
+   "name": "Superdelic",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 9.75,
+   "betaPct": 3.25,
+   "cohumulonePct": 28,
+   "totalOil": 1.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Triploid variety with European and North American ancestry, crossed in 2012 by Dr Ron Beatson in the NZ Hops / Plant & Food Research breeding programme; released 2023."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sussex",
+  "data": {
+   "name": "Sussex",
+   "aliases": [],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.05,
+   "betaPct": 2.8,
+   "cohumulonePct": 30.5,
+   "totalOil": 0.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British dwarf variety found in 2005 as a chance seedling next to a field of Pilot in Northiam, Sussex."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/sybilla",
+  "data": {
+   "name": "Sybilla",
+   "aliases": [],
+   "producer": "",
+   "origin": "Poland",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.5,
+   "betaPct": 4,
+   "cohumulonePct": null,
+   "totalOil": 1.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Polish variety bred from Lubelski."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/talus",
+  "data": {
+   "name": "Talus",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.9,
+   "betaPct": 8.95,
+   "cohumulonePct": null,
+   "totalOil": 1.85,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety from an open-pollinated Sabro (HBC 438) mother."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/tango",
+  "data": {
+   "name": "Tango",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 8.5,
+   "betaPct": 7.7,
+   "cohumulonePct": 23,
+   "totalOil": 2.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Aroma variety bred by the Hop Research Center Hüll, released 2021. Pedigree: Cascade x Hüll breeding stock. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/terraflux",
+  "data": {
+   "name": "TerraFlux",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 17.9,
+   "betaPct": 7,
+   "cohumulonePct": null,
+   "totalOil": 3.15,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/terrasurge",
+  "data": {
+   "name": "TerraSurge",
+   "aliases": [
+    "HBC 1325"
+   ],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 19.4,
+   "betaPct": 6.95,
+   "cohumulonePct": 29.5,
+   "totalOil": 2.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "High-alpha US variety from the Hop Breeding Company, released in 2026."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/tettnanger",
+  "data": {
+   "name": "Tettnanger",
+   "aliases": [
+    "Tettnang",
+    "Tettnanger Tettnang"
+   ],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 3.5,
+   "betaPct": 4.6,
+   "cohumulonePct": 25,
+   "totalOil": 0.55,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "German land variety (landrace). Grown in Germany in Tettnang."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/tillicum",
+  "data": {
+   "name": "Tillicum",
+   "aliases": [],
    "producer": "",
    "origin": "",
    "form": "pellet",
    "purpose": "bittering",
-   "alphaPct": 13.5,
-   "betaPct": 9,
-   "cohumulonePct": 40,
+   "alphaPct": 15,
+   "betaPct": 11,
+   "cohumulonePct": 34,
    "totalOil": null,
-   "hsi": 0.75,
-   "substitutes": "Galena, Columbus, CTZ, Eroica",
-   "notes": "One of the most commonly used bittering hops with a pleasant fruity aroma."
+   "hsi": null,
+   "substitutes": "Galena, Chelan",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/titan",
+  "data": {
+   "name": "Titan",
+   "aliases": [],
+   "producer": "",
+   "origin": "Germany",
+   "form": "pellet",
+   "purpose": "bittering",
+   "alphaPct": 17.5,
+   "betaPct": 5.3,
+   "cohumulonePct": 22,
+   "totalOil": 3.2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Bittering variety bred by the Hop Research Center Hüll, released 2023. Pedigree: Polaris x 2007/040/501. Grown in Germany in Hallertau, Tettnang, Spalt and Elbe-Saale."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/topaz",
+  "data": {
+   "name": "Topaz",
+   "aliases": [],
+   "producer": "",
+   "origin": "Australia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 18.85,
+   "betaPct": 6.25,
+   "cohumulonePct": 50,
+   "totalOil": 1.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Australian variety bred by Hop Products Australia. Ancestry given by HPA: High Alpha Australia, Wye College."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/triskel",
+  "data": {
+   "name": "Triskel",
+   "aliases": [],
+   "producer": "",
+   "origin": "France",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 3.9,
+   "betaPct": 4.5,
+   "cohumulonePct": null,
+   "totalOil": 1.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "French variety from Strisselspalt crossed with a male of the English variety Yeoman."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/triumph",
+  "data": {
+   "name": "Triumph",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 12.5,
+   "betaPct": 4,
+   "cohumulonePct": 24,
+   "totalOil": 2,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US public variety bred by the USDA from Nugget and a USDA male."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/tsingdao-flower",
+  "data": {
+   "name": "Tsingdao Flower",
+   "aliases": [],
+   "producer": "",
+   "origin": "China",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7,
+   "betaPct": 3.75,
+   "cohumulonePct": null,
+   "totalOil": 0.8,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Chinese variety related to Cluster."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/ultra",
+  "data": {
+   "name": "Ultra",
+   "aliases": [],
+   "producer": "",
+   "origin": "",
+   "form": "pellet",
+   "purpose": "aroma",
+   "alphaPct": 3.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 30,
+   "totalOil": null,
+   "hsi": null,
+   "substitutes": "Hallertau US, Saaz US",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/vanguard",
+  "data": {
+   "name": "Vanguard",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5,
+   "betaPct": 6.25,
+   "cohumulonePct": 15,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US aroma variety bred from Hallertauer and German aroma hops, similar to Hallertauer Mittelfrüh."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/vic-secret",
+  "data": {
+   "name": "Vic Secret",
+   "aliases": [],
+   "producer": "",
+   "origin": "Australia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 19.6,
+   "betaPct": 7.05,
+   "cohumulonePct": 53.5,
+   "totalOil": 2.65,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Australian variety bred by Hop Products Australia. Ancestry given by HPA: High Alpha Australia, Wye College."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/vista",
+  "data": {
+   "name": "Vista",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 10.5,
+   "betaPct": 4.5,
+   "cohumulonePct": 31.5,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US public variety from the USDA breeding programme."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/vital",
+  "data": {
+   "name": "Vital",
+   "aliases": [],
+   "producer": "",
+   "origin": "Czechia",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 13.5,
+   "betaPct": 7,
+   "cohumulonePct": null,
+   "totalOil": 2.25,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "Czech variety from breeding material derived from Agnus."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/wai-iti",
+  "data": {
+   "name": "Wai-iti",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 3,
+   "betaPct": 5.5,
+   "cohumulonePct": null,
+   "totalOil": 1.25,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid aroma variety from Plant & Food Research, released in 2011 and selected for low alpha and high oil; about a third Hallertauer Mittelfrüh."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/waimea",
+  "data": {
+   "name": "Waimea",
+   "aliases": [],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 16.5,
+   "betaPct": 7,
+   "cohumulonePct": null,
+   "totalOil": 1.95,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid variety with Late Cluster, Saaz and Fuggle in its parentage."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/wakatu",
+  "data": {
+   "name": "Wakatu",
+   "aliases": [
+    "NZ Hallertau Aroma",
+    "Hallertau Aroma"
+   ],
+   "producer": "",
+   "origin": "New Zealand",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.5,
+   "betaPct": 8.5,
+   "cohumulonePct": null,
+   "totalOil": 0.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "New Zealand triploid aroma variety, two thirds Hallertauer Mittelfrüh; released in 1988 as NZ Hallertau Aroma and renamed Wakatu in 2011."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/warrior",
+  "data": {
+   "name": "Warrior",
+   "aliases": [
+    "YCR 5"
+   ],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 15.5,
+   "betaPct": 5,
+   "cohumulonePct": 25.5,
+   "totalOil": 1.75,
+   "hsi": null,
+   "substitutes": "",
+   "notes": ""
+  }
+ },
+ {
+  "seedKey": "hops/varieties/whitbread-golding-variety-wgv",
+  "data": {
+   "name": "Whitbread Golding Variety (WGV)",
+   "aliases": [
+    "WGV",
+    "Whitbread Golding"
+   ],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 6.35,
+   "betaPct": 2.75,
+   "cohumulonePct": null,
+   "totalOil": 1,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "English variety bred from Bates' Brewer."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/willamette",
+  "data": {
+   "name": "Willamette",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 5.15,
+   "betaPct": 3.75,
+   "cohumulonePct": null,
+   "totalOil": 1.7,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Fuggle."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/wye-challenger",
+  "data": {
+   "name": "Wye Challenger",
+   "aliases": [
+    "Challenger"
+   ],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 7.75,
+   "betaPct": 3.4,
+   "cohumulonePct": null,
+   "totalOil": 1.25,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety bred from Northern Brewer and Target."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/wye-target",
+  "data": {
+   "name": "Wye Target",
+   "aliases": [
+    "Target"
+   ],
+   "producer": "",
+   "origin": "United Kingdom",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 11,
+   "betaPct": 4.85,
+   "cohumulonePct": null,
+   "totalOil": 1.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "British variety bred from Challenger."
+  }
+ },
+ {
+  "seedKey": "hops/varieties/zeus",
+  "data": {
+   "name": "Zeus",
+   "aliases": [],
+   "producer": "",
+   "origin": "United States",
+   "form": "pellet",
+   "purpose": null,
+   "alphaPct": 15.45,
+   "betaPct": 4.75,
+   "cohumulonePct": null,
+   "totalOil": 4.5,
+   "hsi": null,
+   "substitutes": "",
+   "notes": "US variety, a daughter of Nugget."
   }
  }
 ]

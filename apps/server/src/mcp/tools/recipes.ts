@@ -110,7 +110,7 @@ export const recipeTools = [
     name: 'delete_recipe',
     level: 'full',
     title: 'Delete a recipe',
-    description: 'Delete a recipe for good. Batches brewed from it keep their own copy.',
+    description: 'Delete a recipe. Batches brewed from it keep their own copy. It goes to the trash (restore_from_trash) until its time there is up (list_trash shows it).',
     input: { id: z.string() },
     run: ({ id }, ctx) => {
       deleteRecipe(ctx.db, id);

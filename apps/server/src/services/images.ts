@@ -1,7 +1,7 @@
 import { and, eq, lt, sql } from 'drizzle-orm';
 import { MAX_IMAGE_BYTES, type ImageDto, type ImageType } from '@brew/shared';
 import type { Db } from '../db';
-import { appSettings, batches, images, recipes } from '../db/schema';
+import { appSettings, batches, images, recipes, trash } from '../db/schema';
 import { badRequest, notFound } from '../lib/errors';
 
 /** The picture format, from the file's first bytes (never trust a file name or header). */
@@ -31,7 +31,7 @@ export function getImage(db: Db, id: string) {
 }
 
 /**
- * Deletes pictures no recipe, batch or the brewery settings refer to, once they are older than `minAgeMs` (a picture
+ * Deletes pictures no recipe, batch (also in the trash) or the brewery settings refer to, once they are older than `minAgeMs` (a picture
  * just uploaded may not be saved in its recipe yet).
  */
 export function pruneImages(db: Db, minAgeMs: number): number {
@@ -41,6 +41,8 @@ export function pruneImages(db: Db, minAgeMs: number): number {
     select json_extract(${batches.doc}, '$.image') from ${batches} where json_extract(${batches.doc}, '$.image') is not null
     union
     select json_extract(${appSettings.data}, '$.breweryLogo') from ${appSettings} where json_extract(${appSettings.data}, '$.breweryLogo') is not null
+    union
+    select json_extract(${trash.data}, '$.row.doc.image') from ${trash} where json_extract(${trash.data}, '$.row.doc.image') is not null
   )`;
   return db
     .delete(images)

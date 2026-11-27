@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { calculateRecipe } from '@brew/brewcalc';
 import type { RecipeDto } from '@brew/shared';
 import { ApiError, downloadFile } from '../api';
+import { useNotifyDeleted, useTrashNote } from '../components/trash-ui';
 import { useDeleteRecipe, useDuplicateRecipe, useRecipe, useSaveRecipe } from '../data';
 import { recipeRoute } from '../router';
 import { NewBatchModal } from '../components/NewBatchModal';
@@ -41,6 +42,8 @@ export function RecipeEditorPage() {
 
 function Editor({ initial }: { initial: RecipeDto }) {
   const { t } = useTranslation();
+  const trashNote = useTrashNote();
+  const notifyDeleted = useNotifyDeleted();
   const navigate = useNavigate();
   const save = useSaveRecipe();
   const { doc, update, state, flush } = useDocAutosave(initial, (d, version) => save.mutateAsync({ id: initial.id, doc: d, version }));
@@ -58,10 +61,17 @@ function Editor({ initial }: { initial: RecipeDto }) {
   const confirmDelete = () =>
     modals.openConfirmModal({
       title: t('recipe.delete.title'),
-      children: <Text size="sm">{t('recipe.delete.text', { name: doc.name })}</Text>,
+      children: <Text size="sm">{t('recipe.delete.text', { name: doc.name })}{' '}{trashNote}</Text>,
       labels: { confirm: t('common.delete'), cancel: t('common.cancel') },
       confirmProps: { color: 'red' },
-      onConfirm: () => remove.mutate(initial.id, { onSuccess: () => void navigate({ to: '/recipes' }), onError: notifyError }),
+      onConfirm: () =>
+        remove.mutate(initial.id, {
+          onSuccess: () => {
+            notifyDeleted('recipe', initial.id, doc.name, () => void navigate({ to: '/recipes/$recipeId', params: { recipeId: initial.id } }));
+            void navigate({ to: '/recipes' });
+          },
+          onError: notifyError,
+        }),
     });
 
   return (

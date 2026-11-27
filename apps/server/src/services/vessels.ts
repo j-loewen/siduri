@@ -3,6 +3,7 @@ import { createVesselSchema, OCCUPYING_STATUSES, updateVesselSchema, type Vessel
 import type { Db } from '../db';
 import { batches, vessels, type VesselRow } from '../db/schema';
 import { notFound, parse } from '../lib/errors';
+import { keepInTrash } from './trash';
 
 function currentBatch(db: Db, vesselId: string): VesselDto['currentBatch'] {
   const row = db
@@ -52,7 +53,11 @@ export function updateVessel(db: Db, id: string, raw: unknown): VesselDto {
   return toDto(db, row);
 }
 
-/** Batches that were in it keep their history; their vessel is cleared. */
+/** Moves it to the trash. Batches that were in it keep their history; their vessel is cleared (until it is restored). */
 export function deleteVessel(db: Db, id: string) {
-  if (db.delete(vessels).where(eq(vessels.id, id)).run().changes === 0) throw notFound('Vessel not found');
+  db.transaction((tx) => {
+    const t = tx as unknown as Db;
+    keepInTrash(t, 'vessel', id);
+    if (t.delete(vessels).where(eq(vessels.id, id)).run().changes === 0) throw notFound('Vessel not found');
+  });
 }

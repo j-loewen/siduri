@@ -13,21 +13,23 @@ export const ppg = (potentialSg: number) => points(potentialSg);
  */
 export const pointsPerKgPerL = (potentialSg: number) => (ppg(potentialSg) * 1000) / 119.826;
 
+// A gravity above the original one (a wrong reading or OG) gives 0, never negative alcohol.
+
 /** Standard ABV estimate (%). */
-export const abvSimple = (og: number, fg: number) => (og - fg) * 131.25;
+export const abvSimple = (og: number, fg: number) => Math.max(0, (og - fg) * 131.25);
 
 /** ABV estimate that stays accurate for strong beers (%). */
-export const abvAdvanced = (og: number, fg: number) => ((76.08 * (og - fg)) / (1.775 - og)) * (fg / 0.794);
+export const abvAdvanced = (og: number, fg: number) => Math.max(0, ((76.08 * (og - fg)) / (1.775 - og)) * (fg / 0.794));
 
-/** Apparent attenuation (%) between two gravities. */
-export const apparentAttenuation = (og: number, gravity: number) => (og > 1 ? (100 * (og - gravity)) / (og - 1) : 0);
+/** Apparent attenuation (%) between two gravities; above 100 when the beer ends below 1.000. */
+export const apparentAttenuation = (og: number, gravity: number) => (og > 1 ? Math.max(0, (100 * (og - gravity)) / (og - 1)) : 0);
 
 /** Real extract based attenuation (%) — what the yeast actually fermented. */
 export function realAttenuation(og: number, fg: number): number {
   const oe = sgToPlato(og);
   const ae = sgToPlato(fg);
   const re = 0.1808 * oe + 0.8192 * ae;
-  return oe > 0 ? (100 * (oe - re)) / oe : 0;
+  return oe > 0 ? Math.max(0, (100 * (oe - re)) / oe) : 0;
 }
 
 /**

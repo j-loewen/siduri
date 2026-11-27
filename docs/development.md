@@ -20,7 +20,7 @@ npm test                     # tests of every workspace (vitest)
 npm run typecheck            # all workspaces
 npm run build                # web -> apps/web/dist, server bundle -> apps/server/dist (includes the web build)
 npm start -w @brew/server    # run the production bundle locally (needs npm run build first)
-npm run seed:build -- <path to a common-beer-data clone>   # regenerate the built-in library
+npm run seed:build           # regenerate the built-in library from the pinned open-brewing-data
 ```
 
 On Windows, a running server keeps `apps/server/dist` locked: stop it before `npm run build`.
@@ -33,7 +33,7 @@ apps/web/             React + Mantine single-page app
 packages/shared/      zod schemas and types shared by server and web: units, library, recipe document, …
 packages/brewcalc/    brewing math: gravity, IBU, colour, volumes, water chemistry, brew-day steps
 packages/formats/     BeerXML 1.0 and BeerJSON 3.0 import and export (BeerJSON schemas vendored)
-packages/seed-data/   the built-in ingredient library (generated JSON) and water profiles
+packages/seed-data/   the built-in library (generated from open-brewing-data), Siduri's own miscs and water profiles
 docker/               container entrypoint
 docs/                 this documentation
 ```

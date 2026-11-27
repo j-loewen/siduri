@@ -41,6 +41,8 @@ import type {
   RecipeDoc,
   RecipeDto,
   RecipeSummaryDto,
+  TrashListDto,
+  TrashRestoreDto,
 } from '@brew/shared';
 import { api, uploadFile } from './api';
 
@@ -62,7 +64,9 @@ export function useLibrary<K extends LibraryKind>(kind: K, q = '', enabled = tru
   return useQuery({
     queryKey: keys.library(kind, q),
     queryFn: () => api<LibraryItemDto<K>[]>(`/api/library?${new URLSearchParams({ kind, ...(q && { q }) })}`),
-    placeholderData: keepPreviousData,
+    // Keep the list while a search loads, but never another kind's items: a table for styles
+    // would read malts as styles.
+    placeholderData: (previous, query) => (query?.queryKey[1] === kind ? previous : undefined),
     staleTime: 30_000,
     enabled,
   });
@@ -88,11 +92,15 @@ export function useSaveLibraryItem() {
   });
 }
 
-export function useResetLibraryItem() {
-  const qc = useQueryClient();
-  return useMutation({
-    mutationFn: (id: string) => api<LibraryItemDto>(`/api/library/${id}/reset`, 'POST'),
-    onSuccess: () => qc.invalidateQueries({ queryKey: ['library'] }),
+/** Built-in items that can replace a built-in malt or hop (none for own items or without an id). */
+export function useSubstitutes<K extends LibraryKind>(id: string | null | undefined, enabled = true) {
+  return useQuery({
+    queryKey: ['library', 'substitutes', id],
+    queryFn: () => api<LibraryItemDto<K>[]>(`/api/library/${id}/substitutes`),
+    enabled: Boolean(id) && enabled,
+    staleTime: 60_000,
+    // The line may point at an item that was deleted since.
+    retry: false,
   });
 }
 
@@ -208,7 +216,11 @@ export function useUpdateSettings() {
   const qc = useQueryClient();
   return useMutation({
     mutationFn: (patch: Partial<AppSettings>) => api<AppSettings>('/api/settings', 'PATCH', patch),
-    onSuccess: (s) => qc.setQueryData(keys.settings, s),
+    onSuccess: (s, patch) => {
+      qc.setQueryData(keys.settings, s);
+      // How long things stay in the trash changes its list (and may have emptied part of it).
+      if (patch.trashDays !== undefined) void qc.invalidateQueries({ queryKey: ['trash'] });
+    },
   });
 }
 
@@ -561,5 +573,28 @@ export function useRegenerateTiltStreamKey() {
   return useMutation({
     mutationFn: () => api<TiltStreamDto>('/api/tilt/stream/key', 'POST'),
     onSuccess: (stream) => qc.setQueryData(['tilt', 'stream'], stream),
+  });
+}
+
+// ---- Trash ----------------------------------------------------------------------------------------
+
+export function useTrash() {
+  return useQuery({ queryKey: ['trash'], queryFn: () => api<TrashListDto>('/api/trash') });
+}
+
+export function useRestoreFromTrash() {
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: (id: string) => api<TrashRestoreDto>(`/api/trash/${id}/restore`, 'POST'),
+    // A restore can touch several areas (a batch brings back links to devices, stock, its vessel).
+    onSuccess: () => qc.invalidateQueries(),
+  });
+}
+
+export function useDeleteFromTrash() {
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: (id: string | 'all') => api<void>(id === 'all' ? '/api/trash' : `/api/trash/${id}`, 'DELETE'),
+    onSuccess: () => qc.invalidateQueries({ queryKey: ['trash'] }),
   });
 }

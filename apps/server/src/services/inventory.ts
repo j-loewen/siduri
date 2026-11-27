@@ -3,6 +3,7 @@ import {
   adjustInventorySchema,
   createInventoryItemSchema,
   recipeDocSchema,
+  sameProducer,
   updateInventoryItemSchema,
   waterAgentOf,
   WATER_AGENT_INFO,
@@ -19,6 +20,7 @@ import type { Db } from '../db';
 import { batches, inventoryItems, inventoryTx, libraryItems, type InventoryRow } from '../db/schema';
 import { badRequest, conflict, notFound, parse } from '../lib/errors';
 import { addLog } from './batches';
+import { keepInTrash } from './trash';
 
 export function toItemDto(row: InventoryRow): InventoryItemDto {
   return {
@@ -79,8 +81,13 @@ export function updateItem(db: Db, id: string, raw: unknown): InventoryItemDto {
   return toItemDto(row);
 }
 
+/** Moves it to the trash with its history. */
 export function deleteItem(db: Db, id: string) {
-  if (db.delete(inventoryItems).where(eq(inventoryItems.id, id)).run().changes === 0) throw notFound('Inventory item not found');
+  db.transaction((tx) => {
+    const t = tx as unknown as Db;
+    keepInTrash(t, 'inventory', id);
+    if (t.delete(inventoryItems).where(eq(inventoryItems.id, id)).run().changes === 0) throw notFound('Inventory item not found');
+  });
 }
 
 /** Change an amount (purchase, correction); never below zero. */
@@ -119,8 +126,6 @@ export function listTransactions(db: Db, itemId: string): InventoryTxDto[] {
 }
 
 const norm = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '');
-/** Same ingredient by name only when the producers don't differ (an unknown producer matches any). */
-const sameProducer = (a: string, b: string) => !norm(a) || !norm(b) || norm(a) === norm(b);
 
 /** Stock summed over lots, per library item (or name and producer). */
 export function stockSummary(db: Db): StockDto[] {

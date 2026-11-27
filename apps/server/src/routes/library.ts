@@ -5,7 +5,7 @@ import type { Db } from '../db';
 import { parse } from '../lib/errors';
 import { publishChange } from '../live/hub';
 import { requireUser } from '../plugins/auth';
-import { createLibraryItem, deleteLibraryItem, getLibraryItem, libraryValues, listLibrary, resetLibraryItem, updateLibraryItem } from '../services/library';
+import { createLibraryItem, deleteLibraryItem, getLibraryItem, librarySubstitutes, libraryValues, listLibrary, updateLibraryItem } from '../services/library';
 
 type IdParams = { Params: { id: string } };
 const createSchema = z.object({ kind: z.enum(LIBRARY_KINDS), data: z.unknown() });
@@ -42,11 +42,9 @@ export async function libraryRoutes(app: FastifyInstance, { db }: { db: Db }) {
     return item;
   });
 
-  app.post<IdParams>('/api/library/:id/reset', async (req) => {
+  app.get<IdParams>('/api/library/:id/substitutes', async (req) => {
     requireUser(req);
-    const item = resetLibraryItem(db, req.params.id);
-    publishChange(req, 'library', item.id);
-    return item;
+    return librarySubstitutes(db, req.params.id);
   });
 
   app.delete<IdParams>('/api/library/:id', async (req, reply) => {

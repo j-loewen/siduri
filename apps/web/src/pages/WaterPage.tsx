@@ -8,7 +8,7 @@ import { useLibrary, useSettings, useUpdateSettings } from '../data';
 import { PageHeader } from '../components/recipe-ui';
 import { notifyError } from '../lib/notify';
 import { useFormat } from '../units';
-import { EditDrawer, type LibraryEditing } from './LibraryPage';
+import { EditDrawer, editingOf, type LibraryEditing } from './LibraryPage';
 
 /** Water reports (your tap water) and target profiles. Recipes pick them in their Water section. */
 export function WaterPage() {
@@ -22,7 +22,7 @@ export function WaterPage() {
   const targets = all.filter((p) => p.data.role === 'target');
   const defaultId = settings.data?.defaultSourceWaterId ?? null;
 
-  const open = (p: LibraryItemDto<'water'>) => setEditing({ kind: 'water', id: p.id, seedKey: p.seedKey, data: p.data });
+  const open = (p: LibraryItemDto<'water'>) => setEditing(editingOf(p));
   const create = (role: 'source' | 'target') =>
     setEditing({ kind: 'water', data: waterDataSchema.parse({ name: role === 'source' ? t('waterPage.newSourceName') : t('waterPage.newTargetName'), role }) });
 

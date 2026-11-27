@@ -15,6 +15,7 @@ import {
   type LibraryKind,
   type RecipeDoc,
 } from '@brew/shared';
+import { currentSeedKey } from '@brew/seed-data';
 import type { z } from 'zod';
 import type { Db } from '../db';
 import {
@@ -296,7 +297,8 @@ export function importBackup(db: Db, user: UserRow, raw: unknown, sections: Back
     const bySeed = new Map(library.filter((r) => r.seedKey).map((r) => [r.seedKey!, r.id]));
     const byName = new Map(library.map((r) => [libKey(r.kind, r.data), r.id]));
     for (const [fileId, key] of Object.entries(file.seedRefs)) {
-      const local = bySeed.get(key);
+      // Backups from before open-brewing-data (or before an id was renamed) use older keys.
+      const local = bySeed.get(key) ?? bySeed.get(currentSeedKey(key));
       if (local && local !== fileId) libMap.set(fileId, local);
     }
     for (const e of libraryEntries) {

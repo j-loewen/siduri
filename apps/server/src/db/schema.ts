@@ -20,6 +20,7 @@ import type {
   RecipeType,
   Role,
   TokenLevel,
+  TrashKind,
   UpdatePrefsInput,
 } from '@brew/shared';
 
@@ -297,6 +298,25 @@ export const apiTokens = sqliteTable(
     lastUsedAt: integer('last_used_at', { mode: 'timestamp_ms' }),
   },
   (t) => [index('api_tokens_user_idx').on(t.userId)],
+);
+
+/**
+ * Deleted records, kept until the brewery's `trashDays` have passed. `data` is a snapshot of the
+ * record with what was deleted along with it (readings, log, transactions) and the links other
+ * records lost (see services/trash.ts); restoring puts it all back under the same ids.
+ */
+export const trash = sqliteTable(
+  'trash',
+  {
+    id: text('id').primaryKey(),
+    kind: text('kind').$type<TrashKind>().notNull(),
+    itemId: text('item_id').notNull(),
+    name: text('name').notNull(),
+    detail: text('detail').notNull().default(''),
+    data: text('data', { mode: 'json' }).$type<Record<string, unknown>>().notNull(),
+    deletedAt: integer('deleted_at', { mode: 'timestamp_ms' }).notNull().default(now),
+  },
+  (t) => [index('trash_deleted_idx').on(t.deletedAt), index('trash_kind_idx').on(t.kind)],
 );
 
 export type UserRow = typeof users.$inferSelect;

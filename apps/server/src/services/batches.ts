@@ -23,6 +23,7 @@ import { badRequest, conflict, notFound, parse } from '../lib/errors';
 import { getEquipment } from './equipment';
 import { getVessel } from './vessels';
 import { createRecipe, getRecipe, updateRecipe } from './recipes';
+import { keepInTrash, maxBatchNumber } from './trash';
 
 const today = () => new Date().toISOString().slice(0, 10);
 
@@ -118,7 +119,8 @@ export function createBatch(db: Db, raw: CreateBatchInput): BatchDto {
   }
   return db.transaction((tx) => {
     const t = tx as unknown as Db;
-    const number = (t.select({ n: sql<number>`coalesce(max(${batches.number}), 0)` }).from(batches).get()?.n ?? 0) + 1;
+    // Numbers of batches in the trash stay reserved, so they can come back as they were.
+    const number = maxBatchNumber(t) + 1;
     const row = t
       .insert(batches)
       .values({ id: crypto.randomUUID(), number, name: input.name || recipe.doc.name, recipeId: recipe.id, vesselId: input.vesselId, doc, brewDate: input.brewDate })
@@ -168,8 +170,13 @@ export function patchBatch(db: Db, id: string, patch: PatchBatchInput): BatchDto
   return toBatchDto(updated);
 }
 
+/** Moves it to the trash with its readings and log. */
 export function deleteBatch(db: Db, id: string) {
-  if (db.delete(batches).where(eq(batches.id, id)).run().changes === 0) throw notFound('Batch not found');
+  db.transaction((tx) => {
+    const t = tx as unknown as Db;
+    keepInTrash(t, 'batch', id);
+    if (t.delete(batches).where(eq(batches.id, id)).run().changes === 0) throw notFound('Batch not found');
+  });
 }
 
 /** Apply a brew-day action with the server's clock, so every device sees the same timers. */

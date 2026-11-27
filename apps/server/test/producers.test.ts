@@ -38,7 +38,7 @@ describe('producers and origins', () => {
     expect(values.producers).not.toContain('Yakima Chief');
     expect(values.origins).toEqual(expect.arrayContaining(['Germany', 'United States']));
     // Producers are searchable.
-    expect((await c.get('/api/library?kind=fermentable&q=weyer')).json<LibraryItemDto[]>().map((i) => i.id)).toEqual([malt.id]);
+    expect((await c.get('/api/library?kind=fermentable&q=weyer')).json<LibraryItemDto[]>().map((i) => i.id)).toContain(malt.id);
   });
 
   it('keeps producers apart when matching stock by name', async () => {

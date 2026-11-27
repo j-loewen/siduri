@@ -9,6 +9,7 @@ import { notifyError } from '../lib/notify';
 import { UnitInput, useFormat } from '../units';
 import { fermentationDay, useDateFormat } from './batch-ui';
 import { BatchDevices } from './BatchDevices';
+import { MeasuredFields, VesselSelect } from './BatchFields';
 import { Section } from './recipe-ui';
 
 /** Local "YYYY-MM-DDTHH:mm" for a datetime-local input. */
@@ -35,6 +36,10 @@ export function FermentationPanel({ batch }: { batch: LoadedBatch }) {
   const og = batch.measured.og ?? calc.og;
   const list = readings.data ?? [];
   const lastGravity = [...list].reverse().find((r) => r.gravity != null)?.gravity ?? null;
+  // Gravity only falls in fermentation: a reading above the OG is a wrong reading (or OG), and
+  // attenuation and ABV can't be told from it.
+  const aboveOg = lastGravity != null && lastGravity > og;
+  const fermented = lastGravity != null && !aboveOg;
   const day = fermentationDay(batch.fermentationStart);
 
   const gravityUnit = fmt.unit('gravity');
@@ -65,9 +70,24 @@ export function FermentationPanel({ batch }: { batch: LoadedBatch }) {
       <SimpleGrid cols={{ base: 2, sm: 4 }} spacing="sm">
         <Stat label={t('batches.dayLabel')} value={day != null ? String(day) : '–'} />
         <Stat label={t('batches.currentGravity')} value={lastGravity != null ? fmt(lastGravity, 'gravity') : '–'} />
-        <Stat label={t('batches.attenuation')} value={lastGravity != null ? `${fmt.num(apparentAttenuation(og, lastGravity), 0)}%` : '–'} sub={t('batches.expected', { value: `${fmt.num(calc.attenuationPct, 0)}%` })} />
-        <Stat label={t('stats.abv')} value={lastGravity != null ? `${fmt.num(abvSimple(og, lastGravity), 1)}%` : '–'} />
+        <Stat
+          label={t('batches.attenuation')}
+          value={fermented ? `${fmt.num(apparentAttenuation(og, lastGravity), 0)}%` : '–'}
+          sub={t('batches.expected', { value: `${fmt.num(calc.attenuationPct, 0)}%` })}
+        />
+        <Stat
+          label={t('stats.abv')}
+          value={fermented ? `${fmt.num(abvSimple(og, lastGravity), 1)}%` : '–'}
+          sub={aboveOg ? t('batches.aboveOg', { og: fmt(og, 'gravity') }) : undefined}
+        />
       </SimpleGrid>
+
+      <Section title={t('batches.fermentation.title')}>
+        <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="sm">
+          <VesselSelect batch={batch} kinds={['fermenter']} label={t('batches.fermentation.vessel')} />
+          <MeasuredFields batch={batch} fields={['fg']} />
+        </SimpleGrid>
+      </Section>
 
       <Section title={t('devices.forBatch')}>
         <BatchDevices batch={batch} />

@@ -433,3 +433,24 @@ input.recipe-title[data-variant] {
     background-color: var(--mantine-color-default-hover);
   }
 }
+
+/* ---- Page header ------------------------------------------------------------------------- */
+
+/* Title with the buttons on its right (they wrap under it when they don't fit); the subtitle
+   below takes the full width, so it never ends up a narrow column next to the buttons. */
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--mantine-spacing-xs) var(--mantine-spacing-sm);
+}
+.page-header-title {
+  flex: 1 0 auto;
+}
+.page-header-actions {
+  margin-left: auto;
+}
+.page-header-subtitle {
+  flex-basis: 100%;
+  order: 3;
+}

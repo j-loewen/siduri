@@ -184,7 +184,7 @@ export const batchTools = [
     name: 'delete_batch',
     level: 'full',
     title: 'Delete a batch',
-    description: 'Delete a batch with its readings and log for good.',
+    description: 'Delete a batch with its readings and log. It goes to the trash (restore_from_trash) until its time there is up (list_trash shows it).',
     input: { id: z.string() },
     run: ({ id }, ctx) => {
       deleteBatch(ctx.db, id);

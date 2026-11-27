@@ -15,6 +15,7 @@ const AREA_KEYS: Record<LiveArea, (id?: string) => readonly unknown[][]> = {
   batches: () => [['batches'], ['vessels']],
   inventory: () => [['inventory']],
   devices: () => [['devices'], ['rapt'], ['tilt']],
+  trash: () => [['trash']],
 };
 
 function refreshAll(qc: QueryClient) {
@@ -25,6 +26,8 @@ function handle(qc: QueryClient, event: LiveEvent) {
   if (event.kind === 'me') void qc.invalidateQueries({ queryKey: meKey });
   if (event.kind === 'changed') {
     for (const key of AREA_KEYS[event.area](event.id)) void qc.invalidateQueries({ queryKey: key });
+    // Deleting anything puts it in the trash (and its settings change how long things stay there).
+    if (event.area !== 'trash') void qc.invalidateQueries({ queryKey: ['trash'] });
   }
 }
 

@@ -4,6 +4,7 @@ import { recipeStats } from '@brew/brewcalc';
 import type { Db } from '../db';
 import { recipes, type RecipeRow } from '../db/schema';
 import { conflict, notFound } from '../lib/errors';
+import { keepInTrash } from './trash';
 
 export function toRecipeDto(row: RecipeRow): RecipeDto {
   return {
@@ -94,9 +95,13 @@ export function updateRecipe(db: Db, id: string, doc: RecipeDoc, version: number
   return toRecipeDto(row);
 }
 
+/** Moves it to the trash; its batches keep their copy of the recipe. */
 export function deleteRecipe(db: Db, id: string) {
-  const res = db.delete(recipes).where(eq(recipes.id, id)).run();
-  if (res.changes === 0) throw notFound('Recipe not found');
+  db.transaction((tx) => {
+    const t = tx as unknown as Db;
+    keepInTrash(t, 'recipe', id);
+    if (t.delete(recipes).where(eq(recipes.id, id)).run().changes === 0) throw notFound('Recipe not found');
+  });
 }
 
 export function duplicateRecipe(db: Db, id: string, name?: string): RecipeDto {

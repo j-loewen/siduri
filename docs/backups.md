@@ -18,9 +18,9 @@ Everything is in the `./data` folder on the host (one SQLite database, pictures 
 
 Passwords, user accounts, access tokens and smart devices (with their push URLs) are never in the file. Everything else is not encrypted, even with an `ENCRYPTION_KEY`, so keep the file somewhere safe.
 
-**Import a backup** (same place) reads such a file and lets you choose which of its sections to add. Items keep their identity, so links between them still work (a batch and its recipe, a batch and its fermenter, recipe lines and the library). Items already on the server are skipped: the same item, or a library item, water profile, equipment profile or vessel with the same name. Importing the same file twice therefore adds nothing. A batch whose number is taken gets the next free number. Imported settings replace the current brewery settings and your preferences.
+**Import a backup** (same place) reads such a file and lets you choose which of its sections to add. Items keep their identity, so links between them still work (a batch and its recipe, a batch and its fermenter, recipe lines and the library). Items already on the server are skipped: the same item, or a library item, water profile, equipment profile or vessel with the same name. Importing the same file twice therefore adds nothing. Built-in library items aren't in the file; references to them are linked to the built-in items of the server, also in files made before the built-in library came from open-brewing-data. A batch whose number is taken gets the next free number. Imported settings replace the current brewery settings and your preferences.
 
-A backup file is not a full copy of the server: users, devices and stored device readings are missing. To restore a whole server, copy the `data` folder as described below.
+A backup file is not a full copy of the server: users, devices, stored device readings and the [trash](user-guide.md#trash) are missing. To restore a whole server, copy the `data` folder as described below.
 
 ## Make a backup
 

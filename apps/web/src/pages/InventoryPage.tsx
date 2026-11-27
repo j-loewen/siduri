@@ -14,6 +14,7 @@ import {
   useUpdateInventoryItem,
 } from '../data';
 import { AmountField, PriceField, useAmountFormat } from '../components/amount';
+import { useNotifyDeleted, useTrashNote } from '../components/trash-ui';
 import { useDateFormat } from '../components/batch-ui';
 import { IngredientPicker } from '../components/IngredientPicker';
 import { PageHeader } from '../components/recipe-ui';
@@ -291,6 +292,8 @@ function AddItemModal({ opened, onClose, defaultKind }: { opened: boolean; onClo
 
 function ItemDrawer({ item, onClose }: { item: InventoryItemDto | null; onClose: () => void }) {
   const { t } = useTranslation();
+  const trashNote = useTrashNote();
+  const notifyDeleted = useNotifyDeleted();
   const update = useUpdateInventoryItem();
   const adjust = useAdjustInventoryItem();
   const remove = useDeleteInventoryItem();
@@ -386,10 +389,17 @@ function ItemDrawer({ item, onClose }: { item: InventoryItemDto | null; onClose:
               onClick={() =>
                 modals.openConfirmModal({
                   title: t('inventory.delete.title'),
-                  children: <Text size="sm">{t('inventory.delete.text', { name: item.name })}</Text>,
+                  children: <Text size="sm">{t('inventory.delete.text', { name: item.name })}{' '}{trashNote}</Text>,
                   labels: { confirm: t('common.delete'), cancel: t('common.cancel') },
                   confirmProps: { color: 'red' },
-                  onConfirm: () => remove.mutate(item.id, { onSuccess: onClose, onError: notifyError }),
+                  onConfirm: () =>
+                    remove.mutate(item.id, {
+                      onSuccess: () => {
+                        notifyDeleted('inventory', item.id, item.name);
+                        onClose();
+                      },
+                      onError: notifyError,
+                    }),
                 })
               }
             >

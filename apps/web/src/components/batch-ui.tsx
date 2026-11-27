@@ -21,6 +21,22 @@ export function StatusBadge({ status, size = 'sm' }: { status: BatchStatus; size
   );
 }
 
+/** Tabs of the batch page: an overview, the batch's recipe, one per phase, and the log. */
+export const BATCH_TABS = ['overview', 'recipe', 'planning', 'brewing', 'fermentation', 'conditioning', 'log'] as const;
+export type BatchTab = (typeof BATCH_TABS)[number];
+
+const PHASE_TAB: Record<BatchStatus, BatchTab> = {
+  planned: 'planning',
+  brewing: 'brewing',
+  fermenting: 'fermentation',
+  conditioning: 'conditioning',
+  packaged: 'conditioning',
+  completed: 'overview',
+};
+
+/** The tab a batch opens on: the one for what is going on with it now. */
+export const phaseTab = (status: BatchStatus): BatchTab => PHASE_TAB[status];
+
 const DAY = 24 * 3600 * 1000;
 
 /** Day of fermentation (0 on brew day), or null before it started. */

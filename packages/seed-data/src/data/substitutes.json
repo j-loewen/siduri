@@ -1,0 +1,2721 @@
+{
+ "fermentables/bestmalz/acidulated-malt": [
+  "fermentables/generic/acid-malt",
+  "fermentables/castle-malting/chateau-acid",
+  "fermentables/castle-malting/chateau-acid-nature",
+  "fermentables/weyermann/acidulated-malt"
+ ],
+ "fermentables/bestmalz/beechwood-smoked": [
+  "fermentables/generic/smoked-malt",
+  "fermentables/bestmalz/smoked-malt",
+  "fermentables/castle-malting/chateau-smoked",
+  "fermentables/castle-malting/chateau-smoked-nature",
+  "fermentables/weyermann/beech-smoked-barley-malt"
+ ],
+ "fermentables/bestmalz/biscuit": [
+  "fermentables/generic/biscuit-malt",
+  "fermentables/castle-malting/chateau-biscuit",
+  "fermentables/castle-malting/chateau-biscuit-nature",
+  "fermentables/dingemans/biscuit-50",
+  "fermentables/dingemans/organic-biscuit"
+ ],
+ "fermentables/bestmalz/black-malt": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/bestmalz/black-malt-extra": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/bestmalz/caramel-amber": [
+  "fermentables/generic/caraamber",
+  "fermentables/weyermann/caraamber"
+ ],
+ "fermentables/bestmalz/caramel-munich-i": [
+  "fermentables/generic/caramunich-malt",
+  "fermentables/bestmalz/caramel-munich-ii",
+  "fermentables/bestmalz/caramel-munich-iii",
+  "fermentables/briess/caramel-munich-malt-60l",
+  "fermentables/weyermann/caramunich-type-1",
+  "fermentables/weyermann/caramunich-type-2",
+  "fermentables/weyermann/caramunich-type-3"
+ ],
+ "fermentables/bestmalz/caramel-munich-ii": [
+  "fermentables/generic/caramunich-malt",
+  "fermentables/bestmalz/caramel-munich-i",
+  "fermentables/bestmalz/caramel-munich-iii",
+  "fermentables/briess/caramel-munich-malt-60l",
+  "fermentables/weyermann/caramunich-type-1",
+  "fermentables/weyermann/caramunich-type-2",
+  "fermentables/weyermann/caramunich-type-3"
+ ],
+ "fermentables/bestmalz/caramel-munich-iii": [
+  "fermentables/generic/caramunich-malt",
+  "fermentables/bestmalz/caramel-munich-i",
+  "fermentables/bestmalz/caramel-munich-ii",
+  "fermentables/briess/caramel-munich-malt-60l",
+  "fermentables/weyermann/caramunich-type-1",
+  "fermentables/weyermann/caramunich-type-2",
+  "fermentables/weyermann/caramunich-type-3"
+ ],
+ "fermentables/bestmalz/caramel-pils": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/bestmalz/chocolate": [
+  "fermentables/generic/chocolate-malt",
+  "fermentables/briess/chocolate-malt",
+  "fermentables/briess/organic-chocolate-malt",
+  "fermentables/castle-malting/chateau-chocolat",
+  "fermentables/castle-malting/chateau-chocolat-nature",
+  "fermentables/dingemans/mroost-900"
+ ],
+ "fermentables/bestmalz/heidelberg-wheat-malt": [
+  "fermentables/generic/wheat-malt-germany",
+  "fermentables/bestmalz/wheat-malt",
+  "fermentables/weyermann/wheat-malt-pale"
+ ],
+ "fermentables/bestmalz/melanoidin": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/bestmalz/melanoidin-light": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/bestmalz/munich": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/bestmalz/munich-dark": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/bestmalz/oat-malt": [
+  "fermentables/generic/oats-malted",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/bestmalz/pilsen-malt": [
+  "fermentables/generic/pilsner-2-row-germany",
+  "fermentables/crisp-malt/german-pilsen-malt",
+  "fermentables/weyermann/extra-pale-premium-pilsner-malt",
+  "fermentables/weyermann/pilsner-malt"
+ ],
+ "fermentables/bestmalz/roasted-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/bestmalz/roasted-wheat-dark": [
+  "fermentables/generic/wheat-roasted",
+  "fermentables/castle-malting/chateau-wheat-black",
+  "fermentables/thomas-fawcett/roast-wheat-malt",
+  "fermentables/weyermann/chocolate-wheat-malt"
+ ],
+ "fermentables/bestmalz/rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/bestmalz/smoked-malt": [
+  "fermentables/generic/smoked-malt",
+  "fermentables/bestmalz/beechwood-smoked",
+  "fermentables/castle-malting/chateau-smoked",
+  "fermentables/castle-malting/chateau-smoked-nature",
+  "fermentables/weyermann/beech-smoked-barley-malt"
+ ],
+ "fermentables/bestmalz/vienna": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/bestmalz/wheat-malt": [
+  "fermentables/generic/wheat-malt-germany",
+  "fermentables/bestmalz/heidelberg-wheat-malt",
+  "fermentables/weyermann/wheat-malt-pale"
+ ],
+ "fermentables/bestmalz/wheat-malt-dark": [
+  "fermentables/generic/dark-wheat-malt",
+  "fermentables/weyermann/dark-wheat-malt"
+ ],
+ "fermentables/briess/aromatic-munich-malt-20l": [
+  "fermentables/generic/munich-malt-20l",
+  "fermentables/great-western-malting/dark-munich-malt"
+ ],
+ "fermentables/briess/ashburne-mild-malt": [
+  "fermentables/generic/mild-malt",
+  "fermentables/thomas-fawcett/mild-ale-malt"
+ ],
+ "fermentables/briess/black-barley": [
+  "fermentables/generic/black-barley-stout"
+ ],
+ "fermentables/briess/black-malt": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/briess/bonlander-munich-malt-10l": [
+  "fermentables/generic/munich-malt-10l"
+ ],
+ "fermentables/briess/brewers-malt": [
+  "fermentables/generic/pale-malt-2-row-usa",
+  "fermentables/briess/organic-brewers-malt",
+  "fermentables/great-western-malting/premium-two-row-malt",
+  "fermentables/malteurop/2-row",
+  "fermentables/rahr-malting/the-brewers-standard-2-row"
+ ],
+ "fermentables/briess/caramel-malt-10l": [
+  "fermentables/generic/caramel-crystal-malt-10l",
+  "fermentables/crisp-malt/cara-malt",
+  "fermentables/thomas-fawcett/caramalt"
+ ],
+ "fermentables/briess/caramel-malt-120l": [
+  "fermentables/generic/caramel-crystal-malt-120l",
+  "fermentables/simpsons-malt/simpsons-drc",
+  "fermentables/thomas-fawcett/dark-crystal-ii-120"
+ ],
+ "fermentables/briess/caramel-malt-20l": [
+  "fermentables/generic/caramel-crystal-malt-20l",
+  "fermentables/briess/organic-caramel-malt-20l"
+ ],
+ "fermentables/briess/caramel-malt-30l": [
+  "fermentables/generic/caramel-crystal-malt-30l"
+ ],
+ "fermentables/briess/caramel-malt-40l": [
+  "fermentables/generic/caramel-crystal-malt-40l",
+  "fermentables/crisp-malt/extra-light-crystal",
+  "fermentables/simpsons-malt/crystal-light",
+  "fermentables/thomas-fawcett/crystal-i-45"
+ ],
+ "fermentables/briess/caramel-malt-60l": [
+  "fermentables/generic/caramel-crystal-malt-60l",
+  "fermentables/briess/organic-caramel-malt-60l",
+  "fermentables/thomas-fawcett/crystal-ii-65"
+ ],
+ "fermentables/briess/caramel-malt-80l": [
+  "fermentables/generic/caramel-crystal-malt-80l",
+  "fermentables/simpsons-malt/crystal-dark-medium"
+ ],
+ "fermentables/briess/caramel-malt-90l": [
+  "fermentables/generic/caramel-crystal-malt-90l"
+ ],
+ "fermentables/briess/caramel-munich-malt-60l": [
+  "fermentables/generic/caramunich-malt",
+  "fermentables/bestmalz/caramel-munich-i",
+  "fermentables/bestmalz/caramel-munich-ii",
+  "fermentables/bestmalz/caramel-munich-iii",
+  "fermentables/weyermann/caramunich-type-1",
+  "fermentables/weyermann/caramunich-type-2",
+  "fermentables/weyermann/caramunich-type-3"
+ ],
+ "fermentables/briess/caramel-vienne-malt-20l": [
+  "fermentables/generic/caravienne-malt"
+ ],
+ "fermentables/briess/carapils-malt": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/briess/chocolate-malt": [
+  "fermentables/generic/chocolate-malt",
+  "fermentables/bestmalz/chocolate",
+  "fermentables/briess/organic-chocolate-malt",
+  "fermentables/castle-malting/chateau-chocolat",
+  "fermentables/castle-malting/chateau-chocolat-nature",
+  "fermentables/dingemans/mroost-900"
+ ],
+ "fermentables/briess/goldpils-vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/briess/lighthouse-munich-malt": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/briess/organic-brewers-malt": [
+  "fermentables/generic/pale-malt-2-row-usa",
+  "fermentables/briess/brewers-malt",
+  "fermentables/great-western-malting/premium-two-row-malt",
+  "fermentables/malteurop/2-row",
+  "fermentables/rahr-malting/the-brewers-standard-2-row"
+ ],
+ "fermentables/briess/organic-caramel-malt-20l": [
+  "fermentables/generic/caramel-crystal-malt-20l",
+  "fermentables/briess/caramel-malt-20l"
+ ],
+ "fermentables/briess/organic-caramel-malt-60l": [
+  "fermentables/generic/caramel-crystal-malt-60l",
+  "fermentables/briess/caramel-malt-60l",
+  "fermentables/thomas-fawcett/crystal-ii-65"
+ ],
+ "fermentables/briess/organic-chocolate-malt": [
+  "fermentables/generic/chocolate-malt",
+  "fermentables/bestmalz/chocolate",
+  "fermentables/briess/chocolate-malt",
+  "fermentables/castle-malting/chateau-chocolat",
+  "fermentables/castle-malting/chateau-chocolat-nature",
+  "fermentables/dingemans/mroost-900"
+ ],
+ "fermentables/briess/roasted-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/briess/rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/briess/special-roast-malt": [
+  "fermentables/generic/special-roast"
+ ],
+ "fermentables/briess/victory-malt": [
+  "fermentables/generic/victory-malt",
+  "fermentables/briess/victory-organic-malt"
+ ],
+ "fermentables/briess/victory-organic-malt": [
+  "fermentables/generic/victory-malt",
+  "fermentables/briess/victory-malt"
+ ],
+ "fermentables/briess/wheat-malt-white": [
+  "fermentables/generic/white-wheat-malt",
+  "fermentables/canada-malting/white-wheat-malt",
+  "fermentables/gambrinus-malting/organic-wheat-malt",
+  "fermentables/great-western-malting/white-wheat-malt",
+  "fermentables/rahr-malting/extra-pale-white-wheat",
+  "fermentables/rahr-malting/white-wheat"
+ ],
+ "fermentables/canada-malting/century-rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/canada-malting/munich-malt": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/canada-malting/oat-malt": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/canada-malting/white-wheat-malt": [
+  "fermentables/generic/white-wheat-malt",
+  "fermentables/briess/wheat-malt-white",
+  "fermentables/gambrinus-malting/organic-wheat-malt",
+  "fermentables/great-western-malting/white-wheat-malt",
+  "fermentables/rahr-malting/extra-pale-white-wheat",
+  "fermentables/rahr-malting/white-wheat"
+ ],
+ "fermentables/castle-malting/chateau-acid": [
+  "fermentables/generic/acid-malt",
+  "fermentables/bestmalz/acidulated-malt",
+  "fermentables/castle-malting/chateau-acid-nature",
+  "fermentables/weyermann/acidulated-malt"
+ ],
+ "fermentables/castle-malting/chateau-acid-nature": [
+  "fermentables/generic/acid-malt",
+  "fermentables/bestmalz/acidulated-malt",
+  "fermentables/castle-malting/chateau-acid",
+  "fermentables/weyermann/acidulated-malt"
+ ],
+ "fermentables/castle-malting/chateau-arome": [
+  "fermentables/generic/aromatic-malt",
+  "fermentables/castle-malting/chateau-arome-nature",
+  "fermentables/dingemans/amber-aromatic",
+  "fermentables/simpsons-malt/aromatic-malt"
+ ],
+ "fermentables/castle-malting/chateau-arome-nature": [
+  "fermentables/generic/aromatic-malt",
+  "fermentables/castle-malting/chateau-arome",
+  "fermentables/dingemans/amber-aromatic",
+  "fermentables/simpsons-malt/aromatic-malt"
+ ],
+ "fermentables/castle-malting/chateau-biscuit": [
+  "fermentables/generic/biscuit-malt",
+  "fermentables/bestmalz/biscuit",
+  "fermentables/castle-malting/chateau-biscuit-nature",
+  "fermentables/dingemans/biscuit-50",
+  "fermentables/dingemans/organic-biscuit"
+ ],
+ "fermentables/castle-malting/chateau-biscuit-nature": [
+  "fermentables/generic/biscuit-malt",
+  "fermentables/bestmalz/biscuit",
+  "fermentables/castle-malting/chateau-biscuit",
+  "fermentables/dingemans/biscuit-50",
+  "fermentables/dingemans/organic-biscuit"
+ ],
+ "fermentables/castle-malting/chateau-black": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/castle-malting/chateau-black-nature": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/castle-malting/chateau-cara-clair": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/castle-malting/chateau-cara-clair-nature": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/castle-malting/chateau-chocolat": [
+  "fermentables/generic/chocolate-malt",
+  "fermentables/bestmalz/chocolate",
+  "fermentables/briess/chocolate-malt",
+  "fermentables/briess/organic-chocolate-malt",
+  "fermentables/castle-malting/chateau-chocolat-nature",
+  "fermentables/dingemans/mroost-900"
+ ],
+ "fermentables/castle-malting/chateau-chocolat-nature": [
+  "fermentables/generic/chocolate-malt",
+  "fermentables/bestmalz/chocolate",
+  "fermentables/briess/chocolate-malt",
+  "fermentables/briess/organic-chocolate-malt",
+  "fermentables/castle-malting/chateau-chocolat",
+  "fermentables/dingemans/mroost-900"
+ ],
+ "fermentables/castle-malting/chateau-melano": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/castle-malting/chateau-melano-light": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/castle-malting/chateau-melano-light-nature": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/castle-malting/chateau-melano-nature": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/castle-malting/chateau-munich": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/castle-malting/chateau-munich-light": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/castle-malting/chateau-munich-light-nature": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/castle-malting/chateau-munich-nature": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/castle-malting/chateau-oat-malt": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/castle-malting/chateau-oat-nature": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/castle-malting/chateau-pale-ale": [
+  "fermentables/generic/pale-malt-2-row-belgium",
+  "fermentables/castle-malting/chateau-pale-ale-nature",
+  "fermentables/dingemans/organic-pale-ale",
+  "fermentables/dingemans/pale-ale-9"
+ ],
+ "fermentables/castle-malting/chateau-pale-ale-nature": [
+  "fermentables/generic/pale-malt-2-row-belgium",
+  "fermentables/castle-malting/chateau-pale-ale",
+  "fermentables/dingemans/organic-pale-ale",
+  "fermentables/dingemans/pale-ale-9"
+ ],
+ "fermentables/castle-malting/chateau-pilsen-2rs": [
+  "fermentables/generic/pilsner-2-row-belgium",
+  "fermentables/castle-malting/chateau-pilsen-nature",
+  "fermentables/dingemans/organic-pilsen",
+  "fermentables/dingemans/organic-pilsen-belgium-origin",
+  "fermentables/dingemans/pilsen",
+  "fermentables/dingemans/pilsen-belgium-origin"
+ ],
+ "fermentables/castle-malting/chateau-pilsen-nature": [
+  "fermentables/generic/pilsner-2-row-belgium",
+  "fermentables/castle-malting/chateau-pilsen-2rs",
+  "fermentables/dingemans/organic-pilsen",
+  "fermentables/dingemans/organic-pilsen-belgium-origin",
+  "fermentables/dingemans/pilsen",
+  "fermentables/dingemans/pilsen-belgium-origin"
+ ],
+ "fermentables/castle-malting/chateau-roasted-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/castle-malting/chateau-roasted-barley-nature": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/castle-malting/chateau-rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/castle-malting/chateau-rye-nature": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/castle-malting/chateau-smoked": [
+  "fermentables/generic/smoked-malt",
+  "fermentables/bestmalz/beechwood-smoked",
+  "fermentables/bestmalz/smoked-malt",
+  "fermentables/castle-malting/chateau-smoked-nature",
+  "fermentables/weyermann/beech-smoked-barley-malt"
+ ],
+ "fermentables/castle-malting/chateau-smoked-nature": [
+  "fermentables/generic/smoked-malt",
+  "fermentables/bestmalz/beechwood-smoked",
+  "fermentables/bestmalz/smoked-malt",
+  "fermentables/castle-malting/chateau-smoked",
+  "fermentables/weyermann/beech-smoked-barley-malt"
+ ],
+ "fermentables/castle-malting/chateau-special-belgium": [
+  "fermentables/generic/special-b-malt",
+  "fermentables/castle-malting/chateau-special-belgium-nature",
+  "fermentables/dingemans/special-b"
+ ],
+ "fermentables/castle-malting/chateau-special-belgium-nature": [
+  "fermentables/generic/special-b-malt",
+  "fermentables/castle-malting/chateau-special-belgium",
+  "fermentables/dingemans/special-b"
+ ],
+ "fermentables/castle-malting/chateau-vienna": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/castle-malting/chateau-vienna-nature": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/castle-malting/chateau-wheat-black": [
+  "fermentables/generic/wheat-roasted",
+  "fermentables/bestmalz/roasted-wheat-dark",
+  "fermentables/thomas-fawcett/roast-wheat-malt",
+  "fermentables/weyermann/chocolate-wheat-malt"
+ ],
+ "fermentables/castle-malting/chateau-wheat-blanc": [
+  "fermentables/generic/wheat-malt-belgium",
+  "fermentables/castle-malting/chateau-wheat-blanc-nature",
+  "fermentables/dingemans/organic-wheat-malt",
+  "fermentables/dingemans/wheat-malt"
+ ],
+ "fermentables/castle-malting/chateau-wheat-blanc-nature": [
+  "fermentables/generic/wheat-malt-belgium",
+  "fermentables/castle-malting/chateau-wheat-blanc",
+  "fermentables/dingemans/organic-wheat-malt",
+  "fermentables/dingemans/wheat-malt"
+ ],
+ "fermentables/crisp-malt/amber-malt": [
+  "fermentables/generic/amber-malt",
+  "fermentables/simpsons-malt/amber-malt",
+  "fermentables/thomas-fawcett/amber-malt"
+ ],
+ "fermentables/crisp-malt/best-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/crisp-malt/black-malt": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/crisp-malt/brown-malt": [
+  "fermentables/generic/brown-malt",
+  "fermentables/simpsons-malt/brown-malt",
+  "fermentables/thomas-fawcett/brown-malt"
+ ],
+ "fermentables/crisp-malt/cara-malt": [
+  "fermentables/generic/caramel-crystal-malt-10l",
+  "fermentables/briess/caramel-malt-10l",
+  "fermentables/thomas-fawcett/caramalt"
+ ],
+ "fermentables/crisp-malt/chocolate-malt": [
+  "fermentables/generic/chocolate-malt-uk",
+  "fermentables/simpsons-malt/chocolate-malt",
+  "fermentables/thomas-fawcett/chocolate-malt"
+ ],
+ "fermentables/crisp-malt/dark-crystal": [
+  "fermentables/generic/caramel-crystal-malt-160l"
+ ],
+ "fermentables/crisp-malt/dextrin-malt": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/crisp-malt/extra-light-crystal": [
+  "fermentables/generic/caramel-crystal-malt-40l",
+  "fermentables/briess/caramel-malt-40l",
+  "fermentables/simpsons-malt/crystal-light",
+  "fermentables/thomas-fawcett/crystal-i-45"
+ ],
+ "fermentables/crisp-malt/extra-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/crisp-malt/extra-pale-maris-otter-malt": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/crisp-malt/finest-maris-otter-ale-malt": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/crisp-malt/german-pilsen-malt": [
+  "fermentables/generic/pilsner-2-row-germany",
+  "fermentables/bestmalz/pilsen-malt",
+  "fermentables/weyermann/extra-pale-premium-pilsner-malt",
+  "fermentables/weyermann/pilsner-malt"
+ ],
+ "fermentables/crisp-malt/lager-malt": [
+  "fermentables/generic/pilsner-2-row-uk",
+  "fermentables/simpsons-malt/finest-lager-malt",
+  "fermentables/thomas-fawcett/lager-pilsner-malt"
+ ],
+ "fermentables/crisp-malt/light-munich-malt": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/crisp-malt/naked-oat-malt": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/crisp-malt/no-19-maris-otter-ale-malt": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/crisp-malt/roasted-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/crisp-malt/rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/crisp-malt/scottish-extra-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/crisp-malt/scottish-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/crisp-malt/vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/dingemans/amber-aromatic": [
+  "fermentables/generic/aromatic-malt",
+  "fermentables/castle-malting/chateau-arome",
+  "fermentables/castle-malting/chateau-arome-nature",
+  "fermentables/simpsons-malt/aromatic-malt"
+ ],
+ "fermentables/dingemans/biscuit-50": [
+  "fermentables/generic/biscuit-malt",
+  "fermentables/bestmalz/biscuit",
+  "fermentables/castle-malting/chateau-biscuit",
+  "fermentables/castle-malting/chateau-biscuit-nature",
+  "fermentables/dingemans/organic-biscuit"
+ ],
+ "fermentables/dingemans/dextrin": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/dingemans/maris-otter": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/dingemans/melanoidin": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/dingemans/mroost-1400": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/dingemans/mroost-900": [
+  "fermentables/generic/chocolate-malt",
+  "fermentables/bestmalz/chocolate",
+  "fermentables/briess/chocolate-malt",
+  "fermentables/briess/organic-chocolate-malt",
+  "fermentables/castle-malting/chateau-chocolat",
+  "fermentables/castle-malting/chateau-chocolat-nature"
+ ],
+ "fermentables/dingemans/munich-15": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/dingemans/oat-malt": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/dingemans/organic-biscuit": [
+  "fermentables/generic/biscuit-malt",
+  "fermentables/bestmalz/biscuit",
+  "fermentables/castle-malting/chateau-biscuit",
+  "fermentables/castle-malting/chateau-biscuit-nature",
+  "fermentables/dingemans/biscuit-50"
+ ],
+ "fermentables/dingemans/organic-mroost-1400": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/dingemans/organic-munich": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/dingemans/organic-pale-ale": [
+  "fermentables/generic/pale-malt-2-row-belgium",
+  "fermentables/castle-malting/chateau-pale-ale",
+  "fermentables/castle-malting/chateau-pale-ale-nature",
+  "fermentables/dingemans/pale-ale-9"
+ ],
+ "fermentables/dingemans/organic-pilsen": [
+  "fermentables/generic/pilsner-2-row-belgium",
+  "fermentables/castle-malting/chateau-pilsen-2rs",
+  "fermentables/castle-malting/chateau-pilsen-nature",
+  "fermentables/dingemans/organic-pilsen-belgium-origin",
+  "fermentables/dingemans/pilsen",
+  "fermentables/dingemans/pilsen-belgium-origin"
+ ],
+ "fermentables/dingemans/organic-pilsen-belgium-origin": [
+  "fermentables/generic/pilsner-2-row-belgium",
+  "fermentables/castle-malting/chateau-pilsen-2rs",
+  "fermentables/castle-malting/chateau-pilsen-nature",
+  "fermentables/dingemans/organic-pilsen",
+  "fermentables/dingemans/pilsen",
+  "fermentables/dingemans/pilsen-belgium-origin"
+ ],
+ "fermentables/dingemans/organic-wheat-malt": [
+  "fermentables/generic/wheat-malt-belgium",
+  "fermentables/castle-malting/chateau-wheat-blanc",
+  "fermentables/castle-malting/chateau-wheat-blanc-nature",
+  "fermentables/dingemans/wheat-malt"
+ ],
+ "fermentables/dingemans/pale-ale-9": [
+  "fermentables/generic/pale-malt-2-row-belgium",
+  "fermentables/castle-malting/chateau-pale-ale",
+  "fermentables/castle-malting/chateau-pale-ale-nature",
+  "fermentables/dingemans/organic-pale-ale"
+ ],
+ "fermentables/dingemans/pealed-roasted-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/dingemans/pilsen": [
+  "fermentables/generic/pilsner-2-row-belgium",
+  "fermentables/castle-malting/chateau-pilsen-2rs",
+  "fermentables/castle-malting/chateau-pilsen-nature",
+  "fermentables/dingemans/organic-pilsen",
+  "fermentables/dingemans/organic-pilsen-belgium-origin",
+  "fermentables/dingemans/pilsen-belgium-origin"
+ ],
+ "fermentables/dingemans/pilsen-belgium-origin": [
+  "fermentables/generic/pilsner-2-row-belgium",
+  "fermentables/castle-malting/chateau-pilsen-2rs",
+  "fermentables/castle-malting/chateau-pilsen-nature",
+  "fermentables/dingemans/organic-pilsen",
+  "fermentables/dingemans/organic-pilsen-belgium-origin",
+  "fermentables/dingemans/pilsen"
+ ],
+ "fermentables/dingemans/rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/dingemans/special-b": [
+  "fermentables/generic/special-b-malt",
+  "fermentables/castle-malting/chateau-special-belgium",
+  "fermentables/castle-malting/chateau-special-belgium-nature"
+ ],
+ "fermentables/dingemans/wheat-malt": [
+  "fermentables/generic/wheat-malt-belgium",
+  "fermentables/castle-malting/chateau-wheat-blanc",
+  "fermentables/castle-malting/chateau-wheat-blanc-nature",
+  "fermentables/dingemans/organic-wheat-malt"
+ ],
+ "fermentables/gambrinus-malting/honey-malt": [
+  "fermentables/generic/brumalt",
+  "fermentables/great-western-malting/brumalt"
+ ],
+ "fermentables/gambrinus-malting/munich-light": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/gambrinus-malting/organic-munich-light": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/gambrinus-malting/organic-wheat-malt": [
+  "fermentables/generic/white-wheat-malt",
+  "fermentables/briess/wheat-malt-white",
+  "fermentables/canada-malting/white-wheat-malt",
+  "fermentables/great-western-malting/white-wheat-malt",
+  "fermentables/rahr-malting/extra-pale-white-wheat",
+  "fermentables/rahr-malting/white-wheat"
+ ],
+ "fermentables/gambrinus-malting/rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/gambrinus-malting/vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/generic/acid-malt": [
+  "fermentables/bestmalz/acidulated-malt",
+  "fermentables/castle-malting/chateau-acid",
+  "fermentables/castle-malting/chateau-acid-nature",
+  "fermentables/weyermann/acidulated-malt"
+ ],
+ "fermentables/generic/amber-liquid-extract": [
+  "fermentables/weyermann/munich-amber-liquid-malt-extract"
+ ],
+ "fermentables/generic/amber-malt": [
+  "fermentables/crisp-malt/amber-malt",
+  "fermentables/simpsons-malt/amber-malt",
+  "fermentables/thomas-fawcett/amber-malt"
+ ],
+ "fermentables/generic/aromatic-malt": [
+  "fermentables/castle-malting/chateau-arome",
+  "fermentables/castle-malting/chateau-arome-nature",
+  "fermentables/dingemans/amber-aromatic",
+  "fermentables/simpsons-malt/aromatic-malt"
+ ],
+ "fermentables/generic/barley-flaked": [
+  "fermentables/thomas-fawcett/flaked-barley-malt"
+ ],
+ "fermentables/generic/biscuit-malt": [
+  "fermentables/bestmalz/biscuit",
+  "fermentables/castle-malting/chateau-biscuit",
+  "fermentables/castle-malting/chateau-biscuit-nature",
+  "fermentables/dingemans/biscuit-50",
+  "fermentables/dingemans/organic-biscuit"
+ ],
+ "fermentables/generic/black-barley-stout": [
+  "fermentables/briess/black-barley"
+ ],
+ "fermentables/generic/black-patent-malt": [
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/generic/brown-malt": [
+  "fermentables/crisp-malt/brown-malt",
+  "fermentables/simpsons-malt/brown-malt",
+  "fermentables/thomas-fawcett/brown-malt"
+ ],
+ "fermentables/generic/brumalt": [
+  "fermentables/gambrinus-malting/honey-malt",
+  "fermentables/great-western-malting/brumalt"
+ ],
+ "fermentables/generic/cara-pils-dextrine": [
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/generic/caraamber": [
+  "fermentables/bestmalz/caramel-amber",
+  "fermentables/weyermann/caraamber"
+ ],
+ "fermentables/generic/carafoam": [
+  "fermentables/weyermann/carafoam"
+ ],
+ "fermentables/generic/caramel-crystal-malt-10l": [
+  "fermentables/briess/caramel-malt-10l",
+  "fermentables/crisp-malt/cara-malt",
+  "fermentables/thomas-fawcett/caramalt"
+ ],
+ "fermentables/generic/caramel-crystal-malt-120l": [
+  "fermentables/briess/caramel-malt-120l",
+  "fermentables/simpsons-malt/simpsons-drc",
+  "fermentables/thomas-fawcett/dark-crystal-ii-120"
+ ],
+ "fermentables/generic/caramel-crystal-malt-160l": [
+  "fermentables/crisp-malt/dark-crystal"
+ ],
+ "fermentables/generic/caramel-crystal-malt-20l": [
+  "fermentables/briess/caramel-malt-20l",
+  "fermentables/briess/organic-caramel-malt-20l"
+ ],
+ "fermentables/generic/caramel-crystal-malt-30l": [
+  "fermentables/briess/caramel-malt-30l"
+ ],
+ "fermentables/generic/caramel-crystal-malt-40l": [
+  "fermentables/briess/caramel-malt-40l",
+  "fermentables/crisp-malt/extra-light-crystal",
+  "fermentables/simpsons-malt/crystal-light",
+  "fermentables/thomas-fawcett/crystal-i-45"
+ ],
+ "fermentables/generic/caramel-crystal-malt-60l": [
+  "fermentables/briess/caramel-malt-60l",
+  "fermentables/briess/organic-caramel-malt-60l",
+  "fermentables/thomas-fawcett/crystal-ii-65"
+ ],
+ "fermentables/generic/caramel-crystal-malt-80l": [
+  "fermentables/briess/caramel-malt-80l",
+  "fermentables/simpsons-malt/crystal-dark-medium"
+ ],
+ "fermentables/generic/caramel-crystal-malt-90l": [
+  "fermentables/briess/caramel-malt-90l"
+ ],
+ "fermentables/generic/caramunich-malt": [
+  "fermentables/bestmalz/caramel-munich-i",
+  "fermentables/bestmalz/caramel-munich-ii",
+  "fermentables/bestmalz/caramel-munich-iii",
+  "fermentables/briess/caramel-munich-malt-60l",
+  "fermentables/weyermann/caramunich-type-1",
+  "fermentables/weyermann/caramunich-type-2",
+  "fermentables/weyermann/caramunich-type-3"
+ ],
+ "fermentables/generic/carared": [
+  "fermentables/weyermann/carared"
+ ],
+ "fermentables/generic/caravienne-malt": [
+  "fermentables/briess/caramel-vienne-malt-20l"
+ ],
+ "fermentables/generic/chocolate-malt": [
+  "fermentables/bestmalz/chocolate",
+  "fermentables/briess/chocolate-malt",
+  "fermentables/briess/organic-chocolate-malt",
+  "fermentables/castle-malting/chateau-chocolat",
+  "fermentables/castle-malting/chateau-chocolat-nature",
+  "fermentables/dingemans/mroost-900"
+ ],
+ "fermentables/generic/chocolate-malt-uk": [
+  "fermentables/crisp-malt/chocolate-malt",
+  "fermentables/simpsons-malt/chocolate-malt",
+  "fermentables/thomas-fawcett/chocolate-malt"
+ ],
+ "fermentables/generic/corn-flaked": [
+  "fermentables/thomas-fawcett/flaked-maize-malt"
+ ],
+ "fermentables/generic/dark-liquid-extract": [
+  "fermentables/weyermann/bavarian-dunkel-liquid-malt-extract"
+ ],
+ "fermentables/generic/dark-wheat-malt": [
+  "fermentables/bestmalz/wheat-malt-dark",
+  "fermentables/weyermann/dark-wheat-malt"
+ ],
+ "fermentables/generic/maris-otter-pale-malt": [
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/generic/melanoiden-malt": [
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/generic/mild-malt": [
+  "fermentables/briess/ashburne-mild-malt",
+  "fermentables/thomas-fawcett/mild-ale-malt"
+ ],
+ "fermentables/generic/munich-malt": [
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/generic/munich-malt-10l": [
+  "fermentables/briess/bonlander-munich-malt-10l"
+ ],
+ "fermentables/generic/munich-malt-20l": [
+  "fermentables/briess/aromatic-munich-malt-20l",
+  "fermentables/great-western-malting/dark-munich-malt"
+ ],
+ "fermentables/generic/oats-malted": [
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/generic/pale-malt-2-row-belgium": [
+  "fermentables/castle-malting/chateau-pale-ale",
+  "fermentables/castle-malting/chateau-pale-ale-nature",
+  "fermentables/dingemans/organic-pale-ale",
+  "fermentables/dingemans/pale-ale-9"
+ ],
+ "fermentables/generic/pale-malt-2-row-uk": [
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/generic/pale-malt-2-row-usa": [
+  "fermentables/briess/brewers-malt",
+  "fermentables/briess/organic-brewers-malt",
+  "fermentables/great-western-malting/premium-two-row-malt",
+  "fermentables/malteurop/2-row",
+  "fermentables/rahr-malting/the-brewers-standard-2-row"
+ ],
+ "fermentables/generic/pale-malt-6-row-usa": [
+  "fermentables/rahr-malting/standard-6-row"
+ ],
+ "fermentables/generic/peat-smoked-malt": [
+  "fermentables/thomas-fawcett/peated-malt"
+ ],
+ "fermentables/generic/pilsner-2-row-belgium": [
+  "fermentables/castle-malting/chateau-pilsen-2rs",
+  "fermentables/castle-malting/chateau-pilsen-nature",
+  "fermentables/dingemans/organic-pilsen",
+  "fermentables/dingemans/organic-pilsen-belgium-origin",
+  "fermentables/dingemans/pilsen",
+  "fermentables/dingemans/pilsen-belgium-origin"
+ ],
+ "fermentables/generic/pilsner-2-row-germany": [
+  "fermentables/bestmalz/pilsen-malt",
+  "fermentables/crisp-malt/german-pilsen-malt",
+  "fermentables/weyermann/extra-pale-premium-pilsner-malt",
+  "fermentables/weyermann/pilsner-malt"
+ ],
+ "fermentables/generic/pilsner-2-row-uk": [
+  "fermentables/crisp-malt/lager-malt",
+  "fermentables/simpsons-malt/finest-lager-malt",
+  "fermentables/thomas-fawcett/lager-pilsner-malt"
+ ],
+ "fermentables/generic/pilsner-liquid-extract": [
+  "fermentables/weyermann/bavarian-pilsner-liquid-malt-extract"
+ ],
+ "fermentables/generic/roasted-barley": [
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/generic/rye-malt": [
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/generic/smoked-malt": [
+  "fermentables/bestmalz/beechwood-smoked",
+  "fermentables/bestmalz/smoked-malt",
+  "fermentables/castle-malting/chateau-smoked",
+  "fermentables/castle-malting/chateau-smoked-nature",
+  "fermentables/weyermann/beech-smoked-barley-malt"
+ ],
+ "fermentables/generic/special-b-malt": [
+  "fermentables/castle-malting/chateau-special-belgium",
+  "fermentables/castle-malting/chateau-special-belgium-nature",
+  "fermentables/dingemans/special-b"
+ ],
+ "fermentables/generic/special-roast": [
+  "fermentables/briess/special-roast-malt"
+ ],
+ "fermentables/generic/victory-malt": [
+  "fermentables/briess/victory-malt",
+  "fermentables/briess/victory-organic-malt"
+ ],
+ "fermentables/generic/vienna-malt": [
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/generic/wheat-liquid-extract": [
+  "fermentables/weyermann/bavarian-hefeweizen-liquid-malt-extract"
+ ],
+ "fermentables/generic/wheat-malt-belgium": [
+  "fermentables/castle-malting/chateau-wheat-blanc",
+  "fermentables/castle-malting/chateau-wheat-blanc-nature",
+  "fermentables/dingemans/organic-wheat-malt",
+  "fermentables/dingemans/wheat-malt"
+ ],
+ "fermentables/generic/wheat-malt-germany": [
+  "fermentables/bestmalz/heidelberg-wheat-malt",
+  "fermentables/bestmalz/wheat-malt",
+  "fermentables/weyermann/wheat-malt-pale"
+ ],
+ "fermentables/generic/wheat-roasted": [
+  "fermentables/bestmalz/roasted-wheat-dark",
+  "fermentables/castle-malting/chateau-wheat-black",
+  "fermentables/thomas-fawcett/roast-wheat-malt",
+  "fermentables/weyermann/chocolate-wheat-malt"
+ ],
+ "fermentables/generic/wheat-torrified": [
+  "fermentables/thomas-fawcett/torrefied-wheat-malt"
+ ],
+ "fermentables/generic/white-wheat-malt": [
+  "fermentables/briess/wheat-malt-white",
+  "fermentables/canada-malting/white-wheat-malt",
+  "fermentables/gambrinus-malting/organic-wheat-malt",
+  "fermentables/great-western-malting/white-wheat-malt",
+  "fermentables/rahr-malting/extra-pale-white-wheat",
+  "fermentables/rahr-malting/white-wheat"
+ ],
+ "fermentables/great-western-malting/brumalt": [
+  "fermentables/generic/brumalt",
+  "fermentables/gambrinus-malting/honey-malt"
+ ],
+ "fermentables/great-western-malting/dark-munich-malt": [
+  "fermentables/generic/munich-malt-20l",
+  "fermentables/briess/aromatic-munich-malt-20l"
+ ],
+ "fermentables/great-western-malting/dextra-pils-malt": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/malteurop/dextrin",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/great-western-malting/light-munich-malt": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/great-western-malting/mela-malt": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/weyermann/melanoidin-malt"
+ ],
+ "fermentables/great-western-malting/premium-two-row-malt": [
+  "fermentables/generic/pale-malt-2-row-usa",
+  "fermentables/briess/brewers-malt",
+  "fermentables/briess/organic-brewers-malt",
+  "fermentables/malteurop/2-row",
+  "fermentables/rahr-malting/the-brewers-standard-2-row"
+ ],
+ "fermentables/great-western-malting/vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/great-western-malting/white-wheat-malt": [
+  "fermentables/generic/white-wheat-malt",
+  "fermentables/briess/wheat-malt-white",
+  "fermentables/canada-malting/white-wheat-malt",
+  "fermentables/gambrinus-malting/organic-wheat-malt",
+  "fermentables/rahr-malting/extra-pale-white-wheat",
+  "fermentables/rahr-malting/white-wheat"
+ ],
+ "fermentables/malteurop/2-row": [
+  "fermentables/generic/pale-malt-2-row-usa",
+  "fermentables/briess/brewers-malt",
+  "fermentables/briess/organic-brewers-malt",
+  "fermentables/great-western-malting/premium-two-row-malt",
+  "fermentables/rahr-malting/the-brewers-standard-2-row"
+ ],
+ "fermentables/malteurop/dextrin": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/rahr-malting/dextrin-malt"
+ ],
+ "fermentables/malteurop/munich": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/malteurop/munich-5l": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/malteurop/vienna": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/rahr-malting/dextrin-malt": [
+  "fermentables/generic/cara-pils-dextrine",
+  "fermentables/bestmalz/caramel-pils",
+  "fermentables/briess/carapils-malt",
+  "fermentables/castle-malting/chateau-cara-clair",
+  "fermentables/castle-malting/chateau-cara-clair-nature",
+  "fermentables/crisp-malt/dextrin-malt",
+  "fermentables/dingemans/dextrin",
+  "fermentables/great-western-malting/dextra-pils-malt",
+  "fermentables/malteurop/dextrin"
+ ],
+ "fermentables/rahr-malting/extra-pale-white-wheat": [
+  "fermentables/generic/white-wheat-malt",
+  "fermentables/briess/wheat-malt-white",
+  "fermentables/canada-malting/white-wheat-malt",
+  "fermentables/gambrinus-malting/organic-wheat-malt",
+  "fermentables/great-western-malting/white-wheat-malt",
+  "fermentables/rahr-malting/white-wheat"
+ ],
+ "fermentables/rahr-malting/malted-oats": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/simpsons-malt/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/rahr-malting/standard-6-row": [
+  "fermentables/generic/pale-malt-6-row-usa"
+ ],
+ "fermentables/rahr-malting/the-brewers-standard-2-row": [
+  "fermentables/generic/pale-malt-2-row-usa",
+  "fermentables/briess/brewers-malt",
+  "fermentables/briess/organic-brewers-malt",
+  "fermentables/great-western-malting/premium-two-row-malt",
+  "fermentables/malteurop/2-row"
+ ],
+ "fermentables/rahr-malting/white-wheat": [
+  "fermentables/generic/white-wheat-malt",
+  "fermentables/briess/wheat-malt-white",
+  "fermentables/canada-malting/white-wheat-malt",
+  "fermentables/gambrinus-malting/organic-wheat-malt",
+  "fermentables/great-western-malting/white-wheat-malt",
+  "fermentables/rahr-malting/extra-pale-white-wheat"
+ ],
+ "fermentables/simpsons-malt/amber-malt": [
+  "fermentables/generic/amber-malt",
+  "fermentables/crisp-malt/amber-malt",
+  "fermentables/thomas-fawcett/amber-malt"
+ ],
+ "fermentables/simpsons-malt/aromatic-malt": [
+  "fermentables/generic/aromatic-malt",
+  "fermentables/castle-malting/chateau-arome",
+  "fermentables/castle-malting/chateau-arome-nature",
+  "fermentables/dingemans/amber-aromatic"
+ ],
+ "fermentables/simpsons-malt/best-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/simpsons-malt/black-malt": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/thomas-fawcett/black-malt"
+ ],
+ "fermentables/simpsons-malt/brown-malt": [
+  "fermentables/generic/brown-malt",
+  "fermentables/crisp-malt/brown-malt",
+  "fermentables/thomas-fawcett/brown-malt"
+ ],
+ "fermentables/simpsons-malt/chocolate-malt": [
+  "fermentables/generic/chocolate-malt-uk",
+  "fermentables/crisp-malt/chocolate-malt",
+  "fermentables/thomas-fawcett/chocolate-malt"
+ ],
+ "fermentables/simpsons-malt/crystal-dark-medium": [
+  "fermentables/generic/caramel-crystal-malt-80l",
+  "fermentables/briess/caramel-malt-80l"
+ ],
+ "fermentables/simpsons-malt/crystal-light": [
+  "fermentables/generic/caramel-crystal-malt-40l",
+  "fermentables/briess/caramel-malt-40l",
+  "fermentables/crisp-malt/extra-light-crystal",
+  "fermentables/thomas-fawcett/crystal-i-45"
+ ],
+ "fermentables/simpsons-malt/extra-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/simpsons-malt/finest-lager-malt": [
+  "fermentables/generic/pilsner-2-row-uk",
+  "fermentables/crisp-malt/lager-malt",
+  "fermentables/thomas-fawcett/lager-pilsner-malt"
+ ],
+ "fermentables/simpsons-malt/finest-pale-ale-golden-promise": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/simpsons-malt/finest-pale-ale-maris-otter": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/simpsons-malt/low-colour-golden-promise": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/simpsons-malt/low-colour-maris-otter": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/simpsons-malt/malted-oats": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/thomas-fawcett/oat-malt"
+ ],
+ "fermentables/simpsons-malt/malted-rye": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/thomas-fawcett/rye-malt",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/simpsons-malt/munich-malt": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/simpsons-malt/roasted-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/simpsons-malt/simpsons-drc": [
+  "fermentables/generic/caramel-crystal-malt-120l",
+  "fermentables/briess/caramel-malt-120l",
+  "fermentables/thomas-fawcett/dark-crystal-ii-120"
+ ],
+ "fermentables/simpsons-malt/vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/thomas-fawcett/amber-malt": [
+  "fermentables/generic/amber-malt",
+  "fermentables/crisp-malt/amber-malt",
+  "fermentables/simpsons-malt/amber-malt"
+ ],
+ "fermentables/thomas-fawcett/black-malt": [
+  "fermentables/generic/black-patent-malt",
+  "fermentables/bestmalz/black-malt",
+  "fermentables/bestmalz/black-malt-extra",
+  "fermentables/briess/black-malt",
+  "fermentables/castle-malting/chateau-black",
+  "fermentables/castle-malting/chateau-black-nature",
+  "fermentables/crisp-malt/black-malt",
+  "fermentables/dingemans/mroost-1400",
+  "fermentables/dingemans/organic-mroost-1400",
+  "fermentables/simpsons-malt/black-malt"
+ ],
+ "fermentables/thomas-fawcett/brown-malt": [
+  "fermentables/generic/brown-malt",
+  "fermentables/crisp-malt/brown-malt",
+  "fermentables/simpsons-malt/brown-malt"
+ ],
+ "fermentables/thomas-fawcett/caramalt": [
+  "fermentables/generic/caramel-crystal-malt-10l",
+  "fermentables/briess/caramel-malt-10l",
+  "fermentables/crisp-malt/cara-malt"
+ ],
+ "fermentables/thomas-fawcett/chocolate-malt": [
+  "fermentables/generic/chocolate-malt-uk",
+  "fermentables/crisp-malt/chocolate-malt",
+  "fermentables/simpsons-malt/chocolate-malt"
+ ],
+ "fermentables/thomas-fawcett/crystal-i-45": [
+  "fermentables/generic/caramel-crystal-malt-40l",
+  "fermentables/briess/caramel-malt-40l",
+  "fermentables/crisp-malt/extra-light-crystal",
+  "fermentables/simpsons-malt/crystal-light"
+ ],
+ "fermentables/thomas-fawcett/crystal-ii-65": [
+  "fermentables/generic/caramel-crystal-malt-60l",
+  "fermentables/briess/caramel-malt-60l",
+  "fermentables/briess/organic-caramel-malt-60l"
+ ],
+ "fermentables/thomas-fawcett/dark-crystal-ii-120": [
+  "fermentables/generic/caramel-crystal-malt-120l",
+  "fermentables/briess/caramel-malt-120l",
+  "fermentables/simpsons-malt/simpsons-drc"
+ ],
+ "fermentables/thomas-fawcett/extra-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/thomas-fawcett/flaked-barley-malt": [
+  "fermentables/generic/barley-flaked"
+ ],
+ "fermentables/thomas-fawcett/flaked-maize-malt": [
+  "fermentables/generic/corn-flaked"
+ ],
+ "fermentables/thomas-fawcett/golden-promise-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/thomas-fawcett/halcyon-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/thomas-fawcett/lager-pilsner-malt": [
+  "fermentables/generic/pilsner-2-row-uk",
+  "fermentables/crisp-malt/lager-malt",
+  "fermentables/simpsons-malt/finest-lager-malt"
+ ],
+ "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-pale-ale-malt"
+ ],
+ "fermentables/thomas-fawcett/maris-otter-pale-ale-malt": [
+  "fermentables/generic/maris-otter-pale-malt",
+  "fermentables/crisp-malt/extra-pale-maris-otter-malt",
+  "fermentables/crisp-malt/finest-maris-otter-ale-malt",
+  "fermentables/crisp-malt/no-19-maris-otter-ale-malt",
+  "fermentables/dingemans/maris-otter",
+  "fermentables/simpsons-malt/finest-pale-ale-maris-otter",
+  "fermentables/simpsons-malt/low-colour-maris-otter",
+  "fermentables/thomas-fawcett/maris-otter-low-colour-ale-malt"
+ ],
+ "fermentables/thomas-fawcett/mild-ale-malt": [
+  "fermentables/generic/mild-malt",
+  "fermentables/briess/ashburne-mild-malt"
+ ],
+ "fermentables/thomas-fawcett/munich-malt": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/thomas-fawcett/oat-malt": [
+  "fermentables/generic/oats-malted",
+  "fermentables/bestmalz/oat-malt",
+  "fermentables/canada-malting/oat-malt",
+  "fermentables/castle-malting/chateau-oat-malt",
+  "fermentables/castle-malting/chateau-oat-nature",
+  "fermentables/crisp-malt/naked-oat-malt",
+  "fermentables/dingemans/oat-malt",
+  "fermentables/rahr-malting/malted-oats",
+  "fermentables/simpsons-malt/malted-oats"
+ ],
+ "fermentables/thomas-fawcett/pearl-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/spring-pale-ale-malt"
+ ],
+ "fermentables/thomas-fawcett/peated-malt": [
+  "fermentables/generic/peat-smoked-malt"
+ ],
+ "fermentables/thomas-fawcett/roast-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/weyermann/roasted-barley"
+ ],
+ "fermentables/thomas-fawcett/roast-wheat-malt": [
+  "fermentables/generic/wheat-roasted",
+  "fermentables/bestmalz/roasted-wheat-dark",
+  "fermentables/castle-malting/chateau-wheat-black",
+  "fermentables/weyermann/chocolate-wheat-malt"
+ ],
+ "fermentables/thomas-fawcett/rye-malt": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/weyermann/rye-malt-pale"
+ ],
+ "fermentables/thomas-fawcett/spring-pale-ale-malt": [
+  "fermentables/generic/pale-malt-2-row-uk",
+  "fermentables/crisp-malt/best-ale-malt",
+  "fermentables/crisp-malt/extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-extra-pale-ale-malt",
+  "fermentables/crisp-malt/scottish-pale-ale-malt",
+  "fermentables/simpsons-malt/best-pale-ale-malt",
+  "fermentables/simpsons-malt/extra-pale-ale-malt",
+  "fermentables/simpsons-malt/finest-pale-ale-golden-promise",
+  "fermentables/simpsons-malt/low-colour-golden-promise",
+  "fermentables/thomas-fawcett/extra-pale-ale-malt",
+  "fermentables/thomas-fawcett/golden-promise-pale-ale-malt",
+  "fermentables/thomas-fawcett/halcyon-pale-ale-malt",
+  "fermentables/thomas-fawcett/pearl-pale-ale-malt"
+ ],
+ "fermentables/thomas-fawcett/torrefied-wheat-malt": [
+  "fermentables/generic/wheat-torrified"
+ ],
+ "fermentables/thomas-fawcett/vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/weyermann/acidulated-malt": [
+  "fermentables/generic/acid-malt",
+  "fermentables/bestmalz/acidulated-malt",
+  "fermentables/castle-malting/chateau-acid",
+  "fermentables/castle-malting/chateau-acid-nature"
+ ],
+ "fermentables/weyermann/barke-munich-malt": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/munich-malt-type-1",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/weyermann/barke-vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/vienna-malt"
+ ],
+ "fermentables/weyermann/bavarian-dunkel-liquid-malt-extract": [
+  "fermentables/generic/dark-liquid-extract"
+ ],
+ "fermentables/weyermann/bavarian-hefeweizen-liquid-malt-extract": [
+  "fermentables/generic/wheat-liquid-extract"
+ ],
+ "fermentables/weyermann/bavarian-pilsner-liquid-malt-extract": [
+  "fermentables/generic/pilsner-liquid-extract"
+ ],
+ "fermentables/weyermann/beech-smoked-barley-malt": [
+  "fermentables/generic/smoked-malt",
+  "fermentables/bestmalz/beechwood-smoked",
+  "fermentables/bestmalz/smoked-malt",
+  "fermentables/castle-malting/chateau-smoked",
+  "fermentables/castle-malting/chateau-smoked-nature"
+ ],
+ "fermentables/weyermann/caraamber": [
+  "fermentables/generic/caraamber",
+  "fermentables/bestmalz/caramel-amber"
+ ],
+ "fermentables/weyermann/carafoam": [
+  "fermentables/generic/carafoam"
+ ],
+ "fermentables/weyermann/caramunich-type-1": [
+  "fermentables/generic/caramunich-malt",
+  "fermentables/bestmalz/caramel-munich-i",
+  "fermentables/bestmalz/caramel-munich-ii",
+  "fermentables/bestmalz/caramel-munich-iii",
+  "fermentables/briess/caramel-munich-malt-60l",
+  "fermentables/weyermann/caramunich-type-2",
+  "fermentables/weyermann/caramunich-type-3"
+ ],
+ "fermentables/weyermann/caramunich-type-2": [
+  "fermentables/generic/caramunich-malt",
+  "fermentables/bestmalz/caramel-munich-i",
+  "fermentables/bestmalz/caramel-munich-ii",
+  "fermentables/bestmalz/caramel-munich-iii",
+  "fermentables/briess/caramel-munich-malt-60l",
+  "fermentables/weyermann/caramunich-type-1",
+  "fermentables/weyermann/caramunich-type-3"
+ ],
+ "fermentables/weyermann/caramunich-type-3": [
+  "fermentables/generic/caramunich-malt",
+  "fermentables/bestmalz/caramel-munich-i",
+  "fermentables/bestmalz/caramel-munich-ii",
+  "fermentables/bestmalz/caramel-munich-iii",
+  "fermentables/briess/caramel-munich-malt-60l",
+  "fermentables/weyermann/caramunich-type-1",
+  "fermentables/weyermann/caramunich-type-2"
+ ],
+ "fermentables/weyermann/carared": [
+  "fermentables/generic/carared"
+ ],
+ "fermentables/weyermann/chocolate-wheat-malt": [
+  "fermentables/generic/wheat-roasted",
+  "fermentables/bestmalz/roasted-wheat-dark",
+  "fermentables/castle-malting/chateau-wheat-black",
+  "fermentables/thomas-fawcett/roast-wheat-malt"
+ ],
+ "fermentables/weyermann/dark-wheat-malt": [
+  "fermentables/generic/dark-wheat-malt",
+  "fermentables/bestmalz/wheat-malt-dark"
+ ],
+ "fermentables/weyermann/extra-pale-premium-pilsner-malt": [
+  "fermentables/generic/pilsner-2-row-germany",
+  "fermentables/bestmalz/pilsen-malt",
+  "fermentables/crisp-malt/german-pilsen-malt",
+  "fermentables/weyermann/pilsner-malt"
+ ],
+ "fermentables/weyermann/melanoidin-malt": [
+  "fermentables/generic/melanoiden-malt",
+  "fermentables/bestmalz/melanoidin",
+  "fermentables/bestmalz/melanoidin-light",
+  "fermentables/castle-malting/chateau-melano",
+  "fermentables/castle-malting/chateau-melano-light",
+  "fermentables/castle-malting/chateau-melano-light-nature",
+  "fermentables/castle-malting/chateau-melano-nature",
+  "fermentables/dingemans/melanoidin",
+  "fermentables/great-western-malting/mela-malt"
+ ],
+ "fermentables/weyermann/munich-amber-liquid-malt-extract": [
+  "fermentables/generic/amber-liquid-extract"
+ ],
+ "fermentables/weyermann/munich-malt-type-1": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-2"
+ ],
+ "fermentables/weyermann/munich-malt-type-2": [
+  "fermentables/generic/munich-malt",
+  "fermentables/bestmalz/munich",
+  "fermentables/bestmalz/munich-dark",
+  "fermentables/briess/lighthouse-munich-malt",
+  "fermentables/canada-malting/munich-malt",
+  "fermentables/castle-malting/chateau-munich",
+  "fermentables/castle-malting/chateau-munich-light",
+  "fermentables/castle-malting/chateau-munich-light-nature",
+  "fermentables/castle-malting/chateau-munich-nature",
+  "fermentables/crisp-malt/light-munich-malt",
+  "fermentables/dingemans/munich-15",
+  "fermentables/dingemans/organic-munich",
+  "fermentables/gambrinus-malting/munich-light",
+  "fermentables/gambrinus-malting/organic-munich-light",
+  "fermentables/great-western-malting/light-munich-malt",
+  "fermentables/malteurop/munich",
+  "fermentables/malteurop/munich-5l",
+  "fermentables/simpsons-malt/munich-malt",
+  "fermentables/thomas-fawcett/munich-malt",
+  "fermentables/weyermann/barke-munich-malt",
+  "fermentables/weyermann/munich-malt-type-1"
+ ],
+ "fermentables/weyermann/pilsner-malt": [
+  "fermentables/generic/pilsner-2-row-germany",
+  "fermentables/bestmalz/pilsen-malt",
+  "fermentables/crisp-malt/german-pilsen-malt",
+  "fermentables/weyermann/extra-pale-premium-pilsner-malt"
+ ],
+ "fermentables/weyermann/roasted-barley": [
+  "fermentables/generic/roasted-barley",
+  "fermentables/bestmalz/roasted-barley",
+  "fermentables/briess/roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley",
+  "fermentables/castle-malting/chateau-roasted-barley-nature",
+  "fermentables/crisp-malt/roasted-barley",
+  "fermentables/dingemans/pealed-roasted-barley",
+  "fermentables/simpsons-malt/roasted-barley",
+  "fermentables/thomas-fawcett/roast-barley"
+ ],
+ "fermentables/weyermann/rye-malt-pale": [
+  "fermentables/generic/rye-malt",
+  "fermentables/bestmalz/rye-malt",
+  "fermentables/briess/rye-malt",
+  "fermentables/canada-malting/century-rye-malt",
+  "fermentables/castle-malting/chateau-rye-malt",
+  "fermentables/castle-malting/chateau-rye-nature",
+  "fermentables/crisp-malt/rye-malt",
+  "fermentables/dingemans/rye-malt",
+  "fermentables/gambrinus-malting/rye-malt",
+  "fermentables/simpsons-malt/malted-rye",
+  "fermentables/thomas-fawcett/rye-malt"
+ ],
+ "fermentables/weyermann/vienna-malt": [
+  "fermentables/generic/vienna-malt",
+  "fermentables/bestmalz/vienna",
+  "fermentables/briess/goldpils-vienna-malt",
+  "fermentables/castle-malting/chateau-vienna",
+  "fermentables/castle-malting/chateau-vienna-nature",
+  "fermentables/crisp-malt/vienna-malt",
+  "fermentables/gambrinus-malting/vienna-malt",
+  "fermentables/great-western-malting/vienna-malt",
+  "fermentables/malteurop/vienna",
+  "fermentables/simpsons-malt/vienna-malt",
+  "fermentables/thomas-fawcett/vienna-malt",
+  "fermentables/weyermann/barke-vienna-malt"
+ ],
+ "fermentables/weyermann/wheat-malt-pale": [
+  "fermentables/generic/wheat-malt-germany",
+  "fermentables/bestmalz/heidelberg-wheat-malt",
+  "fermentables/bestmalz/wheat-malt"
+ ],
+ "hops/varieties/brewers-gold-us": [
+  "hops/varieties/cascade",
+  "hops/varieties/galena"
+ ],
+ "hops/varieties/eroica": [
+  "hops/varieties/galena",
+  "hops/varieties/cluster",
+  "hops/varieties/brewers-gold-us"
+ ],
+ "hops/varieties/fuggle-us": [
+  "hops/varieties/willamette",
+  "hops/varieties/newport"
+ ],
+ "hops/varieties/golding-us": [
+  "hops/varieties/fuggle-us",
+  "hops/varieties/east-kent-golding"
+ ],
+ "hops/varieties/hallertau-us": [
+  "hops/varieties/liberty"
+ ],
+ "hops/varieties/newport": [
+  "hops/varieties/galena",
+  "hops/varieties/nugget"
+ ],
+ "hops/varieties/northern-brewer": [
+  "hops/varieties/perle-us",
+  "hops/varieties/columbus"
+ ],
+ "hops/varieties/perle-us": [
+  "hops/varieties/northern-brewer"
+ ],
+ "hops/varieties/saaz-us": [
+  "hops/varieties/centennial",
+  "hops/varieties/amarillo"
+ ],
+ "hops/varieties/tillicum": [
+  "hops/varieties/galena",
+  "hops/varieties/chelan"
+ ],
+ "hops/varieties/ultra": [
+  "hops/varieties/hallertau-us",
+  "hops/varieties/saaz-us"
+ ]
+}

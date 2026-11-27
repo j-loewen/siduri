@@ -4,6 +4,7 @@ import type { Db } from '../db';
 import { equipmentProfiles, type EquipmentRow } from '../db/schema';
 import { notFound } from '../lib/errors';
 import { getSettings, updateSettings } from './settings';
+import { keepInTrash } from './trash';
 
 const toDto = (row: EquipmentRow, defaultId: string | null): EquipmentDto => ({
   id: row.id,
@@ -47,11 +48,15 @@ export function updateEquipment(db: Db, id: string, data: EquipmentData): Equipm
   return getEquipment(db, id);
 }
 
+/** Moves it to the trash; another profile becomes the default if it was. */
 export function deleteEquipment(db: Db, id: string) {
-  const res = db.delete(equipmentProfiles).where(eq(equipmentProfiles.id, id)).run();
-  if (res.changes === 0) throw notFound('Equipment profile not found');
-  if (getSettings(db).defaultEquipmentId === id) {
-    const next = db.select({ id: equipmentProfiles.id }).from(equipmentProfiles).limit(1).get();
-    updateSettings(db, { defaultEquipmentId: next?.id ?? null });
-  }
+  db.transaction((tx) => {
+    const t = tx as unknown as Db;
+    keepInTrash(t, 'equipment', id);
+    if (t.delete(equipmentProfiles).where(eq(equipmentProfiles.id, id)).run().changes === 0) throw notFound('Equipment profile not found');
+    if (getSettings(t).defaultEquipmentId === id) {
+      const next = t.select({ id: equipmentProfiles.id }).from(equipmentProfiles).limit(1).get();
+      updateSettings(t, { defaultEquipmentId: next?.id ?? null });
+    }
+  });
 }

@@ -3,8 +3,8 @@ import { Badge, Button, Center, Group, Loader, Modal, ScrollArea, Stack, Text, T
 import { useDebouncedValue } from '@mantine/hooks';
 import { IconPlus, IconSearch } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
-import { cultureAttenuation, type AmountKind, type LibraryItemDto, type LibraryKind } from '@brew/shared';
-import { useLibrary, useStock } from '../data';
+import { cultureAttenuation, sameProducer, type AmountKind, type LibraryItemDto, type LibraryKind } from '@brew/shared';
+import { useLibrary, useStock, useSubstitutes } from '../data';
 import { useAmountFormat } from './amount';
 import { useFormat } from '../units';
 import { ColorSwatch } from './recipe-ui';
@@ -12,13 +12,13 @@ import { ColorSwatch } from './recipe-ui';
 type PickableKind = Exclude<LibraryKind, 'water' | 'style'>;
 
 const same = (a: string, b: string) => a.trim().toLowerCase() === b.trim().toLowerCase();
-const sameProducer = (a: string, b: string) => !a.trim() || !b.trim() || same(a, b);
 const producerOf = (item: LibraryItemDto) => ('producer' in item.data ? item.data.producer : '');
 
 /**
  * Search the ingredient library and pick an item, or add an ingredient by name only (its values
  * can be filled in on the recipe line). With `replacing` it picks the ingredient that takes the
- * place of an existing one (same kind).
+ * place of an existing one (same kind); with `replacingRef` (its library item) it lists that
+ * item's substitutes first, e.g. the same malt from other maltsters.
  */
 export function IngredientPicker<K extends PickableKind>({
   kind,
@@ -27,6 +27,7 @@ export function IngredientPicker<K extends PickableKind>({
   onPick,
   onCustom,
   replacing,
+  replacingRef,
 }: {
   kind: K;
   opened: boolean;
@@ -35,6 +36,8 @@ export function IngredientPicker<K extends PickableKind>({
   onCustom: (name: string) => void;
   /** Name of the ingredient being swapped. */
   replacing?: string;
+  /** Library item of the ingredient being swapped. */
+  replacingRef?: string | null;
 }) {
   const { t } = useTranslation();
   const k: PickableKind = kind;
@@ -42,6 +45,8 @@ export function IngredientPicker<K extends PickableKind>({
   const [debounced] = useDebouncedValue(q.trim(), 200);
   const items = useLibrary(kind, debounced, opened);
   const stock = useStock(opened);
+  const substitutes = useSubstitutes<K>(replacingRef, opened);
+  const suggested = debounced ? [] : (substitutes.data ?? []);
   const fmtAmount = useAmountFormat();
   /** Stock of a library item: linked by library id, else by name (when the producers don't differ). */
   const inStock = (item: LibraryItemDto) =>
@@ -53,6 +58,29 @@ export function IngredientPicker<K extends PickableKind>({
     setQ('');
     onClose();
   };
+
+  const row = (item: LibraryItemDto<K>) => {
+    const s = inStock(item);
+    return (
+      <UnstyledButton
+        key={item.id}
+        className="clickable-row"
+        p={8}
+        style={{ borderRadius: 8 }}
+        onClick={() => {
+          onPick(item);
+          close();
+        }}
+      >
+        <ItemLine item={item} stock={s && s.amount > 0 ? fmtAmount(s.amount, kind, s.amountKind) : null} />
+      </UnstyledButton>
+    );
+  };
+  const heading = (text: string) => (
+    <Text size="xs" fw={600} c="dimmed" tt="uppercase" px={8} pt={6}>
+      {text}
+    </Text>
+  );
 
   return (
     <Modal opened={opened} onClose={close} title={replacing ? t('picker.swapTitle', { name: replacing }) : t('picker.title', { kind: t(`library.kinds.${k}`) })} size="lg">
@@ -72,23 +100,14 @@ export function IngredientPicker<K extends PickableKind>({
             </Center>
           ) : (
             <Stack gap={2}>
-              {(items.data ?? []).map((item) => (
-                <UnstyledButton
-                  key={item.id}
-                  className="clickable-row"
-                  p={8}
-                  style={{ borderRadius: 8 }}
-                  onClick={() => {
-                    onPick(item);
-                    close();
-                  }}
-                >
-                  <ItemLine item={item} stock={(() => {
-                    const s = inStock(item);
-                    return s && s.amount > 0 ? fmtAmount(s.amount, kind, s.amountKind) : null;
-                  })()} />
-                </UnstyledButton>
-              ))}
+              {suggested.length > 0 && (
+                <>
+                  {heading(t('picker.substitutes'))}
+                  {suggested.map(row)}
+                  {heading(t('picker.allItems'))}
+                </>
+              )}
+              {(items.data ?? []).map(row)}
               {items.data?.length === 0 && (
                 <Text c="dimmed" size="sm" ta="center" py="md">
                   {t('picker.nothing')}

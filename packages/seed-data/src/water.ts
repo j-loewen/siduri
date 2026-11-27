@@ -2,7 +2,7 @@ import type { WaterData } from '@brew/shared';
 
 const w = (name: string, ions: [number, number, number, number, number, number], notes: string): WaterData => {
   const [calcium, magnesium, sodium, sulfate, chloride, bicarbonate] = ions;
-  return { name, role: 'target', calcium, magnesium, sodium, sulfate, chloride, bicarbonate, ph: null, notes };
+  return { name, aliases: [], role: 'target', calcium, magnesium, sodium, sulfate, chloride, bicarbonate, ph: null, notes };
 };
 
 const CITY = 'Historic brewing water of the city (approximate; published figures vary).';

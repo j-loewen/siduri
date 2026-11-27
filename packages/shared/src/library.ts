@@ -16,24 +16,41 @@ const optNum = (min: number, max: number) => z.number().min(min).max(max).nullab
 const pct = optNum(0, 100);
 /** Maker: maltster, hop merchant, yeast lab, … */
 const producer = z.string().trim().max(120).default('');
+
+/** Producer of the built-in generic ingredients ("Pilsner Malt" of no particular maltster). */
+export const GENERIC_PRODUCER = 'Generic';
+const producerKey = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '');
+/**
+ * Whether two ingredients of the same name may be the same one by their producers: they don't
+ * differ, or one is unknown or generic (a generic Pilsner Malt is any maltster's).
+ */
+export function sameProducer(a: string, b: string): boolean {
+  const x = producerKey(a);
+  const y = producerKey(b);
+  const generic = producerKey(GENERIC_PRODUCER);
+  return !x || !y || x === generic || y === generic || x === y;
+}
 /** Country, always the full English name ("Germany", not "DE"). */
 const origin = z.string().max(120).transform(normalizeOrigin).default('');
+/** Other spellings people search for ("CARAFA III" for "CARAFA Type 3"). */
+const aliases = z.array(z.string().trim().min(1).max(120)).max(20).default(() => []);
 
 // ---- Fermentables -----------------------------------------------------------------------------
 
 export const FERMENTABLE_TYPES = ['grain', 'sugar', 'extract', 'dry_extract', 'adjunct', 'fruit', 'juice', 'honey', 'other'] as const;
 export type FermentableType = (typeof FERMENTABLE_TYPES)[number];
-export const GRAIN_GROUPS = ['base', 'caramel', 'roasted', 'smoked', 'specialty', 'adjunct', 'other'] as const;
+export const GRAIN_GROUPS = ['base', 'caramel', 'roasted', 'smoked', 'specialty', 'flaked', 'adjunct', 'other'] as const;
 
 export const fermentableDataSchema = z.object({
   name,
+  aliases,
   type: z.enum(FERMENTABLE_TYPES).default('grain'),
   grainGroup: z.enum(GRAIN_GROUPS).nullable().default(null),
   /** Maltster / manufacturer, e.g. "Weyermann". */
   producer,
   origin,
   productId: text(120),
-  colorEbc: z.number().min(0).max(5000).default(0),
+  colorEbc: z.number().min(0).max(10000).default(0),
   /** Extract potential as the SG of 1 lb in 1 US gal (1.037 for pilsner malt). PPG = (SG − 1) × 1000. */
   potentialSg: z.number().min(1).max(1.05).default(1.037),
   /**
@@ -60,6 +77,7 @@ export const HOP_PURPOSES = ['bittering', 'aroma', 'dual'] as const;
 
 export const hopDataSchema = z.object({
   name,
+  aliases,
   producer,
   origin,
   form: z.enum(HOP_FORMS).default('pellet'),
@@ -84,6 +102,7 @@ export const FLOCCULATION = ['very_low', 'low', 'medium', 'high', 'very_high'] a
 
 export const cultureDataSchema = z.object({
   name,
+  aliases,
   /** Lab / producer, e.g. "Fermentis". */
   producer,
   productId: text(120),
@@ -116,6 +135,7 @@ export type AmountKind = (typeof AMOUNT_KINDS)[number];
 
 export const miscDataSchema = z.object({
   name,
+  aliases,
   type: z.enum(MISC_TYPES).default('other'),
   producer,
   productId: text(120),
@@ -132,6 +152,7 @@ export type WaterIon = (typeof WATER_IONS)[number];
 
 export const waterDataSchema = z.object({
   name,
+  aliases,
   /** source: water you brew with · target: a profile to aim for. */
   role: z.enum(['source', 'target']).default('target'),
   /** All ions in ppm (mg/L). */
@@ -154,6 +175,7 @@ export type Range = [number | null, number | null];
 
 export const styleDataSchema = z.object({
   name,
+  aliases,
   /** "BJCP 2015", "BJCP 2021", … */
   guide: text(60),
   category: text(120),
@@ -201,8 +223,10 @@ export interface LibraryItemDto<K extends LibraryKind = LibraryKind> {
   kind: K;
   name: string;
   source: LibrarySource;
-  /** Seed items: stable key into the bundled library ("Reset to library value"). */
+  /** Built-in items: their open-brewing-data id (or the key of one of Siduri's own built-ins). */
   seedKey: string | null;
+  /** Built-in items can't be edited; they follow the bundled data. Copy one to change it. */
+  readOnly: boolean;
   data: LibraryDataMap[K];
   updatedAt: string;
 }
@@ -210,7 +234,7 @@ export interface LibraryItemDto<K extends LibraryKind = LibraryKind> {
 export const libraryListQuerySchema = z.object({
   kind: z.enum(LIBRARY_KINDS),
   q: z.string().trim().max(100).optional(),
-  limit: z.coerce.number().int().min(1).max(1000).default(500),
+  limit: z.coerce.number().int().min(1).max(5000).default(2000),
 });
 export type LibraryListQuery = z.infer<typeof libraryListQuerySchema>;
 

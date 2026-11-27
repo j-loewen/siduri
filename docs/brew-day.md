@@ -34,8 +34,11 @@ Alerts sound only while the brew day page is open; browsers don't let web pages 
 
 ## After brew day
 
-On the batch page:
+On the batch page (it opens on the tab for the batch's status, see [Batches](user-guide.md#batches)):
 
-- **Fermentation**: add gravity and temperature readings and follow the curve, the attenuation and the ABV.
-- **Overview**: planned versus actual values, the fermentation plan with dates, and how the batch differs from the recipe. **Save changes to recipe** or **Save as new recipe** copies the batch's version back.
+- **Brewing**: correct the values measured on brew day.
+- **Fermentation**: the fermenter, the final gravity, and gravity and temperature readings with the curve, the attenuation and the ABV.
+- **Conditioning**: keg or bottles, packaged volume and carbonation.
+- **Overview**: planned versus actual values and the fermentation plan with dates (read only).
+- **Planning**: how the batch differs from the recipe. **Save changes to recipe** or **Save as new recipe** copies the batch's version back.
 - **Log**: notes and events.

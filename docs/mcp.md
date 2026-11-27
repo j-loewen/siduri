@@ -61,7 +61,8 @@ Changes made by Claude show up live in open browser tabs. A batch's log notes ch
 | Tool | Level | What it does |
 |---|---|---|
 | `get_overview` | read | Brewery name, your display units, active batches, low stock, equipment and fermenters. |
-| `search_library`, `get_library_item` | read | Ingredients, water profiles and styles, by name or producer. |
+| `search_library`, `get_library_item` | read | Ingredients, water profiles and styles, by name, other name or producer. Built-in items are marked `builtIn`. |
+| `find_substitutes` | read | Built-in malts or hops that can replace a built-in one (the same malt from other maltsters, hop substitutes). |
 | `list_equipment` | read | Equipment profiles, fermenters and kegs, and smart devices with their last reading (without their push URL). |
 | `list_recipes`, `get_recipe` | read | Recipes. A recipe comes with its calculated values (OG, FG, ABV, IBU, colour, grist, volumes, water chemistry, vessels that are too small). |
 | `calculate_recipe` | read | The calculated values of a changed recipe document, without saving it. |
@@ -69,14 +70,16 @@ Changes made by Claude show up live in open browser tabs. A batch's log notes ch
 | `list_batches`, `get_batch` | read | Batches, with their recipe copy, readings, log and brew-day steps. |
 | `list_inventory`, `get_inventory_item` | read | Stock and its history. |
 | `plan_ingredients` | read | A recipe or batch against the stock: what is there, which lot it comes from, and what to buy. |
+| `list_trash` | read | What is in the trash, and when each thing is deleted for good. |
 | `create_recipe`, `update_recipe`, `duplicate_recipe`, `import_recipe` | write | Recipes. Saves need the version that was read; a stale save is refused. |
-| `create_library_item`, `update_library_item` | write | Library items. |
+| `create_library_item`, `update_library_item` | write | The brewery's own library items. Built-in items can't be changed or deleted: create an own item with their values instead. |
 | `add_inventory_item`, `update_inventory_item`, `adjust_inventory` | write | Stock. Amount changes are recorded in the item's history. |
 | `create_batch`, `update_batch`, `update_batch_recipe`, `add_batch_note`, `add_reading`, `save_batch_to_recipe` | write | Batches. |
 | `create_equipment_profile`, `update_equipment_profile`, `set_default_equipment` | write | Equipment profiles. Recipes keep their own copy of the equipment values. |
 | `create_vessel`, `update_vessel` | write | Fermenters, kegs and other vessels. |
 | `update_device` | write | Rename a smart device, or put it in a fermenter or link it to a batch. Devices themselves are added in the app. |
-| `delete_recipe`, `delete_batch`, `delete_library_item`, `delete_inventory_item`, `delete_reading`, `delete_note`, `delete_equipment_profile`, `delete_vessel`, `delete_device` | full | Deleting. |
+| `restore_from_trash` | write | Put something deleted back as it was, with its links (batch to recipe and fermenter, device to batch). |
+| `delete_recipe`, `delete_batch`, `delete_library_item`, `delete_inventory_item`, `delete_reading`, `delete_note`, `delete_equipment_profile`, `delete_vessel`, `delete_device` | full | Deleting. Everything but readings and notes goes to the trash first. |
 | `brew_day_action` | full | Brew-day actions, applied with the server clock. |
 | `deduct_batch_inventory`, `undo_batch_deduction` | full | Take a batch's ingredients from the inventory, or put them back. |
 

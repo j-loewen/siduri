@@ -10,7 +10,7 @@ export type LiveEvent =
   /** My account (preferences) changed. */
   | { kind: 'me' };
 
-export type LiveArea = 'library' | 'recipes' | 'equipment' | 'batches' | 'inventory' | 'settings' | 'devices';
+export type LiveArea = 'library' | 'recipes' | 'equipment' | 'batches' | 'inventory' | 'settings' | 'devices' | 'trash';
 
 /** Each browser tab sends a random id, so it is not told about its own changes. */
 export const TAB_HEADER = 'x-brew-tab';
